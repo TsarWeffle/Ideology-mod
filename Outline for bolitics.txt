@@ -1,0 +1,32 @@
+set_popularities = {
+	conservative_democrat = 
+	liberal_democrat = 
+	social_democrat = 
+	fascism = 
+	radical_socialist = 
+	authoritarian_socialist = 
+	anarchist = 
+	authoritarian = 
+	monarchism = 
+	theocracy = 
+}
+
+recruit_character = 
+
+recruit_character = ABC_acas
+recruit_character = ABC_ncs
+recruit_character = ABC_awt
+recruit_character = ABC_pot
+recruit_character = ABC_ai2
+recruit_character = ABC_nt
+recruit_character = ABC_aco2
+recruit_character = ABC_ar
+recruit_character = ABC_acr
+recruit_character = ABC_mt
+recruit_character = ABC_stc
+recruit_character = ABC_aa2
+recruit_character = ABC_acgs
+recruit_character = ABC_ncm
+recruit_character = ABC_nccr
+recruit_character = ABC_coi
+recruit_character = ABC_acd2
