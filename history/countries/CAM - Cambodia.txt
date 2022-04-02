@@ -1,0 +1,136 @@
+﻿capital = 741
+
+oob = "CAM_1936"
+
+set_research_slots = 3
+
+recruit_character = CAM_pol_pot #meme commie
+recruit_character = CAM_sisowath_sirik_matak #liberal
+recruit_character = CAM_son_ngoc_thanh #fascist, and fascist demagogue	
+recruit_character = CAM_tou_samoth #commie
+recruit_character = CAM_noradom_sihanouk #monarchist, Popular Figurehead
+recruit_character = CAM_sisowath_youtevong #socdem
+recruit_character = CAM_cheng_heng # conservative
+recruit_character = CAM_son_ngoc_menh #communist minister
+recruit_character = CAM_son_sann # anti-communist democrat
+recruit_character = CAM_acas
+recruit_character = CAM_ncs
+recruit_character = CAM_awt
+recruit_character = CAM_pot
+recruit_character = CAM_ai2
+recruit_character = CAM_nt
+recruit_character = CAM_aco2
+recruit_character = CAM_ar
+recruit_character = CAM_acr
+recruit_character = CAM_mt
+recruit_character = CAM_stc
+recruit_character = CAM_aa2
+recruit_character = CAM_acgs
+recruit_character = CAM_ncm
+recruit_character = CAM_nccr
+recruit_character = CAM_coi
+recruit_character = CAM_acd2
+
+# Starting tech
+# clone of France
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	
+	trench_warfare = 1
+	fleet_in_being = 1
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		
+		has_dlc = "No Step Back"
+		
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+	}
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		mtg_transport = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
+}
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1933.2.16"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	conservative_democrat = 13
+	liberal_democrat = 13
+	social_democrat = 4
+	fascism = 10
+	radical_socialist = 0
+	authoritarian_socialist = 29
+	anarchist = 1
+	authoritarian = 3
+	monarchism = 25
+	theocracy = 2
+}

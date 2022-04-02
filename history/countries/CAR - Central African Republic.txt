@@ -1,0 +1,104 @@
+﻿capital = 660
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	support_equipment = 1
+}
+
+set_convoys = 0
+
+recruit_character = CAR_awt
+recruit_character = CAR_acd2
+recruit_character = CAR_nt
+recruit_character = CAR_aco2
+recruit_character = CAR_acas
+recruit_character = CAR_acr
+recruit_character = CAR_mt
+recruit_character = CAR_stc
+recruit_character = CAR_aa2
+recruit_character = CAR_ncm
+recruit_character = CAR_priestly_minister
+recruit_character = CAR_radical_minister
+recruit_character = CAR_liberal_minister
+recruit_character = CAR_socdem_minister
+recruit_character = CAR_communist_minister
+recruit_character = CAR_trade_unions
+recruit_character = CAR_ncs
+recruit_character = CAR_pot
+recruit_character = CAR_nccr
+recruit_character = CAR_barthelemy_boganda #fascist minister, fascist leader
+recruit_character = CAR_david_dacko #conservative democrat leader, conservative minister
+recruit_character = CAR_coi
+recruit_character = CAR_ai2
+recruit_character = CAR_
+recruit_character = CAR_ar
+recruit_character = CAR_acgs
+recruit_character = CAR_jean_badel_bokassa_monarch #popular figurehead, monarchist minister, monarchist leader.
+recruit_character = CAR_jean_badel_bokassa_dictator #authoritarian minister, authoritarian leader.
+
+1939.1.1 = {
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = conservative_democrat
+	last_election = "1936.1.1"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+set_popularities = {
+	conservative_democrat = 20
+	liberal_democrat = 15
+	social_democrat = 5
+	fascism = 5
+	radical_socialist = 0ß
+	authoritarian_socialist = 20
+	anarchist = 5
+	authoritarian = 25
+	monarchism = 5
+	theocracy = 0
+}

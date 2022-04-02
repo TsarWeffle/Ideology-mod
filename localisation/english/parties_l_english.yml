@@ -1,0 +1,2913 @@
+﻿l_english:
+
+ liberal_democrat:0 "Liberal Democracy"
+ liberal_democrat_noun:0 "Liberal Democrat"
+ liberal_democrat_noun:0 "Democratic Nation"
+ 
+ conservative_democrat:0 "Conservative Democracy"
+ conservative_democrat_noun:0 "Conservative Democrat"
+ conservative_democrat_noun:0 "Democratic Nation"
+ 
+ social_democrat:0 "Social Democracy"
+ social_democrat_noun:0 "Social Democrat"
+ social_democrat_noun:0 "Democratic Nation"
+ 
+ authoritarian_socialist:0 "Authoritarian Socialism"
+ authoritarian_socialist_noun:0 "Authoritarian Socialist"
+ authoritarian_socialist_desc:0 "Communist Regime"
+ 
+ radical_socialist:0 "Radical Socialism"
+ radical_socialist_noun:0 "Radical Socialist"
+ radical_socialist_desc:0 "Socialist Regime"
+ 
+ anarchism:0 "Anarchism"
+ anarchism_noun:0 "Anarchist"
+ anarchism_desc:0 "Free Territory"
+ 
+ authoritarian:0 "Authoritarianism"
+ authoritarian_noun:0 "Authoritarian"
+ authoritarian_desc:0 "Military Junta"
+ 
+ fascism:0 "Fascist"
+ fascism_noun:0 "Fascist"
+ fascism_desc:0 "Totalitarian Regime"
+ 
+ monarchism:0 "Monarchism"
+ monarchism_noun:0 "Monarchy"
+ monarchism_desc:0 "Monarchist Kingdom"
+ 
+ theocracy:0 "Theocracy"
+ theocracy_noun:0 "Theocratic"
+ theocracy_desc:0 "Holy State"
+ 
+ ###################### SUB-IDEOLOGIES ################################
+ 
+ liberalism:0 "Liberalism"
+ liberalism_desc:0 "With a long philosophical tradition of valuing personal liberty, liberalism views safeguarding these rights as the primary function of the state."
+ 
+ moderatism:1 "Moderatism"
+ moderatism_desc:1 "Moderatism is a form of government which avoids the extremes of left and right by taking a moderate position or course of action."
+ 
+ centrism:1 "Centrism"
+ centrism_desc:1 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
+ 
+ conservatism:0 "Conservatism"
+ conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
+ 
+ reactionary:0 "Reactionary"
+ reactionary_desc:0 "The Reactionary stance is traditonally a right-wing ideology opposed to social reforms/transformations in society, seeking to go back to the old order or keep the current one without changing."
+ 
+ militarism:0 "Militarism"
+ militarism_desc:0 "Militarism is an ideology in which there is belief that the government or people maintain a high military capability in order to aggressively expand or protect the nation and its values."
+ 
+ social_democracy:0 "Social Democracy"
+ social_democracy_desc:0 "Social Democracy is an ideology of which has similar values to that of socialism but wishes to maintain the capitalist framework."
+ 
+ socialism:0 "Socialism"
+ socialism_desc:0 "Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate."
+ 
+ marxism:0 "Marxism"
+ marxism_desc:0 "Encompassing a broad spectrum of economic and historical views, Marxist politics seek to apply the theories of Karl Marx to political practice. Class struggle and the need for transition to a society based on common ownership of the means of production characterize these ideologies."
+ 
+ leninism:0 "Leninism"
+ leninism_desc:0 "A political ideology based in Marxist thought, Leninism seeks to establish a socialist state by a vanguard party leading a revolution overthrowing capitalist society. Once in power, the party rules through a system whereby policies are open for internal debate until a decision has been made."
+ 
+ stalinism:0 "Marxism-Leninism"
+ stalinism_desc:1 "Identifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authoritative socialist state to purge any counter-revolutionary elements."
+ 
+ maoism:0 "Maoism"
+ maoism_desc:1 "Maoism seeks to adapt the ideology of Stalin's Marxism-Leninism to the pre-industrial agricultural society of China, by removing foreign capitalists and using national capitalists to industrialise China in order to achieve Marx's requirement of a nation being industrialised in order to fully pursuit Communism."
+ 
+ hoxhaism:0 "Hoxhaism"
+ hoxhaism_desc:1 "Hoxhaism is formed as a split in the anti-revisionist movement, it fiercely criticises all other communist nations as anti-revisionist trying to isolate itself from the global sphere and pursueing national protection from foreign influence."
+ 
+ bukharinism:0 "Bukharinism"
+ bukharinism_desc:1 "Bukharinism mostly follows Leninism and has heavy opposition to Stalinism, it desires to reverse some of the 5 year plan's reforms like collectivisation and instead wants to follow the New Economic Program in place."
+ 
+ anti_revisionism:0 "Anti-Revisionism"
+ anti_revisionism_desc:0 "A reaction to the many ideologies claiming to be successors to Marxism, Anti-Revisionism advocates retaining key elements of original revolutionary theory. Mainly opposing incorporation of capitalist economic elements into socialist states, the ideology is defined as much by what it isn't as what it is."
+ 
+ trotskyism:0 "Trotskyism"
+ anti_revisionism_desc:0 "Trotskyism follows the ideology of Lev Bronstein, more famously know as Leon Trotsky. Trotskyism follows the theory of permanent revolution, in which the revolutionary (lower class) pursues its goal without co-operation with the bourgeoise."
+ 
+ syndicalism:0 "Syndicalism"
+ anti_revisionism_desc:0 "Syndicalism is an ideology in which the labour unions represent the workers in the forme of politics, usually with unions representing one group of worker such as one for miners and another for agrarians."
+ 
+ christian_socialism:0 "Christian Socialism"
+ anti_revisionism_desc:0 "Christian Socialism believes that the bible represents socialist thought and seeks to follow socialism along christian lines."
+ 
+ left_socialism:0 "Left Communism"
+ anti_revisionism_desc:0 "Left Communism believes that Marxism-Leninism follows the wrong path of Marxism and seeks to follow a new path, one more orthodox to Marx's original ideology."
+ 
+ anarcho_communism:0 "Anarchist Communism"
+ anarcho_communism_desc:0 "An ideology embracing the idea of communism as a stateless society, Anarchist Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid."
+ 
+ anarcho_syndicalism:0 "Anarcho-Syndicalism"
+ anarcho_syndicalism_desc:0 "Anarcho-Syndicalism seeks to make a decentralised federated system of syndicates that represent the workers, similar to that of Syndicalism but more decentralised."
+ 
+ mutualism:0 "Mutualism"
+ mutualism_desc:0 "Mutualism wants a socialist society based on free market economics, it follows the anarchist school of thought trying to minimise capitalism to a bare minimum, creating a mutual credit bank with interest just high enough to cover all costs."
+ 
+ ancap:0 "Anarcho-Capitalism"
+ ancap_desc:0 "Anarcho-Capitalism seeks to abolish the government and in turn make the businesses have all power in society in order to achieve true capitalism."
+ 
+ christian_anarchism:0 "Christian Anarchism"
+ christian_anarchism_desc:0 "Christian Anarchism seeks to ordinate society in an anarchist sense with common ownership to that of biblical desire."
+ 
+ islamic_anarchism:0 "Islamic Anarchist"
+ islamic_anarchism_desc:0 "ISlamic anarchism seeks to ordinate society in an anarchist society that follows the word of the Qu'ran"
+ 
+ kibbutz:0 "Kibbutz"
+ kibbutz_desc:0 "Kibbutz is a libertarian socialist movement that follows an Israeli anarchist thought, promoting jewish-arab co-operation instead of hostility. It seeks to use the Kibbutz system to create a communal society."
+ 
+ hindu_anarchism:0 "Hindu Anarchism"
+ hindu_anarchism_desc:0 "Hindu Anarchism is an ideology that believes in Dharmic belief systems yet seeks to follow an anarchist system."
+ 
+ nazism:0 "Nazism"
+ nazism_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of ethnic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power."
+ 
+ fascism_ideology:0 "Fascism"
+ fascism_ideology_desc:0 "Encompassing a variety of ultra-nationalist movements, fascism typically venerates devotion to the state and uniting the people under a strong leader."
+ 
+ nationalism:0 "Nationalism"
+ nationalism_desc:0 "Encompassing a variety of ultra-nationalist movements, fascism typically venerates devotion to the state and uniting the people under a strong leader."
+ 
+ falangism:0 "Falangism"
+ falangism_desc:0 "An authoritarian ideology with traits of fascism and conservatism, Falangism values national and Catholic identity."
+ 
+ rexism:0 "Rexism"
+ rexism_desc:0 "Strongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements."
+ 
+ jihadism:0 "Jihadism"
+ jihadism_desc:0 "Jihadism desires to promote the Muslim faith through war to destroy the infidel and expand the nation and faith."
+ 
+ zionism:0 "Zionism"
+ zionism_desc:0 "Zionism believes in Israeli religious nationalism believing that the Jews have the right to settle the Levantine territory and establish Israel."
+ 
+ hindu_nationalism:0 "Hindu Nationalism"
+ hindu_nationalism_desc:0 "Hindu nationalism believes that the Indian subcontinent is for those of the Dharmic faiths and no others."
+ 
+ austro_fascism:0 "Austro-Fascism"
+ austro_fascism_desc:0 "Austro-Fascism believes that the Austrian identity is seperate from the German identity, following catholic faith strictly and seeing that Austria must be seperate from the Germans."
+ 
+ fascist_monarchy:0 "Fascist Monarchy"
+ fascist_monarchy_desc:0 "Fascist Monarchy is a monarchy in which the king follows fascist beliefs and empowers fascists in nobility."
+ 
+ despotism:0 "Despotic"
+ despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
+ 
+ oligarchism:0 "Oligarchic"
+ oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
+ 
+ stratocracy:0 "Stratocracy"
+ stratocracy_desc:0 "Stratocracy is a form of government where in the military controls all forms of politics."
+ 
+ socialist_junta:0 "Socialist Stratocracy"
+ socialist_junta_desc:0 "Socialist Stratocracy is a Stratocracy where the military-government transitions into a socialist system."
+ 
+ fascist_junta:0 "Fascist Stratocracy"
+ fascist_junta_desc:0 "Fascist Stratocracy is a Far-right Stratocracy that desires to reform the government to that of a nationalist one with the primacy of the nation."
+ 
+ monarchist_junta:0 "Monarchist Junta"
+ monarchist_junta_desc:0 "A monarchist junta is a pro-monarchist junta in which they try to put a king in charge of government."
+ 
+ auth_democracy:0 "Authoritarian Democracy"
+ auth_democracy_desc:0 "Authoritarian Democracy is a ?Democracy? that mostly tries to keep the ruling elite in charge of the nation while following a facade of democracy."
+ 
+ absolutism:0 "Absolute Monarchy"
+ absolutism_desc:0 "Absolute Monarchy is a monarchy where in the monarch has absolute authority over the government."
+ 
+ constitutionalism:0 "Constitutional Monarchy"
+ constitutionalism_desc:0 "A constitutional monarchy is a monarchy in which the monarch needs the parliament to agree in order for them to do policies and the like."
+ 
+ tribal_monarchy:0 "Tribal Monarchy"
+ tribal_monarchy_desc:0 "Tribal Monarchy is a tribal confederation in which one person has the title of monarch and gets the most power in the society."
+ 
+ holy_monarchy:0 "Holy Monarchy"
+ holy_monarchy_desc:0 "A Holy Monarchy is a monarchy where the Monarch is also a prominent member of the faith, usually a priest or imam and has prominent role in government and faith."
+ 
+ personal_union:0 "Personal Union"
+ personal_union_desc:0 "Personal Union is where the monarchy is lead by a ruler of another country."
+ 
+ monarcho_socialism:0 "Monarcho-Socialism"
+ monarcho_socialism_desc:0 "Monarcho-Socialism is an odd type of monarchy where the Monarch tries to promote socialism and guides the society to a communist-monarchic rule."
+ 
+ theocracy:0 "Theocracy"
+ theocracy_desc:0 "Theocracy is a form of government where the leader of the nations is a prominent member, or head of the faith such as the Papacy, Dalai Lama or imamate of Oman."
+ 
+ soc_theocracy:0 "Theocratic-Socialism"
+ soc_theocracy_desc:0 "Theocratic Socialism is a form of government where the leader of the nation is the leader of faith and tries to promote left wing ideology."
+ 
+ fash_theocracy:0 Theocratic-Fascism"
+ fash_theocracy_desc:0 "Theocratic Fascism is a form of government that believes in Religious Nationalism and seeks to promote national unity of nation and faith."
+ 
+ dem_theocracy:0 "Theocratic-Democracy"
+ dem_theocracy_desc:0 "Theocratic Democracy is a system where the leader of faith is democratically elected and promoted to power by the people."
+ 
+ #################### NATIONAL POLITICAL PARTIES #############################
+ 
+ GER_fascism_party:0 "NSDAP"
+ GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei" #Adolf Hitler, if he dies he'll be replaced with Göring (The Reichsmarschall), Himmler (the Oberster Führer der Schutzstaffel) , Goebbels (the Propagandist), Dönitz (The President), Hess (if alive and Deputy-Führer) or Bormann (The Reichslietter).
+ GER_strasser_party:0 "KGRNS"
+ GER_strasser_party_long:0 "Kampfgemeinschaft Revolutionärer Nationalsozialisten" #Otto Strasser
+ GER_authoritarian_socialist_party:0 "KPD"
+ GER_authoritarian_socialist_party:0 "Kommunistische Partei Deutschlands" #Ernst Thälmann, if dead it's either Ruth Fischer, or Wilhelm Pieck.
+ GER_radical_socialist_party:0 "GIM"
+ GER_radical_socialist_party_long:0 "Gruppe Internationale Marxisten" #Erwin Ackernecht
+ GER_anarchism_party:0 "FAUD"
+ GER_anarchism_party_long:0 "Freie Arbeiter Union Deutschland" #Rudolf Rocker
+ GER_liberal_democrat_party:0 "FDP"
+ GER_liberal_democrat_party_long:0 "Freie Demokratische Partei" #Eduard Dingledey until 1940, Theodor Heuss until 1949 then Franz Blucher.
+ GER_social_democrat_party:0 "SPD"
+ GER_social_democrat_party_long:0 "Sozialdemokratische Partei Deutschlands" #Otto Wels until 1939 where he dies and is replaced by Arthur Crispien to 1944 then Kurt Schumasher.
+ GER_conservative_democrat_party:0 "CDU"
+ GER_conservative_democrat_party_long:0 "Christlich Demokratische Union Deutschlands" #Konrad Adenauer
+ GER_authoritarian_party:0 "DNBF" #August von Mackensen or Karl Friedrich Goerdeler.
+ GER_authoritarian_party:0 "Deutschenationale Befreiungsfront" #August von Mackensen or Karl Friedrich Goerdeler.
+ GER_goerdeler_party:0 "DNFP"
+ GER_goerdeler_party_long:0 "Deutschnationale Freiheitspartei" #Goerdeler after winning the war.
+ GER_wehrmacht_party:0 "ANFB" #Oster Conspiracy (For both the Auth and Heer parties the ensured generals will be Tresckow, Witzleben, Stauffenberg, hammserstein, beck, canaris, Witzelben would be made the Army Chief and Oster an advisor.
+ GER_wehrmacht_party_long:0 "Anti-Nazi-Front der Bundeswehr" #Erwin von Witzleben, 
+ GER_monarchism_party:0 "DNVP"
+ GER_monarchism_party_long:0 "Deutschnationale Volkspartei" #Wilhelm II and/or (Wilhelm III or Victoria Louise I)
+ 
+ POL_fascism_party:0 "ONR-Falanga"
+ POL_fascism_party_long:0 "Oboz Narodowo Radykalny-Falanga" #Boleslaw Piasecki
+ POL_abc_party:0 "ONR-Falang-ABC"
+ POL_abc_party_long:0 "Oboz Narodowo Radykalny-Falanga - ABC" #Adam Koc
+ POL_theocracy_party:0 "KkwP"
+ POL_theocracy_party_long:0 "Kosciól Katolicki w Polsce" #August Hlond
+ POL_anarchism_party:0 "ZZZ" #an-syndicalist
+ POL_anarchism_party_long:0 "Zwiazek Zwiazków Zawodowych" #A.T. Pilarski, Y. Ashlag, maybe J. Moraczewski?
+ POL_natdem_party:0 "ND" #authdem
+ POL_natdem_party_long:0 "Narodowa Demokracja" #Roman Dmowski
+ POL_authoritarian_socialist_party:0 "PZPR" #marxism_leninism
+ POL_authoritarian_socialist_party_long:0 "Polska Zjednoczona Partia Robotnicza" #Wladslaw Gomuwka/Boleslaw Bierut
+ POL_radical_socialist_party:0 "KPP" #left_communism
+ POL_radical_socialist_party_long:0 "Komunistyczna Partja Polski" #Maria Koszutska
+ POL_social_democrat_party:0 "PPS"
+ POL_social_democrat_party_long:0 "Polska Partia Socjalistyczna" #Gabriel Narutowicz
+ POL_liberal_democrat_party:0 "PSL"
+ POL_liberal_democrat_party_long:0 "Polskie Stronnictwo Ludowe" #Wincenty Witos
+ POL_conservative_democrat_party:0 "SP"
+ POL_conservative_democrat_party_long:0 "Stronnictwo Pracy" #T. Michejda or W. Korfanty
+ POL_authoritarianism_party:1 "Sanacja" #Ignacy Moscicki
+ POL_right_sanacja_party:0 "OZN"
+ POL_right_sanacja_party_long:0 "Obóz Zjednoczenia Narodowego" #Edward Rydz-Smigwy
+ POL_left_sanacja_party:0 "POS"
+ POL_left_sanacja_party_long:0 "Powszechna Organizacja Spoleczenstwa" #Walery Slawek
+ POL_exile_democratic_party:0 "PLD"
+ POL_exile_democratic_party_long:0 "Partia Liberalno-Demokratyczna" #Sikorski or Raczkiewicz, after Raczkiewicz dies it goes to August Zaleski.
+ POL_bermontian_party:0 "Bermontian Party" #Pavel Bermondt-Avalov
+ POL_hohenzollern_sigmaringen:0 "House of Hohenzollern-Sigmaringen" #Prince Michael
+ POL_wettin_party:0 "House of Wettin" #Friedrich Christian
+ POL_romanov_party:0 "House Romanov" #Anna Anderson
+ POL_habsburg_party:0 "House of Habsburg-Lorraine" #Karl Habsburg
+ 
+ ENG_authoritarian_communist_party:0 "CPGB"
+ ENG_authoritarian_communist_party_long:0 "Communist Party of Great Britain" #Harry Pollitt, in 1939 it goes to Rajani Palme Dutt and in 1941 it goes back to Harry Pollitt.
+ ENG_radical_communist_party:0 "SRG"
+ ENG_radical_communist_party_long:0 "Socialist Review Group" #Tony Cliff
+ ENG_anarchism_party:0 "USM"
+ ENG_anarchism_party_long:0 "United Socialist Movement" #Guy Aldred and Ethel MacDonald
+ ENG_social_democrat_party:0 "LP"
+ ENG_social_democrat_party_long:0 "Labour Party" #Clement Atlee
+ ENG_liberal_democrat_party:0 "LP"
+ ENG_liberal_democrat_party_long:0 "Liberal Party" #Archibald Sinclair, in 1945 it'll be Clement Davies
+ ENG_conservative_democrat_party:0 "CP"
+ ENG_conservative_democrat_party_long:0 "Conservative Party" #Baldwin, in 1937 it'll become Chamberlain, in 1940 it'll become Churchill.
+ ENG_fascism_party:0 "BUF" #Succeeded by the union movement when at war with a fascist nation and not currently fascist.
+ ENG_fascism_party_long:0 "British Union of Fascists" #Oswald Mosley
+ ENG_europe_fascism_party:0 "UP"
+ ENG_europe_fascism_party_long:0 "Union Party" #Oswald Mosley
+ ENG_nazi_party:0 "NSL" #Fascist party if german puppet
+ ENG_nazi_party_long:0 "National Socialist League" #John Beckett
+ ENG_monarchism_party:0 "Kings Party"
+ ENG_monarchism_party_long:0 "The Kings Party"  #King Edward VIII
+ ENG_queens_party:0 "Queens Party"  
+ ENG_queens_party_long:0 "The Queens Party"  #Queen Elizabeth II
+ 
+ ITA_authoritarian_socialist_party:0 "PCI"
+ ITA_authoritarian_socialist_party_long:0 "Partito Comunista Italiano" #Ruggero Grieco, in May 1938 it becomes Palmiro Togliatti
+ ITA_radical_socialist_party:0 "LtdI" 
+ ITA_radical_socialist_party_long:0 "Lega trotskista d Italia" #Amadeo Bordiga
+ ITA_anarchist_party:0 "USI"
+ ITA_anarchist_party_long:0 "Unione Sindacale Italiana" #Left Anarchist (Camillo Berneri who is succeeded in 1937 by Giovanna Berneri) and Right Anarchist (Leda Rafanilli)
+ ITA_social_democrat_party:0 "PSI"
+ ITA_social_democrat_party_long:0 "Partito Socialista Italiano" #Pietro Nenni
+ ITA_liberal_democrat_party:0 "PRI"
+ ITA_liberal_democrat_party_long:0 "Partito Repubblicano Italiano" #Randolfo Pacciardi until 1949, replaced by Oronzo Reale
+ ITA_conservative_democrat_party:0 "DC"
+ ITA_conservative_democrat_party_long:0 "Democrazia Cristiana" #Alcide de Gasperi until 1946 then Attilio Piccioni.
+ ITA_fascism_party:0 "Partito Nazionale Fascista"
+ ITA_fascism_party_long:0 "Partito Nazionale Fascista" #Benitowo Muwussolini, succeeded by any of these people; Allesandro Pavolini, Giorgo Almirante, or Augusto de Marsanich, if still alive it goes to Gelaezzo Ciano
+ ITA_monarchism_party:0 "Partito Nazionale Monarchico"
+ ITA_monarchism_party_long:0 "Partito Nazionale Monarchico" #Victor Emmanuel III, succeeded by Umberto II
+ ITA_theocracy_party:0 "CCR"
+ ITA_theocracy_party_long:0 "Chiesa Cattolica Romana" #Pius XI, from 10th of february 1939 to 2nd of march 1939 it'll be the college of cardinals, then it's Pius XII
+ ITA_authoritarian_party:0 "Badoglio Government" #Pietro Badoglio
+ 
+ JAP_authoritarian_socialist_party:0 "NK-t"
+ JAP_authoritarian_socialist_party_long:0 "Nihon Kyosan-to" #Tokuda Kyuichi 
+ JAP_radical_socialist_party:0 "NKKD"
+ JAP_radical_socialist_party_long:0 "Nihon Kakumeiteki Kyosanshugisha Domei" #Generic Leader
+ JAP_anarchist_party:0 "NAR"
+ JAP_anarchist_party_long:0 "Nihon Anakisuto Renmei" #Japanese Anarchist Federation
+ JAP_socialist_imperial_party:0 "Shakai Taishūtō" #Abe Isoo
+ JAP_liberal_imperial_party:0 "Rikken Minseitō" #Machida Chūji
+ JAP_conservative_imperial_party:0 "Rikken Seiyūkai" #Suzuki Kisaburō
+ JAP_social_democrat_party:0 "Nihon Shakai Tō" #Tetsu Kyahama
+ JAP_liberal_democrat_party:0 "Jiyuto" #Ichirō Hatoyama, in 1947 replaced by Shigeru Yoshida.
+ JAP_conservative_democrat_party:0 "Minshuto" #Hitoshi Ashida, in 1947 replaced by Takeru Inukai
+ JAP_pan_asian_party:0 "Han ajia rengō tō" #Shumai Okawa
+ JAP_fascism_party:0 "TY"
+ JAP_fascism_party_long:0 "Taisei Yokusankai" #Hideki Tojo
+ JAP_nazi_party:0 "Tōhōkai" #Seigō Nakano 
+ JAP_monarchism_party:0 "Showa" 
+ JAP_monarchism_party_long:0 "the Showa Emperor" #Emperor Showa
+ JAP_authoritarian_party:0 "Kodoha Faction" #Sadao Araki
+ 
+ USA_authoritarian_socialist_party:0 "CPUSA"
+ USA_authoritarian_socialist_party_long:0 "Communist Party USA" #Earl Browder until 1945, then it is Willy Z. Foster.
+ USA_steel_party:0 "CPNAUSR"
+ USA_steel_party_long:0 "Communist Party of the North American Union of Socialist Republics" #Joe Steel
+ USA_radical_socialist_party:0 "SWP"
+ USA_radical_socialist_party_long:0 "Socialist Workers Party" #James P. Cannon
+ USA_anarchist_party:0 "IWW"
+ USA_anarchist_party_long:0 "Industrial Workers of the World" #One Big Union
+ USA_social_democrat_party:0 "SPA"
+ USA_social_democrat_party_long:0 "Socialist Party of America" #Norman Thomas
+ USA_liberal_democrat_party:0 "Democratic Party" #Franklin Delano Roosevelt until his death in which he is replaced by Harry Truman
+ USA_conservative_democrat_party:0 "Republican Party" #Alf Landon, in 1940 it's Wendell Wilkie, in 1944 it's Thomas E. Dewey, and in 1952 it's Dwight D. Eisenhower.
+ USA_fascism_party:0 "SLA"
+ USA_fascism_party_long:0 "Silver Legion of America" #William Dudley Pelley
+ USA_business_party:0 "VP"
+ USA_business_party_long:0 "Veterans Party" #Smedley Butler, in 1940 he's replaced by Walter W. Waters
+ USA_german_party:0 "GAB"
+ USA_german_party_long:0 "German-American Bund" #Adam Hilt, Fritz Julius Kuhn, Gerhard Wilhelm Kunze, and George Froboese
+ USA_monarchism_party:0 "House of Simpson" #Wallis Simpson
+ USA_authoritarian_party:0 "Provisional Government of America" #Douglas MacArthur
+ USA_union_party:0 "UP"
+ USA_union_party_long:0 "Union Party" #William Lemke or Earl Kemp Long « Uncle Earl »
+ 
+ FRA_authoritarian_socialist_party:0 "PCF"
+ FRA_authoritarian_socialist_party_long:0 "Parti Communiste Francais" #Maurice Thorez
+ FRA_radical_socialist_party:0 "UPF"
+ FRA_radical_socialist_party_long:0 "Union populaire française" #Réne Nicod
+ FRA_internationale_party:0 "SFIO"
+ FRA_internationale_party_long:0 "Section Française de l Internationale Ouvrière" #Daniel Mayer and Guy Mollet
+ FRA_surrealist_party:0 "FA-GSF" #André Breton
+ FRA_surrealist_party_long:0 "Fôte d'Avant-Garde Surréaliste Française" 
+ FRA_anarchist_party:0 "CGT"
+ FRA_anarchist_party_long:0 "Confédération Générale du Travail" #Leon Jouhaux, in 1945 it's Benoit Frachon.
+ FRA_social_democrat_party:0 "FP"
+ FRA_social_democrat_party_long:0 "Front Populaire" #Albert Sarraut from 24 january to 4 june (1936), Léon Blum from 4 june 1936 to 22 june 1937, Camille Chateaumps from 22 june 1937 to 13 march 1938, leon blum from 13 march 1938 to 10 april 1938, edouard daladier from 10 april 1938 to 21 march 1940, L?on Blum for the rest.
+ FRA_liberal_democrat_party:0 "AD"
+ FRA_liberal_democrat_party_long:0 "Alliance Démocratique" #Pierre Flandin, Paul Reynaud
+ FRA_conservative_democrat_party:0 "FR"
+ FRA_conservative_democrat_party_long:0 "Fédération Republicaine" #Louis Marin
+ FRA_fascism_party:0 "MF"
+ FRA_fascism_party_long:0 "Mouvement Franciste" #Marcel Bucard
+ FRA_nationalism_party:0 "PPF"
+ FRA_nationalism_party_long:0 "Parti Populaire Français" #Jacques Doriot
+ FRA_cagular_party:0 "LC"
+ FRA_cagular_party_long:0 "La Cagoule" #Eugene DeLoncle until 17 january 1944, succeeded by Jacques Corrèze 
+ FRA_monarchism_party:0 "AF"
+ FRA_monarchism_party_long:0 "Action Française" #Charles Maurras
+ FRA_authoritarian_party:0 "Independant Party" #Pierre Laval then Philippe Pétain
+ FRA_orleanist_party:0 "Parti Orléaniste" #Prince Jean until 25 august 1940 then it's Prince Henri
+ FRA_legitimist_party:0 "Parti Légitimiste" #Prince Jaime
+ FRA_bonepartist_party:0 "Parti Bonapartiste" #Louis Prince Napoleon
+
+ SOV_authoritarian_socialist_party:0 "VKP(B)"
+ SOV_authoritarian_socialist_party_long:0 "Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)" #Joseph Stalin, if dead happens he's replaced by Laventriy Beriya, Georgy Zhukov, Nikita Khrushchev and Georgy Malenkov(if not purged), the Federation of Socialist Republics will be lead by Bukharin, Grigori Zinyovev, Lev Kamenev, or Aleksey Rykov.
+ SOV_radical_socialist_party:0 "VKP(B)"
+ SOV_radical_socialist_party_long:0 "Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)" #Leon Trotsky, Ivan Smirnov, Andrei Bubnov, or Nikolai Krestinsky
+ SOV_anarchist_party:0 "RRPA"
+ SOV_anarchist_party_long:0 "Russkaya Revolyutsionnaya Povstancheskaya Armiya" #Emma Goldman, (on death she's replaced by Mollie Steimer) or Vselevod Volin, on death he's replaced by Senya Fleshin.
+ SOV_social_democrat_party:0 "Trudoviks" #Alexander Kerensky
+ SOV_liberal_democrat_party:0 "K-DP « Kadets »"
+ SOV_liberal_democrat_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya" #Pavel Milyukov, in 31 march 1940 he's replaced by Pyotr Struve, in 1944 Pyotr Struve is replaced by Vasily Maklakov
+ SOV_conservative_democrat_party:0 "PBR"
+ SOV_conservative_democrat_party_long:0 "Partiya Belaya Rossiya" #Vladimir Zenzinov
+ SOV_fascism_party:0 "RFP"
+ SOV_fascism_party_long:0 "Rossyskaya Fashistskaya Partiya" #Konstantin Rodzaevsky, on death replaced by Anastase Andreivitch Vonsiatsky
+ SOV_monarchism_party:0 "Romanovs"
+ SOV_monarchism_party_long:0 "House of Romanov" #Emperor Kirill Romanov, in 12 october 1938 he's replaced by his successor, Prince Vladimir Kirillovich
+ SOV_authoritarian_party:0 "White Army Junta" #White Army Junta
+ SOV_theocracy_party:0 "PMivR"
+ SOV_theocracy_party_long:0 "Patriarkh Moskovskij i vseja Rusi" #Patriarch Sergius, in 4 february 1945 he's replaced by Patriarch Alexei.
+ 
+ AUS_authoritarian_socialist_party:0 "KPÖ"
+ AUS_authoritarian_socialist_party_long:0 "Kommunistische Partei Österreichs" #Johann Koplenig
+ AUS_radical_socialist_party:0 "KPÖ"
+ AUS_radical_socialist_party_long:0 "Kommunistische Partei Österreichs" #Gabriel Baer
+ AUS_anarchist_party:0 "FAU"
+ AUS_anarchist_party_long:0 "Freie Arbeiter Union" #Pierre Ramus, when dead he's replaced by Marie Ganz.
+ AUS_social_democrat_party:0 "SPÖ"
+ AUS_social_democrat_party_long:0 "Sozialdemokratische Partei Österreichs" #Karl Seitz
+ AUS_liberal_democrat_party:0 "ÖLP"
+ AUS_liberal_democrat_party_long:0 "Österreichische Liberale Partei" #fake party so no-one.
+ AUS_conservative_democrat_party:0 "VdU"
+ AUS_conservative_democrat_party_long:0 "Verband der Unabhingigen" #Viktor Reimann
+ AUS_fascism_party:0 "VF"
+ AUS_fascism_party_long:0 "Vaterländische Front" #Kurt Schuschnigg
+ AUS_fascism_party_nazi:0 "DNSAP"
+ AUS_fascism_party_nazi_long:0 "Deutsche Nationalsozialistische Arbeiterpartei" #August Eigruber
+ AUS_monarchism_party:0 "House of Habsburg" #Otto von Habsburg
+ AUS_authoritarian_party:0 "Heimwehr" #Ernst Rüdiger Starhemberg
+ 
+ CHI_authoritarian_socialist_party:0 "CPC" 
+ CHI_authoritarian_socialist_party_long:0 "Communist Party of China" #Li Jishen
+ CHI_radical_socialist_party:0 "RCPC"
+ CHI_radical_socialist_party_long:0 "Revolutionary Communist Party of China" #Chen Duxiu
+ CHI_anarchist_party:0 "Jinde Hui" #I FUCKING HATE HOW COMPLEX ANARCHIST MOVEMENTS ARE, beyond that Li Shizeng, Zhang Renjie, Cai Yuanpei, Wu Zhihui, and B U I L D I N G.
+ CHI_social_democrat_party:0 "NS-CDL" 
+ CHI_social_democrat_party_long:0 "National Socialist Bloc of the China Democratic League" #Carsun Chang
+ CHI_liberal_democrat_party:0 "C-CDL"
+ CHI_liberal_democrat_party:0 "Center Bloc of the China Democratic League" #Zhang Dongsun, Hu Shih
+ CHI_conservative_democrat_party:0 "Z-CDL"  
+ CHI_conservative_democrat_party_long:0 "Zhangist Bloc of the China Democratic League" #Huang Yanpei until 1941 then Zhang Lan
+ CHI_fascism_party:0 "BSS" 
+ CHI_fascism_party_long:0 "Blue Shirt Society" #Chiang Kai-Shek
+ CHI_monarchism_party:0 "Qing Dynasty" #Aisin Gioro Puyi
+ CHI_authoritarian_party:0 "KMT"
+ CHI_authoritarian_party_long:0 "Kuomintang" #Chiang Kai-Shek
+ CHI_reformed_party:0 "RNP"
+ CHI_reformed_party_long:0 "Reorganised Nationalist Party" #Liang Hongzhi, Wang Jingwi, and Chen Gongbo
+ 
+ PRC_authoritarian_socialist_party:0 "CPC"
+ PRC_authoritarian_socialist_party_long:0 "Communist Party of China" #Mao Zedong
+ PRC_radical_socialist_party:0 "RCPC"
+ PRC_radical_socialist_party_long:0 "Revolutionary Committee of the Kuomintang" #Peng Shuzhi. (Generic)
+ PRC_anarchist_party:0 "Jinde Hui" #I FUCKING HATE HOW COMPLEX ANARPRCST MOVEMENTS ARE, beyond that Li Shizeng, Zhang Renjie, Cai Yuanpei, Wu Zhihui, and B U I L D I N G.
+ PRC_social_democrat_party:0 "NS-CDL" 
+ PRC_social_democrat_party_long:0 "National Socialist Bloc of the China Democratic League" #Carsun Chang
+ PRC_liberal_democrat_party:0 "C-CDL"
+ PRC_liberal_democrat_party:0 "Center Bloc of the China Democratic League" #Zhang Dongsun, Hu Shih
+ PRC_conservative_democrat_party:0 "Z-CDL"
+ PRC_conservative_democrat_party_long:0 "Zhangist Bloc of the China Democratic League" #Huang Yanpei until 1941 then Zhang Lan
+ PRC_fascism_party:0 "BSS" 
+ PRC_fascism_party_long:0 "Blue Shirt Society" #Chiang Kai-Shek
+ PRC_monarchism_party:0 "Qing Dynasty" #Aisin Gioro Puyi
+ PRC_authoritarian_party:0 "KMT"
+ PRC_authoritarian_party_long:0 "Kuomintang" #Chiang Kai-Shek
+ 
+ MAN_authoritarian_socialist_party:0 "SGM"
+ MAN_authoritarian_socialist_party_long:0 "Soviet Government for Manchuria" #Chen Xilian
+ MAN_radical_socialist_party:0 "RAIA"
+ MAN_radical_socialist_party_long:0 "Revolutionary Anti-Imperial Alliance" #Chen Qichang (Generic)
+ MAN_anarchist_party:0 "AONC"
+ MAN_anarchist_party_long:0 "Anarchist Organisation of Northeast China" #Jinde Hui
+ MAN_social_democrat_party:0 "SPM"
+ MAN_social_democrat_party_long:0 "Socialist Party of Manchuria" #Generic
+ MAN_liberal_democrat_party:0 "LFM"
+ MAN_liberal_democrat_party_long:0 "Liberal Faction of Manchuria" #Generic
+ MAN_conservative_democrat_party:0 "MDL"
+ MAN_conservative_democrat_party_long:0 "Manchu Democratic League" #Generic
+ MAN_fascism_party:0 "MK"
+ MAN_fascism_party_long:0 "Manshū Kantōgun" #Zhang Jinghui
+ MAN_monarchism_party:0 "Qing Dynasty" #Aisin Gioro Puyi (Xuantong), in case of death it goes to Yoshiko Kawashima
+ MAN_authoritarian_party:0 "Fengtian Clique" #Zhang Xueliang
+ 
+ MEN_authoritarian_socialist_party:0 "PPM"
+ MEN_authoritarian_socialist_party_long:0 "Peoples Party of Mengjiang" #Twelve League System
+ MEN_radical_socialist_party:0 "RAIA-M"
+ MEN_radical_socialist_party_long:0 "Revolutionary Anti-Imperial Alliance - Mengjiang" #Generic
+ MEN_anarchist_party:0 "UMTF"
+ MEN_anarchist_party_long:0 "United Mongolic Tribal Federation" #The Twelve League System
+ MEN_social_democrat_party:0 "SNP"
+ MEN_social_democrat_party_long:0 "Socialist National Party" #Generic
+ MEN_liberal_democrat_party:0 "RUPM"
+ MEN_liberal_democrat_party_long:0 "Republican Unity Party of Mengjiang" #Generic
+ MEN_conservative_democrat_party:0 "MTUP"
+ MEN_conservative_democrat_party_long:0 "Mengjiang Traditionalist Union Party" #Generic
+ MEN_fascism_party:0 "Kwantung"
+ MEN_fascism_party_long:0 "Takuchi Kwantung Army" #Motohei Takuchi, Xia Gong, or Maeijma Masu (generic portrait), also Demchugdongrub
+ MEN_monarchism_party:0 "Demchugdongrub Dynasty" #Prince Demchugdongrub
+ MEN_authoritarian_party:0 "Yondonwangchug Clan" #Yondonwangchug
+ 
+ SIK_authoritarian_socialist_party:0 "PAIA"
+ SIK_authoritarian_socialist_party_long:0 "Peoples Anti-Imperialist Association" #Sheng Shicai
+ SIK_radical_socialist_party:0 "RULS"
+ SIK_radical_socialist_party_long:0 "Revolutionary Uigher Liberation Society" #generic
+ SIK_anarchist_party:0 "ETWF"
+ SIK_anarchist_party_long:0 "East Turkestani Workers Front" #Uigher Popular Federation
+ SIK_social_democrat_party:0 "ETISP"
+ SIK_social_democrat_party_long:0 "East Turkestani Independent Socialist Party" #Ehmetjan Qasimi or Elihan Tore
+ SIK_liberal_democrat_party:0 "LPU"
+ SIK_liberal_democrat_party_long:0 "Liberal Party of Uigheristan" #Sabit Damolla
+ SIK_conservative_democrat_party:0 "FUP"
+ SIK_conservative_democrat_party_long:0 "Free Uigher Party" #Khoja Niyaz
+ SIK_fascism_party:0 "UTNIP"
+ SIK_fascism_party_long:0 "Uigher Turanist National Independence Party" #Muhammad Amin Bughra
+ SIK_monarchism_party:0 "House of Shicai" #Sheng Shicai (Emperor)
+ SIK_authoritarian_party:0 "KMT"
+ SIK_authoritarian_party_long:0 "Kuomintang" #Sheng Shicai
+ 
+ XSM_authoritarian_socialist_party:0 "CPC"
+ XSM_authoritarian_socialist_party_long:0 "Communist Party of China" #Zhou Shoushan generic
+ XSM_radical_socialist_party:0 "RCPC"
+ XSM_radical_socialist_party_long:0 "Revolutionary Communist Party of China" #Rando
+ XSM_anarchist_party:0 "Peasant Self Rule" #Jinde Hui
+ XSM_social_democrat_party:0 "Social Democratic Party" #Insert_CDL_Leader_Here
+ XSM_liberal_democrat_party:0 "Liberal Party" #Insert_CDL_Leader_Here
+ XSM_conservative_democrat_party:0 "Democratic League" #Insert_CDL_Leader_Here
+ XSM_theocracy_party:0 "Songshan Party"  #Imam Hu Songshan
+ XSM_fascism_party:0 "Ma Clique" #Ma Bufang
+ XSM_monarchism_party:0 "Ma Dynasty" #Ma Bufang
+ XSM_authoritarian_party:0 "Ma Clique" #Ma Bufang
+ 
+ SHX_authoritarian_socialist_party:0 "CPC"
+ SHX_authoritarian_socialist_party_long:0 "Communist Party of China" #Yan Xishan
+ SHX_radical_socialist_party:0 "SSP"
+ SHX_radical_socialist_party_long:0 "Shanxi Soviet Party" #Yan Xishan
+ SHX_anarchist_party:0 "SASRF"
+ SHX_anarchist_party_long:0 "Shanxi Anarchist Social Revolution Faction" #Yan Xishan
+ SHX_social_democrat_party:0 "SGS"
+ SHX_social_democrat_party_long:0 "Socialist Group of Shanxi" #Yan Xishan
+ SHX_liberal_democrat_party:0 "LPS"
+ SHX_liberal_democrat_party_long:0 "Liberal Party of Shanxi" #Yan Xishan
+ SHX_conservative_democrat_party:0 "SDL"
+ SHX_conservative_democrat_party_long:0 "Shanxi Democratic League" #Yan Xishan
+ SHX_fascism_party:0 "NRS"
+ SHX_fascism_party_long:0 "National Restoration Society" #Yan Xishan
+ SHX_monarchism_party:0 "XRF"
+ SHX_monarchism_party_long:0 "Xishan Royalist Faction" #Yan Xishan
+ SHX_authoritarian_party:0 "KMT"
+ SHX_authoritarian_party_long:0 "Kuomintang" #Yan Xishan
+ 
+ GXC_authoritarian_socialist_party:0 "CPC"
+ GXC_authoritarian_socialist_party_long:0 "Communist Party of China" #Some cpc leader
+ GXC_radical_socialist_party:0 "GSP"
+ GXC_radical_socialist_party_long:0 "Guangxi Soviet Party" #generic 
+ GXC_anarchist_party:0 "GPAU"
+ GXC_anarchist_party_long:0 "Guangxi Peasantry and Agrarian Unions" #Jinde Hui
+ GXC_social_democrat_party:0 "SGG"
+ GXC_social_democrat_party_long:0 "Socialist Group of Guangxi" #cdl leader
+ GXC_liberal_democrat_party:0 "LPG"
+ GXC_liberal_democrat_party_long:0 "Liberal Party of Guangxi" #cdl leader
+ GXC_conservative_democrat_party:0 "GDL"
+ GXC_conservative_democrat_party_long:0 "Guangxi Democratic League" #cdl leader
+ GXC_fascism_party:0 "NRS"
+ GXC_fascism_party_long:0 "National Restoration Society" #Li Zongren
+ GXC_monarchism_party:0 "ZRF"
+ GXC_monarchism_party_long:0 "Zongren Royalist Faction" #Li Zongren
+ GXC_authoritarian_party:0 "KMT"
+ GXC_authoritarian_party_long:0 "Kuomintang" #Li Zongren
+ 
+ YUN_authoritarian_socialist_party:0 "CPC"
+ YUN_authoritarian_socialist_party_long:0 "Communist Party of China" #cpc leader
+ YUN_radical_socialist_party:0 "YSP"
+ YUN_radical_socialist_party_long:0 "Yunnanese Soviet Party" #cdl leader
+ YUN_anarchist_party:0 "YPIC"
+ YUN_anarchist_party_long:0 "Yunnan Peasantry and Industrial Councils" #Jinde Hui
+ YUN_social_democrat_party:0 "SGY"
+ YUN_social_democrat_party_long:0 "Socialist Group of Yunnan" #cdl leader
+ YUN_liberal_democrat_party:0 "LPY"
+ YUN_liberal_democrat_party_long:0 "Liberal Party of Yunnan" #cdl leader
+ YUN_conservative_democrat_party:0 "YDL"
+ YUN_conservative_democrat_party_long:0 "Yunnanese Democratic League" #cdl leader
+ YUN_fascism_party:0 "NRS"
+ YUN_fascism_party_long:0 "National Restoration Society" #Long Yun
+ YUN_monarchism_party:0 "LYRF"
+ YUN_monarchism_party_long:0 "Long Yun Royalist Faction" #Long Yun
+ YUN_authoritarian_party:0 "KMT"
+ YUN_authoritarian_party_long:0 "Kuomintang" #Long Yun
+ 
+ SPR_authoritarian_socialist_party:0 "PCE"
+ SPR_authoritarian_socialist_party_long:0 "Partido Comunista de España"
+ SPR_radical_socialist_party:0 "POUM"
+ SPR_radical_socialist_party_long:0 "Partido Obrero de Unificación Marxista"
+ SPR_anarchist_party:0 "CNT/FAI"
+ SPR_anarchist_party_long:0 "Confederación Nacional del Trabajo/Federación Anarquista Ibérica"
+ SPR_social_democrat_party:0 "PSOE"
+ SPR_social_democrat_party_long:0 "Partido Socialista Obrero Español"
+ SPR_liberal_democrat_party:0 "IR"
+ SPR_liberal_democrat_party_long:0 "Izquierda Republicana"
+ SPR_conservative_democrat_party:0 "PCD"
+ SPR_conservative_democrat_party_long:0 "Partido del Centro Democrático"
+ SPR_fascism_party:0 "CEDA"
+ SPR_fascism_party_long:0 "Confederación Española de Derechas Autónomas"
+ SPR_falangism_party:0 "FE de las JONS"
+ SPR_falangism_party_long:0 "Falange Española de las Juntas de Ofensiva Nacional Sindicalista"
+ SPR_monarchism_party:0 "CT"
+ SPR_monarchism_party_long:0 "Comunión Tradicionalista"
+ SPR_authoritarian_party:0 "Junta Militar"
+ SPR_franco_party:0 "FET de las JONS"
+ SPR_franco_party_long:0 "Falange Española Tradicionalista de las Juntas de Ofensiva Nacional Sindicalista"
+ 
+ POR_authoritarian_socialist_party:0 "PCP"
+ POR_authoritarian_socialist_party_long:0 "Partido Comunista Portugués" #Bento Gonçalves
+ POR_radical_socialist_party:0 "FP"
+ POR_radical_socialist_party_long:0 "Frente Popular" #nobody
+ POR_anarchist_party:0 "CGT"
+ POR_anarchist_party_long:0 "Confederaçao Geral do Trabalho" #Emidio Santana
+ POR_social_democrat_party:0 "PRED"
+ POR_social_democrat_party_long:0 "Partido Republicano Esquerdista Democrático" #Jose Domingue
+ POR_liberal_democrat_party:0 "PD"
+ POR_liberal_democrat_party_long:0 "Partido Democrático" #Afonso Costa
+ POR_conservative_democrat_party:0 "PRN"
+ POR_conservative_democrat_party_long:0 "Partido Republicano Nacionalista" #Antonio Ginestal Machado, in 1940 he's replaced by Francisco Cunha Leal
+ POR_fascism_party:0 "MNS"
+ POR_fascism_party_long:0 "Movimento Nacional-Sindicalista" #Francisco de Barcelos Rolão Preto
+ POR_monarchism_party:0 "CM"
+ POR_monarchism_party_long:0 "Causa Monárquica" #Duarte Nuno Bragança
+ POR_authoritarian_party:0 "UN"
+ POR_authoritarian_party_long:0 "Uniao Nacional" #Daddy Salazar :blush:
+ POR_democracy_party:0 "Liga Democrática"
+ POR_democracy_party_long:0 "Liga da Democracia e Restauração das Eleições para Portugal" #Provisional Portuguese Government
+ 
+ GRE_authoritarian_socialist_party:0 "KKE"
+ GRE_authoritarian_socialist_party_long:0 "Kommounistiki Kómma Ellédas" #Nikos Zachariadis
+ GRE_radical_socialist_party:0 "KAK"
+ GRE_radical_socialist_party_long:0 "Kommounistikó Archeiomarxistikí Komma" #Dimitris « Witte » Giotopoulos
+ GRE_anarchist_party:0 "AES"
+ GRE_anarchist_party_long:0 "Anarchikós Ergatikís Syndesmos" #Syndicalist Council
+ GRE_social_democrat_party:0 "PM"
+ GRE_social_democrat_party_long:0 "Sosialistikó Kómma" #none
+ GRE_liberal_democrat_party:0 "KF"
+ GRE_liberal_democrat_party_long:0 "Kómma Filelefthéron" #  Eleftherios Venizelos until death, Themistoklis Souphoulis until 1948 election then finally Sophoklis Venizelos
+ GRE_conservative_democrat_party:0 "LK"
+ GRE_conservative_democrat_party_long:0 "Laíkón Kómma" #Konstantinos Tsaldaris
+ GRE_fascism_party:0 "EESK"
+ GRE_fascism_party_long:0 "Elliniko Ethniko Sosialistiko Komma" #George Mercouris
+ GRE_byzantine_party:0 "EEE"
+ GRE_byzantine_party_long:0 "Ethniki Enosis Ellados" #George Mercouris
+ GRE_monarchism_party:0 "VSE"
+ GRE_monarchism_party_long:0 "Vasilikó Symvouleftikí Epitropó" #King George
+ GRE_authoritarian_party:0 "Metaxá"
+ GRE_authoritarian_party_long:0 "Kathestés Metaxá" #Ioannas Metaxas
+ 
+ LIT_authoritarian_socialist_party:0 "LKP"
+ LIT_authoritarian_socialist_party_long:0 "Lietuvos komunistu partija"
+ LIT_radical_socialist_party:0 "KSP"
+ LIT_radical_socialist_party_long:0 "Krikscioniu socialistu partija"
+ LIT_anarchist_party:0 "Misko broliai"
+ LIT_social_democrat_party:0 "LSDP"
+ LIT_social_democrat_party_long:0 "Lietuvos socialdemokratu partija"
+ LIT_liberal_democrat_party:0 "LVZS"
+ LIT_liberal_democrat_party_long:0 "Lietuvos valstieciu ir zaliuju sajunga"
+ LIT_conservative_democrat_party:0 "LKDP"
+ LIT_conservative_democrat_party_long:0 "Lietuvos krikscioniu demokratu partijas"
+ LIT_fascism_party:0 "GV"
+ LIT_fascism_party_long:0 "Gelezinis Vilkas"
+ LIT_monarchism_party:0 "House of von Urach"
+ LIT_authoritarian_party:0 "LTS"
+ LIT_authoritarian_party_long:0 "Lietuviu Tautininku Sajunga"
+ 
+ LAT_authoritarian_socialist_party:0 "LKP"
+ LAT_authoritarian_socialist_party_long:0 "Latvijas Komunistiska partija"
+ LAT_radical_socialist_party:0 "KSP"
+ LAT_radical_socialist_party_long:0 "Kristigi Socialistu Partija"
+ LAT_anarchist_party:0 "Mezabrali"
+ LAT_social_democrat_party:0 "LSDSP"
+ LAT_social_democrat_party_long:0 "Latvijas Socialdemokratiska Stradnieku partija"
+ LAT_liberal_democrat_party:0 "DCBSD"
+ LAT_liberal_democrat_party_long:0 "Demokratiskais centrs un bezpartejiskie sabiedriskie darbinieki"
+ LAT_conservative_democrat_party:0 "LZs"
+ LAT_conservative_democrat_party_long:0 "Latvijas Zemnieku savieniba"
+ LAT_fascism_party:0 "Perkonkrusts"
+ LAT_authoritarian_party:0 "TP"
+ LAT_authoritarian_party_long:0 "Tautas Padome"
+ 
+ EST_authoritarian_socialist_party:0 "Eestimaa Kommunistlik Partei"
+ EST_authoritarian_socialist_party_long:0 "EKP"
+ EST_radical_socialist_party:0 "KSP"
+ EST_radical_socialist_party_long:0 "Kristlik Sotsialistlik Partei"
+ EST_anarchist_party:0 "Metsavennad"
+ EST_social_democrat_party:0 "TAK"
+ EST_social_democrat_party_long:0 "Tallinna Ameti?hisuste Kesknoukogu"
+ EST_liberal_democrat_party:0 "RK"
+ EST_liberal_democrat_party_long:0 "Rahvuslik Keskerakond"
+ EST_conservative_democrat_party:0 "PK"
+ EST_conservative_democrat_party_long:0 "Pollumeeste Kogud"
+ EST_fascism_party:0 "Vapsid"
+ EST_fascism_party_long:0 "Eesti Vabadussojalaste Liit"
+ EST_authoritarian_party:0 "Isamaaliit"
+ 
+ SWE_authoritarian_socialist_party:0 "SKP"
+ SWE_authoritarian_socialist_party_long:0 "Sveriges Kommunistiska Parti"
+ SWE_radical_socialist_party:0 "RSP"
+ SWE_radical_socialist_party_long:0 "Revolutionära Socialistiska Partiet"
+ SWE_anarchist_party:0 "SAC"
+ SWE_anarchist_party_long:0 "Sveriges Arbetares Centralorganisation"
+ SWE_social_democrat_party:0 "SAP"
+ SWE_social_democrat_party_long:0 "Sveriges Socialdemokratiska Arbetareparti"
+ SWE_liberal_democrat_party:0 "Bondefërbundet"
+ SWE_conservative_democrat_party:0 "AV"
+ SWE_conservative_democrat_party_long:0 "Allmänna Valmansfërbundet"
+ SWE_fascism_party:0 "NSAP"
+ SWE_fascism_party_long:0 "Nationalsocialistiska Arbetarepartiet"
+ SWE_monarchism_party:0 "House of Bernadotte"
+ SWE_authoritarian_party:0 "Presidential Dictatorship"
+ 
+ FIN_authoritarian_socialist_party:0 "SKP"
+ FIN_authoritarian_socialist_party_long:0 "Suomen Kommunistinen Puolue"
+ FIN_radical_socialist_party:0 "SKP"
+ FIN_radical_socialist_party_long:0 "Suomen Kommunistinen Puolue"
+ FIN_anarchist_party:0 "NPS"
+ FIN_anarchist_party_long:0 "Nalle Puh -Seura"
+ FIN_social_democrat_party:0 "SSP"
+ FIN_social_democrat_party_long:0 "Suomen sosialidemokraattinen puolue"
+ FIN_liberal_democrat_party:0 "St?hlberg Party"
+ FIN_conservative_democrat_party:0 "Svinhufvud Party"
+ FIN_fascism_party:0 "IKL"
+ FIN_fascism_party_long:0 "Isínmaallinen Kansanliike"
+ FIN_monarchism_party:0 "House von Hessen-Kassel" #Prince Frederick Charles, after death he's replaced by King Phillip.
+ FIN_authoritarian_party:0 "Kallio Party"
+
+ DEN_authoritarian_socialist_party:0 "DKP"
+ DEN_authoritarian_socialist_party_long:0 "Danmarks Kommunistiske Parti"
+ DEN_radical_socialist_party:0 "DKP"
+ DEN_radical_socialist_party_long:0 "Danmarks Kommunistiske Parti"
+ DEN_anarchist_party:0 "DSU"
+ DEN_anarchist_party_long:0 "Danish Seamen Union"
+ DEN_social_democrat_party:0 "Socialdemokratiet"
+ DEN_liberal_democrat_party:0 "DVR"
+ DEN_liberal_democrat_party_long:0 "Det Radikale Venstre"
+ DEN_conservative_democrat_party:0 "DKF"
+ DEN_conservative_democrat_party_long:0 "Det Konservative Folkeparti"
+ DEN_fascism_party:0 "DNSAP"
+ DEN_fascism_party_long:0 "Danmarks Nationalsocialistiske Arbejderparti"
+ DEN_monarchism_party:0 "House of Gl?cksburg"
+ DEN_authoritarian_party:0 "Military Junta"
+ DEN_authoritarian_party_long:0 "Military Junta"
+ 
+ CAN_authoritarian_socialist_party:0 "CPC"
+ CAN_authoritarian_socialist_party_long:0 "Communist Party of Canada"
+ CAN_radical_socialist_party:0 "SPC"
+ CAN_radical_socialist_party_long:0 "Socialist Party of Canada"
+ CAN_anarchist_party:0 "Trade Unions"
+ CAN_social_democrat_party:0 "Labour"
+ CAN_liberal_democrat_party:0 "LPC"
+ CAN_liberal_democrat_party_long:0 "Liberal Party of Canada"
+ CAN_conservative_democrat_party:0 "CPC"
+ CAN_conservative_democrat_party_long:0 "Conservative Party of Canada"
+ CAN_fascism_party:0 "NUP"
+ CAN_fascism_party_long:0 "National Unity Party"
+ CAN_monarchism_party:0 "Royalist Faction"
+ CAN_authoritarian_party:0 "Colonial Government"
+ 
+ AST_authoritarian_socialist_party:0 "CPA"
+ AST_authoritarian_socialist_party_long:0 "Communist Party of Australia"
+ AST_radical_socialist_party:0 "CPA"
+ AST_radical_socialist_party_long:0 "Communist Party of Australia"
+ AST_anarchist_party:0 "IWW-Australia"
+ AST_anarchist_party_long:0 "Industrial Workers of the World - Australia"
+ AST_social_democrat_party:0 "Labour"
+ AST_liberal_democrat_party:0 "Credit Party"
+ AST_conservative_democrat_party:0 "Liberal-National Coalition"
+ AST_fascism_party:0 "Centre Party"
+ AST_monarchism_party:0 "Royalist Faction"
+ AST_authoritarian_party:0 "Colonial Government"
+ 
+ MEX_authoritarian_socialist_party:0 "PCM"
+ MEX_authoritarian_socialist_party_long:0 "Partido Comunista Mexicano"
+ MEX_radical_socialist_party:0 "PCRT"
+ MEX_radical_socialist_party_long:0 "Partido Comunista Revolucionario Trotskista"
+ MEX_trotsky_party:0 "FTER"
+ MEX_trotsky_party_long:0 "Fracción Trotskista del Exilio Ruso" #Leon Trotsky
+ MEX_anarchist_party:0 "Zapatistas"
+ MEX_social_democrat_party:0 "PLM"
+ MEX_social_democrat_party_long:0 "Partido Laborista Mexicano"
+ MEX_liberal_democrat_party:0 "Liberal"
+ MEX_conservative_democrat_party:0 "PRI"
+ MEX_conservative_democrat_party_long:0 "Partido Revolucionario Institucional"
+ MEX_fascism_party:0 "UNS"
+ MEX_fascism_party_long:0 "Unión Nacional Sinarquista"
+ MEX_monarchism_party:0 "Imperial Restoration"
+ MEX_authoritarian_party:0 "Junta Militar Mexicana"
+ 
+ ARG_authoritarian_socialist_party:0 "PCA"
+ ARG_authoritarian_socialist_party_long:0 "Partido Comunista de la Argentina"
+ ARG_radical_socialist_party:0 "Posadists"
+ ARG_radical_socialist_party_long:0 "Fourth International ?Posadist?"
+ ARG_anarchist_party:0 "Patagonian Anarchist Front"
+ ARG_social_democrat_party:0 "PS"
+ ARG_social_democrat_party_long:0 "Partido Socialista"
+ ARG_liberal_democrat_party:0 "PDP"
+ ARG_liberal_democrat_party_long:0 "Partido Dem?crata Progresista"
+ ARG_conservative_democrat_party:0 "Concordancia"
+ ARG_fascism_party:0 "UNF"
+ ARG_fascism_party_long:0 "Union Nacional Fascista"
+ ARG_monarchism_party:0 "ORE"
+ ARG_monarchism_party_long:0 "Organización Realista Espa?ola"
+ ARG_authoritarian_party:0 "Junta Militar"
+
+ BRA_authoritarian_socialist_party:0 "PCB"
+ BRA_authoritarian_socialist_party_long:0 "Partido Comunista Brasileiro"
+ BRA_radical_socialist_party:0 "PST"
+ BRA_radical_socialist_party_long:0 "Partido Sindical Trotskista"
+ BRA_anarchist_party:0 "COT"
+ BRA_anarchist_party_long:0 "Comité de Organizaçao de Trabalhadores"
+ BRA_social_democrat_party:0 "Social Democrat Party"
+ BRA_liberal_democrat_party:0 "UDB"
+ BRA_liberal_democrat_party_long:0 "Uniao Democrática Brasileira"
+ BRA_conservative_democrat_party:0 "PRP"
+ BRA_conservative_democrat_party_long:0 "Partido Republicano Paulista"
+ BRA_fascism_party:0 "AIB"
+ BRA_fascism_party_long:0 "Açao Integralista Brasileira"
+ BRA_monarchism_party:0 "AIPB"
+ BRA_monarchism_party_long:0 "Acíao Imperial Patrianovista Brasileira"
+ BRA_antimonarchist_coalition:0 "CAB"
+ BRA_antimonarchist_coalition_long:0 "Coalizao Antimon?rquica Brasileira"
+ BRA_authoritarian_party:0 "Estado Novo"
+ BRA_authoritarian_party_long:0 "Estado Novo"
+ 
+ TUR_authoritarian_socialist_party:0 "TKP"
+ TUR_authoritarian_socialist_party_long:0 "Türkiye Komünist Partisi"
+ TUR_radical_socialist_party:0 "TKP"
+ TUR_radical_socialist_party_long:0 "Türkiye Komünist Partisi"
+ TUR_anarchist_party:0 "KAKP"
+ TUR_anarchist_party_long:0 "Kemalist Anarsist Kooperatif Partisi" #Anarchist Comittee
+ TUR_social_democrat_party:0 "CHP"
+ TUR_social_democrat_party_long:0 "Cumhuriyet Halk Partisi"
+ TUR_liberal_democrat_party:0 "TCF"
+ TUR_liberal_democrat_party_long:0 "Terakkiperver Cumhuriyet Firkasi"
+ TUR_conservative_democrat_party:0 "SCF"
+ TUR_conservative_democrat_party_long:0 "Serbest Cumhuriyet Firkasi"
+ TUR_democratic_party_proto_islamist:0 "Geleneksel Grup"
+ TUR_democratic_party_islamist:0 "DP"
+ TUR_democratic_party_islamist_long:0 "Demokrat Parti" 
+ TUR_fascism_party:0 "Fasist Konsey"
+ TUR_sultanate_precursor_party_long:0 "Geçici Hükümet"
+ TUR_monarchism_party:0 "Devlet-i Ebed-mëddet"  
+ TUR_authoritarian_party:0 "CHP"
+ TUR_authoritarian_party_long:0 "Cumhuriyet Halk Partisi"
+ TUR_theocracy_party:0 "Muslim Clergy"
+ 
+ HUN_authoritarian_socialist_party:0 "KMP"
+ HUN_authoritarian_socialist_party_long:0 "Kommunistík Magyarországi Pártja" #Matyas Rakosi
+ HUN_radical_socialist_party:0 "KMP"
+ HUN_radical_socialist_party_long:0 "Kommunistík Magyarországi Pártja" #none
+ HUN_anarchist_party:0 "AU"
+ HUN_anarchist_party_long:0 "Anarchista Unió" #None
+ HUN_social_democrat_party_long:0 "Magyarországi Szociáldemokrata Párt" #Árpád Szakasits
+ HUN_liberal_democrat_party:0 "PS"
+ HUN_liberal_democrat_party_long:0 "Polgári Szabadségpárt" #
+ HUN_conservative_democrat_party:0 "EP"
+ HUN_conservative_democrat_party_long:0 "Egysúges Párt" #Gyula gombos, in 28 may 1939 he's replaced by Pal Teleki
+ HUN_fascism_party:0 "NPHM"
+ HUN_fascism_party_long:0 "Nyilaskeresztes Párt - Hungarista Mozgalom" #Ferenc Szalasi
+ HUN_fascist_king_party:0 "House of Mecklenburg-Schwerin" #Friedrich Franz hereditary
+ HUN_bernadotte_party:0 "House of Bernadotte" #Prince Wilhelm, Duke of Södermanland
+ HUN_hohenzollern_party:0 "House of Hohenzollern-Sigmaringen" #Prince Michael of Romania
+ HUN_monarchism_party:0 "House of Habsburg" #Otto von Habsburg
+ HUN_authoritarian_party:0 "HMK"
+ HUN_authoritarian_party_long:0 "Horthy Miklós Kormányzúsága" #Horthy Miklós
+ 
+ ROM_authoritarian_socialist_party:0 "PCR"
+ ROM_authoritarian_socialist_party_long:0 "Partidul Comunist Roman" #Gheorghe Gheorghiu-Dej
+ ROM_radical_socialist_party:0 "PSMR"
+ ROM_radical_socialist_party_long:0 "Partidul Socialist al Muncitorilor din România" #Stefan Voitec
+ ROM_anarchist_party:0 "OPA-S"
+ ROM_anarchist_party_long:0 "Organizaçia de Propaganda Anarho-Sindicalista" #Barbu lazaereano
+ ROM_social_democrat_party:0 "PSDR"
+ ROM_social_democrat_party_long:0 "Partidul Social Democrat Román"  #Constantin Titel Petrescu
+ ROM_liberal_democrat_party:0 "PNL"
+ ROM_liberal_democrat_party_long:0 "Partidul National Liberal" #Georghe Tatarescu
+ ROM_conservative_democrat_party:0 "PNT"
+ ROM_conservative_democrat_party_long:0 "Partidul Naçional Taranesc" #Iuliu Maniu
+ ROM_fascism_party:0 "PNC"
+ ROM_fascism_party_long:0 "Partidul National Crestin" #Octavian Goga, after 1938 it's Ion Antonescu
+ ROM_iron_party:0 "Garda de Fier" #Corneliu Zelea Codreanu until 30 nov 1938, then replaced by Horia Sima.
+ ROM_monarchism_party:0 "FRN"
+ ROM_monarchism_party_long:0 "Frontul Renasterii Nationale" #King Carol
+ ROM_authoritarian_party:0 "GPM"
+ ROM_authoritarian_party_long:0 "Guvernul Prinçului Mihai" #Prince Michael
+ 
+ YUG_authoritarian_socialist_party:0 "SkJ"
+ YUG_authoritarian_socialist_party_long:0 "Savez komunista Jugoslavije" #Josip Broz « Tito »
+ YUG_radical_socialist_party:0 "SSRNJ"
+ YUG_radical_socialist_party_long:0 "Socijalisticki savez radnog naroda Jugoslavije" #Josip Broz « Tito »
+ YUG_anarchist_party:0 "ASI"
+ YUG_anarchist_party_long:0 "Anarho-Sindikalisticka Inicijativa" #Milosh Crnjanski
+ YUG_social_democrat_party:0 "SP"
+ YUG_social_democrat_party_long:0 "Socijaldemokratska Partija" #Etbin Kristan
+ YUG_liberal_democrat_party:0 "JDS"
+ YUG_liberal_democrat_party_long:0 "Jugoslovanska Demokratska Stranka" #Ljubomir Davidovich until 1940 where he's replaced by Milan Grol
+ YUG_conservative_democrat_party:0 "JNS"
+ YUG_conservative_democrat_party_long:0 "Jugoslavenska Nacionalna Stranka" #Petar Zhikovich
+ YUG_fascism_party:0 "JRZ"
+ YUG_fascism_party_long:0 "Jugoslovanska Radikalna Skupnost" #Milan Stojadinovich
+ YUG_monarchism_party:0 "House Karadordevic" #Regent Prince Paul then Peter II when deposed
+ YUG_authoritarian_party:0 "Chetniks" #Drajoljub-Draza Mihailovic
+ 
+ SER_authoritarian_socialist_party:0 "SkS"
+ SER_authoritarian_socialist_party_long:0 "Savez komunista Srbije" #Tito
+ SER_radical_socialist_party:0 "SSRNS"
+ SER_radical_socialist_party_long:0 "Socijalisticki savez radnog naroda Srbije" #Tito
+ SER_anarchist_party:0 "ASI"
+ SER_anarchist_party_long:0 "Anarho-Sindikalisticka Inicijativa"  #Milos Crnjanski
+ SER_social_democrat_party:0 "SP"
+ SER_social_democrat_party_long:0 "Socijaldemokratska Partija" #Etbin Kristan
+ SER_liberal_democrat_party:0 "SDS"
+ SER_liberal_democrat_party_long:0 "Srbija Demokratska Stranka" #Milan Grol
+ SER_conservative_democrat_party:0 "JNS"
+ SER_conservative_democrat_party_long:0 "Srbija Nacionalna Stranka" #Zikovic
+ SER_fascism_party:0 "GNS"
+ SER_fascism_party_long:0 "Government of National Salvation" #Milan Nedic
+ SER_monarchism_party:0 "House Karadordevic" #Peter II
+ SER_authoritarian_party:0 "Chetniks" #Draza
+ 
+ BUL_authoritarian_socialist_party:0 "BKP"
+ BUL_authoritarian_socialist_party_long:0 "Balgarska Komunisticheska Partiya"
+ BUL_radical_socialist_party:0 "BKP"
+ BUL_radical_socialist_party_long:0 "Balgarska Komunisticheska Partiya"
+ BUL_anarchist_party:0 "FNAKB"
+ BUL_anarchist_party_long:0 "Federatsiya na anarkhistite-komunisti v Bulgariya"
+ BUL_social_democrat_party:0 "ORSDP"
+ BUL_social_democrat_party_long:0 "Obedinena rabotnicheska sotsialdemokraticheska partiya"
+ BUL_liberal_democrat_party:0 "NLP"
+ BUL_liberal_democrat_party_long:0 " Natsionalliberalna partija"
+ BUL_conservative_democrat_party:0 "BZNS"
+ BUL_conservative_democrat_party_long:0 "Balgarski Zemedelski Naroden Sajuz"
+ BUL_fascism_party:0 "SBNL"
+ BUL_fascism_party_long:0 "Sayuzat na Balgarskite Natsionalni Legioni"
+ BUL_monarchism_party:0 "House Saxe-Coburg-Gotha-Koháry"
+ BUL_monarchism_party_long:0 "House of Saxe-Coburg and Gotha-Koháry"
+ BUL_authoritarian_party:0 "VP"
+ BUL_authoritarian_party_long:0 "Voenno Pravitelstvo"
+ BUL_zveno_bulgaria_neutrality_party:0 "ZVENO"
+ BUL_zveno_bulgaria_neutrality_party_long:0 "Military Union Directorate"
+ BUL_fatherland_front_party:0 "FF"
+ BUL_fatherland_front_party_long:0 "Fatherland Front"
+ BUL_ferdinand_loyalists_party:0 "Tsar Ferdinand Loyalists"
+ BUL_ferdinand_loyalists_party_long:0 "Tsar Ferdinand I Loyalists"
+ BUL_national_social_movement_party:0 "NSM"
+ BUL_national_social_movement_party_long:0 "National Social Movement"
+ 
+ SAF_authoritarian_socialist_party:0 "SACP"
+ SAF_authoritarian_socialist_party_long:0 "South African Communist Party"
+ SAF_radical_socialist_party:0 "NEUM"
+ SAF_radical_socialist_party_long:0 "Non-European Unity Movement"
+ SAF_anarchist_party:0 "ICU"
+ SAF_anarchist_party_long:0 "Industrial and Commercial Workers' Union"
+ SAF_social_democrat_party:0 "SALP"
+ SAF_social_democrat_party_long:0 "South African Labour Party"
+ SAF_liberal_democrat_party:0 "ANC"
+ SAF_liberal_democrat_party_long:0 "African National Congress"
+ SAF_conservative_democrat_party:0 "UNSAP"
+ SAF_conservative_democrat_party_long:0 "United National South African Party"
+ SAF_fascism_party:0 "GNP"
+ SAF_fascism_party_long:0 "Gesuiwerde Nasionale Party"
+ SAF_monarchism_party:0 "Royalist Faction"
+ SAF_authoritarian_party:0 "NP"
+ SAF_authoritarian_party_long:0 "National Party"
+ 
+ NZL_authoritarian_socialist_party:0 "CPNZ"
+ NZL_authoritarian_socialist_party_long:0 "Communist Party of New Zealand"
+ NZL_radical_socialist_party:0 "CPNZ"
+ NZL_radical_socialist_party_long:0 "Communist Party of New Zealand"
+ NZL_anarchist_party:0 "IWW-NZ-Aotearoa"
+ NZL_anarchist_party_long:0 "Industrial Workers of the World - New Zealand-Aotearoa"
+ NZL_social_democrat_party:0 "Labour"
+ NZL_social_democrat_party_long:0 "New Zealand Labour Party"
+ NZL_liberal_democrat_party:0 "Ratana"
+ NZL_conservative_democrat_party:0 "Coalition"
+ NZL_conservative_democrat_party_long:0 "United-Reform Coalition"
+ NZL_fascism_party:0 "NZL"
+ NZL_fascism_party_long:0 "New Zealand Legion"
+ NZL_monarchism_party:0 "Royalist Faction"
+ NZL_authoritarian_party:0 "Colonial Government"
+
+ NOR_authoritarian_socialist_party:0 "NKP"
+ NOR_authoritarian_socialist_party_long:0 "Norges Kommunistiske Parti" #Adam Egede-Nissen until 1946, then replaced by Emil Løvlien
+ NOR_radical_socialist_party:0 "TRK"
+ NOR_radical_socialist_party_long:0 "Trotskistisk Revolusjonært Kommunistparti" #Jeanette Olsen
+ NOR_anarchist_party:0 "SG"
+ NOR_anarchist_party_long:0 "Syndikalistisk Gruppe" #Anarchist Council
+ NOR_social_democrat_party:0 "AP"
+ NOR_social_democrat_party_long:0 "Arbeiderpartiet" #Oscar Torp till 1945, replaced by Einar Gerhardsen
+ NOR_liberal_democrat_party:0 "Venstre" #Johan Ludwig Mowinckel, replaced in 1940 by Jacob Stenerson Worm-Müller
+ NOR_conservative_democrat_party:0 "Høyre" #Johan H. Andresen until 1937, Ole Ludvig Bærøe until 1945, Arthur Nordlie for the rest.
+ NOR_fascism_party:0 "Fedrelandslaget" #Joakim Lehmkuhl until 1939, replaced by Victor Mogens
+ NOR_nazi_party:0 "NS"
+ NOR_nazi_party_long:0 "Nasjonal Samling" #Vidkun Quisling
+ NOR_monarchism_party:0 "House Glücksburg" #Haakon VII
+ NOR_authoritarian_party:0 "Military Government" #Provisional Government
+ 
+ HOL_authoritarian_socialist_party:0 "CPN"
+ HOL_authoritarian_socialist_party_long:0 "Communistische Partij Nederland" #Louis de Visser till 1940, then replaced by Paul de Groot.
+ HOL_radical_socialist_party:0 "RSP"
+ HOL_radical_socialist_party_long:0 "Revolutionair Socialistische Arbeiderspartij" #The Central Revolutionary Committee
+ HOL_anarchist_party:0 "FAN"
+ HOL_anarchist_party_long:0 "Federatie van Anarchisten" #Joop Westerweel, on death he's replaced by Anton Constandse or Arthur Lehning
+ HOL_social_democrat_party:0 "SDAP"
+ HOL_social_democrat_party_long:0 "Sociaal-Democratische Arbeiderspartij" #Johann Wilem Albarda, in 1939 he's replaced by Willem Drees
+ HOL_liberal_democrat_party:0 "VDB"
+ HOL_liberal_democrat_party_long:0 "Vrijzinnig Democratische Bond" #Dolf Joekes
+ HOL_conservative_democrat_party:0 "ARP"
+ HOL_conservative_democrat_party_long:0 "Anti-Revolutionaire Partij" #Hendrikus Coljin, in 1945 he's replaced by Jan Schouten
+ HOL_CHU_party:0 "CHU"
+ HOL_CHU_party_long:0 "Christelijk-Historische Unie" #Dirk van de Geer and in 1939 replaced by Hendrik Tilanus
+ HOL_fascism_party:0 "NSBN"
+ HOL_fascism_party_long:0 "Nationaal-Socialistische Beweging in Nederland" #Anton Mussert
+ HOL_monarchism_party:0 "House von Orange-Nassau" #Queen Wilhelmina
+ HOL_authoritarian_party:0 "RKS"
+ HOL_authoritarian_party_long:0 "Roomsch-Katholieke Staatspartij" #Piet Aalberse Sr. then in 1942 replaced by Carl Romme.
+ 
+ BEL_authoritarian_socialist_party:0 "KPB"
+ BEL_authoritarian_socialist_party_long:0 "Kommunistische Partij van België" #Joseph Jacquemotte then Julien Lahaut after Jacquemotte's death.
+ BEL_radical_socialist_party:0 "PCG"
+ BEL_radical_socialist_party_long:0 "Parti Socialiste Révolutionnaire" #« The Flemish leader is Henk Sneevliet until 1942' then  War van Overstraeten » Georges Vereeken until 42' in which he's replaced by Ernest Mandel
+ BEL_anarchist_party:0 "LCS"
+ BEL_anarchist_party_long:0 "Les Cahiers Socialistes" #Ernest « Ernestan » Tanrez, Léo « Actor » Campion, and Charles « Notebook/L'Itinérant » Cortvrint
+ BEL_social_democrat_party:0 "POB/BWP"
+ BEL_social_democrat_party_long:0 "Parti Ouvrier Belge/Belgische Werkliedenpartij" #Emile Vandervelde in 1936 then Paul henry Spaak in 1939 onwards.
+ BEL_liberal_democrat_party:0 "PL/LP"
+ BEL_liberal_democrat_party_long:0 "Parti Libéral/Liberale Partij" #Leon Dens in 36', Emile Coulonvaux in 39' and 42', Roger Motz in 45' onwards.
+ BEL_conservative_democrat_party:0 "PC/KP"
+ BEL_conservative_democrat_party_long:0 "Parti Catholique/Katholieke Partij" # Paul van Zeeland in 36', Hubert Pierlot until in 39'. 42'. 45', Gaston Eyskens in 48' onwards.
+ BEL_fascism_party:0 "PR"
+ BEL_fascism_party_long:0 "Parti Rexiste" #Leon Degrelle until 42' which it's Victor Matthys until 45' where it's back to Leon Degrelle
+ BEL_flemish_party:0 "VNV"
+ BEL_flemish_party_long:0 "Vlaamsch Nationaal Verbond" #Staf de Clercq until 42' in which he's replaced by Hendrik Elias
+ BEL_nazi_party:0 "Militarverwaltung" #Eggert Reeder
+ BEL_monarchism_party:0 "House Belgium" #Leopold III of Belgium
+ BEL_authoritarian_party:0 "National Provisional Government" #None
+ BEL_theocracy_party:0 "PNC"
+ BEL_theocracy_party_long:0 "Parti National Catholique" #Cardinal Jozef-Ernest van Roey
+ 
+ SWI_authoritarian_socialist_party:0 "KP"
+ SWI_authoritarian_socialist_party_long:0 "Kommunistische Partei der Schweiz" #Jules Humbert-Droz
+ SWI_radical_socialist_party:0 "KP"
+ SWI_radical_socialist_party_long:0 "Kommunistische Partei der Schweiz" #Federal Revolutionary Council
+ SWI_anarchist_party:0 "OAK"
+ SWI_anarchist_party_long:0 "Oltener Aktionskomitee" #Margarethe Faas-Hardegger or Lucien Tronchet.
+ SWI_social_democrat_party:0 "SP"
+ SWI_social_democrat_party_long:0 "Sozialdemokratische Partei der Schweiz" #Federal Council
+ SWI_liberal_democrat_party:0 "LP"
+ SWI_liberal_democrat_party_long:0 "Liberale Partei der Schweiz" #Federal Council
+ SWI_conservative_democrat_party:0 "CVP"
+ SWI_conservative_democrat_party_long:0 "Christlichdemokratische Volkspartei" #Federal Council
+ SWI_fascism_party:0 "NF"
+ SWI_fascism_party_long:0 "Nationale Front" #Rolf Henne until 1938, replaced by Robert Tobler
+ SWI_nazi_party:0 "Militarverwaltung" #Franz Riedwig (SS) or Leonardo Conti (Heer)
+ SWI_monarchism_party:0 "House Liechtenstein" #Franz I until death, replaced by Franz Josef I(I)
+ SWI_authoritarian_party:0 "FC"
+ SWI_authoritarian_party_long:0 "Federal Council" #Federal Council
+ 
+ RAJ_authoritarian_socialist_party:0 "CPI"
+ RAJ_authoritarian_socialist_party_long:0 "Communist Party of India"
+ RAJ_radical_socialist_party:0 "BLP-ICP"
+ RAJ_radical_socialist_party_long:0 "Bolshevik-Leninist Party of India, Ceylon and Burma"
+ RAJ_anarchist_party:0 "Satyagraha"
+ RAJ_social_democrat_party:0 "SP"
+ RAJ_social_democrat_party_long:0 "Socialist Party"
+ RAJ_liberal_democrat_party:0 "INC"
+ RAJ_liberal_democrat_party_long:0 "Indian National Congress"
+ RAJ_conservative_democrat_party:0 "IIM"
+ RAJ_conservative_democrat_party_long:0 "Indian Independence Movement"
+ RAJ_fascism_party:0 "Azad Hind"
+ RAJ_fascism_party_long:0 "Arzi Hukumat-e-Azad Hind"
+ RAJ_monarchism_party:0 "Princely States"
+ RAJ_authoritarian_party:0 "Colonial Government"
+ 
+ PER_authoritarian_socialist_party:0 "HTI"
+ PER_authoritarian_socialist_party_long:0 "Hezb-e Tude-ye Iran"
+ PER_radical_socialist_party:0 "HTI"
+ PER_radical_socialist_party_long:0 "Hezb-e Tude-ye Iran"
+ PER_anarchist_party:0 "JAS"
+ PER_anarchist_party_long:0 "Jnbsh Anarshast Sha'eh"
+ PER_social_democrat_party:0 "HI"
+ PER_social_democrat_party_long:0 "Hezb-e Iran"
+ PER_liberal_democrat_party:0 "HI"
+ PER_liberal_democrat_party_long:0 "Hezb-e Iran"
+ PER_conservative_democrat_party:0 "HEM"
+ PER_conservative_democrat_party_long:0 "Hezb-e Ettehad-e Melli"
+ PER_fascism_party:0 "HEM"
+ PER_fascism_party_long:0 " Hezb-e Erada-ye Melli"
+ PER_monarchism_party:0 "Pahlavi Dynasty"
+ PER_authoritarian_party:0 "HE"
+ PER_authoritarian_party_long:0 "Hezb-e 'Edalat"
+ PER_theocracy_party:0 "ER"
+ PER_theocracy_party_long:0 "'Elmaa Radakeal"
+ 
+ COL_authoritarian_socialist_party:0 "PCC"
+ COL_authoritarian_socialist_party_long:0 "Partido Comunista Colombiano"
+ COL_radical_socialist_party:0 "PCC"
+ COL_radical_socialist_party_long:0 "Partido Comunista Colombiano"
+ COL_anarchist_party:0 "TS"
+ COL_anarchist_party_long:0 "Trabajadoras Sindicales"
+ COL_social_democrat_party:0 "PLC"
+ COL_social_democrat_party_long:0 "Partido Liberal Colombiano"
+ COL_liberal_democrat_party:0 "PLC"
+ COL_liberal_democrat_party_long:0 "Partido Liberal Colombiano"
+ COL_conservative_democrat_party:0 "PCC"
+ COL_conservative_democrat_party_long:0 "Partido Conservador Colombiano"
+ COL_fascism_party:0 "GFP"
+ COL_fascism_party_long:0 "Gobierno Falangista Pronazi"
+ COL_monarchism_party:0 "FRE"
+ COL_monarchism_party_long:0 "Facción Realista Espa?ola"
+ COL_authoritarian_party:0 "Junta Militar"
+ 
+ CZE_authoritarian_socialist_party:0 "KSC"
+ CZE_authoritarian_socialist_party_long:0 "Komunistick? strana Ceskoslovenska"
+ CZE_radical_socialist_party:0 "KSC"
+ CZE_radical_socialist_party_long:0 "Komunistick? strana Ceskoslovenska"
+ CZE_anarchist_party:0 "FCKA"
+ CZE_anarchist_party_long:0 "Federace ceskych komunistickych anarchistu"
+ CZE_social_democrat_party:0 "CSSD"
+ CZE_social_democrat_party_long:0 "Cesk? strana soci?lne demokratick?"
+ CZE_liberal_democrat_party:0 "CSNS"
+ CZE_liberal_democrat_party_long:0 "Cesk? strana n?rodne soci?ln?"
+ CZE_conservative_democrat_party:0 "RSZML"
+ CZE_conservative_democrat_party_long:0 "Republik?nsk? strana zemedelsk?ho a malorolnick?ho lidu"
+ CZE_fascism_party:0 "NOF"
+ CZE_fascism_party_long:0 "N?rodn? obec fasistick?"
+ CZE_collaborationist_party:0 "Vlajka"
+ CZE_nazi_party:0 "NSDAP"
+ CZE_nazi_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+ CZE_monarchism_party:0 "House Habsburg-Lorraine"
+ CZE_authoritarian_party:0 "NS"
+ CZE_authoritarian_party_long:0 "N?rodn? sjednocen?"
+ 
+ GUY_authoritarian_socialist_party:0 ""
+ GUY_authoritarian_socialist_party_long:0 ""
+ GUY_radical_socialist_party:0 ""
+ GUY_radical_socialist_party_long:0 ""
+ GUY_anarchist_party:0 ""
+ GUY_anarchist_party_long:0 ""
+ GUY_social_democrat_party:0 ""
+ GUY_social_democrat_party_long:0 ""
+ GUY_liberal_democrat_party:0 ""
+ GUY_liberal_democrat_party_long:0 ""
+ GUY_conservative_democrat_party:0 ""
+ GUY_conservative_democrat_party_long:0 ""
+ GUY_fascism_party:0 ""
+ GUY_fascism_party_long:0 ""
+ GUY_monarchism_party:0 ""
+ GUY_authoritarian_party:0 ""
+ GUY_authoritarian_party_long:0 ""
+ 
+ MAD_authoritarian_socialist_party:0 ""
+ MAD_authoritarian_socialist_party_long:0 ""
+ MAD_radical_socialist_party:0 ""
+ MAD_radical_socialist_party_long:0 ""
+ MAD_anarchist_party:0 ""
+ MAD_anarchist_party_long:0 ""
+ MAD_social_democrat_party:0 ""
+ MAD_social_democrat_party_long:0 ""
+ MAD_liberal_democrat_party:0 ""
+ MAD_liberal_democrat_party_long:0 ""
+ MAD_conservative_democrat_party:0 ""
+ MAD_conservative_democrat_party_long:0 ""
+ MAD_fascism_party:0 ""
+ MAD_fascism_party_long:0 ""
+ MAD_monarchism_party:0 ""
+ MAD_authoritarian_party:0 ""
+ MAD_authoritarian_party_long:0 ""
+ 
+ CHL_authoritarian_socialist_party:0 "PCCh"
+ CHL_authoritarian_socialist_party_long:0 "Partido Comunista de Chile"
+ CHL_radical_socialist_party:0 "PCCh"
+ CHL_radical_socialist_party_long:0 "Partido Comunista de Chile"
+ CHL_anarchist_party:0 "CGT"
+ CHL_anarchist_party_long:0 "Confederación General del Trabajo"
+ CHL_social_democrat_party:0 "PRS"
+ CHL_social_democrat_party_long:0 "Partido Radical Socialista"
+ CHL_liberal_democrat_party:0 "PL"
+ CHL_liberal_democrat_party_long:0 "Partido Liberal"
+ CHL_conservative_democrat_party:0 "PC"
+ CHL_conservative_democrat_party_long:0 "Partido Conservador"
+ CHL_fascism_party:0 "VPS"
+ CHL_fascism_party_long:0 "Vanguardia Popular Socialista"
+ CHL_monarchism_party:0 "FRCh"
+ CHL_monarchism_party_long:0 "Facción Realista de Chile"
+ CHL_mackensen_party:0 "DNRP"
+ CHL_mackensen_party_long:0 "Deutsche Nationale Rückkehrpartei" #Augusto Juan de Mackenes, later Prince Adalbert I of Prussia, after death Prince Wilhelm Victor I.
+ CHL_authoritarian_party:0 "GMCh"
+ CHL_authoritarian_party_long:0 "Gobierno Militar de Chile"
+ 
+ ETH_authoritarian_socialist_party:0 "PMAC"
+ ETH_authoritarian_socialist_party_long:0 "Provisional Military Administrative Council"
+ ETH_radical_socialist_party:0 "PMAC"
+ ETH_radical_socialist_party_long:0 "Provisional Military Administrative Council"
+ ETH_anarchist_party:0 "CELU"
+ ETH_anarchist_party_long:0 "Confederation of Ethiopian Labor Unions"
+ ETH_social_democrat_party:0 "Left Woyane"
+ ETH_liberal_democrat_party:0 "Center Woyane"
+ ETH_conservative_democrat_party:0 "Right Woyane"
+ ETH_fascism_party:0 "AI"
+ ETH_fascism_party_long:0 "Amministrazione Italiana"
+ ETH_monarchism_party:0 "Solomonic Dynasty"
+ ETH_authoritarian_party:0 "OETAE"
+ ETH_authoritarian_party_long:0 "Occupied Enemy Territory Administration in Ethiopia"
+ 
+ ALB_authoritarian_socialist_party:0 "PPSH"
+ ALB_authoritarian_socialist_party_long:0 "Partia e Pun?s e Shqip?ris?"
+ ALB_radical_socialist_party:0 "PPSH"
+ ALB_radical_socialist_party_long:0 "Partia e Pun?s e Shqip?ris?"
+ ALB_anarchist_party:0 "FPK"
+ ALB_anarchist_party_long:0 "Fronti i Pun?tor?ve Anarkist"
+ ALB_social_democrat_party:0 "PP"
+ ALB_social_democrat_party_long:0 "Partia Popullore"
+ ALB_liberal_democrat_party:0 "PP"
+ ALB_liberal_democrat_party_long:0 "Partia e Popullit"
+ ALB_conservative_democrat_party:0 "PP"
+ ALB_conservative_democrat_party_long:0 "Partia P?rparimtare"
+ ALB_fascism_party:0 "PFSh"
+ ALB_fascism_party_long:0 "Partia Fashiste e Shqip?ris?"
+ ALB_monarchism_party:0 "House of Zogu"
+ ALB_authoritarian_party:0 "Military Junta"
+ 
+ BOL_authoritarian_socialist_party:0 "GT"
+ BOL_authoritarian_socialist_party_long:0 "Gobierno de Toro"
+ BOL_radical_socialist_party:0 "PCRB"
+ BOL_radical_socialist_party_long:0 "Partido Comunista Revolucionario de Bolivia"
+ BOL_anarchist_party:0 "COB"
+ BOL_anarchist_party_long:0 "Central Obrera Boliviana"
+ BOL_social_democrat_party:0 "PS"
+ BOL_social_democrat_party_long:0 "Partido Socialdem?crata"
+ BOL_liberal_democrat_party:0 "PL"
+ BOL_liberal_democrat_party_long:0 "Partido Liberal"
+ BOL_conservative_democrat_party:0 "PRG"
+ BOL_conservative_democrat_party_long:0 "Partido Republicano Genuino"
+ BOL_fascism_party:0 "FSB"
+ BOL_fascism_party_long:0 "Falange Socialista Boliviana"
+ BOL_monarchism_party:0 "CRAb"
+ BOL_monarchism_party_long:0 "Casa Real Afroboliviana"
+ BOL_kaiser_party:0 "House of Hohenzollern" #Governor Hans Kundt, later Wilhelm II, Wilhelm III or Prince Oskar I of Prussia.
+ BOL_authoritarian_party:0 "Military Junta"
+ 
+ NIC_authoritarian_socialist_party:0 "PCN"
+ NIC_authoritarian_socialist_party_long:0 "Partido Comunista de Nicaragua"
+ NIC_radical_socialist_party:0 "PRSRN"
+ NIC_radical_socialist_party_long:0 "Partido Radical Socialista Revolucionario de Nicaragua"
+ NIC_anarchist_party:0 "FON"
+ NIC_anarchist_party_long:0 "Federaci?n Obrera Nicarag?ense"
+ NIC_social_democrat_party:0 "PS"
+ NIC_social_democrat_party_long:0 "Partido Socialdem?crata"
+ NIC_liberal_democrat_party:0 "PLC"
+ NIC_liberal_democrat_party_long:0 "Partido Liberal Constitucionalista"
+ NIC_conservative_democrat_party:0 "PC"
+ NIC_conservative_democrat_party_long:0 "Partido Conservador"
+ NIC_fascism_party:0 "GNS"
+ NIC_fascism_party_long:0 "Guardia Nacional Somoza"
+ NIC_monarchism_party:0 "NFM"
+ NIC_monarchism_party_long:0 "Nueva Facci?n de Mosquitos"
+ NIC_authoritarian_party:0 "PLN"
+ NIC_authoritarian_party_long:0 "Partido Liberal Nacionalista"
+
+ COS_authoritarian_socialist_party:0 "VP"
+ COS_authoritarian_socialist_party_long:0 "Vanguardia Popular"
+ COS_radical_socialist_party:0 "VI"
+ COS_radical_socialist_party_long:0 "Vanguardia Izquierda"
+ COS_anarchist_party:0 "CGT"
+ COS_anarchist_party_long:0 "Confederaci?n General de Trabajadores"
+ COS_social_democrat_party:0 "LS"
+ COS_social_democrat_party_long:0 "Liga de la Socialdemocracia"
+ COS_liberal_democrat_party:0 "PN"
+ COS_liberal_democrat_party_long:0 "Partido Nacional"
+ COS_conservative_democrat_party:0 "PRN"
+ COS_conservative_democrat_party_long:0 "Partido Republicano Nacional"
+ COS_fascism_party:0 "GCBR"
+ COS_fascism_party_long:0 "Guardia Costera Blanca Rica"
+ COS_monarchism_party:0 FNR""
+ COS_monarchism_party_long:0 "Facci?n Nacional Real"
+ COS_authoritarian_party:0 "Junta Militar"
+ 
+ ELS_authoritarian_socialist_party:0 "PCS"
+ ELS_authoritarian_socialist_party_long:0 "Partido Comunista de El Salvador"
+ ELS_radical_socialist_party:0 "UNIS"
+ ELS_radical_socialist_party_long:0 "Uni?n Nacional de Izquierda Salvadore?a"
+ ELS_anarchist_party:0 "CSL"
+ ELS_anarchist_party_long:0 "Centro Sindical Libertario"
+ ELS_social_democrat_party:0 "PS"
+ ELS_social_democrat_party_long:0 "Partido Socialdemócrata"
+ ELS_liberal_democrat_party:0 "PL"
+ ELS_liberal_democrat_party_long:0 "Partido Liberal"
+ ELS_conservative_democrat_party:0 "PFP"
+ ELS_conservative_democrat_party_long:0 "Partido Fraterno Progresista"
+ ELS_fascism_party:0 "PNPP"
+ ELS_fascism_party_long:0 "Partido Nacional 'Pro-Patria'"
+ ELS_monarchism_party:0 "MFR"
+ ELS_monarchism_party_long:0 "Mart?nez Facciones Realistas"
+ ELS_authoritarian_party:0 "PNPP"
+ ELS_authoritarian_party_long:0 "Partido Nacional 'Pro-Patria'"
+ 
+ GUA_authoritarian_socialist_party:0 "PCG"
+ GUA_authoritarian_socialist_party_long:0 "Partido Comunista de Guatemala"
+ GUA_radical_socialist_party:0 "IR"
+ GUA_radical_socialist_party_long:0 "Izquierda Revolucionaria"
+ GUA_anarchist_party:0 "FOG"
+ GUA_anarchist_party_long:0 "Federaci?n Obrera de Guatemala"
+ GUA_social_democrat_party:0 "PS"
+ GUA_social_democrat_party_long:0 "Partido Socialdemócrata"
+ GUA_liberal_democrat_party:0 "PL"
+ GUA_liberal_democrat_party_long:0 "Partido Liberal"
+ GUA_conservative_democrat_party:0 "PC"
+ GUA_conservative_democrat_party_long:0 "Partido Conservador"
+ GUA_fascism_party:0 "PLP"
+ GUA_fascism_party_long:0 "Partido Liberal Progresista"
+ GUA_monarchism_party:0 "PUNN"
+ GUA_monarchism_party_long:0 "Partido de Ubico - Nuevo Napoleon"
+ GUA_authoritarian_party:0 "PLP"
+ GUA_authoritarian_party_long:0 "Partido Liberal Progresista"
+ 
+ SIA_authoritarian_socialist_party:0 "PKHPT"
+ SIA_authoritarian_socialist_party_long:0 "Phak Khommionit Haeng Prathet Thai"
+ SIA_radical_socialist_party:0 "KPPLHP"
+ SIA_radical_socialist_party_long:0 "Khua Ptoiwiti Phrrkh Khxmmiwnisite Hy`ng Prathehethiy"
+ SIA_anarchist_party:0 "SPXT"
+ SIA_anarchist_party_long:0 "Síma Phonihi Xnaihiptry Thíy"
+ SIA_social_democrat_party:0 "SP"
+ SIA_social_democrat_party_long:0 "Say Prachauhiptiy"
+ SIA_liberal_democrat_party:0 "PSS"
+ SIA_liberal_democrat_party_long:0 "Phrrkh Seriniym Shirihih"
+ SIA_conservative_democrat_party:0 "PXN"
+ SIA_conservative_democrat_party_long:0 "Phrrkh Xnuraksi's Niym"
+ SIA_fascism_party:0 "PF"
+ SIA_fascism_party_long:0 "Phibunsongkhram Faction"
+ SIA_monarchism_party:0 "Chakri Dynasty"
+ SIA_authoritarian_party:0 "KR"
+ SIA_authoritarian_party_long:0 "Khana Ratsadon"
+ 
+ URG_authoritarian_socialist_party:0 "PC"
+ URG_authoritarian_socialist_party_long:0 "Partido Comunista del Uruguay"
+ URG_radical_socialist_party:0 "SRU"
+ URG_radical_socialist_party_long:0 "Socialistas Radicales de Uruguay"
+ URG_anarchist_party:0 "CGT"
+ URG_anarchist_party_long:0 "Confederaci?n General de Trabajadores"
+ URG_social_democrat_party:0 "PC"
+ URG_social_democrat_party_long:0 "Partido Colorado"
+ URG_liberal_democrat_party:0 "PC"
+ URG_liberal_democrat_party_long:0 "Partido Colorado"
+ URG_conservative_democrat_party:0 "PN"
+ URG_conservative_democrat_party_long:0 "Partido Nacional"
+ URG_fascism_party:0 "QCN"
+ URG_fascism_party_long:0 "Quinta Columna Nazi"
+ URG_monarchism_party:0 "EIB"
+ URG_monarchism_party_long:0 "Exiliados Imperiales Brasile?os"
+ URG_authoritarian_party:0 "Junta Militar"
+ 
+ VEN_authoritarian_socialist_party:0 "PCV"
+ VEN_authoritarian_socialist_party_long:0 "Partido Comunista de Venezuela"
+ VEN_radical_socialist_party:0 "FAPCV"
+ VEN_radical_socialist_party_long:0 "Facción Antiestalinista del Partido Comunista de Venezuela"
+ VEN_anarchist_party:0 "SAMPT"
+ VEN_anarchist_party_long:0 "Sociedad de Ayuda Mutua Para los Trabajadores"
+ VEN_social_democrat_party:0 "AD"
+ VEN_social_democrat_party_long:0 "Acción Democrótica"
+ VEN_liberal_democrat_party:0 "PLI"
+ VEN_liberal_democrat_party_long:0 "Partido Liberal Independiente"
+ VEN_conservative_democrat_party:0 "PDV"
+ VEN_conservative_democrat_party_long:0 "Partido Democr?tico Venezolano"
+ VEN_fascism_party:0 "FV"
+ VEN_fascism_party_long:0 "Falange Venezolana"
+ VEN_monarchism_party:0 "SMV"
+ VEN_monarchism_party_long:0 "Sociedad Monárquica Venezolana"
+ VEN_authoritarian_party:0 "PC"
+ VEN_authoritarian_party_long:0 "Partido Contreras"
+ 
+ PRU_authoritarian_socialist_party:0 "PCP"
+ PRU_authoritarian_socialist_party_long:0 "Partido Comunista del Perú"
+ PRU_radical_socialist_party:0 "USA"
+ PRU_radical_socialist_party_long:0 "Unión Sindicalista de los Andes"
+ PRU_anarchist_party:0 "PAP"
+ PRU_anarchist_party_long:0 "Partido Aprista Peruano"
+ PRU_social_democrat_party:0 "PSD"
+ PRU_social_democrat_party_long:0 "Partido Social Dem?crata"
+ PRU_liberal_democrat_party:0 "PLI"
+ PRU_liberal_democrat_party_long:0 "Partido Liberal Independiente"
+ PRU_conservative_democrat_party:0 "CC"
+ PRU_conservative_democrat_party_long:0 "Coalici?n Conservadora"
+ PRU_fascism_party:0 "UR"
+ PRU_fascism_party_long:0 "Unión Revolucionaria"
+ PRU_monarchism_party:0 "TR"
+ PRU_monarchism_party_long:0 "Trama Realista"
+ PRU_authoritarian_party:0 "PB"
+ PRU_authoritarian_party_long:0 "Partido Benavides"
+ 
+ IRE_authoritarian_socialist_party:0 "PC?"
+ IRE_authoritarian_socialist_party_long:0 "P?irt? Cumannach na h?ireann"
+ IRE_radical_socialist_party:0 "GO?"
+ IRE_radical_socialist_party_long:0 "Gr?pa Oibrithe na h?ireann"
+ IRE_anarchist_party:0 "CC?"
+ IRE_anarchist_party_long:0 "Comhdh?il Ceardchumann na h?ireann"
+ IRE_social_democrat_party:0 "PLO"
+ IRE_social_democrat_party_long:0 "P?irt? an Lucht Oibre"
+ IRE_liberal_democrat_party:0 "FF"
+ IRE_liberal_democrat_party_long:0 "Fianna Fáil"
+ IRE_conservative_democrat_party:0 "FG"
+ IRE_conservative_democrat_party_long:0 "Fine Gael"
+ IRE_fascism_party:0 "LG"
+ IRE_fascism_party_long:0 "L?inte Gorma"
+ IRE_monarchism_party:0 "CNA-R"
+ IRE_monarchism_party_long:0 "Cumann Nua Ard-R?"
+ IRE_authoritarian_party:0 "JMP-B"
+ IRE_authoritarian_party_long:0 "Junta M?leata Pro-Bhreatnach"
+ 
+ AFG_authoritarian_socialist_party:0 "PDPA"
+ AFG_authoritarian_socialist_party_long:0 "People's Democratic Party of Afghanistan"
+ AFG_radical_socialist_party:0 "PDPA"
+ AFG_radical_socialist_party_long:0 "People's Democratic Party of Afghanistan"
+ AFG_anarchist_party:0 "PLUA"
+ AFG_anarchist_party_long:0 "Peasantry and Labourer Unions of Afghanistan"
+ AFG_social_democrat_party:0 "SPP"
+ AFG_social_democrat_party_long:0 "Socialist Parliament Party"
+ AFG_liberal_democrat_party:0 "LPP"
+ AFG_liberal_democrat_party_long:0 "Liberal Parliament Party"
+ AFG_conservative_democrat_party:0 "CPP"
+ AFG_conservative_democrat_party_long:0 "Conservative Parliament Party"
+ AFG_fascism_party:0 "UAL"
+ AFG_fascism_party_long:0 "United Afghan Legion"
+ AFG_monarchism_party:0 "Barakzai Dynasty"
+ AFG_authoritarian_party:0 "BIA"
+ AFG_authoritarian_party_long:0 "British Intervention Army"
+ 
+ LUX_authoritarian_socialist_party:0 "KPL"
+ LUX_authoritarian_socialist_party_long:0 "Kommunistesch Partei vu Lëtzebuerg" #Charles Marx
+ LUX_radical_socialist_party:0 "KPL"
+ LUX_radical_socialist_party_long:0 "Kommunistesch Partei vu Lëtzebuerg" #Charles Marx
+ LUX_anarchist_party:0 "SAL"
+ LUX_anarchist_party_long:0 "Syndikalistesch Aarbechterverbënn vu Lëtzebuerg" #Anarchist spain portrait
+ LUX_social_democrat_party:0 "LSAP"
+ LUX_social_democrat_party_long:0 "Lëtzebuerger Sozialistesch Aarbechterpartei" #Michel Rasquin
+ LUX_liberal_democrat_party:0 "RLP"
+ LUX_liberal_democrat_party_long:0 "Radikal-Liberal Partei" #generic but the leader is Nicolas Braunshausen
+ LUX_conservative_democrat_party:0 "RP"
+ LUX_conservative_democrat_party_long:0 "Rietspartei" #Joseph Bech until 1937 election then it's Pierre Dupong
+ LUX_fascism_party:0 "ONP"
+ LUX_fascism_party_long:0 "Onofhëngeg Nationalpartei" #Pierre Prüm
+ LUX_nazi_party:0 "VB"
+ LUX_nazi_party_long:0 "Volksdeutsche Bewegung" #Damien Kratzenburg
+ LUX_monarchism_party:0 "House Luxembourg" #Grand Duchess Charlotte
+ LUX_authoritarian_party:0 "ONP"
+ LUX_authoritarian_party_long:0 "Onofhëngeg Nationalpartei" #Pierre Prüm
+ 
+ BHU_authoritarian_socialist_party:0 "CPB"
+ BHU_authoritarian_socialist_party_long:0 "Communist Party of Bhutan"
+ BHU_radical_socialist_party:0 "DRS"
+ BHU_radical_socialist_party_long:0 "Druk Revolutionary Spark"
+ BHU_anarchist_party:0 "DS"
+ BHU_anarchist_party_long:0 "Druk Syndicate"
+ BHU_social_democrat_party:0 "DR"
+ BHU_social_democrat_party_long:0 "Druk Red"
+ BHU_liberal_democrat_party:0 "DY"
+ BHU_liberal_democrat_party_long:0 "Druk Yellow"
+ BHU_conservative_democrat_party:0 "DB"
+ BHU_conservative_democrat_party_long:0 "Druk Blue"
+ BHU_fascism_party:0 "DNR"
+ BHU_fascism_party_long:0 "Druk National Restoration"
+ BHU_monarchism_party:0 "Wangchuk Dynasty"
+ BHU_authoritarian_party:0 "DR"
+ BHU_authoritarian_party_long:0 "Druk Reactionary"
+ BHU_british_party:0 "CGBB"
+ BHU_british_party_long:0 "Colonial Governance of British Bhutan"
+ 
+ SLO_authoritarian_socialist_party:0 "KSS"
+ SLO_authoritarian_socialist_party_long:0 "Komunistick? strana Slovenska"
+ SLO_radical_socialist_party:0 "RLS"
+ SLO_radical_socialist_party_long:0 "Radik?lna lavica Slovenska"
+ SLO_anarchist_party:0 "RFS"
+ SLO_anarchist_party_long:0 "Robotn?cka Feder?cia Slovenska"
+ SLO_social_democrat_party:0 "KSD"
+ SLO_social_democrat_party_long:0 "Koal?cia Soci?lnej Demokracie"
+ SLO_liberal_democrat_party:0 "LSS"
+ SLO_liberal_democrat_party_long:0 "Liber?lna Strana Slovenska"
+ SLO_conservative_democrat_party:0 "KLS"
+ SLO_conservative_democrat_party_long:0 "Konzervat?vna ludov? Strana"
+ SLO_fascism_party:0 "SSNJ"
+ SLO_fascism_party_long:0 "Strana Slovenskej N?rodnej Jednoty"
+ SLO_monarchism_party:0 "House Habsburg-Lorraine"
+ SLO_native_monarchism_party:0 "House Nitra"
+ SLO_authoritarian_party:0 "VS"
+ SLO_authoritarian_party_long:0 "Vojenstvo Slovenska"
+ 
+ ECU_authoritarian_socialist_party:0 "PCE"
+ ECU_authoritarian_socialist_party_long:0 "Partido Comunista del Ecuador"
+ ECU_radical_socialist_party:0 "PCE"
+ ECU_radical_socialist_party_long:0 "Partido Comunista del Ecuador"
+ ECU_anarchist_party:0 "FRTE"
+ ECU_anarchist_party_long:0 "Federaci?n Regional de Trabajadores del Ecuador"
+ ECU_social_democrat_party:0 "PSE"
+ ECU_social_democrat_party_long:0 "Partido Socialista Ecuatoriano"
+ ECU_liberal_democrat_party:0 "PLRE"
+ ECU_liberal_democrat_party_long:0 "Partido Liberal Radical Ecuatoriano"
+ ECU_conservative_democrat_party:0 "PCE"
+ ECU_conservative_democrat_party_long:0 "Partido Conservador Ecuatoriano"
+ ECU_fascism_party:0 "ARNE"
+ ECU_fascism_party_long:0 "Alianza Revolucionaria Nacionalista Ecuatoriana"
+ ECU_monarchism_party:0 "SRQ"
+ ECU_monarchism_party_long:0 "Sociedad de Restauraci?n de Quito"
+ ECU_authoritarian_party:0 "Junta"
+ ECU_authoritarian_party_long:0 "Junta Militar"
+ 
+ HON_authoritarian_socialist_party:0 "PCH"
+ HON_authoritarian_socialist_party_long:0 "Partido Comunista de Honduras"
+ HON_radical_socialist_party:0 "PCH"
+ HON_radical_socialist_party_long:0 "Partido Comunista de Honduras"
+ HON_anarchist_party:0 "FC"
+ HON_anarchist_party_long:0 "Federaci?n Campesina"
+ HON_social_democrat_party:0 "PSH"
+ HON_social_democrat_party_long:0 "Partido Social de Honduras"
+ HON_liberal_democrat_party:0 "PLH"
+ HON_liberal_democrat_party_long:0 "Partido Liberal de Honduras"
+ HON_conservative_democrat_party:0 "PNH"
+ HON_conservative_democrat_party_long:0 "Partido Nacional de Honduras"
+ HON_fascism_party:0 "UFC"
+ HON_fascism_party_long:0 "United Fruit Company"
+ HON_monarchism_party:0 "SNR"
+ HON_monarchism_party_long:0 "Sociedad Nacional de Restauraci?n"
+ HON_authoritarian_party:0 "CU"
+ HON_authoritarian_party_long:0 "Corporate Union"
+ 
+ NEP_authoritarian_socialist_party:0 "CPN"
+ NEP_authoritarian_socialist_party_long:0 "Communist Party of Nepal"
+ NEP_radical_socialist_party:0 "RSNU"
+ NEP_radical_socialist_party_long:0 "Revolutionary Socialist Nepalese Union"
+ NEP_anarchist_party:0 "HWU"
+ NEP_anarchist_party_long:0 "Himalayan Worker's Union"
+ NEP_social_democrat_party:0 "NC"
+ NEP_social_democrat_party_long:0 "Nepali Congress"
+ NEP_liberal_democrat_party:0 "UDPN"
+ NEP_liberal_democrat_party_long:0 "United Democratic Party Nepal"
+ NEP_conservative_democrat_party:0 "NRGP"
+ NEP_conservative_democrat_party_long:0 "Nepal Rashtrabadi Gorkha Parishad"
+ NEP_fascism_party:0 "NIFF"
+ NEP_fascism_party_long:0 "Nepali Irredentist Fascist Front"
+ NEP_monarchism_party:0 "Rana Dynasty"
+ NEP_authoritarian_party:0 "NPP"
+ NEP_authoritarian_party_long:0 "Nepal Praja Parishad"
+ 
+ PAN_authoritarian_socialist_party:0 "PCP"
+ PAN_authoritarian_socialist_party_long:0 "Partido Comunista de Panam?"
+ PAN_radical_socialist_party:0 "FRICA"
+ PAN_radical_socialist_party_long:0 "Frente Revolucionario de Izquierda de Centroam?rica"
+ PAN_anarchist_party:0 "SGT"
+ PAN_anarchist_party_long:0 "Sindicato General de Trabajadores"
+ PAN_social_democrat_party:0 "PS"
+ PAN_social_democrat_party_long:0 "Partido Socialista"
+ PAN_liberal_democrat_party:0 "PLU"
+ PAN_liberal_democrat_party_long:0 "Partido Liberal Unido"
+ PAN_conservative_democrat_party:0 "PC"
+ PAN_conservative_democrat_party_long:0 "Partido Conservador"
+ PAN_fascism_party:0 "AC"
+ PAN_fascism_party_long:0 "Acci?n Comunal"
+ PAN_monarchism_party:0 "RN"
+ PAN_monarchism_party_long:0 "Restauraci?n Nacional"
+ PAN_authoritarian_party:0 "PP"
+ PAN_authoritarian_party_long:0 "Partido Paname?ista"
+ 
+ PHI_authoritarian_socialist_party:0 "PKP"
+ PHI_authoritarian_socialist_party_long:0 "Partido Komunista ng Pilipinas"
+ PHI_radical_socialist_party:0 "RLP"
+ PHI_radical_socialist_party_long:0 "Rebolusyonaryong Liga ng Pilipinas"
+ PHI_anarchist_party:0 "UTF"
+ PHI_anarchist_party_long:0 "Uni?n del Trabajo de Filipinas"
+ PHI_social_democrat_party:0 "PL"
+ PHI_social_democrat_party_long:0 "Partido Liberal - Quirino Wing"
+ PHI_liberal_democrat_party:0 "PL"
+ PHI_liberal_democrat_party_long:0 "Partido Liberal - Avelino Wing"
+ PHI_conservative_democrat_party:0 "PN"
+ PHI_conservative_democrat_party_long:0 "Partido Nacionalista"
+ PHI_fascism_party:0 "GP"   
+ PHI_fascism_party_long:0 "Ganap Party"
+ PHI_monarchism_party:0 "PMS"
+ PHI_monarchism_party_long:0 "Programa ng Monarchist Society"
+ PHI_authoritarian_party:0 "AFP"
+ PHI_authoritarian_party_long:0 "Armed Forces of the Philippines"
+ 
+ SAU_authoritarian_socialist_party:0 "HSS"
+ SAU_authoritarian_socialist_party_long:0 "al-Hizb al-Shuyu'i fi al-Sa'udiyah"
+ SAU_radical_socialist_party:0 "ST"
+ SAU_radical_socialist_party_long:0 "Shararat Thawria"
+ SAU_anarchist_party:0 "AEE"
+ SAU_anarchist_party_long:0 "Aitihad al-Eumaal al-Earab"
+ SAU_social_democrat_party:0 "TI"
+ SAU_social_democrat_party_long:0 "al-Taqadum al-Iashtirakiu"
+ SAU_liberal_democrat_party:0 "ID"
+ SAU_liberal_democrat_party_long:0 "al'Iislah al-Diymuqratiu"
+ SAU_conservative_democrat_party:0 "HSA"
+ SAU_conservative_democrat_party_long:0 "Hizb al-Sharieat al-Aslamiu"
+ SAU_fascism_party:0 "MWEF"
+ SAU_fascism_party_long:0 "Majlis al-Wahdat al-Earabiat al-Fashia"
+ SAU_monarchism_party:0 "House Saud"
+ SAU_authoritarian_party:0 "FWE"
+ SAU_authoritarian_party_long:0 "Fasil al-Wahdat al-Earabia"
+ 
+ YEM_authoritarian_socialist_party:0 "YSP"
+ YEM_authoritarian_socialist_party_long:0 "Yemeni Socialist Party"
+ YEM_radical_socialist_party:0 "AAA"
+ YEM_radical_socialist_party_long:0 "Alaitihad Althawriu Alyamaniu"
+ YEM_anarchist_party:0 "AUSA-Y"
+ YEM_anarchist_party_long:0 "Anarchist Union of South Arabia - Yemen"
+ YEM_social_democrat_party:0 "YDP"
+ YEM_social_democrat_party_long:0 "Yemeni Democratic Party"
+ YEM_liberal_democrat_party:0 "YLP"
+ YEM_liberal_democrat_party_long:0 "Yemeni Liberal Party"
+ YEM_conservative_democrat_party:0 "MB"
+ YEM_conservative_democrat_party_long:0 "Muslim Brotherhood"
+ YEM_fascism_party:0 "CY"
+ YEM_fascism_party_long:0 "Congress of Yemen"
+ YEM_monarchism_party:0 "House Rassid"
+ YEM_authoritarian_party:0 "BCR"
+ YEM_authoritarian_party_long:0 "British Colonial Rule"
+ 
+ OMA_authoritarian_socialist_party:0 "PLFMTS"
+ OMA_authoritarian_socialist_party_long:0 "Popular Liberation Front of Muscat and the Trucial States"
+ OMA_radical_socialist_party:0 "RFSAGS"
+ OMA_radical_socialist_party_long:0 "Revolutionary Front of South Arabia and the Gulf States"
+ OMA_anarchist_party:0 "AUSA-O"
+ OMA_anarchist_party_long:0 "Anarchist Union of South Arabia - Oman"
+ OMA_social_democrat_party:0 "SAO"
+ OMA_social_democrat_party_long:0 "Socialist Alternative for Oman"
+ OMA_liberal_democrat_party:0 "LPO"
+ OMA_liberal_democrat_party_long:0 "Liberal Party of Oman"
+ OMA_conservative_democrat_party:0 "CPO"
+ OMA_conservative_democrat_party_long:0 "Conservative Party of Oman"
+ OMA_fascism_party:0 "INOMS"
+ OMA_fascism_party_long:0 "Ibadi National Omani Muslim Society"
+ OMA_monarchism_party:0 "House al-Said"
+ OMA_authoritarian_party:0 "RNO"
+ OMA_authoritarian_party_long:0 "Reactionary Nobility of Oman"
+ OMA_theocracy_party:0 "SC"
+ OMA_theocracy_party_long:0 "Shura Council"
+ 
+ TIB_authoritarian_socialist_party:0 "SDL"
+ TIB_authoritarian_socialist_party_long:0 "Soviet Dalai Lama"
+ TIB_radical_socialist_party:0 "RDL"
+ TIB_radical_socialist_party_long:0 "Radical Dalai Lama"
+ TIB_anarchist_party:0 "PRAM"
+ TIB_anarchist_party_long:0 "Peasantry Religious Anarchist Movement"
+ TIB_social_democrat_party:0 "SNC"
+ TIB_social_democrat_party_long:0 "Socialist Nobility Council"
+ TIB_liberal_democrat_party:0 "LNC"
+ TIB_liberal_democrat_party_long:0 "Liberal Nobility Council"
+ TIB_conservative_democrat_party:0 "RNC"
+ TIB_conservative_democrat_party_long:0 "Reactionary Nobility Council"
+ TIB_fascism_party:0 "TNS"
+ TIB_fascism_party_long:0 "Tibetan National Society"
+ TIB_monarchism_party:0 "RR"
+ TIB_monarchism_party_long:0 "Reting Rinpoche"
+ TIB_authoritarian_party:0 "NC"
+ TIB_authoritarian_party_long:0 "Nobility Council"
+ TIB_theocracy_party:0 "DL"
+ TIB_theocracy_party_long:0 "Dalai Lama"
+ 
+ MON_authoritarian_socialist_party:0 "MAKN"
+ MON_authoritarian_socialist_party_long:0 "Mongol Ardyn Khuvisgalt Nam"
+ MON_radical_socialist_party:0 "MAKN"
+ MON_radical_socialist_party_long:0 "Mongol Ardyn Khuvisgalt Nam"
+ MON_anarchist_party:0 "CN-M"
+ MON_anarchist_party_long:0 "Chudruk Nam - Mongol"
+ MON_social_democrat_party:0 "MAN"
+ MON_social_democrat_party_long:0 "Mongol Ardyn Nam"
+ MON_liberal_democrat_party:0 "ZK"
+ MON_liberal_democrat_party_long:0 "Zöv Khandlaga"
+ MON_conservative_democrat_party:0 "BJAL"
+ MON_conservative_democrat_party_long:0 "Baruun Jigüüriin Ardchillyn Lig"
+ MON_fascism_party:0 "CSZN"
+ MON_fascism_party_long:0 "Chingisiin Sergeen Zasvarlakh Niigemleg"
+ MON_altfascism_party:0 "TK"
+ MON_altfascism_party_long:0 "Tsagaan Khas"
+ MON_monarchism_party:0 "Bogd Khan"
+ MON_authoritarian_party:0 "TK"
+ MON_authoritarian_party_long:0 "Töv Khoroo"
+ 
+ TAN_authoritarian_socialist_party:0 "TTAQN"
+ TAN_authoritarian_socialist_party_long:0 "Tangnu Tuva-yin arad-un qubisγal-tu nam"
+ TAN_radical_socialist_party:0 "KBSK"
+ TAN_radical_socialist_party_long:0 "Khuvisgalt Buddyn Shashny Kholboo"
+ TAN_anarchist_party:0 "CN-T"
+ TAN_anarchist_party_long:0 "Chudruk Nam - Tuva"
+ TAN_social_democrat_party:0 "TSN"
+ TAN_social_democrat_party_long:0 "Tuvagiin Sotsialist Nam"
+ TAN_liberal_democrat_party:0 "LE"
+ TAN_liberal_democrat_party_long:0 "Libyeral Erkh"
+ TAN_conservative_democrat_party:0 "NKDN"
+ TAN_conservative_democrat_party_long:0 "Niigmiin Konsyervativ Dürmiin Nam"
+ TAN_fascism_party:0 "O-M FN"
+ TAN_fascism_party_long:0 "Oros-Mongolyn Fashist Niigemleg"
+ TAN_monarchism_party:0 "Uriankhai Dynasty"
+ TAN_authoritarian_party:0 "TAU AN"
+ TAN_authoritarian_party_long:0 "Tuva-Altai-Uriankhain Avangard Niigemleg"
+ 
+ PAR_authoritarian_socialist_party:0 "PRF"
+ PAR_authoritarian_socialist_party_long:0 "Partido Febrerista"
+ PAR_radical_socialist_party:0 "PRF"
+ PAR_radical_socialist_party_long:0 "Partido Revolucionario Febrerista"
+ PAR_anarchist_party:0 "FORP"
+ PAR_anarchist_party_long:0 "Federación Obrera Regional Paraguaya"
+ PAR_social_democrat_party:0 "PRF"
+ PAR_social_democrat_party_long:0 "Partido Revolucionario Febrerista"
+ PAR_liberal_democrat_party:0 "PL"
+ PAR_liberal_democrat_party_long:0 "Partido Liberal"
+ PAR_conservative_democrat_party:0 "ANR - PC"
+ PAR_conservative_democrat_party_long:0 "Asociación Nacional Republicana – Partido Colorado"
+ PAR_fascism_party:0 "PF"
+ PAR_fascism_party_long:0 "Partido Feberista"
+ PAR_monarchism_party:0 "House Morínigo"
+ PAR_authoritarian_party:0 "PF"
+ PAR_authoritarian_party_long:0 "Partido Feberista"
+ 
+ CUB_authoritarian_socialist_party:0 "PCC"
+ CUB_authoritarian_socialist_party_long:0 "Partido Comunista de Cuba" #Batista
+ CUB_radical_socialist_party:0 "PCC"
+ CUB_radical_socialist_party_long:0 "Partido Comunista de Cuba"
+ CUB_anarchist_party:0 "CNT"
+ CUB_anarchist_party_long:0 "Confederación Nacional del Trabajo"
+ CUB_social_democrat_party:0 "PPC"
+ CUB_social_democrat_party_long:0 "Partido Popular Cubano"
+ CUB_liberal_democrat_party:0 "PLC"
+ CUB_liberal_democrat_party_long:0 "Partido Liberal de Cuba"
+ CUB_conservative_democrat_party:0 "PCN"
+ CUB_conservative_democrat_party_long:0 "Partido Conservador Nacional"
+ CUB_fascism_party:0 "PFC"
+ CUB_fascism_party_long:0 "Partido de la Falange Cubana"
+ CUB_monarchism_party:0 "House of Bourbon" #Spanish royal
+ CUB_authoritarian_party:0 "PAP"
+ CUB_authoritarian_party_long:0 "Partido de Acción Progresista" #Batista
+ 
+ DOM_authoritarian_socialist_party:0 "PCD"
+ DOM_authoritarian_socialist_party_long:0 "Partido Comunista de Dominicana"
+ DOM_radical_socialist_party:0 "BR"
+ DOM_radical_socialist_party_long:0 "Bloque Revolucionario"
+ DOM_anarchist_party:0 "CNT"
+ DOM_anarchist_party_long:0 "Confederación Nacional del Trabajo"
+ DOM_social_democrat_party:0 "PLN"
+ DOM_social_democrat_party_long:0 "Partido Laborista Nacional"
+ DOM_liberal_democrat_party:0 "PND"
+ DOM_liberal_democrat_party_long:0 "Partido Nacional Democrático"
+ DOM_conservative_democrat_party:0 "PD"
+ DOM_conservative_democrat_party_long:0 "Partido Dominicano"
+ DOM_fascism_party:0 "PT"
+ DOM_fascism_party_long:0 "Partido Trujillo"
+ DOM_monarchism_party:0 "House Trujillo"
+ DOM_authoritarian_party:0 "PD"
+ DOM_authoritarian_party_long:0 "Partido Dominicano"
+ 
+ HAI_authoritarian_socialist_party:0 "PKA"
+ HAI_authoritarian_socialist_party_long:0 "Pati Kominis Ayisyen" #Jacques Roumain
+ HAI_radical_socialist_party:0 "NPCH"
+ HAI_radical_socialist_party_long:0 "Nouveau Parti Communiste Haïtien"
+ HAI_anarchist_party:0 "CGT - Haiti"
+ HAI_anarchist_party_long:0 "Confédération Générale du Travail - Haiti"
+ HAI_social_democrat_party:0 "MOP"
+ HAI_social_democrat_party_long:0 "Mouvement Ouvrier Paysan"
+ HAI_liberal_democrat_party:0 "Parti de Lescot"
+ HAI_conservative_democrat_party:0 "Parti de Vincent"
+ HAI_fascism_party:0 "PUN"
+ HAI_fascism_party_long:0 "Parti de l Unité Nationale" #Papa Doc
+ HAI_monarchism_party:0 "House Wirkus" #King Faustin Wirkus II, when he dies he's replaced by his son (generic portrait)
+ HAI_authoritarian_party:0 "FAH"
+ HAI_authoritarian_party_long:0 "Forces Armées d'Haïti"
+ 
+ KOR_authoritarian_socialist_party:0 "CR"
+ KOR_authoritarian_socialist_party_long:0 "Chosŏn Rodongdang" #Kim il Sung
+ KOR_radical_socialist_party:0 "« Juche »"
+ KOR_radical_socialist_party_long:0 "Minjogtong-ilgwa Man-in-ui Dangyeol-eul Wihan Juchedang" #Politburo and a general yet to be decided
+ KOR_anarchist_party:0 "JIH"
+ KOR_anarchist_party_long:0 "Joseon Inmin Hyeobhoe" #Korean People's Association
+ KOR_social_democrat_party:0 "Hangugsahoedang" #Lyuh Woon Hyung
+ KOR_liberal_democrat_party:0 "MD"
+ KOR_liberal_democrat_party_long:0 "Minju Dang"
+ KOR_conservative_democrat_party:0 "Jayudang"
+ KOR_fascism_party:0 "Guggachoegohoeui"
+ KOR_irredentist_party:0 "«Goguryeo»" #Sin Chaeho
+ KOR_monarchism_party:0 "Yi Dynasty" #Yi Un
+ KOR_authoritarian_party:0 "HSJ"
+ KOR_authoritarian_party_long:0 "Hangug Sigmin Jeongbu"
+ 
+ ICE_authoritarian_socialist_party:0 "KÍ"
+ ICE_authoritarian_socialist_party_long:0 "Kommúnistaflokkur Íslands"
+ ICE_radical_socialist_party:0 "Sósíalistabandalagið"
+ ICE_anarchist_party:0 "NS"
+ ICE_anarchist_party_long:0 "Nýtt Samveldi"
+ ICE_social_democrat_party:0 "Alþýðuflokkurinn"
+ ICE_liberal_democrat_party:0 "Framsóknarflokkurinn"
+ ICE_conservative_democrat_party:0 "Sjálfstæðisflokkurinn"
+ ICE_fascism_party:0 "FÞ"
+ ICE_fascism_party_long:0 "Flokkur Þjóðernissinna"
+ ICE_monarchism_party:0 "House Glücksburg" #Christian X
+ ICE_authoritarian_party:0 "Occupation"
+ ICE_authoritarian_party_long:0 "Allied Occupation Government"
+ 
+ SYR_authoritarian_socialist_party:0 "HSS"
+ SYR_authoritarian_socialist_party_long:0 "al-Hizb aš-Šuyūʿi as-Sūrī" #Khalid Bakdesh
+ SYR_radical_socialist_party:0 "HBEI"
+ SYR_radical_socialist_party_long:0 "Hizb al-Baeth al-Earabii al-Iaishtirakii" #Akram al-Hawrani, Michel Aflaq, or Salah al-Din al-Bitar.
+ SYR_anarchist_party:0 "AAS"
+ SYR_anarchist_party_long:0 "al-Aitihad al Anarkyu al-Suwriu" #Anarchist generic
+ SYR_social_democrat_party:0 "HSDS"
+ SYR_social_democrat_party_long:0 "al-Hizb al-Aishtirakiu al-Suwriu" #El Generico
+ SYR_liberal_democrat_party:0 "HIWBS"
+ SYR_liberal_democrat_party_long:0 "Al-Kutlah Al-Wataniyah" #Mohammad Ali Bey al-Abed, Hashim al-Atassi, Bahji al-Khatib (arab generic), Taj al-Din al-Hasani (Arab generic), Shukri al-Quwaiti.
+ SYR_conservative_democrat_party:0 "HSS"
+ SYR_conservative_democrat_party_long:0 "Hizb al-Shaeb al-Suwrii" #Nazim al-Qudsi or Hashim al-Atassi
+ SYR_fascism_party:0 "HSQA"
+ SYR_fascism_party_long:0 "al-Hizb al-Suwriu al-Qawmiu al-Aijtimaeiu" #Antoun Saadeh
+ SYR_monarchism_party:0 "Hashemite Dynasty" #King Ghazi I then King Faisal II, also regent Abd al-Ilah
+ SYR_authoritarian_party:0 "Mandat"
+ SYR_authoritarian_party_long:0 "Mandat Colonial Français" #Damien de Martel (French generic) then Georges Catroux
+ 
+ IRQ_authoritarian_socialist_party:0 "HSI"
+ IRQ_authoritarian_socialist_party_long:0 "Al-Hizb ash-Shiyuʿī al-Iraqi" #Yusuf Salman Yusuf (Comrade Faud)
+ IRQ_radical_socialist_party:0 "HBEI"
+ IRQ_radical_socialist_party_long:0 "Hizb al-Baeth al-Earabii al-Iaishtirakii" #Faud al-Rikabi
+ IRQ_anarchist_party:0 "AFE"
+ IRQ_anarchist_party_long:0 "al-Aitihad al-Fawdawiu al-Eiraqiu" #Anarchist generic
+ IRQ_social_democrat_party:0 "HWD"
+ IRQ_social_democrat_party_long:0 "Hizb al-Wataniyah al-Dimuqratiyah" #Ja'far Abu al-Timman, after death he's replaced by a Mohammed Hadid
+ IRQ_liberal_democrat_party:0 "HL"
+ IRQ_liberal_democrat_party_long:0 "al-Hizb al-Liybraliu" #Tawfiq aL-Suwaidi
+ IRQ_conservative_democrat_party:0 "HIW"
+ IRQ_conservative_democrat_party_long:0 "Hizb al-Ikha al-Watani" #Yasin al-Hashimi, then Hikmat Sulayman
+ IRQ_fascism_party:0 "al-iqda' al-arba a" 
+ IRQ_fascism_party_long:0 "al-Murabba al-dhahabi" #Rashid Ali al-Gaylani
+ IRQ_monarchism_party:0 "Hashemite Dynasty" #King Ghazi I then King Faisal II, also regent Abd al-Ilah
+ IRQ_authoritarian_party:0 "HAD"
+ IRQ_authoritarian_party_long:0 "Hizb al-Aitihad al-Dusturii" #Nuri al-Said
+ IRQ_bakr_sidqi_party:0 "Hukumat Bakr Sidqi" #General Bakr Sidqi
+ 
+ KUW_authoritarian_socialist_party:0 "HMLK"
+ KUW_authoritarian_socialist_party_long:0 "al-Hizb alm-Markisiu al-Liyniniu al-Kuaytiu"
+ KUW_radical_socialist_party:0 "HBEI"
+ KUW_radical_socialist_party_long:0 "Hizb al-Baeth al-Earabii al-Iaishtirakii" #Faud al-Rikabi
+ KUW_anarchist_party:0 "AAK"
+ KUW_anarchist_party_long:0 "Atihad al-Anarkiiyn al-Khalijiiyn"
+ KUW_social_democrat_party:0 "HTK"
+ KUW_social_democrat_party_long:0 "al-Harakat al-Taqadumiat al-Kuaytia"
+ KUW_liberal_democrat_party:0 "TDW"
+ KUW_liberal_democrat_party_long:0 "Al-Tehalef Al-Dimoqrati Al-Watani"
+ KUW_conservative_democrat_party:0 "Hadas"
+ KUW_fascism_party:0 "HT"
+ KUW_fascism_party_long:0 "Hizb ut-Tahrir"
+ KUW_monarchism_party:0 "House Sabah" #Ahmad Al-Jaber Al-Sabah
+ KUW_authoritarian_party:0 "KES"
+ KUW_authoritarian_party_long:0 "Kutlat al-Eamal al-Shaebii"
+ 
+ LEB_authoritarian_socialist_party:0 "HSL"
+ LEB_authoritarian_socialist_party_long:0 "al-Hizb al-Shuyueiu al-Lubnaniu" #Artin Madoyen (Armenian Generic), Farajallah el-Helou (Arab Generic), or Husayn Muruwwa
+ LEB_radical_socialist_party:0 "HBEI"
+ LEB_radical_socialist_party_long:0 "Hizb al-Baeth al-Earabii al-Iaishtirakii" #Mahmoud Baydoun (generic)
+ LEB_anarchist_party:0 "MBSA-JL"
+ LEB_anarchist_party_long:0 "Munazamat Bilad al-Shaam al-Anarkiat - Jabal Lubnan" #anarchist generic
+ LEB_social_democrat_party:0 "HTI"
+ LEB_social_democrat_party_long:0 "al-Hizb al-Taqadummi al-Ishtiraki" #Kamall Jumblat
+ LEB_liberal_democrat_party:0 "KD"
+ LEB_liberal_democrat_party_long:0 "al-Kutla ad-Dustuuriyya" #Bechera El Khoury
+ LEB_conservative_democrat_party:0 "KW"
+ LEB_conservative_democrat_party_long:0 "al-Kutlat al-Watania" #Emille Edde
+ LEB_fascism_party:0 "Kataeb" #Alfred Georges Naccache or Pierre Gameyal
+ LEB_saadeh_party:0 "HSQA"
+ LEB_saadeh_party_long:0 "al-Hizb al-Suwriu al-Qawmiu al-Aijtimaeiu" #Antoun Saadeh
+ LEB_monarchism_party:0 "Hashemite Dynasty" #King Ghazi I then King Faisal II, also regent Abd al-Ilah
+ LEB_authoritarian_party:0 "Mandat"
+ LEB_authoritarian_party_long:0 "Mandat Colonial Français" #Georges Catroux
+ 
+ PAL_authoritarian_socialist_party:0 "HSF"
+ PAL_authoritarian_socialist_party_long:0 "Uṣbat at-Taḥrīr al-Waṭaniyy fi Filasṭīn" #Haidar Abdel-Shafi, Emile Habibi, or Emile Touma.
+ PAL_radical_socialist_party:0 "RISS"
+ PAL_radical_socialist_party_long:0 "Hizb al-Baeth al-Earabii al-Iaishtirakii" #Munif al-Razzaz
+ PAL_anarchist_party:0 "Kibits" #Kibbutz
+ PAL_social_democrat_party:0 "Fatah" #Amin al-Husseini
+ PAL_liberal_democrat_party:0 "IDF" 
+ PAL_liberal_democrat_party_long:0 "al-Ittihad al-Dimuqrati al-Filastini" #Amin al-Husseini
+ PAL_conservative_democrat_party:0 "HIA"
+ PAL_conservative_democrat_party_long:0 "al-Hayyat al-Earabiat al-Eulya" #Amin al-Husseini
+ PAL_fascism_party:0 "JIA"
+ PAL_fascism_party_long:0 "Jaysh al-Inqadh al-Arabi" #Fawzi al-Qawuqji
+ PAL_monarchism_party:0 "Hashemite Dynasty" #Emir Abdullah I
+ PAL_authoritarian_party:0 "Mandate"
+ PAL_authoritarian_party_long:0 "British Colonial Mandate" #Arthur Grenfell Wauchope, Harold MacMichael, and Sir Alan Cunningham
+ 
+ JOR_authoritarian_socialist_party:0 "HSU"
+ JOR_authoritarian_socialist_party_long:0 "al-Hizb al-Shuyu i al-Urduni" #Faraj Al-Tameezi (generic)
+ JOR_radical_socialist_party:0 "HSU"
+ JOR_radical_socialist_party_long:0 "Hizb al-Baeth al-Earabii al-Iaishtirakii" #Abdullah Rimawi (generic)
+ JOR_anarchist_party:0 "HF"
+ JOR_anarchist_party_long:0 "Harakat al-Fanaan" #generic
+ JOR_social_democrat_party:0 "HAI"
+ JOR_social_democrat_party_long:0 "Al-Hizb Al-Watani Al-Ishtiraki" #Suleiman Nabulsi
+ JOR_liberal_democrat_party:0 "HL"
+ JOR_liberal_democrat_party_long:0 "al-Hizb al-Liybraliu" #generic
+ JOR_conservative_democrat_party:0 "IM"
+ JOR_conservative_democrat_party_long:0 "al-Ikhwān al-Muslimūn" #Abu Qura (generic)
+ JOR_fascism_party:0 "HT"
+ JOR_fascism_party_long:0 "Hizb ut-Tahrir" #Muhammad Taqi al-Din bin Ibrāhim bin Mustafā bin Ismā'īl bin Yūsuf al-Nab'hāni
+ JOR_monarchism_party:0 "Hashemite Dynasty" #King Abdullah I
+ JOR_authoritarian_party:0 "Mandate"
+ JOR_authoritarian_party:0 "British Colonial Mandate" #Arthur Grenfell Wauchope, Harold MacMichael, and Sir Alan Cunningham
+ 
+ EGY_authoritarian_socialist_party:0 "HSM"
+ EGY_authoritarian_socialist_party_long:0 "al-Hizb al-Shuyueiu al-Misriu"
+ EGY_radical_socialist_party:0 "IT"
+ EGY_radical_socialist_party_long:0 "al-Ištirākiyyūn aṯ-Tawriyyūn"
+ EGY_anarchist_party:0 "HTRA"
+ EGY_anarchist_party_long:0 "Harakat Tulaab al-Rilam al'Aswad"
+ EGY_social_democrat_party:0 "Wafd"
+ EGY_social_democrat_party_long:0 "Ḥizb al-Wafd «Left»"
+ EGY_liberal_democrat_party:0 "Wafd"
+ EGY_liberal_democrat_party_long:0 "Ḥizb al-Wafd «Center»"
+ EGY_conservative_democrat_party:0 "Watani"
+ EGY_conservative_democrat_party_long:0 "al-Ḥizb al-Waṭanī"
+ EGY_fascism_party:0 "HMEF"
+ EGY_fascism_party_long:0 "al-Hizb Misr El-Fatah"
+ EGY_monarchism_party:0 "House Muhammad Ali"
+ EGY_authoritarian_party:0 "MG"
+ EGY_authoritarian_party_long:0 "Military Government"
+ 
+ ISR_authoritarian_socialist_party:0 "MHPMH"
+ ISR_authoritarian_socialist_party_long:0 "Mifleget HaPoalim HaMeuhedet"
+ ISR_radical_socialist_party:0 "LFSSS"
+ ISR_radical_socialist_party_long:0 "Lige Fun ​​Semitishe Savetishe Satsyalistn"
+ ISR_anarchist_party:0 "Kibbutz"
+ ISR_social_democrat_party:0 "MPEY"
+ ISR_social_democrat_party_long:0 "Mifleget Poalei Eretz Yisrael"
+ ISR_liberal_democrat_party:0 "HTHK"
+ ISR_liberal_democrat_party_long:0 "HaTzionim HaKlaliym"
+ ISR_conservative_democrat_party:0 "Herut"
+ ISR_fascism_party:0 "GTB"
+ ISR_fascism_party_long:0 "Groym e Tsoynistish e Bavegun g"
+ ISR_monarchism_party:0 "NIRS"
+ ISR_monarchism_party_long:0 "New Israeli Royalist Society"
+ ISR_authoritarian_party:0 "Mandate"
+ ISR_authoritarian_party_long:0 "British Mandate of Palestine"
+ 
+ VIN_authoritarian_socialist_party:0 "Minh"
+ VIN_authoritarian_socialist_party_long:0 "Viet Minh"
+ VIN_radical_socialist_party:0 "LL"
+ VIN_radical_socialist_party_long:0 "La Lutte"
+ VIN_anarchist_party:0 "LDPBTT"
+ VIN_anarchist_party_long:0 "Lien Doan pho Bien tap The"
+ VIN_social_democrat_party:0 ""
+ VIN_social_democrat_party_long:0 "Dang Xa hoi Viêt Nam"
+ VIN_liberal_democrat_party:0 "CLNVCMD"
+ VIN_liberal_democrat_party_long:0 "Cần lao Nhân vi Cách Mạng Dảng"
+ VIN_conservative_democrat_party:0 "DNDHDVN"
+ VIN_conservative_democrat_party_long:0 "Dang Nhan Dan Hanh Dong Viêt Nam"
+ VIN_fascism_party:0 "VNQPH"
+ VIN_fascism_party_long:0 "Việt Nam Quang Phuc Hoi «Right» "
+ VIN_monarchism_party:0 "VNQPH"
+ VIN_monarchism_party_long:0 "Việt Nam Quang Phuc Hoi «Center»"
+ VIN_authoritarian_party:0 "VNQPH"
+ VIN_authoritarian_party_long:0 "Việt Nam Quang Phuc Hoi «Moderate»"
+ 
+ CAM_authoritarian_socialist_party:0 "KCP"
+ CAM_authoritarian_socialist_party_long:0 "Khmer Communist Party"
+ CAM_radical_socialist_party:0 "«Pol Pot»"
+ CAM_radical_socialist_party_long:0 "Khmer Communist Party «Pol Pot»"
+ CAM_anarchist_party:0 "CNSP"
+ CAM_anarchist_party_long:0 "Cambodian National Sustaining Party"
+ CAM_social_democrat_party:0 "DP"
+ CAM_social_democrat_party_long:0 "Democratic Party"
+ CAM_liberal_democrat_party:0 "RP"
+ CAM_liberal_democrat_party_long:0 "Republican Party"
+ CAM_conservative_democrat_party:0 "Sangkum"
+ CAM_fascism_party:0 "Khmer Serai"
+ CAM_monarchism_party:0 "House Norodom"
+ CAM_authoritarian_party:0 "GCF"
+ CAM_authoritarian_party_long:0 "Gouvernement Colonial Français"
+ 
+ INS_authoritarian_socialist_party:0 "PKI"
+ INS_authoritarian_socialist_party_long:0 "Partai Komunis Indonesia"
+ INS_radical_socialist_party:0 "«Acoma»"
+ INS_radical_socialist_party_long:0 "Angkatan Comunis Muda"
+ INS_anarchist_party:0 "SOBSI"
+ INS_anarchist_party_long:0 "Sentral Organisasi Buruh Seluruh Indonesia"
+ INS_social_democrat_party:0 "PSII"
+ INS_social_democrat_party_long:0 "Partai Syarikat Islam Indonesia"
+ INS_liberal_democrat_party:0 "PKI"
+ INS_liberal_democrat_party_long:0 "Partai Kristen Indonesia"
+ INS_conservative_democrat_party:0 "PNI"
+ INS_conservative_democrat_party_long:0 "Partai Nasional Indonesia"
+ INS_fascism_party:0 "PFI"
+ INS_fascism_party_long:0 "Partai Fasis Indonesia"
+ INS_monarchism_party:0 "House Hamengkubuwono"
+ INS_authoritarian_party:0 "Colonial Government"
+ INS_authoritarian_party_long:0 "Dutch Colonial Government"
+ 
+ MAL_authoritarian_socialist_party:0 "TPRM"
+ MAL_authoritarian_socialist_party_long:0 "Tentera Pembebasan Rakyat Malaya"
+ MAL_radical_socialist_party:0 "TRM"
+ MAL_radical_socialist_party_long:0 "Tindakan Radikal Melayu"
+ MAL_anarchist_party:0 "Shiyan Tun"
+ MAL_social_democrat_party:0 "PBM"
+ MAL_social_democrat_party_long:0 "Parti Buruh Malaya"
+ MAL_liberal_democrat_party:0 "PPP"
+ MAL_liberal_democrat_party_long:0 "Parti Progresif Penduduk"
+ MAL_conservative_democrat_party:0 "PP"
+ MAL_conservative_democrat_party_long:0 "Parti Perikatan"
+ MAL_fascism_party:0 "BNM"
+ MAL_fascism_party_long:0 "Barisan Nasional Malaya"
+ MAL_monarchism_party:0 "YPA"
+ MAL_monarchism_party_long:0 "Yang di-Pertuan Agong"
+ MAL_authoritarian_party:0 "British Government"
+ MAL_authoritarian_party_long:0 "British Straits Settlement"
+ 
+ LAO_authoritarian_socialist_party:0 "PL"
+ LAO_authoritarian_socialist_party_long:0 "Pathet Lao"
+ LAO_radical_socialist_party:0 "TSS"
+ LAO_radical_socialist_party_long:0 "Thai Samakkhi Sangkhomninyom"
+ LAO_anarchist_party:0 "TATTSK"
+ LAO_anarchist_party_long:0 "Thai Ana Tha Thib Sang Kho"
+ LAO_social_democrat_party:0 "PP"
+ LAO_social_democrat_party_long:0 "Phak Pasasonlav"
+ LAO_liberal_democrat_party:0 "PPTL"
+ LAO_liberal_democrat_party_long:0 "Phak Pasathipa Tai Lav"
+ LAO_conservative_democrat_party:0 "PKL"
+ LAO_conservative_democrat_party_long:0 "Phak Kased Lav"
+ LAO_fascism_party:0 "PEPASL"
+ LAO_fascism_party_long:0 "Phak Eka Phab Aehng Sad Lav"
+ LAO_monarchism_party:0 "Khun Lo Dynasty"
+ LAO_authoritarian_party:0 "GAF"
+ LAO_authoritarian_party_long:0 "Gouvernement Aligné Français"
+ 
+ MNT_authoritarian_socialist_party:0 "SKCG"
+ MNT_authoritarian_socialist_party_long:0 "Savez komunista Crne Gore"
+ MNT_radical_socialist_party:0 "SKCG"
+ MNT_radical_socialist_party_long:0 "Savez komunista Crne Gore"
+ MNT_anarchist_party:0 "AI"
+ MNT_anarchist_party_long:0 "Anarhistička Inicijativa"
+ MNT_social_democrat_party:0 "SP"
+ MNT_social_democrat_party_long:0 "Socijalistička Partija"
+ MNT_liberal_democrat_party:0 "DS"
+ MNT_liberal_democrat_party_long:0 "Demokratska Stranka"
+ MNT_conservative_democrat_party:0 "NRS"
+ MNT_conservative_democrat_party_long:0 "Narodna Radikalna Stranka"
+ MNT_fascism_party:0 "CFS"
+ MNT_fascism_party_long:0 "Crnogorska Federalistička Stranka"
+ MNT_monarchism_party:0 "Petrović-Njegoš dynasty"
+ MNT_authoritarian_party:0 "RNS"
+ MNT_authoritarian_party_long:0 "Radikalna Nezavisna Stranka"
+ 
+ UKR_authoritarian_socialist_party:0 "KPU"
+ UKR_authoritarian_socialist_party_long:0 "Komunistichna Partiya Ukraïni" #Corn Man «Khrushchev if you somehow forget»
+ UKR_radical_socialist_party:0 "TLP"
+ UKR_radical_socialist_party_long:0 "Trotsʹkist·sʹka Liva Partiya" #non-existant really.
+ UKR_anarchist_party:0 "RPAU"
+ UKR_anarchist_party_long:0 "Revolyutsiyna Povstans'ka Armiya Ukraïni"
+ UKR_social_democrat_party:0 "SDPU"
+ UKR_social_democrat_party_long:0 "Sotsial-Demokratichna Partiya Ukraïni"
+ UKR_liberal_democrat_party:0 "ULK"
+ UKR_liberal_democrat_party_long:0 "Uryad Liberalʹnoyi Koalitsiyi"
+ UKR_conservative_democrat_party:0 "UKRP"
+ UKR_conservative_democrat_party_long:0 "Ukraïns'ka Konservativna Respublikans'ka Partiya"
+ UKR_fascism_party:0 "OUN"
+ UKR_fascism_party_long:0 "Orhanizatsiya Ukrayins'kykh Natsionalistiv"
+ UKR_monarchism_party:0 "House Skoropadskyi"
+ UKR_monarchism_party_long:0 "Hetmenate of Skoropadskyi" #Pavlo Skoropadskyi, after death in 1945 he's replaced by Danylo Skoropadskyi
+ UKR_authoritarian_party:0 "PU"
+ UKR_authoritarian_party_long:0 "Probilyy Uryad"
+ 
+ GEO_authoritarian_socialist_party:0 "GCP"
+ GEO_authoritarian_socialist_party_long:0 "Georgian Communist Party"
+ GEO_radical_socialist_party:0 "RSP"
+ GEO_radical_socialist_party_long:0 "Revolutionary Socialist Party"
+ GEO_anarchist_party:0 "GUA"
+ GEO_anarchist_party_long:0 "Georgian Union of Anarchists"
+ GEO_social_democrat_party:0 "SDPG"
+ GEO_social_democrat_party_long:0 "Social Democratic Party of Georgia"
+ GEO_liberal_democrat_party:0 "NPG"
+ GEO_liberal_democrat_party_long:0 "New Party of Georgia"
+ GEO_conservative_democrat_party:0 "GNP"
+ GEO_conservative_democrat_party_long:0 "Georgian Nationalist Party"
+ GEO_fascism_party:0 "UGT"
+ GEO_fascism_party_long:0 "Union of Georgian Traditionalists"
+ GEO_monarchism_party:0 "Bagriaton Dynasty"
+ GEO_authoritarian_party:0 "GMG"
+ GEO_authoritarian_party_long:0 "Georgian Military Government"
+ GEO_theocracy_party:0 "Priesthood"
+ GEO_theocracy_party_long:0 "Priesthood of Jughashvili" #Father Jughashvili
+ 
+ KAZ_authoritarian_socialist_party:0 "QKP"
+ KAZ_authoritarian_socialist_party_long:0 "Qazaq Kommwnïstik Partïyası"
+ KAZ_radical_socialist_party:0 "QA"
+ KAZ_radical_socialist_party_long:0 "Qızıl Alash"
+ KAZ_anarchist_party:0 "XAO - Q"
+ KAZ_anarchist_party_long:0 "Xalıqaralıq Anarxïster Odağı – Qazaq"
+ KAZ_social_democrat_party:0 "QSP"
+ KAZ_social_democrat_party_long:0 "Qazaq Socïalïstik Partïyası"
+ KAZ_liberal_democrat_party:0 "Jaña Jädïd"
+ KAZ_conservative_democrat_party:0 "Alash"
+ KAZ_fascism_party:0 "Shokay Alash"
+ KAZ_monarchism_party:0 "NKS"
+ KAZ_monarchism_party_long:0 "New Khan Society"
+ KAZ_authoritarian_party:0 "Alash Ordeni"
+ 
+ AZR_authoritarian_socialist_party:0 "ACP"
+ AZR_authoritarian_socialist_party_long:0 "Azerbaijani Communist Party"
+ AZR_radical_socialist_party:0 "ARSP"
+ AZR_radical_socialist_party_long:0 "Azeri Radical Socialist Party"
+ AZR_anarchist_party:0 "AAA"
+ AZR_anarchist_party_long:0 "Azeri Anarchist Association"
+ AZR_social_democrat_party:0 "SPA"
+ AZR_social_democrat_party_long:0 "Socialist Party of Azerbaijan"
+ AZR_liberal_democrat_party:0 "APP"
+ AZR_liberal_democrat_party_long:0 "Azerbaijani Popular Party"
+ AZR_conservative_democrat_party:0 "Müsavat"
+ AZR_fascism_party:0 "FH Clique"
+ AZR_fascism_party_long:0 "Fire Horse Clique"
+ AZR_monarchism_party:0 "New Qajar Dynasty"
+ AZR_authoritarian_party:0 "Ittihad"
+ 
+ ARM_authoritarian_socialist_party:0 "HKK"
+ ARM_authoritarian_socialist_party_long:0 "Hayastani Komunistakan ​​Kusakts’ut’yun"
+ ARM_radical_socialist_party:0 "HSHK"
+ ARM_radical_socialist_party_long:0 "Hay Sovetakan ​​Heghap’vokhakan Kusakts’ut’yun"
+ ARM_anarchist_party:0 ""
+ ARM_anarchist_party_long:0 "Hay Zhoghovrdakan Sindikalistakan ​​Miut’yun"
+ ARM_social_democrat_party:0 "HYD"
+ ARM_social_democrat_party_long:0 "Hay Yeghap’vokhakan Dashnakts’ut’yun"
+ ARM_liberal_democrat_party:0 "HZk"
+ ARM_liberal_democrat_party_long:0 "Hay Zhoghovrdakan Kusakts’ut’yun"
+ ARM_conservative_democrat_party:0 "HHK"
+ ARM_conservative_democrat_party_long:0 "Hay Hoghatereri Kusakts’ut’yun"
+ ARM_fascism_party:0 "MHTK"
+ ARM_fascism_party_long:0 "Mets Hayk’i TS’eghakronizm Kusakts’ut’yun"
+ ARM_monarchism_party:0 "House Bagatrion"
+ ARM_authoritarian_party:0 "HAC"
+ ARM_authoritarian_party_long:0 "Hay Azatagrakan Chakat"
+ 
+ BLR_authoritarian_socialist_party:0 "KPB"
+ BLR_authoritarian_socialist_party_long:0 "Kamunistyčnaja Partyja Bielarusi"
+ BLR_radical_socialist_party:0 "PLE"
+ BLR_radical_socialist_party_long:0 "Partyja Lievych Esery"
+ BLR_anarchist_party:0 "SNS"
+ BLR_anarchist_party_long:0 "Saviety Narodnaha Samakiravannia"
+ BLR_social_democrat_party:0 "BSAP"
+ BLR_social_democrat_party_long:0 "Bielaruskaja Sacyjalistyčnaja Ahrarnaja Partyja"
+ BLR_liberal_democrat_party:0 "NP"
+ BLR_liberal_democrat_party_long:0 "Narodnaja Partyja"
+ BLR_conservative_democrat_party:0 "BKD"
+ BLR_conservative_democrat_party_long:0 "Belorusskaya Khristianskaya Demokratiya"
+ BLR_fascism_party:0 "BNSP"
+ BLR_fascism_party_long:0 "Bielaruskaja Nacyjanaĺna-Sacyjaĺnaja Partyja" #Litvinism
+ BLR_monarchism_party:0 "House Hohenzollern"
+ BLR_authoritarian_party:0 "NRV"
+ BLR_authoritarian_party_long:0 "Nacyjanalistyčnaja Rada Vyratavannia" 
+ 
+ PAK_authoritarian_socialist_party:0 "CPP"
+ PAK_authoritarian_socialist_party_long:0 "Communist Party of Pakistan"
+ PAK_radical_socialist_party:0 "WNP"
+ PAK_radical_socialist_party_long:0 "Workers National Party"
+ PAK_anarchist_party:0 "UAF-SBJK"
+ PAK_anarchist_party_long:0 "Urdu Anarchist Federation of Sindh, Balochistan, Punjab, and Kashmir"
+ PAK_social_democrat_party:0 "ML - Nazimuddin"
+ PAK_social_democrat_party_long:0 "Muslim League - Nazimuddin" #Khawaja Nazimuddin
+ PAK_liberal_democrat_party:0 "ML - Khan"
+ PAK_liberal_democrat_party_long:0 "Muslim League - Khan" #Liaquat Ali Khan
+ PAK_conservative_democrat_party:0 "ML - Jinnah"
+ PAK_conservative_democrat_party_long:0 "Muslim League - Jinnah" #When Muhammad Ali dies he's replaced by Fatima
+ PAK_fascism_party:0 "YP"
+ PAK_fascism_party_long:0 "Young Pakistan"
+ PAK_monarchism_party:0 "House Mirza"
+ PAK_authoritarian_party:0 "ML"
+ PAK_authoritarian_party_long:0 "Muslim League"
+ 
+ TAH_authoritarian_socialist_party:0 "TPP"
+ TAH_authoritarian_socialist_party_long:0 "Tahitian Peoples Party"
+ TAH_radical_socialist_party:0 "TSP"
+ TAH_radical_socialist_party_long:0 "Trotskyist Spark - Polynesia"
+ TAH_anarchist_party:0 "IPAFP"
+ TAH_anarchist_party_long:0 "Independent Peoples Anarchist Federation of Polynesia"
+ TAH_social_democrat_party:0 "SPT"
+ TAH_social_democrat_party_long:0 "Socialist Party of Tahiti"
+ TAH_liberal_democrat_party:0 "TLP"
+ TAH_liberal_democrat_party_long:0 "Tahitian Liberal Party"
+ TAH_conservative_democrat_party:0 "TDP"
+ TAH_conservative_democrat_party_long:0 "Tahitian Democratic Party"
+ TAH_fascism_party:0 "TNL"
+ TAH_fascism_party_long:0 "Tahitian National League"
+ TAH_monarchism_party:0 "House Mairau"
+ TAH_authoritarian_party:0 "IFTP"
+ TAH_authoritarian_party_long:0 "Independence Front for Tahiti and Polynesia"
+ 
+ FSM_authoritarian_socialist_party:0 "SPM"
+ FSM_authoritarian_socialist_party_long:0 "Soviet Party of Micronesia"
+ FSM_radical_socialist_party:0 "LSU"
+ FSM_radical_socialist_party_long:0 "Left Socialist Union"
+ FSM_anarchist_party:0 "MIAM"
+ FSM_anarchist_party_long:0 "Micronesian Indigenous Anarchist Movement"
+ FSM_social_democrat_party:0 "SMP"
+ FSM_social_democrat_party_long:0 "Socialist Micronesian Party"
+ FSM_liberal_democrat_party:0 "SLEP"
+ FSM_liberal_democrat_party_long:0 "Social Liberal Economic Party"
+ FSM_conservative_democrat_party:0 "OP"
+ FSM_conservative_democrat_party_long:0 "Old Party"
+ FSM_fascism_party:0 "NMO"
+ FSM_fascism_party_long:0 "New Micronesian Order"
+ FSM_monarchism_party:0 "SSD"
+ FSM_monarchism_party_long:0 "Second Saudeleur Dynasty"
+ FSM_authoritarian_party:0 "MIP"
+ FSM_authoritarian_party_long:0 "Micronesian Independence Party"
+ 
+ GUM_authoritarian_socialist_party:0 ""
+ GUM_authoritarian_socialist_party_long:0 "Communist Party of Guam"
+ GUM_radical_socialist_party:0 ""
+ GUM_radical_socialist_party_long:0 "Radical Socialist Party of Oceania"
+ GUM_anarchist_party:0 "IWW - Guam"
+ GUM_anarchist_party_long:0 "Industrial Workers of the World - Guam"
+ GUM_social_democrat_party:0 "SPG"
+ GUM_social_democrat_party_long:0 "Socialist Party of Guam"
+ GUM_liberal_democrat_party:0 "DPG"
+ GUM_liberal_democrat_party_long:0 "Democratic Party of Guam"
+ GUM_conservative_democrat_party:0 "RPG"
+ GUM_conservative_democrat_party_long:0 "Republican Party of Guam"
+ GUM_fascism_party:0 "GCSA"
+ GUM_fascism_party_long:0 "Guam Cultural Salvation Army"
+ GUM_monarchism_party:0 "NCS"
+ GUM_monarchism_party_long:0 "New Cultural Society"
+ GUM_authoritarian_party:0 "American Government"
+ 
+ SOL_authoritarian_socialist_party:0 "CPS"
+ SOL_authoritarian_socialist_party_long:0 "Communist Party of the Solomons"
+ SOL_radical_socialist_party:0 "TA"
+ SOL_radical_socialist_party_long:0 "Trotskyist Action"
+ SOL_anarchist_party:0 "ILU"
+ SOL_anarchist_party_long:0 "Islander Labour Unions"
+ SOL_social_democrat_party:0 "SPS"
+ SOL_social_democrat_party_long:0 "Socialist Party of the Solomons"
+ SOL_liberal_democrat_party:0 "YP"
+ SOL_liberal_democrat_party_long:0 "Yellow Party"
+ SOL_conservative_democrat_party:0 "CPSI"
+ SOL_conservative_democrat_party_long:0 "Conservative Party of the Solomon Islands"
+ SOL_fascism_party:0 "SNCP"
+ SOL_fascism_party_long:0 "Solomon National Christian Party"
+ SOL_monarchism_party:0 "House David"
+ SOL_authoritarian_party:0 "SCG"
+ SOL_authoritarian_party_long:0 "Solomon Colonial Government"
+ 
+ HAW_authoritarian_socialist_party:0 "AKH"
+ HAW_authoritarian_socialist_party_long:0 "ʻAoʻao Komunista o Hawaiʻi"
+ HAW_radical_socialist_party:0 "HR"
+ HAW_radical_socialist_party_long:0 "Hoʻokuʻu ʻia Radical"
+ HAW_anarchist_party:0 "NHHKH"
+ HAW_anarchist_party_long:0 "Nā Hana Hana o ka Honua"
+ HAW_social_democrat_party:0 "PS"
+ HAW_social_democrat_party_long:0 "Pāʻina Socialist"
+ HAW_liberal_democrat_party:0 "KAD"
+ HAW_liberal_democrat_party_long:0 "Ka aoao Demokarata"
+ HAW_conservative_democrat_party:0 "KAR"
+ HAW_conservative_democrat_party_long:0 "Ka aoao Repubalika"
+ HAW_fascism_party:0 "OP"
+ HAW_fascism_party_long:0 "ʻOihana Pākīpika"
+ HAW_japan_party:0 HNKG""
+ HAW_japan_party_long:0 "Hawai no Nihon Kaiho-Gun"
+ HAW_monarchism_party:0 "House Kamehameha"
+ HAW_authoritarian_party:0 "AG"
+ HAW_authoritarian_party_long:0 "America Government"
+ 
+ BRI_authoritarian_socialist_party:0 "NSVP"
+ BRI_authoritarian_socialist_party_long:0 "New Socialist Vanguard Party"
+ BRI_radical_socialist_party:0 "RCLP"
+ BRI_radical_socialist_party_long:0 "Radical Celtic Liberation Party"
+ BRI_anarchist_party:0 "GCL - Brittany"
+ BRI_anarchist_party_long:0 "General Confederation of Labour - Brittany"
+ BRI_social_democrat_party:0 "SRP"
+ BRI_social_democrat_party_long:0 "Socialist Republican Party"
+ BRI_liberal_democrat_party:0 "UPB"
+ BRI_liberal_democrat_party_long:0 "Unionist Party of Brittany"
+ BRI_conservative_democrat_party:0 "FPB"
+ BRI_conservative_democrat_party_long:0 "Federalist Party of Brittany"
+ BRI_fascism_party:0 "GNP"
+ BRI_fascism_party_long:0 "Gaelic Nationalist Party"
+ BRI_monarchism_party:0 "House Orleans"
+ BRI_authoritarian_party:0 "BNG"
+ BRI_authoritarian_party_long:0 "Breton National Government"
+ 
+ GLC_authoritarian_socialist_party:0 "PCG"
+ GLC_authoritarian_socialist_party_long:0 "Partido Comunista de Galicia"
+ GLC_radical_socialist_party:0 "PRI"
+ GLC_radical_socialist_party_long:0 "Partido Radical Independente"
+ GLC_anarchist_party:0 "CXT-FAI"
+ GLC_anarchist_party_long:0 "Confederación Xeral do Traballo - Federación de Anarquistas Ibéricos"
+ GLC_social_democrat_party:0 "PSG"
+ GLC_social_democrat_party_long:0 "Partido Socialista Galego"
+ GLC_liberal_democrat_party:0 "PL"
+ GLC_liberal_democrat_party_long:0 "Partido Liberal"
+ GLC_conservative_democrat_party:0 "PIG"
+ GLC_conservative_democrat_party_long:0 "Partido Independentismo Galego"
+ GLC_fascism_party:0 "PNSG"
+ GLC_fascism_party_long:0 "Partido Nacional Sindicalista Galego"
+ GLC_monarchism_party:0 "House Bourbon"
+ GLC_authoritarian_party:0 "OPIG"
+ GLC_authoritarian_party_long:0 "Organización pola Independencia Galega"
+ 
+ CAT_authoritarian_socialist_party:0 "POUM-C"
+ CAT_authoritarian_socialist_party_long:0 "Partit Obrer d'Unificació Marxista - Catalunya"
+ CAT_radical_socialist_party:0 "FAR"
+ CAT_radical_socialist_party_long:0 "Front d'Alliberament Regional"
+ CAT_anarchist_party:0 "CNT-FAI"
+ CAT_anarchist_party_long:0 "Confederación Nacional del Trabajo-Federación Anarquista Ibérica"
+ CAT_social_democrat_party:0 "ERC"
+ CAT_social_democrat_party_long:0 "Esquerra Republicana de Catalunya"
+ CAT_liberal_democrat_party:0 "LC-PLC"
+ CAT_liberal_democrat_party_long:0 "Lliga de Catalunya–Partit Liberal Català"
+ CAT_conservative_democrat_party:0 "LRC"
+ CAT_conservative_democrat_party_long:0 "Lliga Regionalista de Catalunya"
+ CAT_fascism_party:0 "LFC"
+ CAT_fascism_party_long:0 "Lliga Falangista Catalana"
+ CAT_monarchism_party:0 "House Bourbon"
+ CAT_authoritarian_party:0 "PC"
+ CAT_authoritarian_party_long:0 "Partit de Cardona"
+ 
+ NAV_authoritarian_socialist_party:0 "EPK"
+ NAV_authoritarian_socialist_party_long:0 "Euskadiko Partidu Komunista"
+ NAV_radical_socialist_party:0 "EKA"
+ NAV_radical_socialist_party_long:0 "Euskalherriko Karlista Alderdia"
+ NAV_anarchist_party:0 "LKN-FAI"
+ NAV_anarchist_party_long:0 "Lan Konfederazio Nazionala-Federazio Anarkista Iberiarra"
+ NAV_social_democrat_party:0 "PSE-EE"
+ NAV_social_democrat_party_long:0 "Partido Socialista de Euskadi–Euskadiko Ezkerra"
+ NAV_liberal_democrat_party:0 "EA"
+ NAV_liberal_democrat_party_long:0 "Eusko Alkartasuna"
+ NAV_conservative_democrat_party:0 "EAJ"
+ NAV_conservative_democrat_party_long:0 "Euzko Alderdi Jeltzalea"
+ NAV_fascism_party:0 "ETA"
+ NAV_fascism_party_long:0 "Euskadi Ta Askatasuna"
+ NAV_monarchism_party:0 "AK"
+ NAV_monarchism_party_long:0 "Alderdi Karlista"
+ NAV_authoritarian_party:0 "EAK"
+ NAV_authoritarian_party_long:0 "Eusko Abertzale Ekintza"
+ 
+ KUR_authoritarian_socialist_party:0 "KWP"
+ KUR_authoritarian_socialist_party_long:0 "Kurdish Worker's Party"
+ KUR_radical_socialist_party:0 "RPK"
+ KUR_radical_socialist_party_long:0 "Revolutionary Party of Kurdistan"
+ KUR_anarchist_party:0 "Rojava"
+ KUR_social_democrat_party:0 "BP"
+ KUR_social_democrat_party_long:0 "Beytussebab Party"
+ KUR_liberal_democrat_party:0 "DP"
+ KUR_liberal_democrat_party_long:0 "Dersim Party"
+ KUR_conservative_democrat_party:0 "AP"
+ KUR_conservative_democrat_party_long:0 "Ararat Party"
+ KUR_fascism_party:0 "PKNB"
+ KUR_fascism_party_long:0 "Pan-Kurdish National Bloc"
+ KUR_monarchism_party:0 "House Barzanji"
+ KUR_authoritarian_party:0 ""
+ KUR_authoritarian_party_long:0 "Dersim Movement"
+ 
+ CRO_authoritarian_socialist_party:0 "SKH"
+ CRO_authoritarian_socialist_party_long:0 "Savez komunista Hrvatske"
+ CRO_radical_socialist_party:0 "NFH"
+ CRO_radical_socialist_party_long:0 "Nacionalna Fronta Hrvatske"
+ CRO_anarchist_party:0 "OVB"
+ CRO_anarchist_party_long:0 "Oslobodilačka vojska Balkana"
+ CRO_social_democrat_party:0 "SSH"
+ CRO_social_democrat_party_long:0 "Socijalistička stranka Hrvatske"
+ CRO_liberal_democrat_party:0 "SDS"
+ CRO_liberal_democrat_party_long:0 "Samostalna demokratska stranka"
+ CRO_conservative_democrat_party:0 "HSS"
+ CRO_conservative_democrat_party_long:0 "Hrvatska seljačka stranka"
+ CRO_fascism_party:0 "U-HRP"
+ CRO_fascism_party_long:0 "Ustaše – Hrvatski revolucionarni pokret"
+ CRO_monarchism_party:0 "House Savoie-Aosta"
+ CRO_authoritarian_party:0 "JRZ-H"
+ CRO_authoritarian_party_long:0 "Jugoslovenska radikalna zajednica - Hrvatska"
+ 
+ TRA_authoritarian_socialist_party:0 "PCT"
+ TRA_authoritarian_socialist_party_long:0 "Partidul Comunist din Transilvania"
+ TRA_radical_socialist_party:0 "UKMP"
+ TRA_radical_socialist_party_long:0 "Ultranacionális Kommunista Magyar Párt"
+ TRA_anarchist_party:0 "OPAS-AU"
+ TRA_anarchist_party_long:0 "Organizaçia de Propaganda Anarho-Sindicalist - Anarchista Unió"
+ TRA_social_democrat_party:0 "PST"
+ TRA_social_democrat_party_long:0 "Partidul Socialist din Transilvania"
+ TRA_liberal_democrat_party:0 "NPL"
+ TRA_liberal_democrat_party_long:0 "Noul Partid Liberal"
+ TRA_conservative_democrat_party:0 "PDT"
+ TRA_conservative_democrat_party_long:0 "Partidul Democrației din Transilvania"
+ TRA_fascism_party:0 "GF - Transilvania"
+ TRA_fascism_party_long:0 "Garda de Fier - Transilvania"
+ TRA_monarchism_party:0 "House Hohenzollern-Sigmaringen" #Hohenzollern-Sigma
+ TRA_authoritarian_party:0 "MNKP"
+ TRA_authoritarian_party_long:0 "Magyar Nemzeti Kisebbségi Párt"
+ 
+ DNZ_authoritarian_socialist_party:0 "KPD"
+ DNZ_authoritarian_socialist_party_long:0 "Kommunistische Partei Deutschlands"
+ DNZ_radical_socialist_party:0 "KPD"
+ DNZ_radical_socialist_party_long:0 "Kommunistische Partei Deutschlands"
+ DNZ_anarchist_party:0 "DAB"
+ DNZ_anarchist_party_long:0 "Danziger Anarchistenbund"
+ DNZ_social_democrat_party:0 "SDP - FSD"
+ DNZ_social_democrat_party_long:0 "Sozialdemokratische Partei der Freien Stadt Danzig"
+ DNZ_liberal_democrat_party:0 "LDP - FSD"
+ DNZ_liberal_democrat_party_long:0 "Liberale Partei der Freien Stadt Danzig"
+ DNZ_conservative_democrat_party:0 "DZP"
+ DNZ_conservative_democrat_party_long:0 "Danziger Zentrumspartei"
+ DNZ_fascism_party:0 "NSDAP - Danzig"
+ DNZ_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Danzig"
+ DNZ_monarchism_party:0 "House Hohenzollern"
+ DNZ_authoritarian_party:0 "DNVP"
+ DNZ_authoritarian_party_long:0 "Deutschnationale Volkspartei"
+ 
+ ALT_authoritarian_socialist_party:0 "ACP"
+ ALT_authoritarian_socialist_party_long:0 "Altai Communist Party"
+ ALT_radical_socialist_party:0 "GASP"
+ ALT_radical_socialist_party_long:0 "Gorno-Altai Soviet Party"
+ ALT_anarchist_party:0 "AFAU"
+ ALT_anarchist_party_long:0 "Anarchist Federation of Altai-Uriankhai"
+ ALT_social_democrat_party:0 "SAP"
+ ALT_social_democrat_party_long:0 "Socialist Altai Party"
+ ALT_liberal_democrat_party:0 "LAP"
+ ALT_liberal_democrat_party_long:0 "Liberalist Altai Party"
+ ALT_conservative_democrat_party:0 "PD"
+ ALT_conservative_democrat_party_long:0 "Party of Democracy"
+ ALT_fascism_party:0 "ANU"
+ ALT_fascism_party_long:0 "Altaic National Union"
+ ALT_monarchism_party:0 "AKS"
+ ALT_monarchism_party_long:0 "Altai Khan Society"
+ ALT_authoritarian_party:0 "AIML"
+ ALT_authoritarian_party_long:0 "Altai Independence Military League"
+ 
+ KAL_authoritarian_socialist_party:0 "BUK"
+ KAL_authoritarian_socialist_party_long:0 "Bolshevik Union of Kalmykia"
+ KAL_radical_socialist_party:0 "SLC"
+ KAL_radical_socialist_party_long:0 "Socialist Left Coalition"
+ KAL_anarchist_party:0 "RFSK"
+ KAL_anarchist_party_long:0 "Revolutionary Federation and Syndicates of Kalmykia"
+ KAL_social_democrat_party:0 "SPK"
+ KAL_social_democrat_party_long:0 "Socialist Party of Kalmykia"
+ KAL_liberal_democrat_party:0 "KPP"
+ KAL_liberal_democrat_party_long:0 "Kalmyk People's Party"
+ KAL_conservative_democrat_party:0 "OKP"
+ KAL_conservative_democrat_party_long:0 "Old Kalmyk Party"
+ KAL_fascism_party:0 "KSBS"
+ KAL_fascism_party_long:0 "Kalmyk Shining Buddha Society"
+ KAL_monarchism_party:0 "KKFS"
+ KAL_monarchism_party_long:0 "Kalmyk Khaganate Formation Society"
+ KAL_authoritarian_party:0 "ILKBE"
+ KAL_authoritarian_party_long:0 "Independence League of Kalmykia and Buddhist Europe"
+ 
+ KAR_authoritarian_socialist_party:0 "SPK"
+ KAR_authoritarian_socialist_party_long:0 "Soviet Party of Karelia"
+ KAR_radical_socialist_party:0 "RPK"
+ KAR_radical_socialist_party_long:0 "Revolutionary Party of Karelia"
+ KAR_anarchist_party:0 "KAF"
+ KAR_anarchist_party_long:0 "Karelian Anarchist Federation"
+ KAR_social_democrat_party:0 "RP"
+ KAR_social_democrat_party_long:0 "Red Party"
+ KAR_liberal_democrat_party:0 "KPP"
+ KAR_liberal_democrat_party_long:0 "Karelian Progressive Party"
+ KAR_conservative_democrat_party:0 "BKP"
+ KAR_conservative_democrat_party_long:0 "Blue Karelia Party"
+ KAR_fascism_party:0 "KFSL"
+ KAR_fascism_party_long:0 "Karelo-Finnic Supremacy League"
+ KAR_monarchism_party:0 "House Hesse-Kassel"
+ KAR_authoritarian_party:0 "KANP"
+ KAR_authoritarian_party_long:0 "Karelian Authority of National Protection"
+ 
+ CRI_authoritarian_socialist_party:0 "KPKSSR"
+ CRI_authoritarian_socialist_party_long:0 "Kommunisticheskaya Partiya Krymskoy Sovetskoy Sotsialisticheskoy Respubliki"
+ CRI_radical_socialist_party:0 "LSPK"
+ CRI_radical_socialist_party_long:0 "Levaya Sotsialisticheskaya Partiya Kryma"
+ CRI_anarchist_party:0 "SSK"
+ CRI_anarchist_party_long:0 "Sindikalistskiy Soyuz Kryma"
+ CRI_social_democrat_party:0 "KSRP"
+ CRI_social_democrat_party_long:0 "Krymskaya Sotsialisticheskaya Rabochaya Partiya"
+ CRI_liberal_democrat_party:0 "KSP"
+ CRI_liberal_democrat_party_long:0 "Krymskaya Sotsial'naya Partiya"
+ CRI_conservative_democrat_party:0 "KPI"
+ CRI_conservative_democrat_party_long:0 "Krymskaya Partiya Isteblishmenta"
+ CRI_fascism_party:0 "NSDAP - Gotenland"
+ CRI_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Gotenland"
+ CRI_monarchism_party:0 "OVK"
+ CRI_monarchism_party_long:0 "Obshchestvo Vosstanovleniya Khanstva"
+ CRI_authoritarian_party:0 "ZP"
+ CRI_authoritarian_party_long:0 "Zakazat' Pravitel'stvo"
+ 
+ TAT_authoritarian_socialist_party:0 "BPT"
+ TAT_authoritarian_socialist_party_long:0 "Bolshevik Party of Tatarstan"
+ TAT_radical_socialist_party:0 "LSPK"
+ TAT_radical_socialist_party_long:0 "National Communist Tatar Muslim Bloc" #Mirsaid Sultan-Galiev
+ TAT_anarchist_party:0 "KATF"
+ TAT_anarchist_party_long:0 "Kazan Anarchist Trade Federation"
+ TAT_social_democrat_party:0 "SPK"
+ TAT_social_democrat_party_long:0 "Socialist Party of Kazan"
+ TAT_liberal_democrat_party:0 "LPK"
+ TAT_liberal_democrat_party_long:0 "Liberal Party of Kazan"
+ TAT_conservative_democrat_party:0 "TCP"
+ TAT_conservative_democrat_party_long:0 "Tatarstani Conservative Party"
+ TAT_fascism_party:0 "TNRM"
+ TAT_fascism_party_long:0 "Tatar National Restoration Movement"
+ TAT_monarchism_party:0 "NKP"
+ TAT_monarchism_party_long:0 "New Kazan Party"
+ TAT_authoritarian_party:0 "TSCG"
+ TAT_authoritarian_party_long:0 "Tatar Salvation Coalition Government"
+ 
+ CIN_authoritarian_socialist_party:0 "BPCI"
+ CIN_authoritarian_socialist_party_long:0 "Bolshevik Party of Chechnya-Ingushetia"
+ CIN_radical_socialist_party:0 "MMM"
+ CIN_radical_socialist_party_long:0 "Muslim Marxist Movement"
+ CIN_anarchist_party:0 "CIAC"
+ CIN_anarchist_party_long:0 "Chechen-Ingush Anarchist Congress"
+ CIN_social_democrat_party:0 "SPC"
+ CIN_social_democrat_party_long:0 "Socialist Party of Chechnya"
+ CIN_liberal_democrat_party:0 "MPI"
+ CIN_liberal_democrat_party_long:0 "Minority Party of Ingushetia"
+ CIN_conservative_democrat_party:0 "IPC"
+ CIN_conservative_democrat_party_long:0 "Islamic Party of Chechnya"
+ CIN_fascism_party:0 "CUNIRP"
+ CIN_fascism_party_long:0 "Chechen Ultranational Islamic Republican Party"
+ CIN_monarchism_party:0 "CIRF"
+ CIN_monarchism_party_long:0 "Chechen-Ingush Royal Faction"
+ CIN_authoritarian_party:0 "CIP"
+ CIN_authoritarian_party_long:0 "Chechen Islamic Party"
+ 
+ DAG_authoritarian_socialist_party:0 "BPD"
+ DAG_authoritarian_socialist_party_long:0 "Bolshevik Party of Dagestan"
+ DAG_radical_socialist_party:0 "TLC"
+ DAG_radical_socialist_party_long:0 "Trotskyist League of the Caucasus"
+ DAG_anarchist_party:0 "CATU"
+ DAG_anarchist_party_long:0 "Circassian Anarchist Trade Union"
+ DAG_social_democrat_party:0 "SRDC"
+ DAG_social_democrat_party_long:0 "Socialist Representation of Dagestan and the Caucasus"
+ DAG_liberal_democrat_party:0 "RPD"
+ DAG_liberal_democrat_party_long:0 "Representational Party of Dagestan"
+ DAG_conservative_democrat_party:0 "DRP"
+ DAG_conservative_democrat_party_long:0 "Dagestan Representative Party"
+ DAG_fascism_party:0 "CNIA"
+ DAG_fascism_party_long:0 "Circassian National Islamic Association"
+ DAG_monarchism_party:0 "CERS"
+ DAG_monarchism_party_long:0 "Circassian Emirate Restoration Society"
+ DAG_authoritarian_party:0 "CNPA"
+ DAG_authoritarian_party_long:0 "Circassian National Protection Authority"
+ 
+ BYA_authoritarian_socialist_party:0 "SSF"
+ BYA_authoritarian_socialist_party_long:0 "Soviet Support Faction"
+ BYA_radical_socialist_party:0 "BMS"
+ BYA_radical_socialist_party_long:0 "Buddhist-Marxist Synthesis"
+ BYA_anarchist_party:0 "BLO"
+ BYA_anarchist_party_long:0 "Buddhist Libertine Order"
+ BYA_social_democrat_party:0 "SAB"
+ BYA_social_democrat_party_long:0 "Socialist Action - Buryatia"
+ BYA_liberal_democrat_party:0 "BCCP"
+ BYA_liberal_democrat_party_long:0 "Buryat Chinese Co-operation Party"
+ BYA_conservative_democrat_party:0 "BRP"
+ BYA_conservative_democrat_party_long:0 "Buryat Rightist Party"
+ BYA_fascism_party:0 "«Chakravartin»"
+ BYA_monarchism_party:0 "BHRS"
+ BYA_monarchism_party_long:0 "Buryat Holy Restoration Society"
+ BYA_authoritarian_party:0 "BMO"
+ BYA_authoritarian_party_long:0 "Buryat Military Order"
+ 
+ FER_authoritarian_socialist_party:0 "CBP"
+ FER_authoritarian_socialist_party_long:0 "Chitinskaya Bol'shevistskaya Partiya"
+ FER_radical_socialist_party:0 "RFPC"
+ FER_radical_socialist_party_long:0 "Revolyutsionnaya Federal'naya Partiya Chity"
+ FER_anarchist_party:0 "RRPA - C"
+ FER_anarchist_party_long:0 "Russkaya Revolyutsionnaya Povstancheskaya Armiya - Chita"
+ FER_social_democrat_party:0 "SDPC"
+ FER_social_democrat_party_long:0 "Sotsial-Demokraticheskaya Partiya Chity"
+ FER_liberal_democrat_party:0 "NLP"
+ FER_liberal_democrat_party_long:0 "Novaya Liberal'naya Partiya"
+ FER_conservative_democrat_party:0 "CRS"
+ FER_conservative_democrat_party_long:0 "Chitinskoye Respublikanskoye Sobraniye"
+ FER_fascism_party:0 "KR"
+ FER_fascism_party_long:0 "Klika Rodzayevskogo"
+ FER_monarchism_party:0 "House Romanov"
+ FER_authoritarian_party:0 "PNR"
+ FER_authoritarian_party_long:0 "Partiya Nezavisimoy Respubliki"
+ 
+ CKK_authoritarian_socialist_party:0 "CBP"
+ CKK_authoritarian_socialist_party_long:0 "Chukotkan Bolshevik Party"
+ CKK_radical_socialist_party:0 "CRSP"
+ CKK_radical_socialist_party_long:0 "Chukchi Radical Socialist Party"
+ CKK_anarchist_party:0 "CIAS"
+ CKK_anarchist_party_long:0 "Chukchi Inuit Anarchist Syndicate"
+ CKK_social_democrat_party:0 "SCU"
+ CKK_social_democrat_party_long:0 "Socialist Chukchi Union"
+ CKK_liberal_democrat_party:0 "CLP"
+ CKK_liberal_democrat_party_long:0 "Chukchi Liberal Party"
+ CKK_conservative_democrat_party:0 "CCP"
+ CKK_conservative_democrat_party_long:0 "Conservative Chukotkan Party"
+ CKK_fascism_party:0 "«Luoravetlan»"
+ CKK_monarchism_party:0 "Chukchi Royalist Union"
+ CKK_authoritarian_party:0 "JCG"
+ CKK_authoritarian_party_long:0 "Japanese Chukchi Governate"
+ 
+ YAK_authoritarian_socialist_party:0 "SBP"
+ YAK_authoritarian_socialist_party_long:0 "Sakha Bolshevik Party"
+ YAK_radical_socialist_party:0 "SNSP"
+ YAK_radical_socialist_party_long:0 "Sakha New Socialist Party"
+ YAK_anarchist_party:0 "YASL"
+ YAK_anarchist_party_long:0 "Yakut Anarchist Socialist League"
+ YAK_social_democrat_party:0 "SIT-L"
+ YAK_social_democrat_party_long:0 "Sakha Il Tumen - Liberal"
+ YAK_liberal_democrat_party:0 "SIT-C"
+ YAK_liberal_democrat_party_long:0 "Sakha Il Tumen - Centre"
+ YAK_conservative_democrat_party:0 "SIT-R"
+ YAK_conservative_democrat_party_long:0 "Sakha Il Tumen - Right"
+ YAK_fascism_party:0 "RSPM"
+ YAK_fascism_party_long:0 "Russian Siberian Purification Movement"
+ YAK_monarchism_party:0 "House Romanov"
+ YAK_monarchism_party_long:0 "House Romanov"
+ YAK_authoritarian_party:0 ""
+ YAK_authoritarian_party_long:0 "Yakut Military Junta"
+ 
+ VLA_authoritarian_socialist_party:0 "BPV"
+ VLA_authoritarian_socialist_party_long:0 "Bol'shevistskaya Partiya Vladivostoka"
+ VLA_radical_socialist_party:0 "TAI"
+ VLA_radical_socialist_party_long:0 "Trotskistskaya Assotsiatsiya Izgnannikov"
+ VLA_anarchist_party:0 "RRPA - V"
+ VLA_anarchist_party_long:0 "Russkaya Revolyutsionnaya Povstancheskaya Armiya - Vladivostok"
+ VLA_social_democrat_party:0 "Trudoviks"
+ VLA_liberal_democrat_party:0 "RLP"
+ VLA_liberal_democrat_party_long:0 "Rossiyskaya Liberal'naya Partiya"
+ VLA_conservative_democrat_party:0 "KVP"
+ VLA_conservative_democrat_party_long:0 "Konservativnaya Vladivostokskaya partiya"
+ VLA_fascism_party:0 "VRP"
+ VLA_fascism_party_long:0 "Vserossiyskaya Partiya"
+ VLA_japan_party:0 "Urajibosutōkuadomirarurīgu"
+ VLA_monarchism_party:0 "House Romanov"
+ VLA_authoritarian_party:0 "ARD"
+ VLA_authoritarian_party_long:0 "Admiral Respublikanskogo Dvizheniya"
+ 
+ KKP_authoritarian_socialist_party:0 "KBP"
+ KKP_authoritarian_socialist_party_long:0 "Karakalpak Bolshevik Party"
+ KKP_radical_socialist_party:0 "ISPK"
+ KKP_radical_socialist_party_long:0 "Islamic-Socialist Party of Karakalpakstan"
+ KKP_anarchist_party:0 "YKP"
+ KKP_anarchist_party_long:0 "Young Karakalpak Association"
+ KKP_social_democrat_party:0 "SPK"
+ KKP_social_democrat_party_long:0 "Socialist Party of Karakalpakstan"
+ KKP_liberal_democrat_party:0 "LP"
+ KKP_liberal_democrat_party_long:0 "Liberal Party"
+ KKP_conservative_democrat_party:0 "NKP"
+ KKP_conservative_democrat_party_long:0 "New Karakalpakstan Party"
+ KKP_fascism_party:0 "«Alpomysh»"
+ KKP_monarchism_party:0 "NKS"
+ KKP_monarchism_party_long:0 "New Khanate Society"
+ KKP_authoritarian_party:0 "TNP"
+ KKP_authoritarian_party_long:0 "Turkestan National Party"
+ 
+ YAM_authoritarian_socialist_party:0 ""
+ YAM_authoritarian_socialist_party_long:0 "Yamalo-Nenets Bolshevik Party"
+ YAM_radical_socialist_party:0 "RIPYN"
+ YAM_radical_socialist_party_long:0 "Radical Independence Party of Yamalia-Nenets"
+ YAM_anarchist_party:0 "YNNA"
+ YAM_anarchist_party_long:0 "Yamalo-Nenets Native Associations"
+ YAM_social_democrat_party:0 "SP"
+ YAM_social_democrat_party_long:0 "Socialist Party"
+ YAM_liberal_democrat_party:0 "AOL"
+ YAM_liberal_democrat_party_long:0 "Anti-Oppositional League"
+ YAM_conservative_democrat_party:0 "YCP"
+ YAM_conservative_democrat_party_long:0 "Yamalian Conservative Party"
+ YAM_fascism_party:0 "YNSSL"
+ YAM_fascism_party_long:0 "Yamalian, Nenets, and Samoyed Supremacist League"
+ YAM_monarchism_party:0 "House Romanov"
+ YAM_authoritarian_party:0 "Russian Occupation"
+ YAM_authoritarian_party_long:0 "Russian Occupation Government of Yamala"
+ 
+ TAY_authoritarian_socialist_party:0 "TBP"
+ TAY_authoritarian_socialist_party_long:0 "Taymyr Bolshevik Party"
+ TAY_radical_socialist_party:0 "SS"
+ TAY_radical_socialist_party_long:0 "Socialist Spark"
+ TAY_anarchist_party:0 "TAF-UAAAT"
+ TAY_anarchist_party_long:0 "Taymyr Anarchist Federation - Union of Anti-Authoritarian Associations of Taymyr"
+ TAY_social_democrat_party:0 "SPT"
+ TAY_social_democrat_party_long:0 "Socialist Party of Taymyr"
+ TAY_liberal_democrat_party:0 "SLAT"
+ TAY_liberal_democrat_party_long:0 "Social Liberal Association of Taymyr"
+ TAY_conservative_democrat_party:0 "NPT"
+ TAY_conservative_democrat_party_long:0 "National Party of Taymyr"
+ TAY_fascism_party:0 "TS"
+ TAY_fascism_party_long:0 "Taymyr Society"
+ TAY_monarchism_party:0 "TRS"
+ TAY_monarchism_party_long:0 "Taymyr Royalist Society"
+ TAY_authoritarian_party:0 "PRMJ"
+ TAY_authoritarian_party_long:0 "Pro-Russian Military Junta"
+ 
+ OVO_authoritarian_socialist_party:0 "OVBP"
+ OVO_authoritarian_socialist_party_long:0 "Ostyak-Vogul Bolshevik Party"
+ OVO_radical_socialist_party:0 "ASA"
+ OVO_radical_socialist_party_long:0 "Arctic Socialist Association"
+ OVO_anarchist_party:0 "SAU"
+ OVO_anarchist_party_long:0 "Siberian Anarchist Union"
+ OVO_social_democrat_party:0 "SPO"
+ OVO_social_democrat_party_long:0 "Socialist Party of Ostyak"
+ OVO_liberal_democrat_party:0 "PIOV"
+ OVO_liberal_democrat_party_long:0 "Party for Industrialisation of Ostyak-Vogul"
+ OVO_conservative_democrat_party:0 "AUP"
+ OVO_conservative_democrat_party_long:0 "Agrarian Ugrian Party"
+ OVO_fascism_party:0 "SNRL"
+ OVO_fascism_party_long:0 "Siberian National Restoration League"
+ OVO_monarchism_party:0 "SRMP"
+ OVO_monarchism_party_long:0 "Sibir Reactionary Monarchist Party"
+ OVO_authoritarian_party:0 "OORMG"
+ OVO_authoritarian_party_long:0 "Ostyak Order Restoration Military Government"
+ 
+ NEN_authoritarian_socialist_party:0 "NBP"
+ NEN_authoritarian_socialist_party_long:0 "Nenets Bolshevik Party"
+ NEN_radical_socialist_party:0 "NTNP"
+ NEN_radical_socialist_party_long:0 "Northern Trotskyist Nenets Party"
+ NEN_anarchist_party:0 "NAAIU"
+ NEN_anarchist_party_long:0 "Nenet Anti-Authoritarian Independence Union"
+ NEN_social_democrat_party:0 "SPN"
+ NEN_social_democrat_party_long:0 "Socialist Party of Nenets"
+ NEN_liberal_democrat_party:0 "LSPN"
+ NEN_liberal_democrat_party_long:0 "Liberal Social Party of Nenets"
+ NEN_conservative_democrat_party:0 "CRP"
+ NEN_conservative_democrat_party_long:0 "Conservative Republican Party"
+ NEN_fascism_party:0 "NNSP"
+ NEN_fascism_party_long:0 "Nenets National Socialist Party"
+ NEN_monarchism_party:0 "NML"
+ NEN_monarchism_party_long:0 "Nenets Monarchist League"
+ NEN_authoritarian_party:0 "NMA"
+ NEN_authoritarian_party_long:0 "Nenet Militaristic Authority"
+ 
+ KOM_authoritarian_socialist_party:0 "BPP"
+ KOM_authoritarian_socialist_party_long:0 "Bolshevik Party of Perm"
+ KOM_radical_socialist_party:0 "PSP"
+ KOM_radical_socialist_party_long:0 "Perm Soviet Party"
+ KOM_anarchist_party:0 "KPS"
+ KOM_anarchist_party_long:0 "Komi-Permyak Syndicates"
+ KOM_social_democrat_party:0 "DPK"
+ KOM_social_democrat_party_long:0 "Democratic Party of Komi"
+ KOM_liberal_democrat_party:0 "SUPK"
+ KOM_liberal_democrat_party_long:0 "Social Unity Party of Komi"
+ KOM_conservative_democrat_party:0 "CPKR"
+ KOM_conservative_democrat_party_long:0 "Conservative Party of the Komi Republic"
+ KOM_fascism_party:0 "KNUP"
+ KOM_fascism_party_long:0 "Komi National Unity Party"
+ KOM_monarchism_party:0 "House Romanov"
+ KOM_authoritarian_party:0 "PKJMJ"
+ KOM_authoritarian_party_long:0 "Perm-Komi Joint Military Junta"
+ 
+ ABK_authoritarian_socialist_party:0 "ACP"
+ ABK_authoritarian_socialist_party_long:0 "Abkhaz Communist Party"
+ ABK_radical_socialist_party:0 "TLA"
+ ABK_radical_socialist_party_long:0 "Trotskyist League of Abkhazia"
+ ABK_anarchist_party:0 "UAS"
+ ABK_anarchist_party_long:0 "Union of Abkhaz Syndicates"
+ ABK_social_democrat_party:0 "ASP"
+ ABK_social_democrat_party_long:0 "Abkhaz Socialist Party"
+ ABK_liberal_democrat_party:0 "DC"
+ ABK_liberal_democrat_party_long:0 "Democratic Coalition"
+ ABK_conservative_democrat_party:0 "LCP"
+ ABK_conservative_democrat_party_long:0 "Liberal Conservative Party"
+ ABK_fascism_party:0 "AIPPGA"
+ ABK_fascism_party_long:0 "Anti-Influence Parliamentary Party of Greater Abkhazia"
+ ABK_monarchism_party:0 "ARS"
+ ABK_monarchism_party_long:0 "Abkhaz Royal Society"
+ ABK_authoritarian_party:0 "AMJ"
+ ABK_authoritarian_party_long:0 "Abkhaz Military Junta"
+ 
+ KBK_authoritarian_socialist_party:0 "CPKB"
+ KBK_authoritarian_socialist_party_long:0 "Communist Party of Kabardino-Balkaria"
+ KBK_radical_socialist_party:0 "SA"
+ KBK_radical_socialist_party_long:0 "Socialist Action"
+ KBK_anarchist_party:0 "TUKB"
+ KBK_anarchist_party_long:0 "Trade Unions of Kabardino and Balkaria"
+ KBK_social_democrat_party:0 "SKBP"
+ KBK_social_democrat_party_long:0 "Socialist Kabardino-Balkarian Party"
+ KBK_liberal_democrat_party:0 "NCPP"
+ KBK_liberal_democrat_party_long:0 "New Credit Policy Party"
+ KBK_conservative_democrat_party:0 "CPKB"
+ KBK_conservative_democrat_party_long:0 "Conservative Party of Kabardino-Balkaria"
+ KBK_fascism_party:0 "KBNSP"
+ KBK_fascism_party_long:0 "Kabardino-Balkarian National Socialist Party"
+ KBK_monarchism_party:0 "NR"
+ KBK_monarchism_party_long:0 "National Restoration"
+ KBK_authoritarian_party:0 "SAKB"
+ KBK_authoritarian_party_long:0 "Salvation Army of Kabardino-Balkaria"
+ 
+ NOA_authoritarian_socialist_party:0 "WPO"
+ NOA_authoritarian_socialist_party_long:0 "Workers Party of Ossetia"
+ NOA_radical_socialist_party:0 "ARSWP"
+ NOA_radical_socialist_party_long:0 "Alananian Restoration Socialist Workers Party"
+ NOA_anarchist_party:0 "AAUC - O-A"
+ NOA_anarchist_party_long:0 "Anarchist Associations and Unions of the Caucasus - Ossetia-Alania"
+ NOA_social_democrat_party:0 "SOP"
+ NOA_social_democrat_party_long:0 "Socialist Ossetian Party"
+ NOA_liberal_democrat_party:0 "NLSPO"
+ NOA_liberal_democrat_party_long:0 "New Liberal Social Party of Ossetia"
+ NOA_conservative_democrat_party:0 "RP"
+ NOA_conservative_democrat_party_long:0 "Right Party"
+ NOA_fascism_party:0 "ANJS"
+ NOA_fascism_party_long:0 "Alanian National Rejuvination Society"
+ NOA_monarchism_party:0 "OAMF"
+ NOA_monarchism_party_long:0 "Ossetian-Alanian Monarchist Front"
+ NOA_authoritarian_party:0 "ANNA"
+ NOA_authoritarian_party_long:0 "Alanian New National Army"
+ 
+ VGE_authoritarian_socialist_party:0 "WDAP"
+ VGE_authoritarian_socialist_party_long:0 "Wolgadeutsche Arbeiterpartei"
+ VGE_radical_socialist_party:0 "DRVSA"
+ VGE_radical_socialist_party_long:0 "Deutsch-Russischer Vereinigter Sozialistischer Arbeiterverein"
+ VGE_anarchist_party:0 "FAUDR"
+ VGE_anarchist_party_long:0 "Freier Arbeiterbund Deutschrusslands"
+ VGE_social_democrat_party:0 "APWD"
+ VGE_social_democrat_party_long:0 "Arbeiterpartei Wolgadeutschlands"
+ VGE_liberal_democrat_party:0 "PAI"
+ VGE_liberal_democrat_party_long:0 "Partei der Agrarier und Industriellen"
+ VGE_conservative_democrat_party:0 "ZP"
+ VGE_conservative_democrat_party_long:0 "Zentrum Partei"
+ VGE_fascism_party:0 "WDNSAP"
+ VGE_fascism_party_long:0 "die Wolgadeutsche Nationalsozialistische Arbeiterpartei"
+ VGE_monarchism_party:0 "WDHF"
+ VGE_monarchism_party_long:0 "Wolgadeutsche Hohenzollern-Fraktion"
+ VGE_authoritarian_party:0 "VbvWD"
+ VGE_authoritarian_party_long:0 "Volksbefreiungsarmee von Wolgadeutschland"
+ 
+ BSK_authoritarian_socialist_party:0 "BBS"
+ BSK_authoritarian_socialist_party_long:0 "Bashkir Bolshevik Party"
+ BSK_radical_socialist_party:0 "BI-SS"
+ BSK_radical_socialist_party_long:0 "Bashkir Islamic-Socialist Synthesis"
+ BSK_anarchist_party:0 "BSU"
+ BSK_anarchist_party_long:0 "Bashkir Syndicalist Union"
+ BSK_social_democrat_party:0 "SBP"
+ BSK_social_democrat_party_long:0 "Socialist Bashkir Party"
+ BSK_liberal_democrat_party:0 "LB"
+ BSK_liberal_democrat_party_long:0 "Liberal Bashkir"
+ BSK_conservative_democrat_party:0 "MPB"
+ BSK_conservative_democrat_party_long:0 "Militarist Party of Bashkir"
+ BSK_fascism_party:0 "BAASD"
+ BSK_fascism_party_long:0 "Bashkir Association Against Social Decadence"
+ BSK_monarchism_party:0 "House Romanov"
+ BSK_authoritarian_party:0 "BG"
+ BSK_authoritarian_party_long:0 "Bashkir Guard"
+ 
+ BUK_authoritarian_socialist_party:0 "BBP"
+ BUK_authoritarian_socialist_party_long:0 "Bukharan Bolshevik Party"
+ BUK_radical_socialist_party:0 "BSFK"
+ BUK_radical_socialist_party_long:0 "Buxoro Sotsialistik Federativ Kengashi"
+ BUK_anarchist_party:0 "BAF"
+ BUK_anarchist_party_long:0 "Buxoro Anarxistik Fronti"
+ BUK_social_democrat_party:0 "SP"
+ BUK_social_democrat_party_long:0 "Sotsialistik Partiya"
+ BUK_liberal_democrat_party:0 "YL"
+ BUK_liberal_democrat_party_long:0 "Yangi Liberalizm"
+ BUK_conservative_democrat_party:0 "KF"
+ BUK_conservative_democrat_party_long:0 "Konservativ Front"
+ BUK_fascism_party:0 "YB"
+ BUK_fascism_party_long:0 "Yosh Buxoroliklar"
+ BUK_monarchism_party:0 "Manghud Dynasty"
+ BUK_authoritarian_party:0 "AEG"
+ BUK_authoritarian_party_long:0 "Amirning Eski Gvardiyas"
+ 
+ KHI_authoritarian_socialist_party:0 "KBP"
+ KHI_authoritarian_socialist_party_long:0 "Khwarezm Bolshevik Party"
+ KHI_radical_socialist_party:0 "KSDK"
+ KHI_radical_socialist_party_long:0 "Xorazm Sovet Davlat Kengashi"
+ KHI_anarchist_party:0 "XAJ"
+ KHI_anarchist_party_long:0 "Xorazm Anarxistlar Jamoasi"
+ KHI_social_democrat_party:0 "YK"
+ KHI_social_democrat_party_long:0 "Yosh Khiva"
+ KHI_liberal_democrat_party:0 "XLSP"
+ KHI_liberal_democrat_party_long:0 "Xiva Liberal Sotsial Partiyasi"
+ KHI_conservative_democrat_party:0 "XDP"
+ KHI_conservative_democrat_party_long:0 "Xivan Demokratik Partiyasi"
+ KHI_fascism_party:0 "MTAsF"
+ KHI_fascism_party_long:0 "Milliy Tiklanish Antisovet Fronti"
+ KHI_monarchism_party:0 "Qungrat Dynasty"
+ KHI_authoritarian_party:0 "Junaid Khan"
+ 
+ UDM_authoritarian_socialist_party:0 "BPU"
+ UDM_authoritarian_socialist_party_long:0 "Bolshevik Party of Udmurtia"
+ UDM_radical_socialist_party:0 "USCCR"
+ UDM_radical_socialist_party_long:0 "Regional Socialist Committee of Central Russia"
+ UDM_anarchist_party:0 "CRLL"
+ UDM_anarchist_party_long:0 "Central Russian Liberation League"
+ UDM_social_democrat_party:0 "RSP"
+ UDM_social_democrat_party_long:0 "Right Socialist Party"
+ UDM_liberal_democrat_party:0 "NEPU"
+ UDM_liberal_democrat_party_long:0 "New Economy Party for Udmurtia"
+ UDM_conservative_democrat_party:0 "SRP"
+ UDM_conservative_democrat_party_long:0 "Social Republican Party"
+ UDM_fascism_party:0 "UVNSC"
+ UDM_fascism_party_long:0 "Udmurt Vos National Socialist Community"
+ UDM_monarchism_party:0 "House Romanov"
+ UDM_authoritarian_party:0 "UHCNR"
+ UDM_authoritarian_party_long:0 "Udmurt High Committee for National Revolution"
+ 
+ MEL_authoritarian_socialist_party:0 "MBP"
+ MEL_authoritarian_socialist_party_long:0 "Mari Bolshevik Party" #Vladislav Zotin as a generic
+ MEL_radical_socialist_party:0 "RTL"
+ MEL_radical_socialist_party_long:0 "Radical Trotskyist League" #Idk lmao
+ MEL_anarchist_party:0 "FAMP"
+ MEL_anarchist_party_long:0 "Free Association of Mari People" #Anarchist Mari Generic
+ MEL_social_democrat_party:0 "MSDWP"
+ MEL_social_democrat_party_long:0 "Mari Social Democracy and Worker Party" #SD Mari Generic
+ MEL_liberal_democrat_party:0 "LPME"
+ MEL_liberal_democrat_party_long:0 "Libertarian Party of Mari El" #LD Mari Generic
+ MEL_conservative_democrat_party:0 "RMP"
+ MEL_conservative_democrat_party_long:0 "Reactionary Mari Party" #Conservative Mari Generic
+ MEL_fascism_party:0 "MNRS"
+ MEL_fascism_party_long:0 "Mari New Revivalist Society" #Neo-pagan (Mari Native faith) ultra-nationalists+Fascist Mari Generic
+ MEL_monarchism_party:0 "House Romanov" #
+ MEL_authoritarian_party:0 "ORNL"
+ MEL_authoritarian_party_long:0 "Orthodox Russian National League" #Orthodox Priest Generic
+ 
+ CHU_authoritarian_socialist_party:0 "CBS"
+ CHU_authoritarian_socialist_party_long:0 "Chuvash Bolshevik Party"
+ CHU_radical_socialist_party:0 "CRLP"
+ CHU_radical_socialist_party_long:0 "Chuvash Radical Left Party"
+ CHU_anarchist_party:0 "CUC"
+ CHU_anarchist_party_long:0 "Collectivist Union of Chuvashia"
+ CHU_social_democrat_party:0 "MCSP"
+ CHU_social_democrat_party_long:0 "Moderate Chuvash Socialist Party"
+ CHU_liberal_democrat_party:0 "LPC"
+ CHU_liberal_democrat_party_long:0 "Liberal Party of Chuvashia"
+ CHU_conservative_democrat_party:0 "CCP"
+ CHU_conservative_democrat_party_long:0 "Chuvash Conservative Party"
+ CHU_fascism_party:0 "NTCLS"
+ CHU_fascism_party_long:0 "National Turko-Chuvash Liberation Society" #Neo-Pagan Yattisen Yaly
+ CHU_monarchism_party:0 "House Romanov"
+ CHU_authoritarian_party:0 "WRMJ"
+ CHU_authoritarian_party_long:0 "White Russian Military Junta"

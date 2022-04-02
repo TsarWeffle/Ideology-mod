@@ -1,0 +1,91 @@
+﻿capital = 310
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+1939.1.1 = {
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 24
+	elections_allowed = yes
+}
+
+set_popularities = {
+	conservative_democrat = 12
+	liberal_democrat = 3
+	social_democrat = 23
+	fascism = 7
+	radical_socialist = 3
+	authoritarian_socialist = 9
+	anarchist = 3
+	authoritarian = 37
+	monarchism = 3
+	theocracy = 0
+}
+
+recruit_character = CAY_rene_vaber #Authoritarian leader, french administrator
+recruit_character = CAY_justin_catayee #communist minister and leader
+recruit_character = CAY_paul_roussenq #Anarchist minister, labour organiser
+recruit_character = CAY_acas
+recruit_character = CAY_ncs
+recruit_character = CAY_awt
+recruit_character = CAY_pot
+recruit_character = CAY_fascist_minister
+recruit_character = CAY_radical_minister
+recruit_character = CAY_democratic_minister
+recruit_character = CAY_ai2
+recruit_character = CAY_nt
+recruit_character = CAY_aco2
+recruit_character = CAY_ar
+recruit_character = CAY_acr
+recruit_character = CAY_mt
+recruit_character = CAY_stc
+recruit_character = CAY_aa2
+recruit_character = CAY_acgs
+recruit_character = CAY_ncm
+recruit_character = CAY_nccr
+recruit_character = CAY_coi
+recruit_character = CAY_monarchist_minister
+recruit_character = CAY_theocratic_minister
+recruit_character = CAY_acd2
