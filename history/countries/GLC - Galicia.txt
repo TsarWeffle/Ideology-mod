@@ -60,35 +60,14 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 93
-	fascism = 3
-	communism = 4
-}
-
-create_country_leader = {
-	name = "Fuco Gómez"
-	picture = "gfx//leaders//Europe//Portrait_Europe_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-}
-
-create_country_leader = {
-	name = "Alfonso Daniel Castelao"
-	picture = "gfx//leaders//Europe//portrait_europe_generic_5.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-}
-
-create_country_leader = {
-	name = "Vicente Martínez Risco"
-	picture = "gfx//leaders//Europe//portrait_europe_generic_land_13.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-}
-
-create_country_leader = {
-	name = "Santiago Casares Quiroga"
-	picture = "gfx//leaders//Europe//portrait_europe_generic_6.dds"
-	expire = "1965.1.1"
-	ideology = centrism
+	conservative_democrat = 3
+	liberal_democrat = 2
+	social_democrat = 47
+	fascism = 32
+	radical_socialist = 2
+	authoritarian_socialist = 11
+	anarchist = 0
+	authoritarian = 0
+	monarchism = 3
+	theocracy = 0
 }

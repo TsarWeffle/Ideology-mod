@@ -351,10 +351,18 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 20
-	fascism = 60
-	communism = 20
+	conservative_democrat = 13
+	liberal_democrat = 2
+	social_democrat = 3
+	fascism = 55
+	radical_socialist = 4
+	authoritarian_socialist = 10
+	anarchist = 1
+	authoritarian = 0
+	monarchism = 12
+	theocracy = 0
 }
 
 create_faction = Axis

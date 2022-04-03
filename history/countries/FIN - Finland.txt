@@ -138,27 +138,23 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = authoritarian
 	last_election = "1933.7.1"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 10
-	fascism = 10
-	communism = 1
-	neutrality = 79
+	conservative_democrat = 10
+	liberal_democrat = 6
+	social_democrat = 38
+	fascism = 9
+	radical_socialist = 0
+	authoritarian_socialist = 2
+	anarchist = 0
+	authoritarian = 33
+	monarchism = 2
+	theocracy = 0
 }
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1939.7.1"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-}
-
 
 add_ideas = {
 	sisu
