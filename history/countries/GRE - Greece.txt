@@ -295,17 +295,23 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = authoritarian
 	last_election = "1935.6.9"
 	election_frequency = 7
 	elections_allowed = yes # none after offset 1
 }
 set_popularities = {
-	democratic = 43
-	fascism = 2
-	communism = 17
-	neutrality = 38
-}
+	conservative_democrat = 21
+	liberal_democrat = 25
+	social_democrat = 5
+	fascism = 1
+	radical_socialist = 2
+	authoritarian_socialist = 7
+	anarchist = 0
+	authoritarian = 18
+	monarchism = 20
+	theocracy = 1
+}	
 
 set_stability = 0.72
 set_war_support = 0.23
