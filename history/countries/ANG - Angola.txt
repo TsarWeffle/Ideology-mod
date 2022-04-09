@@ -82,16 +82,4 @@ set_popularities = {
 	anarchist = 0
 	authoritarian = 25
 	monarchism = 0
-	theocracy = 0
-}
-
-create_country_leader = {
-	
-	name = "Jonas Lote"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
 }

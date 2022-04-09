@@ -4,7 +4,6 @@ oob = "CAM_1936"
 
 set_research_slots = 3
 
-recruit_character = CAM_pol_pot #meme commie
 recruit_character = CAM_sisowath_sirik_matak #liberal
 recruit_character = CAM_son_ngoc_thanh #fascist, and fascist demagogue	
 recruit_character = CAM_tou_samoth #commie
@@ -131,6 +130,5 @@ set_popularities = {
 	authoritarian_socialist = 29
 	anarchist = 1
 	authoritarian = 3
-	monarchism = 25
-	theocracy = 2
+	monarchism = 27
 }

@@ -8,7 +8,6 @@ set_popularities = {
 	anarchist = 
 	authoritarian = 
 	monarchism = 
-	theocracy = 
 }
 
 recruit_character = 
@@ -30,3 +29,22 @@ recruit_character = ABC_ncm
 recruit_character = ABC_nccr
 recruit_character = ABC_coi
 recruit_character = ABC_acd2
+
+ABC_authoritarian_socialist_party:0 ""
+ ABC_authoritarian_socialist_party_long:0 ""
+ ABC_radical_socialist_party:0 ""
+ ABC_radical_socialist_party_long:0 ""
+ ABC_anarchist_party:0 ""
+ ABC_anarchist_party_long:0 ""
+ ABC_social_democrat_party:0 ""
+ ABC_social_democrat_party_long:0 ""
+ ABC_liberal_democrat_party:0 "PRS"
+ ABC_liberal_democrat_party_long:0 ""
+ ABC_conservative_democrat_party:0 ""
+ ABC_conservative_democrat_party_long:0 ""
+ ABC_fascism_party:0 ""
+ ABC_fascism_party_long:0 ""
+ ABC_monarchism_party:0 ""
+ ABC_monarchism_party_long:0 ""
+ ABC_authoritarian_party:0 ""
+ ABC_authoritarian_party_long:0 ""

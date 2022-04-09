@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  liberal_democrat:0 "Liberal Democracy"
  liberal_democrat_noun:0 "Liberal Democrat"
@@ -36,23 +36,79 @@
  monarchism_noun:0 "Monarchy"
  monarchism_desc:0 "Monarchist Kingdom"
  
- theocracy:0 "Theocracy"
- theocracy_noun:0 "Theocratic"
- theocracy_desc:0 "Holy State"
- 
  ###################### SUB-IDEOLOGIES ################################
  
  liberalism:0 "Liberalism"
  liberalism_desc:0 "With a long philosophical tradition of valuing personal liberty, liberalism views safeguarding these rights as the primary function of the state."
  
- moderatism:1 "Moderatism"
- moderatism_desc:1 "Moderatism is a form of government which avoids the extremes of left and right by taking a moderate position or course of action."
+ social_liberalism:0 "Social Liberalism"
+ social_liberalism_desc:0 "Social Liberalism is a political philosophy and variety of liberalism that endorses a social market economy within an individualist economy and the expansion of civil and political rights."
  
- centrism:1 "Centrism"
- centrism_desc:1 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
+ market_liberalism:0 "Market Liberalism"
+ market_liberalism_desc:0 "Market liberalism is a political ideology and a branch of liberalism that advocates free market and laissez-faire economics; civil liberties under the rule of law with an emphasis on limited government, economic freedom, and political freedom."
+ 
+ conservative_liberalism:0 "Conservative Liberalism"
+ conservative_liberalism_desc:0 "Conservative liberalism or right-liberalism is a variant of liberalism, combining liberal values and policies with conservative stances, or simply representing the right-wing of the liberal movement."
+ 
+ libertarianism:0 "Libertarianism"
+ libertarianism_desc:0 "Libertarianism seeks to maximise autonomy and political freedom, minimise the state; emphasising free association, freedom of choice, individualism, and voluntary association."
+ 
+ national_liberalism:0 "National Liberalism"
+ national_liberalism_desc:0 "National Liberalism is a variant of Liberalism, combining liberal and nationalist policies in the pursuit of individual and economic freedom, as well as the nation's sovereignty."
+ 
+ ordoliberalism:0 "Ordoliberalism"
+ ordoliberalism_desc:0 "Ordoliberalism is a variant of economic liberalism, originating in Germany; it advocates and emphasises the government's need to ensure the free market to the theoretical potential while opposing the idea of the Welfare State"
+ 
+ religious_liberalism:0 "Religious Liberalism"
+ religious_liberalism_desc:0 "Religious liberalism is a conception of religion which emphasizes personal and group liberty and rationality. It is an attitude towards one's own religion, as opposed to criticism of religion from a secular position, and as opposed to criticism of a religion other than one's own, which contrasts with the orthodox approach, and it is directly opposed by trends of religious fundamentalism. It is related to religious liberty, which is the tolerance of different religious beliefs and practicesx."
+ 
+ third_way:0 "Third Way"
+ third_way_desc:0 "The Third Way is a political position akin to centrism that attempts to reconcile right-wing and left-wing politics by advocating a varying synthesis of centre-right economic platforms with some centre-left social policies."
+ 
+ neoliberalism:0 "Neoliberalism"
+ neoliberalism_desc:0 "Neoliberalism is a term used to describe the 20th-century resurgence of 19th-century ideas associated with free-market capitalism. it is generally associated with policies of economic liberalization, including privatization, deregulation, globalization, free trade, austerity and reductions in government spending in order to increase the role of the private sector in the economy and society."
+ 
+ progressivism:0 "Progressivism"
+ progressivism_desc:0 "Progressivism is a political philosophy in support of social reform. Based on the idea of progress in which advancements in science, technology, economic development and social organization are vital to the improvement of the human condition."
+ 
+ moderatism:0 "Moderatism"
+ moderatism_desc:0 "Moderatism is a form of government which avoids the extremes of left and right by taking a moderate position or course of action."
+ 
+ centrism:0 "Centrism"
+ centrism_desc:0 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
  
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
+ 
+ liberal_conservatism:0 "Liberal Conservatism"
+ liberal_conservatism_desc:0 "Liberal conservatism is a political ideology combining conservative policies with liberal stances, especially on economic issues but also on social and ethical matters."
+ 
+ religious_conservatism:0 "Religious Conservatism"
+ religious_conservatism_desc:0 ""
+ 
+ right_progressivism:0 "Right Progressivism"
+ right_progressivism_desc:0 "Right Progressivism serves as a synthesis of conservative and progressive policies."
+ 
+ national_conservatism:0 "National Conservatism"
+ national_conservatism_desc:0 "National Conservatism is a form of conservatism that believes in upholding traditional nationalistic ideals of the cultural and nationalist values."
+ 
+ paternal_conservatism:0 "Paternal Convervatism"
+ paternal_conservatism_desc:0 "Paternalistic conservatism is a strand of conservatism which reflects the belief that societies exist and develop organically and that members within them have obligations towards each other."
+ 
+ pragmatic_conservatism:0 "Pragmatic Conservatism"
+ pragmatic_conservatism_desc:0 "Pragmatic Conservatism is a strand of conservatism that believes that conservative values can be best upheld by making compromises to other ideology."
+ 
+ right_populism:0 "National Populism"
+ right_populism_desc:0 "Nationalism Populism is a political ideology which combines right-wing politics and populist rhetoric and themes."
+ 
+ social_conservatism:0 "Social Conservatism"
+ social_conservatism_desc:0 "Social conservatism is a political philosophy and variety of conservatism which places emphasis on traditional power structures over social pluralism."
+ 
+ fiscal_convervatism:0 "Fiscal Conservatism"
+ fiscal_convervatism_desc:0 "Fiscal conservatism is a political and economic philosophy regarding fiscal policy and fiscal responsibility with an ideological basis in capitalism, individualism, limited government, and laissez-faire economics."
+ 
+ traditionalism:0 "Traditionalism"
+ traditionalism_desc:0 "Traditionalist conservatism is a political and social philosophy that emphasizes the importance of transcendent moral principles manifested through certain natural laws to which society should adhere prudently."
  
  reactionary:0 "Reactionary"
  reactionary_desc:0 "The Reactionary stance is traditonally a right-wing ideology opposed to social reforms/transformations in society, seeking to go back to the old order or keep the current one without changing."
@@ -135,6 +191,9 @@
  falangism:0 "Falangism"
  falangism_desc:0 "An authoritarian ideology with traits of fascism and conservatism, Falangism values national and Catholic identity."
  
+ polish_falangism:0 "Polish Falangism"
+ polish_falangism_desc:0 "Inspired by Italian Fascism and Spanish Falangism, Polish Falangism believes in ultra-nationalist, catholic, and anti-semitic values to be held in Poland"
+ 
  rexism:0 "Rexism"
  rexism_desc:0 "Strongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements."
  
@@ -153,11 +212,17 @@
  fascist_monarchy:0 "Fascist Monarchy"
  fascist_monarchy_desc:0 "Fascist Monarchy is a monarchy in which the king follows fascist beliefs and empowers fascists in nobility."
  
+ strasserim:0 "Strasserism"
+ strasserism:0 "Strasserism is a strand of Nazism that calls for a more radical, mass-action and worker-based form of Nazism, espousing economic antisemitism above other antisemitic forms, to achieve a national rebirth."
+ 
  despotism:0 "Despotic"
  despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
  
  oligarchism:0 "Oligarchic"
  oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
+ 
+ kemalism:0 "Kemalism"
+ kemalism_desc:0 "Kemalism is a modernization philosophy which guided the transition between the multi-religious, multi-ethnic Ottoman Empire to the secular, democratic, & unitary Republic of Turkey. Kemalism sets the boundaries of the social process in the Turkish Reformation."
  
  stratocracy:0 "Stratocracy"
  stratocracy_desc:0 "Stratocracy is a form of government where in the military controls all forms of politics."
@@ -194,15 +259,6 @@
  
  theocracy:0 "Theocracy"
  theocracy_desc:0 "Theocracy is a form of government where the leader of the nations is a prominent member, or head of the faith such as the Papacy, Dalai Lama or imamate of Oman."
- 
- soc_theocracy:0 "Theocratic-Socialism"
- soc_theocracy_desc:0 "Theocratic Socialism is a form of government where the leader of the nation is the leader of faith and tries to promote left wing ideology."
- 
- fash_theocracy:0 Theocratic-Fascism"
- fash_theocracy_desc:0 "Theocratic Fascism is a form of government that believes in Religious Nationalism and seeks to promote national unity of nation and faith."
- 
- dem_theocracy:0 "Theocratic-Democracy"
- dem_theocracy_desc:0 "Theocratic Democracy is a system where the leader of faith is democratically elected and promoted to power by the people."
  
  #################### NATIONAL POLITICAL PARTIES #############################
  
@@ -1305,7 +1361,7 @@
  HRZ_conservative_democrat_party:0 "NHSH"
  HRZ_conservative_democrat_party_long:0 "Narodna Hrvatska Stranka Hercegovine"
  HRZ_fascism_party:0 "Ustaša"
- HRZ_fascism_party_long:0 "Ustaša – Hrvatski Revolucionarni Pokret" 
+ HRZ_fascism_party_long:0 "Ustaša – Hrvatski Revolucionarni Pokret"
  HRZ_monarchism_party:0 "Habsburg Dynasty"
  HRZ_authoritarian_party:0 "SNH"
  HRZ_authoritarian_party_long:0 "Stranka Nezavisnosti Hercegovine"
@@ -1327,7 +1383,7 @@
  CHL_monarchism_party:0 "FRCh"
  CHL_monarchism_party_long:0 "Facción Realista de Chile"
  CHL_mackensen_party:0 "DNRP"
- CHL_mackensen_party_long:0 "Deutsche Nationale Rückkehrpartei" #Augusto Juan de Mackenes, later Prince Adalbert I of Prussia, after death Prince Wilhelm Victor I.
+ CHL_mackensen_party_long:0 "Deutsche Nationale Rückkehrpartei" #Augusto Juan de Mackenes, later Prince Adalbert I of Prussia, after death, Prince Wilhelm Victor I.
  CHL_authoritarian_party:0 "GMCh"
  CHL_authoritarian_party_long:0 "Gobierno Militar de Chile"
  
@@ -1896,15 +1952,15 @@
  HAI_radical_socialist_party_long:0 "Nouveau Parti Communiste Haïtien"
  HAI_anarchist_party:0 "CGT - Haiti"
  HAI_anarchist_party_long:0 "Confédération Générale du Travail - Haiti"
- HAI_social_democrat_party:0 "MOP"
- HAI_social_democrat_party_long:0 "Mouvement Ouvrier Paysan"
- HAI_liberal_democrat_party:0 "Parti de Lescot"
- HAI_conservative_democrat_party:0 "Parti de Vincent"
+ HAI_social_democrat_party:0 "PSH"  
+ HAI_social_democrat_party_long:0 "Parti Socialise Haïtien" #Dr. René Salomon
+ HAI_liberal_democrat_party:0 "Parti de Lescot" #Élie Lescot
+ HAI_conservative_democrat_party:0 "Parti de Vincent" #Stenió Vincent then Dumarsais Estimé
  HAI_fascism_party:0 "PUN"
  HAI_fascism_party_long:0 "Parti de l Unité Nationale" #Papa Doc
  HAI_monarchism_party:0 "House Wirkus" #King Faustin Wirkus II, when he dies he's replaced by his son (generic portrait)
  HAI_authoritarian_party:0 "FAH"
- HAI_authoritarian_party_long:0 "Forces Armées d'Haïti"
+ HAI_authoritarian_party_long:0 "Forces Armées d Haïti" #Franck Lavaud
  
  KOR_authoritarian_socialist_party:0 "CR"
  KOR_authoritarian_socialist_party_long:0 "Chosŏn Rodongdang" #Kim il Sung

@@ -94,15 +94,7 @@ set_popularities = {
 	authoritarian_socialist = 15
 	anarchist = 0
 	authoritarian = 0
-	monarchism = 50
-	theocracy = 25
+	monarchism = 75
 }
-
 recruit_character = BYA_seymon_ignatyev
 recruit_character = BYA_bidia_dandaron
-
-
-
-
-
-

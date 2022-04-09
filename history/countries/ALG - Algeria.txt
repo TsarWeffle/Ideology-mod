@@ -92,15 +92,4 @@ set_popularities = {
 	anarchist = 0
 	authoritarian = 0
 	monarchism = 0
-	theocracy = 0
-}
-
-create_country_leader = {
-	name = "Ahmed Ben Bella"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
 }

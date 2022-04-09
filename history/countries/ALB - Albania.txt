@@ -41,16 +41,15 @@ set_politics = {
 }
 
 set_popularities = {
-	conservative_democrat = 15
-	liberal_democrat = 15
-	social_democrat = 15
+	conservative_democrat = 10
+	liberal_democrat = 10
+	social_democrat = 10
 	fascism = 5
 	radical_socialist = 0
 	authoritarian_socialist = 5
 	anarchist = 0
 	authoritarian = 0
-	monarchism = 45
-	theocracy = 0
+	monarchism = 60
 }
 
 set_convoys = 5

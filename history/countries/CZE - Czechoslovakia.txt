@@ -98,7 +98,6 @@ set_popularities = {
 	anarchist = 1
 	authoritarian = 0
 	monarchism = 5
-	theocracy = 
 }
 
 if = {

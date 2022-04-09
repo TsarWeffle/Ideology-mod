@@ -85,7 +85,7 @@ set_politics = {
 	elections_allowed = yes
 }
 
-
+set_popularities = {
 	conservative_democrat = 0
 	liberal_democrat = 0
 	social_democrat = 0
@@ -95,10 +95,4 @@ set_politics = {
 	anarchist = 0
 	authoritarian = 25
 	monarchism = 0
-	theocracy = 0
 }
-
-
-
-
-

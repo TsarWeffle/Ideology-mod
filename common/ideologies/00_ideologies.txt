@@ -15,6 +15,35 @@ ideologies = {
 			
 			libertarianism = {
 			}
+			
+			social_liberalism = {
+			}
+			
+			market_liberalism = {
+			}
+			
+			conservative_liberalism = {
+			}
+			
+			
+			national_liberalism = {
+			}
+			
+			ordoliberalism = {
+			}
+			
+			religious_liberalism = {
+			}
+			
+			third_way = {
+			}
+			
+			neoliberalism = {
+			}
+			
+			progressivism = {
+			}
+			
 		}
 		
 		dynamic_faction_names = {
@@ -74,6 +103,36 @@ ideologies = {
 			}
 			
 			reactionary = {
+			}
+			
+			liberal_conservative = {
+			}
+			
+			religious_conservatism = {
+			}
+			
+			right_progressivism = {
+			}
+			
+			national_conservatism = {
+			}
+			
+			paternal_conservatism = {
+			}
+			
+			pragmatic_conservatism = {
+			}
+			
+			right_populism = {
+			}
+			
+			social_conservatism = {
+			}
+			
+			fiscal_conservatism = {
+			}
+			
+			traditionalism = {
 			}
 			
 		}
@@ -268,8 +327,6 @@ ideologies = {
 			syndicalism = {
 			}
 			
-			pol_potism = {
-			}
 		}
 		
 		dynamic_faction_names = {
@@ -533,6 +590,8 @@ ideologies = {
 			}
 			personal_union = {
 			}
+			theocracy = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -575,56 +634,4 @@ ideologies = {
 		ai_neutral = yes # 
 	}
 	
-	theocracy = {
-	
-		types = {
-			soc_thocracy  = {
-			}
-			
-			fash_theocracy  = {
-			}
-
-			theocracy = {
-				
-			}
-			
-			dem_theocracy = {
-			}
-		}
-
-		dynamic_faction_names = {
-			
-		}
-		
-		color = { 255 223 0 }
-		
-		
-		war_impact_on_world_tension = 0.25		#no major danger
-		faction_impact_on_world_tension = 0.1
-		
-		rules = {
-			can_force_government = no
-			can_puppet = yes
-			can_send_volunteers = no
-		}
-		
-		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
-			drift_defence_factor = -0.3	
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 10.0
-		}
-		
-		faction_modifiers = {
-		}
-
-		ai_neutral = yes # 
-	}
 }

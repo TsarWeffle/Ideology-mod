@@ -89,9 +89,6 @@ set_popularities = {
 	anarchist = 0
 	authoritarian = 15
 	monarchism = 0
-	theocracy = 0
 }
 
 recruit_character = CRI_ilyas_tarkhan
-
-

@@ -95,7 +95,6 @@ set_popularities = {
 	anarchist = 0
 	authoritarian = 0
 	monarchism = 0
-	theocracy = 0
 }
 
 recruit_character = ALT_grigory_gurkin
