@@ -74,55 +74,21 @@ if = {
 	}
 }
 
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 50
+	conservative_democrat = 0
+	liberal_democrat = 0
+	social_democrat = 2
+	fascism = 8
+	radical_socialist = 12
+	authoritarian_socialist = 18
+	anarchist = 6
+	authoritarian = 43
+	monarchism = 11
 }
-
-create_country_leader = {
-	name = "Kost Levytsky"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Nikita Sergeyevich Khrushchyov"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Stepan Bandera"
-	desc = ""
-	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-#create_country_leader = {
-#	name = ""
-#	desc = ""
-#	picture = ""
-#	expire = "1953.3.1"
-#	ideology = oligarchism
-#	traits = {
-#		
-#	}
-#}
-
-
-

@@ -98,43 +98,21 @@ if = {
 	}
 }
 
+set_politics = {
+	ruling_party = liberal_democrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
 set_popularities = {
-	democratic = 25
-	communism = 35
-	neutrality = 40
+	conservative_democrat = 31
+	liberal_democrat = 37
+	social_democrat = 17
+	fascism = 5
+	radical_socialist = 0
+	authoritarian_socialist = 8
+	anarchist = 0
+	authoritarian = 0
+	monarchism = 2
 }
-
-create_country_leader = {
-	name = "Souphanouvong"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Sisavang Vong"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Kou Voragong" 
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-#couldnt find historical fascists

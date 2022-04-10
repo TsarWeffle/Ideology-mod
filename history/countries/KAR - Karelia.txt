@@ -80,25 +80,24 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = authoritarian
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 50
-	fascism = 10
-	communism = 40
-	neutrality = 0
+	conservative_democrat = 10
+	liberal_democrat = 10
+	social_democrat = 10
+	fascism = 5
+	radical_socialist = 5
+	authoritarian_socialist = 15
+	anarchist = 0
+	authoritarian = 45
+	monarchism = 0
 }
 
 recruit_character = KAR_peteris_irklis
 recruit_character = KAR_grandpa
 recruit_character = KAR_jalmari_takkinen
-
-
-
-
-
-

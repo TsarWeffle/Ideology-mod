@@ -26,7 +26,7 @@ l_english:
  
  authoritarian:0 "Authoritarianism"
  authoritarian_noun:0 "Authoritarian"
- authoritarian_desc:0 "Military Junta"
+ authoritarian_desc:0 "Authoritarian Regime"
  
  fascism:0 "Fascist"
  fascism_noun:0 "Fascist"
@@ -77,6 +77,9 @@ l_english:
  centrism:0 "Centrism"
  centrism_desc:0 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
  
+ liberal_paneuropeanism:0 "Paneuropeanism"
+ liberal_paneuropeanism_desc:0 "Paneuropeanism is the belief that Europe's destiny is united under one nation for peace and prosperity for the continent."
+ 
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
  
@@ -116,11 +119,53 @@ l_english:
  militarism:0 "Militarism"
  militarism_desc:0 "Militarism is an ideology in which there is belief that the government or people maintain a high military capability in order to aggressively expand or protect the nation and its values."
  
+ zionism:0 "Zionism"
+ zionism_desc:0 "Zionism is a movement that espouses the establishment of, and support for a homeland for the Jewish people centered in the area roughly corresponding to the Land of Israel."
+ 
+ conservative_paneuropeanism:0 "Conservative Paneuropeanism"
+ conservative_paneuropeanism_desc:0 "In contrast to Left Paneuropeanism, conservative Paneuropeanism believes that Europe is best united under a government that works under Conservative belief systems."
+ 
  social_democracy:0 "Social Democracy"
  social_democracy_desc:0 "Social Democracy is an ideology of which has similar values to that of socialism but wishes to maintain the capitalist framework."
  
  socialism:0 "Socialism"
  socialism_desc:0 "Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate."
+ 
+ left_progressivism:0 "Left Progressivism"
+ left_progressivism_desc:0 "Progressivism is a political philosophy in support of social reform. Based on the idea of progress in which advancements in science, technology, economic development and social organization are vital to the improvement of the human condition."
+ 
+ gandhian_socialism:0 "Gandhian Socialism"
+ gandhian_socialism_desc:0 "Gandhian socialism is the branch of socialism based on the nationalist interpretation of the theories of Mahatma Gandhi. Gandhian socialism generally centers on Hind Swaraj or Indian Home Rule authored by Gandhi."
+ 
+ liberal_socialism:0 "Liberal Socialism"
+ liberal_socialism_desc:0 "Liberal socialism is a political philosophy that incorporates liberal principles to socialism. This synthesis sees liberalism as the political theory that takes the inner freedom of the human spirit as a given and adopts liberty as the goal."
+ 
+ paneuropean_socialism:0 "Left-Paneuropeanism"
+ paneuropean_socialism_desc:0 "Left Paneuropeanism is the idea of applying leftist views such as socialism to the Paneuropeanist movement."
+ 
+ reformist_socialism:0 "Reformist Socialism"
+ reformist_socialism_desc:0 "Reformist Socialism believes that overthrowing the current system via revolution will not work, and that reform is the only pathway to socialism."
+ 
+ nordic_model:0 "Nordic Model"
+ nordic_model_desc:0 "The Nordic model is the combination of social welfare and economic systems adopted by Nordic countries. It combines features of capitalism, such as a market economy and economic efficiency, with social benefits, such as state pensions and income distribution."
+ 
+ market_socialism:0 "Market Socialism"
+ market_socialism_desc:0 "Market socialism is a type of economic system involving the public, cooperative, or social ownership of the means of production in the framework of a market economy, or one that contains a mix of worker-owned, nationalized, and privately owned enterprises."
+ 
+ socialism_with_human_face:0 "Socialism with a Human Face"
+ socialism_with_human_face_desc:0 "Socialism with a Human Face is a Czechoslovak variation of Marxism-Leninism, it liberalises the ideology featuring such things as freedom of press and democratisation."
+ 
+ christian_socialism:0 "Christian Socialism"
+ christian_socialism_desc:0 "Christian socialism is a religious and political philosophy that blends Christianity and socialism, endorsing left-wing politics and socialist economics on the basis of the Bible and the teachings of Jesus."
+ 
+ buddhist_socialism:0 "Buddhist Socialism"
+ buddhist_socialism_desc:0 "Buddhist socialism is a political ideology which advocates socialism based on the principles of Buddhism. Both Buddhism and socialism seek to provide an end to suffering by analyzing its conditions and removing its main causes through praxis."
+ 
+ islamic_socialism:0 "Islamic Socialism"
+ islamic_socialism_desc:0 "Islamic socialism is a political philosophy that incorporates Islamic principles into socialism. As a term, it was coined by various Muslim leaders to describe a more spiritual form of socialism. Islamic socialists believe that the teachings of the Quran and Muhammadâ€”especially the zakatâ€”are not only compatible with principles of socialism, but also very supportive of them."
+ 
+ labour_zionism:0 "Labour Zionism"
+ labour_zionism_desc:0 "Labour Zionism is the left-wing faction in the Zionist movement, it implements socialist and nationalist beliefs such as Social Democracy and Zionism as a system of government."
  
  marxism:0 "Marxism"
  marxism_desc:0 "Encompassing a broad spectrum of economic and historical views, Marxist politics seek to apply the theories of Karl Marx to political practice. Class struggle and the need for transition to a society based on common ownership of the means of production characterize these ideologies."
@@ -140,20 +185,68 @@ l_english:
  bukharinism:0 "Bukharinism"
  bukharinism_desc:1 "Bukharinism mostly follows Leninism and has heavy opposition to Stalinism, it desires to reverse some of the 5 year plan's reforms like collectivisation and instead wants to follow the New Economic Program in place."
  
+ titoism:0 "Titoism"
+ titoism_desc:0 "Titoism, named after and created by Josip Broz Â« Tito Â» is characterised by the Yugoslav identity, worker self-management, non-aligned beliefs and market socialist economics while lead by a Strongman politician."
+ 
+ ho_chi_minh_thought:0 "Ho Chi Minh Thought"
+ ho_chi_minh_thought_desc:0 "Ho Chi Minh Thought is a political philosophy that builds upon Marxismâ€“Leninism and the ideology of Vietnamese revolutionary Ho Chi Minh."
+ 
+ agrarian_socialism:0 "Agrarian Socialism"
+ agrarian_socialism_desc:0 "Agrarian socialism is a political ideology which combines an agrarian way of life with a socialist economic system."
+ 
+ socialism_with_human_face_com:0 "Socialism with a Human Face"
+ socialism_with_human_face_com_desc:0 "Socialism with a Human Face is a Czechoslovak variation of Marxism-Leninism, it liberalises the ideology featuring such things as freedom of press and democratisation."
+ 
+ khrushchevism:0 "Khrushchevism"
+ khrushchevism_desc:0 "Khrushchevism is a form of Marxism-Leninism, it aims to move away and reject the Stalinist political variant of Marxism-Leninism"
+ 
+ utopian_socialism:0 "Utopian Socialism"
+ utopian_socialism_desc:0 "Utopian socialism is often described as the presentation of visions and outlines for imaginary or futuristic ideal societies, with positive ideals being the main reason for moving society in such a direction."
+ 
+ state_socialism:0 "State Socialism"
+ state_socialism_desc:0 "State socialism is a political and economic ideology within the socialist movement advocating state ownership of the means of production, either as a temporary measure or as a characteristic of socialism in the transition from the capitalist to the socialist mode of production or communist society."
+ 
+ juche:0 "Juche"
+ juche_desc:0 "Juche is a variant of socialism formed by Kim il-Sung, it believes that man is the master of their own destiny and that the nation must become self-reliant to be strong and to survive."
+ 
+ arab_socialism:0 "Arab Socialism"
+ arab_socialism_desc:0 "Arab Socialism is a political ideology based on the combination of pan-Arabism and socialism. Arab socialism is distinct from the much broader tradition of socialist thought in the Arab world."
+ 
+ left_panafricanism:0 "Left Panafricanism"
+ left_panafricanism_desc:0 "Left Panafricanism is the left-wing variant of Panafricanism, believing that for a united Panafrican nation to work socialism will need to guide it."
+ 
  anti_revisionism:0 "Anti-Revisionism"
  anti_revisionism_desc:0 "A reaction to the many ideologies claiming to be successors to Marxism, Anti-Revisionism advocates retaining key elements of original revolutionary theory. Mainly opposing incorporation of capitalist economic elements into socialist states, the ideology is defined as much by what it isn't as what it is."
  
  trotskyism:0 "Trotskyism"
- anti_revisionism_desc:0 "Trotskyism follows the ideology of Lev Bronstein, more famously know as Leon Trotsky. Trotskyism follows the theory of permanent revolution, in which the revolutionary (lower class) pursues its goal without co-operation with the bourgeoise."
+ trotskyism_desc:0 "Trotskyism follows the ideology of Lev Bronstein, more famously know as Leon Trotsky. Trotskyism follows the theory of permanent revolution, in which the revolutionary (lower class) pursues its goal without co-operation with the bourgeoise."
  
  syndicalism:0 "Syndicalism"
- anti_revisionism_desc:0 "Syndicalism is an ideology in which the labour unions represent the workers in the forme of politics, usually with unions representing one group of worker such as one for miners and another for agrarians."
+ syndicalism_desc:0 "Syndicalism is an ideology in which the labour unions represent the workers in the forme of politics, usually with unions representing one group of worker such as one for miners and another for agrarians."
  
- christian_socialism:0 "Christian Socialism"
- anti_revisionism_desc:0 "Christian Socialism believes that the bible represents socialist thought and seeks to follow socialism along christian lines."
+ christian_communism:0 "Christian Socialism"
+ christian_communism_desc:0 "Christian Socialism believes that the bible represents socialist thought and seeks to follow socialism along christian lines."
  
  left_socialism:0 "Left Communism"
- anti_revisionism_desc:0 "Left Communism believes that Marxism-Leninism follows the wrong path of Marxism and seeks to follow a new path, one more orthodox to Marx's original ideology."
+ left_socialism_desc:0 "Left Communism believes that Marxism-Leninism follows the wrong path of Marxism and seeks to follow a new path, one more orthodox to Marx's original ideology."
+ 
+ baathism:0 "Ba'athism"
+ baathism_desc:0 "Ba'athism is an Arab nationalist ideology which promotes the creation and development of a unified Arab state through the leadership of a vanguard party over a progressive revolutionary government."
+ 
+ titoism_alt:0 "Titoism"
+ titoism_alt_desc:0 "Titoism, named after and created by Josip Broz Â« Tito Â» is characterised by the Yugoslav identity, worker self-management, non-aligned beliefs and market socialist economics while lead by a Strongman politician."
+ 
+ juche_alt:0 "Juche"
+ juche_alt_desc:0 "Â« Juche Â» created by the Juche faction of the Korean Provisional Government, spearheaded by Korean Nationalist and Communist Shin Chae-ho it believes that self-reliance of the Korean people is the only way forward for the Korean nation and identity to survive."
+ 
+ council_communism:0 "Council Communism"
+ council_communism_desc:0 "Council communism is a current of communist thought that emerged in the 1920s. Inspired by the November Revolution, council communism was opposed to state socialism and advocated workers' councils and council democracy."
+ 
+ guild_socialism:0 "Guild Socialism"
+ guild_socialism_desc:0 "Guild socialism is a political movement advocating workers' control of industry through the medium of trade-related guilds "in an implied contractual relationship with the public"."
+ 
+ revolutionary_socialism:0 "Revolutionary Socialism"
+ revolutionary_socialism_desc:0 "Revolutionary socialism is a political philosophy, doctrine, and tradition within socialism which stresses the idea that a social revolution is necessary in order to bring about structural changes to society."
  
  anarcho_communism:0 "Anarchist Communism"
  anarcho_communism_desc:0 "An ideology embracing the idea of communism as a stateless society, Anarchist Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid."
@@ -179,6 +272,18 @@ l_english:
  hindu_anarchism:0 "Hindu Anarchism"
  hindu_anarchism_desc:0 "Hindu Anarchism is an ideology that believes in Dharmic belief systems yet seeks to follow an anarchist system."
  
+ synthetic_anarchism:0 "Synthetic Anarchism"
+ synthetic_anarchism_desc:0 "Synthetic Anarchism is a form of anarchist organization that seeks diversity upon its participants and tries to join anarchists of different tendencies under the principles of anarchism without adjectives."  
+ 
+ platformism:0 "Platformism"
+ platformism_desc:0 "Platformism is a form of anarchist organization that seeks unity from its participants, having as a defining characteristic the idea that each platformist organization should include only people that are fully in agreement with core group ideas, rejecting people who disagree."
+ 
+ soviet_democracy:0 "Council Democracy"
+ soviet_democracy_desc:0 "Council Democracy is a political system in which the rule of the population by directly elected soviets is exercised."
+ 
+ insurrectionary_anarchism:0 "Insurrectionary Anarchism"
+ insurrectionary_anarchism_desc:0 "Insurrectionary anarchism is a revolutionary theory and tendency within the anarchist movement that emphasizes insurrection as a revolutionary practice. It is critical of formal organizations such as labor unions and federations that are based on a political programme and periodic congresses."
+ 
  nazism:0 "Nazism"
  nazism_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of ethnic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power."
  
@@ -200,9 +305,6 @@ l_english:
  jihadism:0 "Jihadism"
  jihadism_desc:0 "Jihadism desires to promote the Muslim faith through war to destroy the infidel and expand the nation and faith."
  
- zionism:0 "Zionism"
- zionism_desc:0 "Zionism believes in Israeli religious nationalism believing that the Jews have the right to settle the Levantine territory and establish Israel."
- 
  hindu_nationalism:0 "Hindu Nationalism"
  hindu_nationalism_desc:0 "Hindu nationalism believes that the Indian subcontinent is for those of the Dharmic faiths and no others."
  
@@ -212,8 +314,35 @@ l_english:
  fascist_monarchy:0 "Fascist Monarchy"
  fascist_monarchy_desc:0 "Fascist Monarchy is a monarchy in which the king follows fascist beliefs and empowers fascists in nobility."
  
- strasserim:0 "Strasserism"
+ revisionist_zionism:0 "Revisionist Zionism"
+ revisionist_zionism_desc:0 "Revisionist Zionism is an ideology that believes in a revision of the mainstream "Practical Zionism", it believes that the whole of the Eretz Yisrael should be owned and settled by Jews."
+ 
+ clerical_fascism:0 "Clerical Fascism"
+ clerical_fascism_desc:0 "Clerical Fascism is an ideology that combines the political and economic doctrines of fascism with clericalism."
+ 
+ pan_arab_nationalism:0 "Pan-Arab Nationalism"
+ pan_arab_nationalism_desc:0 "Pan-Arab Nationalism believes that all Arabs should be united under a single nation, one of Arabs for Arabs."
+ 
+ pan_african_nationalism:0 "Pan-African Nationalism"
+ pan_african_nationalism_desc:0 "Pan-African Nationalism, or Black Nationalism believes that all Africans and those of African descent should be ruled under a single nation of Africans."
+ 
+ ethnic_nationalism:0 "Ethnic Nationalism"
+ ethnic_nationalism_desc:0 "Ethnic Nationalism is a form of Nationalism that believes that a nation should be of one ethnicity and for that ethnicity."
+ 
+ national_syndicalism:0 "National Syndicalism"
+ national_syndicalism_desc:0 "National syndicalism is a far-right adaptation of syndicalism to suit the broader agenda of integral nationalism."
+ 
+ vozhdism:0 "Vozhdism"
+ vozhdism_desc:0 "Vozhdism is a Russian ideology that believes that the nation should be ruled by a strongman leader, or Vozhd to guide the nation to prosperity."
+ 
+ state_shinto:0 "State Shinto"
+ state_shinto_desc:0 "State Shinto is a Japanese ideology that utilises the Japanese belief of Shinto to encourage the idea that the Emperor of Japan is a divine being above mortal and to enshrine the state in mystical power."
+ 
+ strasserism:0 "Strasserism"
  strasserism:0 "Strasserism is a strand of Nazism that calls for a more radical, mass-action and worker-based form of Nazism, espousing economic antisemitism above other antisemitic forms, to achieve a national rebirth."
+ 
+ eurasianism:0 "Eurasianism"
+ eurasianism_desc:0 "Eurasianism is a political movement in Russia that posits that Russian civilization does not belong in the "European" or "Asian" categories but instead to the geopolitical concept of Eurasia, therefore making Russia a standalone civilization. The movement is supportive of the Bolsheviks but not Communism and sees that the Soviet Union is a stepping stone to the Eurasian Identity"
  
  despotism:0 "Despotic"
  despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
@@ -238,6 +367,30 @@ l_english:
  
  auth_democracy:0 "Authoritarian Democracy"
  auth_democracy_desc:0 "Authoritarian Democracy is a ?Democracy? that mostly tries to keep the ruling elite in charge of the nation while following a facade of democracy."
+ 
+ agrarianism:0 "Agrarianism"
+ agrarianism_desc:0 "Agrarianism is a political and social philosophy that has promoted subsistence agriculture, smallholdings, egalitarianism, with agrarian political parties normally supporting the rights and sustainability of small farmers and poor peasants against the wealthy in society."
+ 
+ francoism:0 "Francoism"
+ francoism_desc:0 "Francoism, a belief formed by the Caudillo of Spain, Franscico Franco believes that Corporatism, Spanish Nationalism, anti-communism, monarchism, and national Catholicism is the proper path for Spain to survive as a nation and state."
+ 
+ petainism:0 "PÃ©tainism"
+ petainism_desc:0 "PÃ©tainism, or Vichyism believes that corporatism, traditionalism, anti-modernism, and anti-republicanism is the proper path for France and its ultimate survival."
+ 
+ salazarism:0 "Salazarism"
+ salazarism_desc:0 "Salazarism, a belief held by the Estado Novo of Portugal believes that corporatism, authoritarianism, and maintaining a heavy hold on its colonies under the leadership of AntÃ³nio de Oliveira Salazar will maintain the integrity of Portugal."
+ 
+ peronism:0 "Peronism"
+ peronism_desc:0 "Peronism is an Argentinian Belief developed by Juan PerÃ³n holds the belief that nationalism, labourism, and populism along with neutrality is the proper belief for the nation to maintain national security."
+ 
+ technocracy:0 "Technocracy"
+ technocracy_desc:0 "Technocracy is a form of government in which the decision-maker or makers are selected on the basis of their expertise in a given area of responsibility, particularly with regard to scientific or technical knowledge."
+ 
+ populism:0 "Populism"
+ populism_desc:0 "Populism is a range of political beliefs that the people oppose the elite, and that the popular are morally good while the elitists are morally evil."
+ 
+ corporatism:0 "Corporatocracy"
+ corporatism_desc:0 "Corporatocracy is a system of government dominated by corporations and their interests."
  
  absolutism:0 "Absolute Monarchy"
  absolutism_desc:0 "Absolute Monarchy is a monarchy where in the monarch has absolute authority over the government."
@@ -1065,15 +1218,15 @@ l_english:
  HOL_authoritarian_party_long:0 "Roomsch-Katholieke Staatspartij" #Piet Aalberse Sr. then in 1942 replaced by Carl Romme.
  
  BEL_authoritarian_socialist_party:0 "KPB"
- BEL_authoritarian_socialist_party_long:0 "Kommunistische Partij van BelgiÃ«" #Joseph Jacquemotte then Julien Lahaut after Jacquemotte's death.
+ BEL_authoritarian_socialist_party_long:0 "Kommunistische Partij van België «" #Joseph Jacquemotte then Julien Lahaut after Jacquemotte's death.
  BEL_radical_socialist_party:0 "PCG"
- BEL_radical_socialist_party_long:0 "Parti Socialiste RÃ©volutionnaire" #Â« The Flemish leader is Henk Sneevliet until 1942' then  War van Overstraeten Â» Georges Vereeken until 42' in which he's replaced by Ernest Mandel
+ BEL_radical_socialist_party_long:0 "Parti Socialiste Révolutionnaire" #« The Flemish leader is Henk Sneevliet until 1942' then  War van Overstraeten » Georges Vereeken until 42' in which he's replaced by Ernest Mandel
  BEL_anarchist_party:0 "LCS"
- BEL_anarchist_party_long:0 "Les Cahiers Socialistes" #Ernest Â« Ernestan Â» Tanrez, LÃ©o Â« Actor Â» Campion, and Charles Â« Notebook/L'ItinÃ©rant Â» Cortvrint
+ BEL_anarchist_party_long:0 "Les Cahiers Socialistes" #Ernest « Ernestan » Tanrez, Léo « Actor » Campion, and Charles « Notebook/L'Itinárant » Cortvrint
  BEL_social_democrat_party:0 "POB/BWP"
  BEL_social_democrat_party_long:0 "Parti Ouvrier Belge/Belgische Werkliedenpartij" #Emile Vandervelde in 1936 then Paul henry Spaak in 1939 onwards.
  BEL_liberal_democrat_party:0 "PL/LP"
- BEL_liberal_democrat_party_long:0 "Parti LibÃ©ral/Liberale Partij" #Leon Dens in 36', Emile Coulonvaux in 39' and 42', Roger Motz in 45' onwards.
+ BEL_liberal_democrat_party_long:0 "Parti Libéral/Liberale Partij" #Leon Dens in 36', Emile Coulonvaux in 39' and 42', Roger Motz in 45' onwards.
  BEL_conservative_democrat_party:0 "PC/KP"
  BEL_conservative_democrat_party_long:0 "Parti Catholique/Katholieke Partij" # Paul van Zeeland in 36', Hubert Pierlot until in 39'. 42'. 45', Gaston Eyskens in 48' onwards.
  BEL_fascism_party:0 "PR"
