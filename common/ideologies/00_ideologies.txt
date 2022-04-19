@@ -693,7 +693,7 @@ ideologies = {
 	
 		types = {
 		
-			stratocracy = {
+			stratocracy = {	
 			}
 
 			fascist_junta = {
@@ -714,11 +714,20 @@ ideologies = {
 			despotism = {
 			}
 			
-			kemalism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			agrarianism = {
 			}
 			
-			agrarianism = {
+			populism = {
+			}
+			
+			corporatism = {
+			}
+			
+			three_princibles = {
+			}
+			
+			kemalism = {
+			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 			francoism = {
@@ -739,12 +748,6 @@ ideologies = {
 			
 			peronism = {
 			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			populism = {
-			}
-			
-			corporatism = {
 			}
 			
 		}
@@ -791,11 +794,7 @@ ideologies = {
 			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
-			constitutional_monarchism = {
-			}
-			
-			tribal_monarchy = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			constitutionalism = {
 			}
 			
 			holy_monarchy = {

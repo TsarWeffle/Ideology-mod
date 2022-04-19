@@ -264,7 +264,7 @@ l_english:
  christian_anarchism_desc:0 "Christian Anarchism seeks to ordinate society in an anarchist sense with common ownership to that of biblical desire."
  
  islamic_anarchism:0 "Islamic Anarchist"
- islamic_anarchism_desc:0 "ISlamic anarchism seeks to ordinate society in an anarchist society that follows the word of the Qu'ran"
+ islamic_anarchism_desc:0 "Islamic anarchism seeks to ordinate society in an anarchist society that follows the word of the Qu'ran"
  
  kibbutz:0 "Kibbutz"
  kibbutz_desc:0 "Kibbutz is a libertarian socialist movement that follows an Israeli anarchist thought, promoting jewish-arab co-operation instead of hostility. It seeks to use the Kibbutz system to create a communal society."
@@ -383,6 +383,9 @@ l_english:
  peronism:0 "Peronism"
  peronism_desc:0 "Peronism is an Argentinian Belief developed by Juan Perón holds the belief that nationalism, labourism, and populism along with neutrality is the proper belief for the nation to maintain national security."
  
+ three_princibles:0 "Three Princibles"
+ three_princibles_desc:0 "Three Princibles of the People is the primary belief of the Kuomintang, Civic Nationalism, Governance Rights, and Welfare Rights are the three princibles to be upheld."
+ 
  technocracy:0 "Technocracy"
  technocracy_desc:0 "Technocracy is a form of government in which the decision-maker or makers are selected on the basis of their expertise in a given area of responsibility, particularly with regard to scientific or technical knowledge."
  
@@ -397,9 +400,6 @@ l_english:
  
  constitutionalism:0 "Constitutional Monarchy"
  constitutionalism_desc:0 "A constitutional monarchy is a monarchy in which the monarch needs the parliament to agree in order for them to do policies and the like."
- 
- tribal_monarchy:0 "Tribal Monarchy"
- tribal_monarchy_desc:0 "Tribal Monarchy is a tribal confederation in which one person has the title of monarch and gets the most power in the society."
  
  holy_monarchy:0 "Holy Monarchy"
  holy_monarchy_desc:0 "A Holy Monarchy is a monarchy where the Monarch is also a prominent member of the faith, usually a priest or imam and has prominent role in government and faith."
@@ -435,10 +435,10 @@ l_english:
  GER_authoritarian_party:0 "Deutschenationale Befreiungsfront" #August von Mackensen or Karl Friedrich Goerdeler.
  GER_goerdeler_party:0 "DNFP"
  GER_goerdeler_party_long:0 "Deutschnationale Freiheitspartei" #Goerdeler after winning the war.
- GER_wehrmacht_party:0 "ANFB" #Oster Conspiracy (For both the Auth and Heer parties the ensured generals will be Tresckow, Witzleben, Stauffenberg, hammserstein, beck, canaris, Witzelben would be made the Army Chief and Oster an advisor.
+ GER_wehrmacht_party:0 "ANFB" #Oster Conspiracy (For both the Auth and Heer parties the ensured generals will be Tresckow, Witzleben, Stauffenberg, hammserstein, Beck, Canaris, Witzelben would be made the Army Chief and Oster an advisor.
  GER_wehrmacht_party_long:0 "Anti-Nazi-Front der Bundeswehr" #Erwin von Witzleben, 
  GER_monarchism_party:0 "DNVP"
- GER_monarchism_party_long:0 "Deutschnationale Volkspartei" #Wilhelm II and/or (Wilhelm III or Victoria Louise I)
+ GER_monarchism_party_long:0 "Deutschnationale Volkspartei" #Wilhelm II and/or (Wilhelm III [Who in turn is succeeded by Louis Ferdinand] or Victoria Louise I)
  
  POL_fascism_party:0 "ONR-Falanga"
  POL_fascism_party_long:0 "Oboz Narodowo Radykalny-Falanga" #Boleslaw Piasecki
@@ -499,7 +499,7 @@ l_english:
  ITA_authoritarian_socialist_party:0 "PCI"
  ITA_authoritarian_socialist_party_long:0 "Partito Comunista Italiano" #Ruggero Grieco, in May 1938 it becomes Palmiro Togliatti
  ITA_radical_socialist_party:0 "LtdI" 
- ITA_radical_socialist_party_long:0 "Lega trotskista d Italia" #Amadeo Bordiga
+ ITA_radical_socialist_party_long:0 "Lega trotskista d Italia" #Amadeo Bordiga or Bruno Rizzi, whoever gets a better portrait
  ITA_anarchist_party:0 "USI"
  ITA_anarchist_party_long:0 "Unione Sindacale Italiana" #Left Anarchist (Camillo Berneri who is succeeded in 1937 by Giovanna Berneri) and Right Anarchist (Leda Rafanilli)
  ITA_social_democrat_party:0 "PSI"
@@ -509,14 +509,14 @@ l_english:
  ITA_conservative_democrat_party:0 "DC"
  ITA_conservative_democrat_party_long:0 "Democrazia Cristiana" #Alcide de Gasperi until 1946 then Attilio Piccioni.
  ITA_fascism_party:0 "Partito Nazionale Fascista"
- ITA_fascism_party_long:0 "Partito Nazionale Fascista" #Benitowo Muwussolini, succeeded by any of these people; Allesandro Pavolini, Giorgo Almirante, or Augusto de Marsanich, if still alive it goes to Gelaezzo Ciano
+ ITA_fascism_party_long:0 "Partito Nazionale Fascista" #Benitowo Muwussolini, succeeded by any of these people; Allesandro Pavolini (Social Republic Death), Achille Starace, Giorgo Almirante, Gabriel D'Annunzio if still alive it goes to Gelaezzo Ciano
  ITA_monarchism_party:0 "Partito Nazionale Monarchico"
  ITA_monarchism_party_long:0 "Partito Nazionale Monarchico" #Victor Emmanuel III, succeeded by Umberto II
  ITA_theocracy_party:0 "CCR"
  ITA_theocracy_party_long:0 "Chiesa Cattolica Romana" #Pius XI, from 10th of february 1939 to 2nd of march 1939 it'll be the college of cardinals, then it's Pius XII
  ITA_authoritarian_party:0 "Badoglio Government" #Pietro Badoglio
  
- JAP_authoritarian_socialist_party:0 "NK-t"
+ JAP_authoritarian_socialist_party:0 "NK"
  JAP_authoritarian_socialist_party_long:0 "Nihon Kyosan-to" #Tokuda Kyuichi 
  JAP_radical_socialist_party:0 "NKKD"
  JAP_radical_socialist_party_long:0 "Nihon Kakumeiteki Kyosanshugisha Domei" #Generic Leader
@@ -528,13 +528,14 @@ l_english:
  JAP_social_democrat_party:0 "Nihon Shakai Tō" #Tetsu Kyahama
  JAP_liberal_democrat_party:0 "Jiyuto" #Ichirō Hatoyama, in 1947 replaced by Shigeru Yoshida.
  JAP_conservative_democrat_party:0 "Minshuto" #Hitoshi Ashida, in 1947 replaced by Takeru Inukai
- JAP_pan_asian_party:0 "Han ajia rengō tō" #Shumai Okawa
+ JAP_pan_asian_party:0 "HRK" 
+ JAP_pan_asian_party_long:0 "Higashiajia Rengō Kyōkai" #Shumai Okawa
  JAP_fascism_party:0 "TY"
  JAP_fascism_party_long:0 "Taisei Yokusankai" #Hideki Tojo
  JAP_nazi_party:0 "Tōhōkai" #Seigō Nakano 
  JAP_monarchism_party:0 "Showa" 
- JAP_monarchism_party_long:0 "the Showa Emperor" #Emperor Showa
- JAP_authoritarian_party:0 "Kodoha Faction" #Sadao Araki
+ JAP_monarchism_party_long:0 "the Showa Emperor" #Emperor Showa, on death it goes to Yasuhito.
+ JAP_authoritarian_party:0 "Kōdōha" #Sadao Araki
  
  USA_authoritarian_socialist_party:0 "CPUSA"
  USA_authoritarian_socialist_party_long:0 "Communist Party USA" #Earl Browder until 1945, then it is Willy Z. Foster.
@@ -1043,7 +1044,7 @@ l_english:
  TUR_sultanate_precursor_party_long:0 "Geçici Hükümet"
  TUR_monarchism_party:0 "Devlet-i Ebed-mëddet"  
  TUR_authoritarian_party:0 "CHP"
- TUR_authoritarian_party_long:0 "Cumhuriyet Halk Partisi"
+ TUR_authoritarian_party_long:0 "Cumhuriyet Halk Partisi" #Mustafa Kemal « Atatürk »
  TUR_theocracy_party:0 "Muslim Clergy"
  
  HUN_authoritarian_socialist_party:0 "KMP"
@@ -1218,15 +1219,15 @@ l_english:
  HOL_authoritarian_party_long:0 "Roomsch-Katholieke Staatspartij" #Piet Aalberse Sr. then in 1942 replaced by Carl Romme.
  
  BEL_authoritarian_socialist_party:0 "KPB"
- BEL_authoritarian_socialist_party_long:0 "Kommunistische Partij van Belgi� �" #Joseph Jacquemotte then Julien Lahaut after Jacquemotte's death.
+ BEL_authoritarian_socialist_party_long:0 "Kommunistische Partij van België" #Joseph Jacquemotte then Julien Lahaut after Jacquemotte's death.
  BEL_radical_socialist_party:0 "PCG"
- BEL_radical_socialist_party_long:0 "Parti Socialiste R�volutionnaire" #� The Flemish leader is Henk Sneevliet until 1942' then  War van Overstraeten � Georges Vereeken until 42' in which he's replaced by Ernest Mandel
+ BEL_radical_socialist_party_long:0 "Parti Socialiste Révolutionnaire" #« The Flemish leader is Henk Sneevliet until 1942' then  War van Overstraeten » Georges Vereeken until 42' in which he's replaced by Ernest Mandel
  BEL_anarchist_party:0 "LCS"
- BEL_anarchist_party_long:0 "Les Cahiers Socialistes" #Ernest � Ernestan � Tanrez, L�o � Actor � Campion, and Charles � Notebook/L'Itin�rant � Cortvrint
+ BEL_anarchist_party_long:0 "Les Cahiers Socialistes" #Ernest « Ernestan » Tanrez, Léo « Actor » Campion, and Charles « Notebook/L'Itinérant » Cortvrint
  BEL_social_democrat_party:0 "POB/BWP"
  BEL_social_democrat_party_long:0 "Parti Ouvrier Belge/Belgische Werkliedenpartij" #Emile Vandervelde in 1936 then Paul henry Spaak in 1939 onwards.
  BEL_liberal_democrat_party:0 "PL/LP"
- BEL_liberal_democrat_party_long:0 "Parti Lib�ral/Liberale Partij" #Leon Dens in 36', Emile Coulonvaux in 39' and 42', Roger Motz in 45' onwards.
+ BEL_liberal_democrat_party_long:0 "Parti Libéral/Liberale Partij" #Leon Dens in 36', Emile Coulonvaux in 39' and 42', Roger Motz in 45' onwards.
  BEL_conservative_democrat_party:0 "PC/KP"
  BEL_conservative_democrat_party_long:0 "Parti Catholique/Katholieke Partij" # Paul van Zeeland in 36', Hubert Pierlot until in 39'. 42'. 45', Gaston Eyskens in 48' onwards.
  BEL_fascism_party:0 "PR"
