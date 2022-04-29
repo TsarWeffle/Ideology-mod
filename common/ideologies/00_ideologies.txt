@@ -4,7 +4,7 @@ ideologies = {
 	
 		types = {
 			
-			liberalism = {
+			liberalism = {	
 			}
 			
 			centrism = {
@@ -136,7 +136,7 @@ ideologies = {
 			fiscal_conservatism = {
 			}
 			
-			traditionalism = {
+			traditionalism = {	
 			}
 			
 			zionism = {
@@ -611,6 +611,7 @@ ideologies = {
 			}
 			
 			rexism = {
+			can_be_randomly_selected = no
 			}
 			
 			revisionist_zionism = {
@@ -653,6 +654,10 @@ ideologies = {
 			eurasianism = {
 			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
+			
+			polish_falangism = {
+			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			{
 			
 		}
 		
@@ -795,9 +800,6 @@ ideologies = {
 			}
 			
 			constitutionalism = {
-			}
-			
-			holy_monarchy = {
 			}
 			
 			personal_union = {
