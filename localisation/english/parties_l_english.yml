@@ -473,15 +473,15 @@ l_english:
  ENG_authoritarian_communist_party:0 "CPGB"
  ENG_authoritarian_communist_party_long:0 "Communist Party of Great Britain" #Harry Pollitt, in 1939 it goes to Rajani Palme Dutt and in 1941 it goes back to Harry Pollitt.
  ENG_radical_communist_party:0 "SRG"
- ENG_radical_communist_party_long:0 "Socialist Review Group" #Tony Cliff
+ ENG_radical_communist_party_long:0 "Socialist Review Group" #Tony Cliff (no photo)
  ENG_anarchism_party:0 "USM"
- ENG_anarchism_party_long:0 "United Socialist Movement" #Guy Aldred and Ethel MacDonald
+ ENG_anarchism_party_long:0 "United Socialist Movement" #Guy Aldred (no photo) and Ethel MacDonald
  ENG_social_democrat_party:0 "LP"
  ENG_social_democrat_party_long:0 "Labour Party" #Clement Atlee
  ENG_liberal_democrat_party:0 "LP"
  ENG_liberal_democrat_party_long:0 "Liberal Party" #Archibald Sinclair, in 1945 it'll be Clement Davies
  ENG_conservative_democrat_party:0 "CP"
- ENG_conservative_democrat_party_long:0 "Conservative Party" #Baldwin, in 1937 it'll become Chamberlain, in 1940 it'll become Churchill.
+ ENG_conservative_democrat_party_long:0 "Conservative Party" #Baldwin, in 1937 it'll become Chamberlain, in 1940 it'll become Churchill or Lord Edward Halifax
  ENG_fascism_party:0 "BUF" #Succeeded by the union movement when at war with a fascist nation and not currently fascist.
  ENG_fascism_party_long:0 "British Union of Fascists" #Oswald Mosley
  ENG_europe_fascism_party:0 "UP"
@@ -489,7 +489,7 @@ l_english:
  ENG_nazi_party:0 "NSL" #Fascist party if german puppet
  ENG_nazi_party_long:0 "National Socialist League" #John Beckett
  ENG_monarchism_party:0 "Kings Party"
- ENG_monarchism_party_long:0 "The Kings Party"  #King Edward VIII
+ ENG_monarchism_party_long:0 "The Kings Party"  #King Edward VIII, George V and George VI also get portraits.
  ENG_queens_party:0 "Queens Party"  
  ENG_queens_party_long:0 "The Queens Party"  #Queen Elizabeth II
  
@@ -506,7 +506,7 @@ l_english:
  ITA_conservative_democrat_party:0 "DC"
  ITA_conservative_democrat_party_long:0 "Democrazia Cristiana" #Alcide de Gasperi until 1946 then Attilio Piccioni.
  ITA_fascism_party:0 "Partito Nazionale Fascista"
- ITA_fascism_party_long:0 "Partito Nazionale Fascista" #Benito Mussolini, succeeded by any of these people; Allesandro Pavolini (Social Republic Death), Achille Starace, Giorgo Almirante, Gabriel D'Annunzio if still alive it goes to Gelaezzo Ciano.*/
+ ITA_fascism_party_long:0 "Partito Nazionale Fascista" #Benito Mussolini, succeeded by any of these people; Allesandro Pavolini (Social Republic Death), Achille Starace, Giorgo Almirante, Gabriel D'Annunzio, Julius Evola if still alive it goes to Gelaezzo Ciano.
  ITA_monarchism_party:0 "Partito Nazionale Monarchico"
  ITA_monarchism_party_long:0 "Partito Nazionale Monarchico" #Victor Emmanuel III, succeeded by Umberto II
  ITA_theocracy_party:0 "CCR"
@@ -579,6 +579,8 @@ l_english:
  FRA_nationalism_party_long:0 "Parti Populaire Français" #Jacques Doriot
  FRA_cagular_party:0 "LC"
  FRA_cagular_party_long:0 "La Cagoule" #Eugene DeLoncle until 17 january 1944, succeeded by Jacques Corrèze 
+ FRA_social_party:0 "PSF"
+ FRA_social_party_long:0 "Parti Social Français" #François de la Rocque
  FRA_monarchism_party:0 "AF"
  FRA_monarchism_party_long:0 "Action Française" #Charles Maurras
  FRA_authoritarian_party:0 "Independant Party" #Pierre Laval then Philippe Pétain
@@ -980,7 +982,10 @@ l_english:
  AST_conservative_democrat_party_long:0 "Liberal-National Coalition" #Joseph Lyons until 26th of april 1939, then it's Robert Menzies, on 29th August 1941 it becomes Arthur Fadden, on 23rd of september 1943 it becomes Rober Menzies
  AST_fascism_party:0 "CP" 
  AST_fascism_party_long:0 "Centre Party" #Eric Campbell
- AST_monarchism_party:0 "Australian League for National Colonial Unity" #Royal Committee
+ AST_first_party:0 "AFP"
+ AST_first_party_long:0 "Australia First Party" #P. R. Stephensen
+ AST_monarchism_party:0 "ALNCU"
+ AST_monarchism_party_long:0 "Australian League for National Colonial Unity" #Royal Committee
  AST_authoritarian_party:0 "Colonial Government" #Brigadier General The Lord Gowrie until 30 jan 1945, The Duke of Gloucester till 11 mar 47, Sir William John McKell till 8 may 53
  
  MEX_authoritarian_socialist_party:0 "PCM"
@@ -1004,9 +1009,9 @@ l_english:
  MEX_authoritarian_party:0 "Junta Militar Mexicana" #General Cadillo
  
  ARG_authoritarian_socialist_party:0 "PCA"
- ARG_authoritarian_socialist_party_long:0 "Partido Comunista de la Argentina"
+ ARG_authoritarian_socialist_party_long:0 "Partido Comunista de la Argentina" #Luis Victor Sommi till June 1938, Geronimo Arnedo Alvarez till November 1941, Victorio Codovilla for the rest
  ARG_radical_socialist_party:0 "Posadists"
- ARG_radical_socialist_party_long:0 "Fourth International « Posadist »"
+ ARG_radical_socialist_party_long:0 "Fourth International « Posadist »" #Juan Posadas
  ARG_anarchist_party:0 "Patagonian Anarchist Front"
  ARG_social_democrat_party:0 "PS"
  ARG_social_democrat_party_long:0 "Partido Socialista"
@@ -1338,12 +1343,15 @@ l_english:
  CZE_social_democrat_party:0 "CSSD"
  CZE_social_democrat_party_long:0 "Ceská strana sociálne demokratická" #Antonín Hampl until 1945, then Zdeněk Fierlinger till 1947, then Bohumil Laušman
  CZE_liberal_democrat_party:0 "CSNS"
- CZE_liberal_democrat_party_long:0 "Ceská strana národne sociálná" #Václav Klofáč until may 17th 1938, then Petr Zenkl till february 24th 1948, then Emmanuel Shlechta
+ CZE_liberal_democrat_party_long:0 "Ceská strana národne sociálná" #Václav Klofáč until may 17th 1938, then Petr Zenkl till february 24th 1948, then Emmanuel Shlechta, Edvard Benes has portraits  
  CZE_conservative_democrat_party:0 "KDU-ČSL"
  CZE_conservative_democrat_party_long:0 "Křesťanská a demokratická unie – Československá strana lidová" #Jan Šrámek until 1948, then Alois Petr
+ CZE_rszml_party:0 "RSZML"
+ CZE_rzsml_party_long:0 "Republikánská strana zemědělského a malorolnického lidu" #Milan Hodža
  CZE_fascism_party:0 "NOF"
  CZE_fascism_party_long:0 "Národná obec Fasistická" #Radola Gajda, after death it goes to Rudolf Beran
- CZE_collaborationist_party:0 "Vlajka" #Jan Rys-Rozsévač, possibly couped by Emanuel Moravec
+ CZE_collaborationist_party:0 "ČNST-V" 
+ CZE_collaborationist_party_long:0 "Český národně socialistický tábor — Vlajka" #Jan Rys-Rozsévač, possibly couped by Emanuel Moravecx
  CZE_nazi_party:0 "NSDAP"
  CZE_nazi_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei" #Konstantin von Neurath, Reinhard Heydrich (if never dead he stays forever), Kurt Daluege, Wilhelm Frick
  CZE_monarchism_party:0 "House Habsburg-Lorraine" #Otto von Habsburg-Lorraine
