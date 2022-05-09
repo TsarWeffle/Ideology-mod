@@ -303,7 +303,7 @@ leader_traits = {
 ######################
 	#FRA
 ######################
-	protecteur_france = {
+	protecteur_france = { #Pétain
 		random = no
 		political_power_factor = 0.25
 		
@@ -312,7 +312,7 @@ leader_traits = {
 		}
 	}
 	
-	integralist_maurras	= {
+	integralist_maurras	= { #Maurras
 		random = no
 		political_power_factor = 0.25
 		
@@ -321,7 +321,7 @@ leader_traits = {
 		}
 	}
 	
-	chef_doriot = {
+	chef_doriot = { #Jacque Doriot
 		random = no
 		political_power_factor = 0.25
 		
@@ -330,7 +330,7 @@ leader_traits = {
 		}
 	}
 	
-	surrealist = {
+	grand_maitre_france = { #Jacque Doriot
 		random = no
 		political_power_factor = 0.25
 		
@@ -339,7 +339,7 @@ leader_traits = {
 		}
 	}
 	
-	heir_of_napoleon = {
+	surrealist = { #André Breton
 		random = no
 		political_power_factor = 0.25
 		
@@ -348,7 +348,7 @@ leader_traits = {
 		}
 	}
 	
-	french_patriot = {
+	heir_of_napoleon = { #Napoleon VI
 		random = no
 		political_power_factor = 0.25
 		
@@ -357,7 +357,196 @@ leader_traits = {
 		}
 	}
 	
-	lion_of_verdun = {
+	french_patriot = { #Napoleon VI
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	lion_of_verdun = { #Pétain
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	the_grand_colonel = { #François de la Rocque
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	jacobin_stalin = { #Maurice Thorez
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	father_of_the_revolution = { #Maurice Thorez
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	the_new_robespierre = { #Maurice Thorez
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	heir_of_sorel = { #Georges Valois
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	father_of_neosocialism = { #Marcel Deat
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	marshall_deat = { #Marcel Deat
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	neosocialist_militarist = { #Jacques Arthuys
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	moderate_neosocialist = { #Réne Capitant
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	christian_nationalist_propagandist = { #Philippe Henriot
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	rabid_antisemite = { #Xavier Vallat
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cagular_terrorist = { #Eugene DeLoncle and Jean Filiol
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	saviour_of_the_republic = { #Pétain
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	the_grand_asparagus = { #de Gaulle
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	franciste_dictator = { #Marcel Bucard
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	soviet_splitter = { #Réne Nicod
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	big_tent_revolutionary = { #Marceau Pivert
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	humanitarian_journalist = { #Daniel Mayer
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	reformist_syndicalist = { #Leon Jouhaux
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	powerful_trade_unionist = { #
 		random = no
 		political_power_factor = 0.25
 		
@@ -368,9 +557,403 @@ leader_traits = {
 ######################
 	#ITA
 ######################
+	incompetent_militarist = { #Starace
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	fascist_essayist = { #Pavolini
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	duce = { #Mussolini
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	second_duce = { #Ciano
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mad_duce = { #Mussolini RSI
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	christian_paneuropeanist = { #Piccioni and Gasperi
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	spiritual_fascist = { #Evola
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	super_fascist = { #Evola
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	anarchist_militant = { #Berneri
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	comandante_of_carnaro = { #Gabriele D'Annunzio
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	comandante_of_italia = { #Gabriele D'Annunzio
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	the_poet = { #il Vate, Gabriele D'Annunzio
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	the_prophet = { #il Propheta, Gabriele D'Annunzio
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pope = { #The popes, duh
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	modern_fascist = { #Giorgio Almirante
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	islamic_anarcho_futurist = { #Leda Rafenelli
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	the_best = { #il Migliore, Palmiro Toggliati
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ruthless_marshal = { #Badoglio
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	modern_garibaldi = { #Messe
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	prominent_socialist = {#Pietro Nenni
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	jovial_republican = { #Randolfo Pacciardi
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	soldier_king = { #Victor Emmanuel
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	disciplined_militarist_monarch = { #Umberto II
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	the_may_king = { #Umberto II
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	prince_of_montevenso = { #Gabriele D'Annunzio
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 ######################
-	#UK
+	#ENG
 ######################
+	british_bulldog = { #Churchill
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	modest_man = { #Attlee
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	budding_revolutionary = { #Haston
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	code_holder = { #Pollitt
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	socialist_author = { #Rajani Palme Dutt
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	vengeful_queen = { #Queen Elizabeth II
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	authoritarian_tendency = { #Edward VIII
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	reluctant_king = { #George VI
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ready_regent = { #Henry of Gloucester
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	democratic_fascist = { #Mosley
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	the_new_cromwell = { #Mosley
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pragmatic_appeaser = { #Halifax
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	naive_appeaser = { #Chamberlain
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	interwar_minister = { #Baldwin
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	anarchist_broadcaster = { #MacDonald
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	charming_ardent_democrat = { #Sinclair
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	reluctant_leader = { #Davies
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	lord_haw_haw = { #William Joyce
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	anglo_nazi = { #John Beckett
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 ######################
 	#SOV
 ######################
@@ -383,6 +966,68 @@ leader_traits = {
 ######################
 	#CZE
 ######################
+	young_god_of_death = { #Reinhard Heydrich
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	enraged_god_of_death = { #Reinhard Heydrich
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	humanitarian_socialist = { #Dubchek and Richta
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	trade_unionist = { #Hampl and Petr
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	resistance_fighter = { #Bohumil Lausman
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	hrad = { #Edvard Benes
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	czech_quisling = { #Moravec
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 ######################
 	#HUN
 ######################
@@ -413,15 +1058,4 @@ leader_traits = {
 ######################
 	#DAN
 ######################
-######################
-	#CZE
-######################
-	czech_quisling = {
-		random = no
-		political_power_factor = 0.25
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 }

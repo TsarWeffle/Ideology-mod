@@ -472,31 +472,27 @@ l_english:
  
  ENG_authoritarian_communist_party:0 "CPGB"
  ENG_authoritarian_communist_party_long:0 "Communist Party of Great Britain" #Harry Pollitt, in 1939 it goes to Rajani Palme Dutt and in 1941 it goes back to Harry Pollitt.
- ENG_radical_communist_party:0 "SRG"
- ENG_radical_communist_party_long:0 "Socialist Review Group" #Tony Cliff (no photo)
+ ENG_radical_communist_party:0 "RCP"
+ ENG_radical_communist_party_long:0 "Revolutionary Communist Party" #Jock Haston
  ENG_anarchism_party:0 "USM"
- ENG_anarchism_party_long:0 "United Socialist Movement" #Guy Aldred (no photo) and Ethel MacDonald
+ ENG_anarchism_party_long:0 "United Socialist Movement" #Ethel MacDonald
  ENG_social_democrat_party:0 "LP"
  ENG_social_democrat_party_long:0 "Labour Party" #Clement Atlee
  ENG_liberal_democrat_party:0 "LP"
  ENG_liberal_democrat_party_long:0 "Liberal Party" #Archibald Sinclair, in 1945 it'll be Clement Davies
  ENG_conservative_democrat_party:0 "CP"
  ENG_conservative_democrat_party_long:0 "Conservative Party" #Baldwin, in 1937 it'll become Chamberlain, in 1940 it'll become Churchill or Lord Edward Halifax
- ENG_fascism_party:0 "BUF" #Succeeded by the union movement when at war with a fascist nation and not currently fascist.
- ENG_fascism_party_long:0 "British Union of Fascists" #Oswald Mosley
+ ENG_fascism_party:0 "BUF"
+ ENG_fascism_party_long:0 "British Union of Fascists" #Oswald Mosley, some Generals during the civil war will be Neil Francis Hawkins, William Joyce, Angus MacNab, Lord Tavistock
  ENG_europe_fascism_party:0 "UP"
  ENG_europe_fascism_party_long:0 "Union Party" #Oswald Mosley
- ENG_nazi_party:0 "NSL" #Fascist party if german puppet
  ENG_nazi_party_long:0 "National Socialist League" #John Beckett
- ENG_monarchism_party:0 "Kings Party"
- ENG_monarchism_party_long:0 "The Kings Party"  #King Edward VIII, George V and George VI also get portraits.
- ENG_queens_party:0 "Queens Party"  
- ENG_queens_party_long:0 "The Queens Party"  #Queen Elizabeth II
- 
+ ENG_monarchism_party:0 "House of Windsor" #King Edward VIII, George VI, Prince-Regent Henry of Gloucester Queen Elizabeth II
+
  ITA_authoritarian_socialist_party:0 "PCI"
  ITA_authoritarian_socialist_party_long:0 "Partito Comunista Italiano" #Ruggero Grieco, in May 1938 it becomes Palmiro Togliatti
- ITA_radical_socialist_party:0 "LtdI" 
- ITA_radical_socialist_party_long:0 "Lega trotskista d Italia" #Amadeo Bordiga or Bruno Rizzi, whoever gets a better portrait
+ ITA_radical_socialist_party:0 "LTI" 
+ ITA_radical_socialist_party_long:0 "Lega Trotskista d Italia" #Amadeo Bordiga or Bruno Rizzi, whoever gets a better portrait
  ITA_anarchist_party:0 "USI"
  ITA_anarchist_party_long:0 "Unione Sindacale Italiana" #Left Anarchist (Camillo Berneri who is succeeded in 1937 by Giovanna Berneri) and Right Anarchist (Leda Rafanilli)
  ITA_social_democrat_party:0 "PSI"
@@ -505,9 +501,13 @@ l_english:
  ITA_liberal_democrat_party_long:0 "Partito Repubblicano Italiano" #Randolfo Pacciardi until 1949, replaced by Oronzo Reale
  ITA_conservative_democrat_party:0 "DC"
  ITA_conservative_democrat_party_long:0 "Democrazia Cristiana" #Alcide de Gasperi until 1946 then Attilio Piccioni.
- ITA_fascism_party:0 "Partito Nazionale Fascista"
+ ITA_fascism_party:0 "PNF"
  ITA_fascism_party_long:0 "Partito Nazionale Fascista" #Benito Mussolini, succeeded by any of these people; Allesandro Pavolini (Social Republic Death), Achille Starace, Giorgo Almirante, Gabriel D'Annunzio, Julius Evola if still alive it goes to Gelaezzo Ciano.
- ITA_monarchism_party:0 "Partito Nazionale Monarchico"
+ ITA_gabriele_party:0 "PURI-F-A-B-RS"
+ ITA_gabriele_party_long:0 "Partito di Unità Radicale Italiana del Fascismo, del Anarchismo, del Bolscevismo e della Rivoluzione Sociale" #Gabriele D'annunzio, some generals are Harukichi Shimoi, Gabriele D'Annunzio, Pietro Micheletti, Giovanni Giuriati, Arturo Avolio, Léon Kochnitzky, Rafenelli and Filippo Tommaso Marineti as an advisor, 
+ ITA_evola_party:0 "LMAS"
+ ITA_evola_party_long:0 "La Lega del Misticismo Ariano Spirituale" #Julius Evola
+ ITA_monarchism_party:0 "PNM"
  ITA_monarchism_party_long:0 "Partito Nazionale Monarchico" #Victor Emmanuel III, succeeded by Umberto II
  ITA_theocracy_party:0 "CCR"
  ITA_theocracy_party_long:0 "Chiesa Cattolica Romana" #Pius XI, from 10th of february 1939 to 2nd of march 1939 it'll be the college of cardinals, then it's Pius XII
@@ -558,11 +558,13 @@ l_english:
  USA_union_party_long:0 "Union Party" #William Lemke or Earl Kemp Long « Uncle Earl »
  
  FRA_authoritarian_socialist_party:0 "PCF"
- FRA_authoritarian_socialist_party_long:0 "Parti Communiste Francais" #Maurice Thorez
+ FRA_authoritarian_socialist_party_long:0 "Parti Communiste Français" #Maurice Thorez
  FRA_radical_socialist_party:0 "UPF"
- FRA_radical_socialist_party_long:0 "Union populaire française" #Réne Nicod
+ FRA_radical_socialist_party_long:0 "Union Populaire Française" #Réne Nicod
+ FRA_trotskyite_party:0 "PSOP"
+ FRA_trotskyite_party_long:0 "Parti Socialiste Ouvrier et Paysan" #Marceau Pivert
  FRA_internationale_party:0 "SFIO"
- FRA_internationale_party_long:0 "Section Française de l Internationale Ouvrière" #Daniel Mayer and Guy Mollet
+ FRA_internationale_party_long:0 "Section Française de l Internationale Ouvrière" #Daniel Mayer
  FRA_surrealist_party:0 "FA-GSF" 
  FRA_surrealist_party_long:0 "Fôte d Avant-Garde Surréaliste Française" #André Breton
  FRA_anarchist_party:0 "CGT"
@@ -573,19 +575,31 @@ l_english:
  FRA_liberal_democrat_party_long:0 "Alliance Démocratique" #Pierre Flandin, Paul Reynaud
  FRA_conservative_democrat_party:0 "FR"
  FRA_conservative_democrat_party_long:0 "Fédération Republicaine" #Louis Marin
+ FRA_gaullist_party:0 "UNR"
+ FRA_gaullist_party_long:0 "Union pour la Nouvelle République" #Charles De Gaulle
+ FRA_fascism_party:0 "LED"
+ FRA_fascism_party_long:0 "ligues d Extrême Droite" #Marcel Bucard
  FRA_fascism_party:0 "MF"
- FRA_fascism_party_long:0 "Mouvement Franciste" #Marcel Bucard
+ FRA_francistes_party_long:0 "Mouvement Franciste" #Marcel Bucard
  FRA_nationalism_party:0 "PPF"
  FRA_nationalism_party_long:0 "Parti Populaire Français" #Jacques Doriot
- FRA_cagular_party:0 "LC"
- FRA_cagular_party_long:0 "La Cagoule" #Eugene DeLoncle until 17 january 1944, succeeded by Jacques Corrèze 
- FRA_social_party:0 "PSF"
- FRA_social_party_long:0 "Parti Social Français" #François de la Rocque
+ FRA_catholic_party:0 "LCFF"
+ FRA_catholic_party_long:0 "Ligue Catholique Fasciste Française" #Xavier Vallat or Philippe Henriot
+ FRA_cagular_party:0 "CSAR"
+ FRA_cagular_party_long:0 "Comité Secret Action Révolutionnaire" #Eugene DeLoncle until 17 january 1944, succeeded by John Filiol
+ FRA_msr_party:0 "MSR"
+ FRA_msr_party_long:0 "Mouvement Social Révolutionnaire" #Same as Cagulars
+ FRA_neosocialist_party:0 "RNP"
+ FRA_neosocialist_party_long:0 "Rassemblement National Populaire" #Marcel Deat, Georges Valois, Jacques Arthuys, Réne Capitant
+ FRA_maurrassiste_party:0 "AF"
+ FRA_maurrassiste_party_long:0 "Action Française" #Charles Maurras
  FRA_monarchism_party:0 "AF"
  FRA_monarchism_party_long:0 "Action Française" #Charles Maurras
- FRA_authoritarian_party:0 "Independant Party" #Pierre Laval then Philippe Pétain
+ FRA_authoritarian_party:0 "Independent Party" #Pierre Laval then Philippe Pétain
+ FRA_social_party:0 "PSF"
+ FRA_social_party_long:0 "Parti Social Français" #François de la Rocque
  FRA_orleanist_party:0 "Parti Orléaniste" #Prince Jean until 25 august 1940 then it's Prince Henri
- FRA_legitimist_party:0 "Parti Légitimiste" #Prince Jaime
+ FRA_legitimist_party:0 "Parti Légitimiste" #Don Juan
  FRA_bonepartist_party:0 "Parti Bonapartiste" #Louis Prince Napoleon
 
  SOV_authoritarian_socialist_party:0 "VKP(B)"
@@ -601,6 +615,8 @@ l_english:
  SOV_conservative_democrat_party_long:0 "Partiya Belaya Rossiya" #Vladimir Zenzinov
  SOV_fascism_party:0 "RFP"
  SOV_fascism_party_long:0 "Rossyskaya Fashistskaya Partiya" #Konstantin Rodzaevsky, on death replaced by Anastase Andreivitch Vonsiatsky
+ SOV_black_hundred_party:0 "CS"
+ SOV_black_hundred_party_long:0 "Chyornaya Sotnya" #Nikolai Yevgenyevich Markov till death then Sergei Trufanov
  SOV_monarchism_party:0 "Romanovs"
  SOV_monarchism_party_long:0 "House of Romanov" #Emperor Kirill Romanov, in 12 october 1938 he's replaced by his successor, Prince Vladimir Kirillovich
  SOV_authoritarian_party:0 "White Army Junta" #White Army Junta
@@ -797,9 +813,9 @@ l_english:
  SPR_conservative_democrat_party:0 "PCD"
  SPR_conservative_democrat_party_long:0 "Partido del Centro Democrático" #Niceto Alcalá-Zamora
  SPR_fascism_party:0 "CEDA"
- SPR_fascism_party_long:0 "Confederación Española de Derechas Autónomas" #	José María Gil-Robles y Quiñones
+ SPR_fascism_party_long:0 "Confederación Española de Derechas Autónomas" #José María Gil-Robles y Quiñones
  SPR_falangism_party:0 "FE de las JONS"
- SPR_falangism_party_long:0 "Falange Española de las Juntas de Ofensiva Nacional Sindicalista" #José Sanjurjo, if death it goes to Jose Antonio Primo de Rivera, Ramiro Ledesma or Fransisco Franco
+ SPR_falangism_party_long:0 "Falange Española de las Juntas de Ofensiva Nacional Sindicalista" #José Sanjurjo, if death it goes to Jose Antonio Primo de Rivera, Ramiro Ledesma or Fransisco Franco, Emilio Mola
  SPR_monarchism_party:0 "CT"
  SPR_monarchism_party_long:0 "Comunión Tradicionalista" #Manuel Fal Conde
  SPR_carlist_party:0 "House of Bourbon" #Prince Xavier or Alfonso XIII (after death it goes to Prince Jaime)
@@ -1010,8 +1026,10 @@ l_english:
  
  ARG_authoritarian_socialist_party:0 "PCA"
  ARG_authoritarian_socialist_party_long:0 "Partido Comunista de la Argentina" #Luis Victor Sommi till June 1938, Geronimo Arnedo Alvarez till November 1941, Victorio Codovilla for the rest
- ARG_radical_socialist_party:0 "Posadists"
- ARG_radical_socialist_party_long:0 "Fourth International « Posadist »" #Juan Posadas
+ ARG_radical_socialist_party:0 "NUS"
+ ARG_radical_socialist_party_long:0 "Nueva Unión Socialista" #Nahuel Moreno
+ ARG_posadist_party:0 "Posadists"
+ ARG_posadist_party_long:0 "Fourth International « Posadist »" #Juan Posadas
  ARG_anarchist_party:0 "Patagonian Anarchist Front"
  ARG_social_democrat_party:0 "PS"
  ARG_social_democrat_party_long:0 "Partido Socialista"
@@ -1576,12 +1594,12 @@ l_english:
  ETH_conservative_democrat_party:0 "Right Woyane"
  ETH_fascism_party:0 "AI"
  ETH_fascism_party_long:0 "Amministrazione Italiana"
- ETH_monarchism_party:0 "Solomonic Dynasty"
+ ETH_monarchism_party:0 "Solomonic Dynasty" #Emperor Selassie
  ETH_authoritarian_party:0 "OETAE"
  ETH_authoritarian_party_long:0 "Occupied Enemy Territory Administration in Ethiopia"
  
  ALB_authoritarian_socialist_party:0 "PPSH"
- ALB_authoritarian_socialist_party_long:0 "Partia e Punës e Shqipërisë"
+ ALB_authoritarian_socialist_party_long:0 "Partia e Punës e Shqipërisë" #Enver Hoxha
  ALB_radical_socialist_party:0 "PPSH"
  ALB_radical_socialist_party_long:0 "Partia e Punës e Shqipërisë"
  ALB_anarchist_party:0 "FPK"
