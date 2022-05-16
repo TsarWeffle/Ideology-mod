@@ -548,14 +548,48 @@ l_english:
  USA_conservative_democrat_party:0 "Republican Party" #Alf Landon, in 1940 it's Wendell Wilkie, in 1944 it's Thomas E. Dewey, and in 1952 it's Dwight D. Eisenhower.
  USA_fascism_party:0 "SLA"
  USA_fascism_party_long:0 "Silver Legion of America" #William Dudley Pelley
- USA_business_party:0 "VP"
- USA_business_party_long:0 "Veterans Party" #George S. Patton, Douglas MacArthur, or Dwight D. Eisenhower
+ USA_christian_party:0 "CP"
+ USA_christian_party_long:0 "Christian Party" #William Dudley Pelley
+ USA_klan_party:0 "KKK"
+ USA_klan_party_long:0 "Ku Klux Klan" #Hiram Wesley Evans till 1939, James Arnold Coleslott till 1944, Samuel Green till 1949, Samuel Roper till 1950, Eldon Edwards for the rest (Some generals are D. C. Stephensen)
+ USA_business_party:0 "Wall Street" #Grayson M. P. Murphy and Robert Sterling Clark
+ USA_morgan_party:0 "J.P. Morgan" #John Pierpont Morgan Jr, after death it goes to Thomas W. Lamont, after death it goes to Russell C. Leffingwell, in 1950 it goes to George Whitney, or it can pass onto Junius Spencer Morgan III if J.P. Morgan doesn't incorporate the company)
  USA_german_party:0 "GAB"
  USA_german_party_long:0 "German-American Bund" #Adam Hilt, Fritz Julius Kuhn, Gerhard Wilhelm Kunze, and George Froboese
  USA_monarchism_party:0 "House of Simpson" #Wallis Simpson
- USA_authoritarian_party:0 "Provisional Government of America" #Douglas MacArthur
+ USA_authoritarian_party:0 "NSC-USAF"
+ USA_authoritarian_party_long:0 "National Salvation Committee of the United States Armed Forces" #American Triumvirate
+ USA_veterans_party:0 "VPA"
+ USA_veterans_party_long:0 "Veterans Party of America" #George S. Patton, Douglas MacArthur, or Dwight D. Eisenhower
+ USA_restoration_party:0 "DRCA"
+ USA_restoration_party_long:0 "Democratic Restoration Committee of America" #Dwight D. Eisenhower Democratic
+ USA_national_party:0 "USNP"
+ USA_national_party_long:0 "United States National Party" #George S. Patton Fascist
+ USA_junta_party:0 "PGA"
+ USA_junta_party_long:0 "Provisional Government of America" #Douglas MacArthur Authoritarian
  USA_union_party:0 "UP"
  USA_union_party_long:0 "Union Party" #William Lemke or Earl Kemp Long « Uncle Earl »
+ USA_dixie_party:0 "SRDP"
+ USA_dixie_party_long:0 "States Rights Democratic Party" #Strom Thurmond
+ 
+ RNA_authoritarian_socialist_party:0 "SWP"
+ RNA_authoritarian_socialist_party_long:0 "Southern Workers Party"
+ RNA_radical_socialist_party:0 "ASRFP"
+ RNA_radical_socialist_party_long:0 "Afro-Socialist Revolutionary Federal Party"
+ RNA_anarchist_party:0 "IWW - New Africa"
+ RNA_anarchist_party_long:0 "International Workers of the World - New Africa"
+ RNA_social_democrat_party:0 "NALP"
+ RNA_social_democrat_party_long:0 "New African Labour Party" #Malcolm X
+ RNA_liberal_democrat_party:0 "LP"
+ RNA_liberal_democrat_party_long:0 "Liberal Party"
+ RNA_conservative_democrat_party:0 "RNAP"
+ RNA_conservative_democrat_party_long:0 "Republic of New Africa Party"
+ RNA_fascism_party:0 "NOI"
+ RNA_fascism_party_long:0 "Nation of Islam" #Elijah Muhammad
+ RNA_monarchism_party:0 "NAMA"
+ RNA_monarchism_party_long:0 "New African Monarchist Association" #None
+ RNA_authoritarian_party:0 "AACIP"
+ RNA_authoritarian_party_long:0 "Afro-American Collaborative Independent Party"
  
  FRA_authoritarian_socialist_party:0 "PCF"
  FRA_authoritarian_socialist_party_long:0 "Parti Communiste Français" #Maurice Thorez
@@ -603,25 +637,32 @@ l_english:
  FRA_bonepartist_party:0 "Parti Bonapartiste" #Louis Prince Napoleon
 
  SOV_authoritarian_socialist_party:0 "VKP(B)"
- SOV_authoritarian_socialist_party_long:0 "Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)" #Joseph Stalin, if dead happens he's replaced by Laventriy Beriya, Georgy Zhukov, Nikita Khrushchev and Georgy Malenkov(if not purged), the Federation of Socialist Republics will be lead by Bukharin, Grigori Zinyovev, Lev Kamenev, or Aleksey Rykov.
+ SOV_authoritarian_socialist_party_long:0 "Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)" #Joseph Stalin, if dead happens he's replaced by Laventriy Beriya, Georgy Zhukov, Tukhachevsky, Nikita Khrushchev and Georgy Malenkov(if not purged), the Federation of Socialist Republics will be lead by Bukharin, Grigori Zinoviev, Lev Kamenev, Aleksey Rykov, Zhukov, or Tukhachevsky.
+ SOV_provisional_party:0 "SVVP"
+ SOV_provisional_party_long:0 "Sovetskoye Voyennoye Vremennoye Pravitelstvo" #Zhukow or Tukh
  SOV_radical_socialist_party:0 "VKP(B)"
- SOV_radical_socialist_party_long:0 "Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)" #Leon Trotsky, Ivan Smirnov, Andrei Bubnov, or Nikolai Krestinsky
+ SOV_radical_socialist_party_long:0 "Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)" #Leon Trotsky, Ivan Smirnov, Andrei Bubnov, Nikolai Krestinsky, or Tukhachevsky
  SOV_anarchist_party:0 "RRPA"
  SOV_anarchist_party_long:0 "Russkaya Revolyutsionnaya Povstancheskaya Armiya" #Emma Goldman, (on death she's replaced by Mollie Steimer) or Vselevod Volin, on death he's replaced by Senya Fleshin.
- SOV_social_democrat_party:0 "Trudoviks" #Alexander Kerensky
- SOV_liberal_democrat_party:0 "K-DP « Kadets »"
- SOV_liberal_democrat_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya" #Pavel Milyukov, in 31 march 1940 he's replaced by Pyotr Struve, in 1944 Pyotr Struve is replaced by Vasily Maklakov
- SOV_conservative_democrat_party:0 "PBR"
- SOV_conservative_democrat_party_long:0 "Partiya Belaya Rossiya" #Vladimir Zenzinov
+ SOV_social_democrat_party:0 "PSR" 
+ SOV_social_democrat_party_long:0 "Partiya Sotsialistov-Revolyutsienorev « Esers »" #Victor Chernov
+ SOV_menshevik_party:0 "RSDRP"
+ SOV_menshevik_party_long:0 "Rossiyskaya Sotsial-Demokraticheskaya Rabochaya Partiya « Menshevik »" #Raphael Abramovitch
+ SOV_kerensky_party:0 "TG" 
+ SOV_kerensky_party_long:0 "Trudovaya Gruppa « Trudoviks »" #Alexander Kerenksy
+ SOV_liberal_democrat_party:0 "KDP"
+ SOV_liberal_democrat_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya « Kadets »" #Pavel Milyukov, in 31 march 1940 he's replaced by Pyotr Struve, in 1944 Pyotr Struve is replaced by Vasily Maklakov
+ SOV_conservative_democrat_party:0 "NOP"
+ SOV_conservative_democrat_party_long:0 "Novaya Oktyabristskaya Partiya" #Obolensky, Alexey Vasilievich
  SOV_fascism_party:0 "RFP"
  SOV_fascism_party_long:0 "Rossyskaya Fashistskaya Partiya" #Konstantin Rodzaevsky, on death replaced by Anastase Andreivitch Vonsiatsky
- SOV_black_hundred_party:0 "CS"
- SOV_black_hundred_party_long:0 "Chyornaya Sotnya" #Nikolai Yevgenyevich Markov till death then Sergei Trufanov
+ SOV_black_hundred_party:0 "SRN"
+ SOV_black_hundred_party_long:0 "Soyuz Russkogo Naroda" #Nikolai Yevgenyevich Markov till death then Sergei Trufanov
+ SOV_nazbol_party:0 "Smenovekhovtsy" #Nikolay Ustryalov
  SOV_monarchism_party:0 "Romanovs"
  SOV_monarchism_party_long:0 "House of Romanov" #Emperor Kirill Romanov, in 12 october 1938 he's replaced by his successor, Prince Vladimir Kirillovich
- SOV_authoritarian_party:0 "White Army Junta" #White Army Junta
- SOV_theocracy_party:0 "PMivR"
- SOV_theocracy_party_long:0 "Patriarkh Moskovskij i vseja Rusi" #Patriarch Sergius, in 4 february 1945 he's replaced by Patriarch Alexei.
+ SOV_authoritarian_party:0 "VVP"
+ SOV_authoritarian_party_long:0 "Vremennoye Vserossiyskoye Pravitelstvo" #White Army Junta, they decide a suitable leader amongst them, Pro-Japanese Grigory Semyonov, the Nationalist Anton Denekin (Succeeded by Alexei Arkhangelsky [No portrait] to my chagrin), and the monarchist Vasily Shulgin.
  
  AUS_authoritarian_socialist_party:0 "KPÖ"
  AUS_authoritarian_socialist_party_long:0 "Kommunistische Partei Österreichs" #Johann Koplenig
@@ -3273,7 +3314,7 @@ l_english:
  UDM_conservative_democrat_party:0 "SRP"
  UDM_conservative_democrat_party_long:0 "Social Republican Party"
  UDM_fascism_party:0 "UVNSC"
- UDM_fascism_party_long:0 "Udmurt Vos National Socialist Community"
+ UDM_fascism_party_long:0 "Udmurt Vos National Socialist Community" #Demen Movement
  UDM_monarchism_party:0 "House Romanov"
  UDM_authoritarian_party:0 "UHCNR"
  UDM_authoritarian_party_long:0 "Udmurt High Committee for National Revolution"
