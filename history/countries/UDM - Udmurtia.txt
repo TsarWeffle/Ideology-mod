@@ -74,22 +74,20 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = authoritarian_socialist
+	ruling_party = democratic
 	last_election = "1936.1.1"
-	election_frequency = 60
-	elections_allowed = no
+	election_frequency = 48
+	elections_allowed = yes
 }
 
 set_popularities = {
-	conservative_democrat = 6
-	liberal_democrat = 4
-	social_democrat = 7
-	fascism = 3
-	radical_socialist = 4
-	authoritarian_socialist = 57
-	anarchist = 3
-	authoritarian = 16
-	monarchism = 0
+	democratic = 60
+	fascism = 20
+	communism = 10
+	neutrality = 10
 }
 
+
 recruit_character = UDM_boris
+
+

@@ -56,22 +56,27 @@ if = {
 }
 
 set_politics = {
-	ruling_party = liberal_democrat
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
+create_country_leader = {
+	name = "Iuliu Maniu"
+	desc = "POLITICS_IULIU_MANIU_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+
 set_popularities = {
-	conservative_democrat = 21
-	liberal_democrat = 57
-	social_democrat = 3
-	fascism = 9
-	radical_socialist = 0
-	authoritarian_socialist = 3
-	anarchist = 0
-	authoritarian = 1
-	monarchism = 6
+	democratic = 33
+	neutrality = 33
+	communism = 34
 }
 
 recruit_character = TRA_pot

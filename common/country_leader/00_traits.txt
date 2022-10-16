@@ -963,6 +963,14 @@ leader_traits = {
 ######################
 	#JAP
 ######################
+	saikoshido_sha = { #Ikki Kita (Saikōshidō-sha)
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 ######################
 	#CZE
 ######################

@@ -4,7 +4,7 @@ ideologies = {
 	
 		types = {
 			
-			liberalism = {	
+			liberalism = {
 			}
 			
 			centrism = {
@@ -15,39 +15,6 @@ ideologies = {
 			
 			libertarianism = {
 			}
-			
-			social_liberalism = {
-			}
-			
-			market_liberalism = {
-			}
-			
-			conservative_liberalism = {
-			}
-			
-			national_liberalism = {
-			}
-			
-			ordoliberalism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			religious_liberalism = {
-			}
-			
-			third_way = {
-			}
-			
-			neoliberalism = {
-			}
-			
-			progressivism = {
-			}
-			
-			liberal_paneuropeanism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
 		}
 		
 		dynamic_faction_names = {
@@ -109,44 +76,6 @@ ideologies = {
 			reactionary = {
 			}
 			
-			liberal_conservative = {
-			}
-			
-			religious_conservatism = {
-			}
-			
-			right_progressivism = {
-			}
-			
-			national_conservatism = {
-			}
-			
-			paternal_conservatism = {
-			}
-			
-			pragmatic_conservatism = {
-			}
-			
-			right_populism = {
-			}
-			
-			social_conservatism = {
-			}
-			
-			fiscal_conservatism = {
-			}
-			
-			traditionalism = {	
-			}
-			
-			zionism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			conservative_paneuropeanism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
 		}
 		
 		dynamic_faction_names = {
@@ -205,50 +134,6 @@ ideologies = {
 			socialism = {
 			}
 			
-			left_progressivism = {
-			}
-			
-			gandhian_socialism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			liberal_socialism = {
-			}
-			
-			paneuropean_socialism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			reformist_socialism = {
-			}
-			
-			nordic_model = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			market_socialism = {
-			}
-			
-			socialism_with_human_face = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			christian_socialism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			buddhist_socialism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			islamic_socialism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			labour_zionism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
 		}
 		
 		dynamic_faction_names = {
@@ -294,7 +179,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_democratic 	= yes # uses the democratic AI behaviour
+		ai_democratic = yes # uses the democratic AI behaviour
 	}
 
 	authoritarian_socialist = {
@@ -311,57 +196,19 @@ ideologies = {
 			}
 			
 			bukharinism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 			maoism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 			hoxhaism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 			titoism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 			ho_chi_minh_thought = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
-			
-			agrarian_socialism = {
-			}
-			
-			socialism_with_human_face_com = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			khrushchevism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			utopian_socialism = {
-			}
-			
-			state_socialism = {
-			}
-			
-			juche = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			right_communism = {
-			}
-			
-			arab_socialism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			left_panafricanism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
 		}
 		
 		dynamic_faction_names = {
@@ -409,8 +256,7 @@ ideologies = {
 			trotskyism = {
 			}
 			
-			christian_communism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			christian_socialism = {
 			}
 			
 			left_socialism = {
@@ -422,27 +268,8 @@ ideologies = {
 			syndicalism = {
 			}
 			
-			baathism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			pol_potism = {
 			}
-			
-			titoism_alt = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			council_communism = {
-			}
-			
-			juche_alt = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			guild_socialism = {
-			}
-			
-			revolutionary_socialism = {
-			}
-			
 		}
 		
 		dynamic_faction_names = {
@@ -497,35 +324,18 @@ ideologies = {
 			}
 			
 			ancap = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 			christian_anarchism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 			islamic_anarchism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 			kibbutz	 = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 			hindu_anarchism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			synthetic_anarchism = {
-			}
-			
-			platformism = {
-			}
-			
-			soviet_democracy = {
-			}
-			
-			insurrectionary_anarchism = {
 			}
 		}
 		
@@ -595,70 +405,22 @@ ideologies = {
 			}
 			
 			jihadism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 			hindu_nationalism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 			fascist_monarchy = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 			austro_fascism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 			rexism = {
-			can_be_randomly_selected = no
 			}
 			
-			revisionist_zionism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			zionism = {
 			}
-			
-			clerical_fascism = {
-			}
-			
-			pan_arab_nationalism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			pan_african_nationalism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			ethnic_nationalism = {
-			}
-			
-			national_syndicalism = {
-			}
-			
-			national_bolshevism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			vozhdism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			state_shinto = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			strasserism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			eurasianism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			polish_falangism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			{
-			
 		}
 		
 		dynamic_faction_names = {
@@ -698,7 +460,7 @@ ideologies = {
 	
 		types = {
 		
-			stratocracy = {	
+			stratocracy = {
 			}
 
 			fascist_junta = {
@@ -717,42 +479,6 @@ ideologies = {
 			}
 			
 			despotism = {
-			}
-			
-			agrarianism = {
-			}
-			
-			populism = {
-			}
-			
-			corporatism = {
-			}
-			
-			three_princibles = {
-			}
-			
-			kemalism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			francoism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			petainism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			technocracy = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			salazarism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			peronism = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 		}
@@ -801,15 +527,12 @@ ideologies = {
 			
 			constitutionalism = {
 			}
-			
+			tribal_monarchy = {
+			}
+			holy_monarchy = {
+			}
 			personal_union = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
-			
-			theocracy = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
 		}
 
 		dynamic_faction_names = {
@@ -852,4 +575,56 @@ ideologies = {
 		ai_neutral = yes # 
 	}
 	
+	theocracy = {
+	
+		types = {
+			soc_thocracy  = {
+			}
+			
+			fash_theocracy  = {
+			}
+
+			theocracy = {
+				
+			}
+			
+			dem_theocracy = {
+			}
+		}
+
+		dynamic_faction_names = {
+			
+		}
+		
+		color = { 255 223 0 }
+		
+		
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+		
+		rules = {
+			can_force_government = no
+			can_puppet = yes
+			can_send_volunteers = no
+		}
+		
+		modifiers = {
+			#increased_influence_factor = 0.3 #30% easier to influence
+			generate_wargoal_tension = 0.5
+			join_faction_tension = 0.4
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+			drift_defence_factor = -0.3	
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 10.0
+		}
+		
+		faction_modifiers = {
+		}
+
+		ai_neutral = yes # 
+	}
 }

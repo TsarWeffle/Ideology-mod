@@ -79,23 +79,31 @@ if = {
 	}
 }
 
-set_politics = {
-	ruling_party = conservative_democrat
-	last_election = "1936.1.1"
-	election_frequency = 60
-	elections_allowed = yes
+set_popularities = {
+	democratic = 60
+	communism = 40
 }
 
-set_popularities = {
-	conservative_democrat = 35 
-	liberal_democrat = 10
-	social_democrat = 15
-	fascism = 5
-	radical_socialist = 5
-	authoritarian_socialist = 30
-	anarchist = 0
-	authoritarian = 0
-	monarchism = 0
+create_country_leader = {
+	name = "Nikolay Aleksandrovich Skvortsov"
+	desc = ""
+	picture = "gfx/leaders/KAZ/portrait_kaz_nikolay_skvortsov.dds"
+	expire = "1953.3.1"
+	ideology = stalinism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ilyas Zhansugurov"
+	desc = ""
+	picture = "gfx/leaders/KAZ/portrait_kaz_ilyas_zhansugurov.dds"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
 }
 
 recruit_character = KAZ_awt
@@ -118,3 +126,8 @@ recruit_character = KAZ_ai2
 recruit_character = KAZ_democratic_guy
 recruit_character = KAZ_ar
 recruit_character = KAZ_acgs
+
+
+
+
+

@@ -89,7 +89,12 @@ set_popularities = {
 	authoritarian_socialist = 5
 	anarchist = 0
 	authoritarian = 0
-	monarchism = 5
+	monarchism = 0
+	theocracy = 5
 }
+
+
 recruit_character = DAG_khair_hajji_uzunsky
 recruit_character = DAG_adil_girey_takhtarov
+
+

@@ -79,22 +79,24 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = democratic
 	last_election = "1936.1.1"
-	election_frequency = 24
+	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
-	conservative_democrat = 3
-	liberal_democrat = 7
-	social_democrat = 50
-	fascism = 5
-	radical_socialist = 4
-	authoritarian_socialist = 6
-	anarchist = 15
-	authoritarian = 7
-	monarchism = 3
+	democratic = 60
+	fascism = 0
+	communism = 20
+	neutrality = 20
 }
 
 recruit_character = YAK_pavel_pevznyak
 recruit_character = YAK_anatoly_pepelyayev
+
+
+
+
+
+

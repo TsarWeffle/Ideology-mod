@@ -1,0 +1,4371 @@
+focus_tree = {
+	id = jap_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = JAP
+		}
+	}
+	
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 0 }
+
+	focus = {
+		id = JAP_february_plot
+		#mutually_exclusive = { focus =  }
+		#relative_position_id = 
+		#prerequisite = { focus =  }
+		icon = GFX_focus_JAP_february_incident
+		x = 35
+		y = 0
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kodoha_victory
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_february_plot
+		prerequisite = { focus = JAP_february_plot }
+		available = { always = no }
+		icon = GFX_focus_JAP_kodoha_victory
+		x = -10
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kodoha_failure
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kodoha_victory
+		prerequisite = { focus = JAP_kodoha_victory }
+		available = { always = no }
+		icon = GFX_focus_JAP_kodoha_failure
+		x = -5
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_petition_soviets
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kodoha_failure
+		prerequisite = { focus = JAP_kodoha_failure }
+		icon = GFX_focus_JAP_soviet_petition
+		x = -50
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_war_of_liberation
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_petition_soviets
+		prerequisite = { focus = JAP_petition_soviets }
+		icon = GFX_focus_JAP_peoples_liberation
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_international_brigades
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_war_of_liberation
+		prerequisite = { focus = JAP_war_of_liberation }
+		icon = GFX_focus_JAP_international_brigades
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_our_revolution
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_war_of_liberation
+		prerequisite = { focus = JAP_war_of_liberation }
+		icon = GFX_focus_JAP_revolution
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_party_summit
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_our_revolution
+		prerequisite = { focus = JAP_our_revolution }
+		icon = GFX_focus_JAP_first_summit
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_formalise_the_united_peoples_army
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_party_summit
+		prerequisite = { focus = JAP_party_summit }
+		icon = GFX_focus_JAP_united_army
+		x = -9
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_peoples_navy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_formalise_the_united_peoples_army
+		prerequisite = { focus = JAP_formalise_the_united_peoples_army }
+		icon = GFX_focus_JAP_united_navy
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_develop_naval_bases
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_peoples_navy
+		prerequisite = { focus = JAP_peoples_navy }
+		icon = GFX_focus_JAP_naval_bases
+		x = -1
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_oppose_the_americans
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_peoples_navy
+		prerequisite = { focus = JAP_peoples_navy }
+		icon = GFX_focus_JAP_anti_americanism
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_infantry_developments
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_formalise_the_united_peoples_army
+		prerequisite = { focus = JAP_formalise_the_united_peoples_army }
+		icon = GFX_focus_JAP_military_factories
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_recruit_new_generals
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_infantry_developments
+		prerequisite = { focus = JAP_infantry_developments }
+		icon = GFX_focus_JAP_young_generals
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_soviet_advisors
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_recruit_new_generals
+		prerequisite = { focus = JAP_recruit_new_generals }
+		icon = GFX_focus_JAP_soviet_advisors
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_artillery_designs
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_recruit_new_generals
+		prerequisite = { focus = JAP_recruit_new_generals }
+		icon = GFX_focus_JAP_master_artillery
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_mechanisation
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_recruit_new_generals
+		prerequisite = { focus = JAP_recruit_new_generals }
+		icon = GFX_focus_JAP_mechanisation
+		x = 2
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_red_army
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_recruit_new_generals
+		prerequisite = { focus = JAP_recruit_new_generals }
+		icon = GFX_focus_JAP_united_land_forces
+		x = 0
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_elite_force
+		mutually_exclusive = { focus = JAP_human_wave }
+		relative_position_id = JAP_red_army
+		prerequisite = { focus = JAP_red_army }
+		icon = GFX_focus_JAP_elite_force
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_human_wave
+		mutually_exclusive = { focus = JAP_elite_force }
+		relative_position_id = JAP_red_army
+		prerequisite = { focus = JAP_red_army }
+		icon = GFX_focus_JAP_human_wave
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_army_of_resistance
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_human_wave
+		prerequisite = { focus = JAP_human_wave focus = JAP_elite_force }
+		icon = GFX_focus_JAP_army_of_resistance
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_united_airforce
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_formalise_the_united_peoples_army
+		prerequisite = { focus = JAP_formalise_the_united_peoples_army }
+		icon = GFX_focus_JAP_united_airforce
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_party_politics
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_party_summit
+		prerequisite = { focus = JAP_party_summit }
+		icon = GFX_focus_JAP_intra_party
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_reform_the_districts
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_party_politics
+		prerequisite = { focus = JAP_party_politics }
+		icon = GFX_focus_JAP_district_reform
+		x = -3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_east_asian_union
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_reform_the_districts
+		prerequisite = { focus = JAP_reform_the_districts }
+		icon = GFX_focus_JAP_asian_union
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_recover_the_lost_territories
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_reform_the_districts
+		prerequisite = { focus = JAP_reform_the_districts }
+		icon = GFX_focus_JAP_recover_asia
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_socialist_cultural_reform
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_party_politics
+		prerequisite = { focus = JAP_party_politics }
+		icon = GFX_focus_JAP_socialist_culture
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_pan_asianism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_socialist_cultural_reform
+		prerequisite = { focus = JAP_socialist_cultural_reform }
+		icon = GFX_focus_JAP_pan_asianism
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_birth_of_the_republic
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_socialist_cultural_reform
+		prerequisite = { focus = JAP_socialist_cultural_reform }
+		prerequisite = { focus = JAP_fate_of_the_royal_family }
+		icon = GFX_focus_JAP_socialist_republic
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_second_party_summit
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_birth_of_the_republic
+		prerequisite = { focus = JAP_birth_of_the_republic }
+		icon = GFX_focus_JAP_second_summit
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_purge_opposition
+		mutually_exclusive = { focus = JAP_party_democracy }
+		mutually_exclusive = { focus = JAP_party_line }
+		relative_position_id = JAP_second_party_summit
+		prerequisite = { focus = JAP_second_party_summit }
+		icon = GFX_focus_JAP_purge_opposition
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_party_line #Intra-Party_democracy
+		mutually_exclusive = { focus = JAP_purge_opposition }
+		mutually_exclusive = { focus = JAP_party_democracy }
+		relative_position_id = JAP_second_party_summit
+		prerequisite = { focus = JAP_second_party_summit }
+		icon = GFX_focus_JAP_party_democracy
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_party_democracy #socialist_democracy
+		mutually_exclusive = { focus = JAP_purge_opposition }
+		mutually_exclusive = { focus = JAP_party_line }
+		relative_position_id = JAP_second_party_summit
+		prerequisite = { focus = JAP_second_party_summit }
+		icon = GFX_focus_JAP_universal_suffrage
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_break_with_the_soviets
+		mutually_exclusive = { focus = JAP_soviet_loyalty }
+		relative_position_id = JAP_party_line
+		prerequisite = { focus = JAP_party_democracy focus = JAP_party_line focus = JAP_purge_opposition }
+		icon = GFX_focus_JAP_break_with_soviets
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_asian_workers_alliance
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_break_with_the_soviets
+		prerequisite = { focus = JAP_break_with_the_soviets }
+		icon = GFX_focus_JAP_asian_union
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_end_french_colonialism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_asian_workers_alliance
+		prerequisite = { focus = JAP_asian_workers_alliance }
+		prerequisite = { focus = JAP_free_the_workers_of_china }
+		icon = GFX_focus_JAP_end_french_colonialism
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_indian_collaboration
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_asian_workers_alliance
+		prerequisite = { focus = JAP_asian_workers_alliance }
+		icon = GFX_focus_JAP_indian_collaboration #Based on aid indian cause
+		x = -0
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_end_monarchism_in_asia
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_indian_collaboration
+		prerequisite = { focus = JAP_indian_collaboration }
+		icon = GFX_focus_JAP_end_asian_rightism
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_guard_the_south
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_asian_workers_alliance
+		prerequisite = { focus = JAP_asian_workers_alliance }
+		icon = GFX_focus_JAP_southern_guard
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_crush_the_american_dream
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_guard_the_south
+		prerequisite = { focus = JAP_guard_the_south }
+		icon = GFX_focus_JAP_crush_america
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_soviet_loyalty
+		mutually_exclusive = { focus = JAP_break_with_the_soviets }
+		relative_position_id = JAP_party_line
+		prerequisite = { focus = JAP_party_democracy focus = JAP_party_line focus = JAP_purge_opposition }
+		icon = GFX_focus_JAP_nihono_soviet_cooperation
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_free_the_workers_of_china
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_soviet_loyalty
+		prerequisite = { focus = JAP_soviet_loyalty focus = JAP_break_with_the_soviets }
+		icon = GFX_focus_JAP_free_china
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_aid_the_soviets
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_soviet_loyalty
+		prerequisite = { focus = JAP_soviet_loyalty }
+		icon = GFX_focus_JAP_soviet_aid
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_request_chinese_cooperation
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_aid_the_soviets
+		prerequisite = { focus = JAP_aid_the_soviets focus = JAP_free_the_workers_of_china }
+		icon = GFX_focus_JAP_sino_japanese_cooperation
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_proletarian_unity
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_aid_the_soviets
+		prerequisite = { focus = JAP_aid_the_soviets }
+		icon = GFX_focus_JAP_imperial_proletariat
+		x = 0
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_equipment_program
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_aid_the_soviets
+		prerequisite = { focus = JAP_aid_the_soviets }
+		icon = GFX_focus_JAP_soviet_program
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_soviet_economic_development
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_aid_the_soviets
+		prerequisite = { focus = JAP_aid_the_soviets }
+		icon = GFX_focus_JAP_soviet_development
+		x = 2
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_free_asia_from_fascism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_aid_the_soviets
+		prerequisite = { focus = JAP_aid_the_soviets }
+		icon = GFX_focus_JAP_end_asian_rightism
+		x = 3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_fate_of_the_old
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_party_politics
+		prerequisite = { focus = JAP_party_politics }
+		icon = GFX_focus_JAP_fate_of_the_old
+		x = 4
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_fate_of_the_royal_family
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_fate_of_the_old
+		prerequisite = { focus = JAP_fate_of_the_old }
+		icon = GFX_focus_JAP_fate_of_the_royals
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_state_propaganda
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_fate_of_the_old
+		prerequisite = { focus = JAP_fate_of_the_old }
+		icon = GFX_focus_JAP_proletarian_propaganda
+		x = 0
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_butcher_opposition
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_fate_of_the_old
+		prerequisite = { focus = JAP_fate_of_the_old }
+		icon = GFX_focus_JAP_butcher_opposition
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_create_the_keizai_kyoku
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_party_summit
+		prerequisite = { focus = JAP_party_summit }
+		icon = GFX_focus_JAP_economics_ministry
+		x = 9
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_manchurian_development_program
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_create_the_keizai_kyoku
+		prerequisite = { focus = JAP_create_the_keizai_kyoku }
+		icon = GFX_focus_JAP_manchu_development
+		x = -3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_chosen_industrial_program
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_manchurian_development_program
+		prerequisite = { focus = JAP_manchurian_development_program }
+		icon = GFX_focus_JAP_korean_development
+		x = 0
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_land_reform
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_create_the_keizai_kyoku
+		prerequisite = { focus = JAP_create_the_keizai_kyoku }
+		icon = GFX_focus_JAP_nationalise_land
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_peasant_aid_program
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_land_reform
+		prerequisite = { focus = JAP_land_reform }
+		prerequisite = { focus = JAP_manchurian_development_program }
+		icon = GFX_focus_JAP_peasant_program
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_pacific_development_program
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_create_the_keizai_kyoku
+		prerequisite = { focus = JAP_create_the_keizai_kyoku }
+		icon = GFX_focus_JAP_welfare_state
+		x = 0
+		y = 3
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_soviet_reconstruction_aid
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_create_the_keizai_kyoku
+		prerequisite = { focus = JAP_create_the_keizai_kyoku }
+		icon = GFX_focus_JAP_soviet_aid
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_soviet_japanese_cooperation
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_soviet_reconstruction_aid
+		prerequisite = { focus = JAP_soviet_reconstruction_aid }
+		icon = GFX_focus_JAP_nihono_soviet_cooperation
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_nationalise_zaibatsus
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_create_the_keizai_kyoku
+		prerequisite = { focus = JAP_create_the_keizai_kyoku }
+		icon = GFX_focus_JAP_nationalise_companies
+		x = 3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_five_year_plan
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_nationalise_zaibatsus
+		prerequisite = { focus = JAP_nationalise_zaibatsus }
+		icon = GFX_focus_GER_economic_reconstruction
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_brutal_industrialisation
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_five_year_plan
+		prerequisite = { focus = JAP_five_year_plan }
+		icon = GFX_focus_JAP_brutal_industrialisation
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_workers_industrial_councils
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_brutal_industrialisation
+		prerequisite = { focus = JAP_brutal_industrialisation }
+		prerequisite = { focus = JAP_peasant_aid_program }
+		icon = GFX_focus_JAP_peasant_workers_councils
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_military_complex_construction
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_five_year_plan
+		prerequisite = { focus = JAP_five_year_plan }
+		icon = GFX_focus_JAP_military_factories
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_march
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kodoha_failure
+		prerequisite = { focus = JAP_kodoha_failure }
+		icon = GFX_focus_JAP_kita_march
+		x = -5
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_constitution
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_march
+		prerequisite = { focus = JAP_kita_march }
+		icon = GFX_focus_JAP_kita_constitution
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_french_idealism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_constitution
+		prerequisite = { focus = JAP_kita_constitution }
+		icon = GFX_focus_JAP_french_idealisation
+		x = -6
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_french_japan_entente
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_french_idealism
+		prerequisite = { focus = JAP_kita_french_idealism }
+		icon = GFX_focus_JAP_entente
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_anglophobia
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_french_idealism
+		prerequisite = { focus = JAP_kita_french_idealism }
+		icon = GFX_focus_JAP_anglophobia
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_japanese_naval_dominance
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_anglophobia
+		prerequisite = { focus = JAP_kita_anglophobia }
+		prerequisite = { focus = JAP_kita_french_japan_entente }
+		icon = GFX_focus_JAP_naval_dominance
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_national_revolution
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_constitution
+		prerequisite = { focus = JAP_kita_constitution }
+		icon = GFX_focus_JAP_national_revolution
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_expand_education
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_national_revolution
+		prerequisite = { focus = JAP_kita_national_revolution }
+		icon = GFX_focus_JAP_expand_schooling
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_esperanto_schooling
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_expand_education
+		prerequisite = { focus = JAP_kita_anglophobia }
+		prerequisite = { focus = JAP_kita_expand_education }
+		icon = GFX_focus_JAP_esperanto
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_japanese_democracy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_national_revolution
+		prerequisite = { focus = JAP_kita_national_revolution }
+		icon = GFX_focus_JAP_minsyukoko
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_guide_the_revolution
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_japanese_democracy
+		prerequisite = { focus = JAP_kita_japanese_democracy }
+		icon = GFX_focus_JAP_guide_the_revolution
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_peaceful_militarism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_guide_the_revolution
+		prerequisite = { focus = JAP_kita_guide_the_revolution }
+		icon = GFX_focus_JAP_aggressive_peace
+		x = -8
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_shintoist_militarism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_peaceful_militarism
+		prerequisite = { focus = JAP_kita_peaceful_militarism }
+		icon = GFX_focus_JAP_national_will
+		x = -3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_will_of_asia
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_shintoist_militarism
+		prerequisite = { focus = JAP_kita_shintoist_militarism }
+		icon = GFX_focus_JAP_asian_will
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_revolutionary_technology
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_peaceful_militarism
+		prerequisite = { focus = JAP_kita_peaceful_militarism }
+		icon = GFX_focus_JAP_technological_superiority
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_imperial_revolutionary_airforce
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_revolutionary_technology
+		prerequisite = { focus = JAP_kita_revolutionary_technology }
+		icon = GFX_focus_JAP_ira
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	
+	focus = {
+		id = JAP_kita_imperial_revolutionary_army
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_revolutionary_technology
+		prerequisite = { focus = JAP_kita_revolutionary_technology }
+		icon = GFX_focus_JAP_military_factories
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_militarise_societies
+		mutually_exclusive = { focus = JAP_kita_end_gunbatsu }
+		relative_position_id = JAP_kita_imperial_revolutionary_army
+		prerequisite = { focus = JAP_kita_imperial_revolutionary_army }
+		icon = GFX_focus_JAP_militarise_the_societies
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_end_gunbatsu
+		mutually_exclusive = { focus = JAP_kita_militarise_societies }
+		relative_position_id = JAP_kita_imperial_revolutionary_army
+		prerequisite = { focus = JAP_kita_imperial_revolutionary_army }
+		icon = GFX_focus_JAP_end_gunbatsu
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_imperial_revolutionary_fleet
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_revolutionary_technology
+		prerequisite = { focus = JAP_kita_revolutionary_technology }
+		icon = GFX_focus_JAP_irn
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_national_reform_act
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_guide_the_revolution
+		prerequisite = { focus = JAP_kita_guide_the_revolution }
+		icon = GFX_focus_JAP_national_reform_act
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_socialist_imperialism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_peaceful_militarism
+		prerequisite = { focus = JAP_kita_peaceful_militarism }
+		prerequisite = { focus = JAP_kita_national_reform_act }
+		icon = GFX_focus_JAP_socialist_imperialism
+		x = 3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_renewal_of_revolution
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_national_reform_act
+		prerequisite = { focus = JAP_kita_national_reform_act }
+		icon = GFX_focus_JAP_renew_revolution
+		x = -3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_reject_racial_purity
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_renewal_of_revolution
+		prerequisite = { focus = JAP_kita_renewal_of_revolution }
+		icon = GFX_focus_JAP_reject_racism
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_equality_revolutionism_socialism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_national_reform_act
+		prerequisite = { focus = JAP_kita_national_reform_act }
+		icon = GFX_focus_JAP_four_princibles
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_pacific_peace
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_equality_revolutionism_socialism
+		prerequisite = { focus = JAP_kita_equality_revolutionism_socialism }
+		icon = GFX_focus_JAP_pacific_peace
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_bridge_the_pacific_divide
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_pacific_peace
+		prerequisite = { focus = JAP_kita_pacific_peace }
+		icon = GFX_focus_JAP_bridge_the_divide
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_support_china
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_equality_revolutionism_socialism
+		prerequisite = { focus = JAP_kita_equality_revolutionism_socialism }
+		icon = GFX_focus_JAP_support_china
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_aid_the_indian_cause
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_support_china
+		prerequisite = { focus = JAP_kita_support_china }
+		icon = GFX_focus_JAP_aid_india
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_brothers_of_the_revolution
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_support_china
+		prerequisite = { focus = JAP_kita_support_china }
+		icon = GFX_focus_JAP_revolutionary_brothers
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_five_requests
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_brothers_of_the_revolution
+		prerequisite = { focus = JAP_kita_brothers_of_the_revolution }
+		icon = GFX_focus_JAP_five_requests
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_manchuria_proposal
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_brothers_of_the_revolution
+		prerequisite = { focus = JAP_kita_brothers_of_the_revolution }
+		icon = GFX_focus_JAP_manchurian_proposal
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_panasian_dream
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_manchuria_proposal
+		prerequisite = { focus = JAP_kita_manchuria_proposal }
+		prerequisite = { focus = JAP_kita_five_requests }
+		icon = GFX_focus_JAP_free_asia
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_claim_greater_nihon
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_equality_revolutionism_socialism
+		prerequisite = { focus = JAP_kita_equality_revolutionism_socialism }
+		icon = GFX_focus_JAP_claim_greater_nihon
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_strike_the_lion
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_claim_greater_nihon
+		prerequisite = { focus = JAP_kita_claim_greater_nihon }
+		icon = GFX_focus_JAP_strike_the_lion
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_combat_the_russian_bear
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_claim_greater_nihon
+		prerequisite = { focus = JAP_kita_claim_greater_nihon }
+		icon = GFX_focus_JAP_combat_the_bear
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_democracy_and_showa
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_national_reform_act
+		prerequisite = { focus = JAP_kita_national_reform_act }
+		icon = GFX_focus_JAP_imperial_democracy
+		x = 3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_universal_suffrage
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_democracy_and_showa
+		prerequisite = { focus = JAP_kita_democracy_and_showa }
+		icon = GFX_focus_JAP_universal_suffrage
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_will_of_the_people
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_democracy_and_showa
+		prerequisite = { focus = JAP_kita_democracy_and_showa }
+		icon = GFX_focus_JAP_popular_will
+		x = 3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_economic_socialism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_guide_the_revolution
+		prerequisite = { focus = JAP_kita_guide_the_revolution }
+		icon = GFX_focus_JAP_socialist_economics
+		x = 8
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_from_above_and_below
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_economic_socialism
+		prerequisite = { focus = JAP_kita_economic_socialism }
+		icon = GFX_focus_JAP_above_below
+		x = -3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_resolve_the_zaibatsu
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_economic_socialism
+		prerequisite = { focus = JAP_kita_economic_socialism focus = JAP_fabian_economics }
+		icon = GFX_focus_JAP_end_zaibatsu
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_nationalise_companies
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_resolve_the_zaibatsu
+		prerequisite = { focus = JAP_kita_resolve_the_zaibatsu }
+		icon = GFX_focus_JAP_nationalise_companies
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_establish_iaced #International Asian Co-operative for Economic Development
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_nationalise_companies
+		prerequisite = { focus = JAP_kita_nationalise_companies }
+		icon = GFX_focus_JAP_iaced
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_five_year_plan
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_nationalise_companies
+		prerequisite = { focus = JAP_kita_nationalise_companies }
+		icon = GFX_focus_JAP_five_year_plan
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_military_economic_development
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_five_year_plan
+		prerequisite = { focus = JAP_kita_five_year_plan }
+		icon = GFX_focus_JAP_military_factories
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_develop_showa_steelworks
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_five_year_plan
+		prerequisite = { focus = JAP_kita_five_year_plan }
+		icon = GFX_focus_JAP_showa_steelworks
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_national_welfare
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_nationalise_companies
+		prerequisite = { focus = JAP_kita_nationalise_companies }
+		icon = GFX_focus_JAP_welfare_state
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_massacre_the_landlords
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_economic_socialism
+		prerequisite = { focus = JAP_kita_economic_socialism focus = JAP_fabian_economics }
+		icon = GFX_focus_JAP_kill_landlords
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_nationalise_imperial_land
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_massacre_the_landlords
+		prerequisite = { focus = JAP_kita_massacre_the_landlords }
+		icon = GFX_focus_JAP_nationalise_land
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_equality_for_all
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_national_revolution
+		prerequisite = { focus = JAP_kita_national_revolution }
+		icon = GFX_focus_JAP_egalitarianism
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_new_socialist_theory
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_constitution
+		prerequisite = { focus = JAP_kita_constitution }
+		prerequisite = { focus = JAP_national_socialism }
+		icon = GFX_focus_JAP_socialist_theory
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_statist_socialism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_new_socialist_theory
+		prerequisite = { focus = JAP_kita_new_socialist_theory }
+		icon = GFX_focus_JAP_state_socialism
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_showa_socialism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_new_socialist_theory
+		prerequisite = { focus = JAP_kita_new_socialist_theory }
+		icon = GFX_focus_JAP_showa_socialism
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_libertine_socialism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_statist_socialism
+		prerequisite = { focus = JAP_kita_statist_socialism }
+		prerequisite = { focus = JAP_kita_equality_for_all }
+		icon = GFX_focus_JAP_libertine_socialism
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_pure_socialism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_statist_socialism
+		prerequisite = { focus = JAP_kita_statist_socialism }
+		prerequisite = { focus = JAP_kita_showa_socialism }
+		icon = GFX_focus_JAP_pure_socialism
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_empire_and_proletariat
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_showa_socialism
+		prerequisite = { focus = JAP_kita_showa_socialism }
+		icon = GFX_focus_JAP_imperial_proletariat
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_abolish_the_kokutai
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_constitution
+		prerequisite = { focus = JAP_kita_constitution }
+		icon = GFX_focus_JAP_abolish_kotukai
+		x = 6
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_abolish_the_kazoku
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_abolish_the_kokutai
+		prerequisite = { focus = JAP_kita_abolish_the_kokutai }
+		icon = GFX_focus_JAP_abolish_kazoku
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kita_showa_reformation
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_abolish_the_kazoku
+		prerequisite = { focus = JAP_kita_abolish_the_kazoku focus = JAP_dominance_of_the_tokohai focus = JAP_broad_coalition }
+		icon = GFX_focus_JAP_kita_reformation
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_national_socialism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kita_march
+		prerequisite = { focus = JAP_kita_march }
+		icon = GFX_focus_JAP_national_socialism
+		x = 4
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_nakano_march
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kodoha_failure
+		prerequisite = { focus = JAP_kodoha_failure }
+		icon = GFX_focus_JAP_nakano_march
+		x = 10
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_leadership_of_nakano
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_nakano_march
+		prerequisite = { focus = JAP_nakano_march }
+		icon = GFX_focus_JAP_nakano_leadership
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_domestic_policy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_leadership_of_nakano
+		prerequisite = { focus = JAP_leadership_of_nakano }
+		icon = GFX_focus_JAP_nakano_policy
+		x = -3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_dominance_of_the_tokohai
+		mutually_exclusive = { focus = JAP_broad_coalition }
+		relative_position_id = JAP_domestic_policy
+		prerequisite = { focus = JAP_domestic_policy }
+		icon = GFX_focus_JAP_tohokai_dominance
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_faux_democracy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_dominance_of_the_tokohai
+		prerequisite = { focus = JAP_dominance_of_the_tokohai }
+		icon = GFX_focus_generic_authdem
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_the_new_shogun
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_faux_democracy
+		prerequisite = { focus = JAP_faux_democracy }
+		prerequisite = { focus = JAP_kita_showa_reformation }
+		icon = GFX_focus_JAP_new_shogun
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_broad_coalition
+		mutually_exclusive = { focus = JAP_dominance_of_the_tokohai }
+		relative_position_id = JAP_domestic_policy
+		prerequisite = { focus = JAP_domestic_policy }
+		icon = GFX_focus_JAP_coalition
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_reform_the_diet
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_dominance_of_the_tokohai
+		prerequisite = { focus = JAP_dominance_of_the_tokohai focus = JAP_broad_coalition }
+		icon = GFX_focus_JAP_minsyukoko
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_fabian_economics
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_reform_the_diet
+		prerequisite = { focus = JAP_reform_the_diet }
+		icon = GFX_focus_generic_fabian_society
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_manchuria_development_program
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_fabian_economics
+		prerequisite = { focus = JAP_fabian_economics }
+		icon = GFX_focus_JAP_manage_manchukuo
+		x = 0
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_georgism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_manchuria_development_program
+		prerequisite = { focus = JAP_manchuria_development_program }
+		icon = GFX_focus_generic_georgism
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_sacrifice_for_the_state
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_manchuria_development_program
+		prerequisite = { focus = JAP_manchuria_development_program }
+		icon = GFX_focus_JAP_all_for_the_state
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_essential_totalitarianism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_reform_the_diet
+		prerequisite = { focus = JAP_reform_the_diet }
+		icon = GFX_focus_JAP_essential_totalitarianism
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_neoconfucianist_fascism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_essential_totalitarianism
+		prerequisite = { focus = JAP_essential_totalitarianism }
+		icon = GFX_focus_JAP_neoconfucianist_fascism
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_military_development
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_domestic_policy
+		prerequisite = { focus = JAP_domestic_policy }
+		icon = GFX_focus_JAP_army_expansion_act
+		x = 3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_admiration_of_the_samurai
+		mutually_exclusive = { focus = JAP_the_german_model }
+		relative_position_id = JAP_military_development
+		prerequisite = { focus = JAP_military_development }
+		icon = GFX_focus_JAP_idealisation
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_way_of_will
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_admiration_of_the_samurai
+		prerequisite = { focus = JAP_admiration_of_the_samurai }
+		icon = GFX_focus_JAP_will
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_indominatable_courage
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_way_of_will
+		prerequisite = { focus = JAP_way_of_will }
+		icon = GFX_focus_JAP_courage
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_the_german_model
+		mutually_exclusive = { focus = JAP_admiration_of_the_samurai }
+		relative_position_id = JAP_military_development
+		prerequisite = { focus = JAP_military_development }
+		icon = GFX_focus_JAP_german_model
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_inazuma_gun #Lightning Army
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_the_german_model
+		prerequisite = { focus = JAP_the_german_model }
+		icon = GFX_focus_JAP_inazuma_gun
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_cult_of_speed
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_inazuma_gun
+		prerequisite = { focus = JAP_inazuma_gun }
+		icon = GFX_focus_GER_blitzkrieg_theory
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_armaments_for_infantry
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_admiration_of_the_samurai
+		prerequisite = { focus = JAP_admiration_of_the_samurai focus = JAP_the_german_model }
+		icon = GFX_focus_JAP_rising_sun
+		x = 1
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_artillery_focus
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_armaments_for_infantry
+		prerequisite = { focus = JAP_armaments_for_infantry }
+		icon = GFX_focus_JAP_master_artillery
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_naval_armaments
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_armaments_for_infantry
+		prerequisite = { focus = JAP_armaments_for_infantry }
+		icon = GFX_focus_JAP_irn
+		x = -3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_support_focus
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_armaments_for_infantry
+		prerequisite = { focus = JAP_armaments_for_infantry }
+		icon = GFX_focus_JAP_manufacture_support
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_air_armaments
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_armaments_for_infantry
+		prerequisite = { focus = JAP_armaments_for_infantry }
+		icon = GFX_focus_JAP_ira
+		x = 3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_international_affairs
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_leadership_of_nakano
+		prerequisite = { focus = JAP_leadership_of_nakano }
+		icon = GFX_focus_JAP_nakano_policy	
+		x = 4
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_germanophilia
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_international_affairs
+		prerequisite = { focus = JAP_international_affairs }
+		icon = GFX_focus_JAP_germanophilia
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_anti_angloism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_international_affairs
+		prerequisite = { focus = JAP_international_affairs }
+		icon = GFX_focus_JAP_anglophobia
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_the_philippines_diktat
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_anti_angloism
+		prerequisite = { focus = JAP_anti_angloism }
+		icon = GFX_focus_JAP_philippines_diktat
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_pacific_claims
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_the_philippines_diktat
+		prerequisite = { focus = JAP_the_philippines_diktat }
+		icon = GFX_focus_JAP_guarantee_the_pacific
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_war_of_the_pacific
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_pacific_claims
+		prerequisite = { focus = JAP_pacific_claims }
+		icon = GFX_focus_JAP_pacific_war
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_claim_malaysia
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_anti_angloism
+		prerequisite = { focus = JAP_anti_angloism }
+		icon = GFX_focus_JAP_claim_malaysia
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_sumatra_strategy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_claim_malaysia
+		prerequisite = { focus = JAP_claim_malaysia }
+		icon = GFX_focus_JAP_sumatra_strategy
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_indonesian_exile_volunteers
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_sumatra_strategy
+		prerequisite = { focus = JAP_sumatra_strategy }
+		icon = GFX_focus_JAP_indonesian_exiles
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_axis_agreement
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_germanophilia
+		prerequisite = { focus = JAP_germanophilia }
+		icon = GFX_focus_JAP_axis_agreement
+		x = 1
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_the_suez_plan
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_germanophilia
+		prerequisite = { focus = JAP_germanophilia focus = JAP_anti_angloism }
+		icon = GFX_focus_JAP_suez_strategy
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_ceylon_act
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_the_suez_plan
+		prerequisite = { focus = JAP_the_suez_plan focus = JAP_claim_malaysia }
+		icon = GFX_focus_JAP_ceylon_act
+		x = 0
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_vladivostok_agreement
+		mutually_exclusive = { focus = JAP_second_intervention }
+		relative_position_id = JAP_ceylon_act
+		prerequisite = { focus = JAP_war_of_the_pacific focus = JAP_indonesian_exile_volunteers focus = JAP_ceylon_act }
+		icon = GFX_focus_JAP_vladivostok_agreement
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_second_intervention
+		mutually_exclusive = { focus = JAP_vladivostok_agreement }
+		relative_position_id = JAP_ceylon_act
+		prerequisite = { focus = JAP_war_of_the_pacific focus = JAP_indonesian_exile_volunteers focus = JAP_ceylon_act }
+		icon = GFX_focus_generic_soviet_war
+		x = 3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_join_the_axis
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_vladivostok_agreement
+		prerequisite = { focus = JAP_vladivostok_agreement focus = JAP_second_intervention }
+		icon = GFX_focus_JAP_tohokai_axis
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_war_with_the_states
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_join_the_axis
+		prerequisite = { focus = JAP_join_the_axis }
+		icon = GFX_focus_JAP_war_with_america
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_war_with_the_uk
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_join_the_axis
+		prerequisite = { focus = JAP_join_the_axis }
+		icon = GFX_focus_JAP_war_with_britain
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_demands_of_china
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_war_with_the_states
+		prerequisite = { focus = JAP_war_with_the_uk focus = JAP_war_with_the_states }
+		icon = GFX_focus_JAP_stake_in_china
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_state_diet_counter_coup
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kodoha_failure
+		prerequisite = { focus = JAP_kodoha_failure }
+		icon = GFX_goal_generic_national_unity	
+		x = -30
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_yakahito_constitution
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kodoha_failure
+		prerequisite = { focus = JAP_kodoha_failure }
+		icon = GFX_goal_generic_national_unity	
+		x = 3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_kodoha_success
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kodoha_victory
+		prerequisite = { focus = JAP_kodoha_victory }
+		available = { always = no }
+		icon = GFX_focus_JAP_kodoha_success
+		x = 30
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_showa_reformation
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kodoha_success
+		prerequisite = { focus = JAP_kodoha_success }
+		icon = GFX_focus_JAP_showa_reformation
+		x = -3
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_purge_the_old_guard
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kodoha_success
+		prerequisite = { focus = JAP_kodoha_success }
+		icon = GFX_focus_JAP_purge
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_consolidation_under_araki
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_kodoha_success
+		prerequisite = { focus = JAP_kodoha_success }
+		icon = GFX_focus_JAP_araki
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_full_powers_for_the_emperor
+		mutually_exclusive = { focus = JAP_the_puppet_emperor }
+		relative_position_id = JAP_consolidation_under_araki
+		prerequisite = { focus = JAP_consolidation_under_araki }
+		icon = GFX_focus_JAP_imperial_power
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_the_puppet_emperor
+		mutually_exclusive = { focus = JAP_full_powers_for_the_emperor }
+		relative_position_id = JAP_consolidation_under_araki
+		prerequisite = { focus = JAP_consolidation_under_araki }
+		icon = GFX_focus_JAP_puppet_hirohito
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_military_effort
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_consolidation_under_araki
+		prerequisite = { focus = JAP_full_powers_for_the_emperor focus = JAP_the_puppet_emperor }
+		icon = GFX_focus_JAP_rising_sun
+		x = 0
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_rehabilitate_the_military
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_military_effort
+		prerequisite = { focus = JAP_military_effort }
+		icon = GFX_focus_JAP_army_rehabilitation
+		x = -3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_national_idealisation
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_military_effort
+		prerequisite = { focus = JAP_military_effort }
+		icon = GFX_focus_JAP_idealisation
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_ally_societies
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_national_idealisation
+		prerequisite = { focus = JAP_rehabilitate_the_military }
+		prerequisite = { focus = JAP_national_idealisation }
+		icon = GFX_focus_JAP_ally_societies
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_national_mobilisation
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_military_effort
+		prerequisite = { focus = JAP_military_effort }
+		icon = GFX_focus_JAP_mobilisation
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_spiritual_mobilisation_movement
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_national_mobilisation
+		prerequisite = { focus = JAP_national_mobilisation }
+		prerequisite = { focus = JAP_national_idealisation }
+		icon = GFX_focus_JAP_national_spiritual_mobilisation
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_expand_the_military
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_military_effort
+		prerequisite = { focus = JAP_military_effort }
+		icon = GFX_focus_JAP_military_expansion
+		x = 2
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_national_will
+		mutually_exclusive = { focus = JAP_superiority_of_technology }
+		relative_position_id = JAP_expand_the_military
+		prerequisite = { focus = JAP_expand_the_military }
+		icon = GFX_focus_JAP_national_will
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_superiority_of_technology
+		mutually_exclusive = { focus = JAP_national_will }
+		relative_position_id = JAP_expand_the_military
+		prerequisite = { focus = JAP_expand_the_military }
+		icon = GFX_focus_JAP_technological_superiority
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_master_artillery
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_superiority_of_technology
+		prerequisite = { focus = JAP_superiority_of_technology }
+		icon = GFX_focus_JAP_master_artillery
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_center_of_technological_development
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_superiority_of_technology
+		prerequisite = { focus = JAP_superiority_of_technology }
+		icon = GFX_focus_JAP_technological_center
+		x = 2
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_master_armour
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_superiority_of_technology
+		prerequisite = { focus = JAP_superiority_of_technology }
+		icon = GFX_focus_JAP_master_armour
+		x = 3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_army_expansion_process
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_expand_the_military
+		prerequisite = { focus = JAP_expand_the_military }
+		prerequisite = { focus = JAP_defence_development }
+		icon = GFX_focus_JAP_army_expansion_act
+		x = -1
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_concessions_to_the_fleet
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_expand_the_military
+		prerequisite = { focus = JAP_expand_the_military }
+		icon = GFX_focus_JAP_fleet_concessions
+		x = 1
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_manage_the_economy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_consolidation_under_araki
+		prerequisite = { focus = JAP_full_powers_for_the_emperor focus = JAP_the_puppet_emperor }
+		icon = GFX_focus_JAP_economic_management
+		x = 7
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_autarky
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_manage_the_economy
+		prerequisite = { focus = JAP_manage_the_economy }
+		icon = GFX_focus_JAP_national_autarky
+		x = -4
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_manage_the_zaibatsus
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_manage_the_economy
+		prerequisite = { focus = JAP_manage_the_economy }
+		icon = GFX_focus_JAP_zaibatsu_question
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_end_the_zaibatsu_system
+		mutually_exclusive = { focus = JAP_cooperate_with_the_zaibatsus }
+		relative_position_id = JAP_manage_the_zaibatsus
+		prerequisite = { focus = JAP_manage_the_zaibatsus }
+		icon = GFX_focus_JAP_end_zaibatsu
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_cooperate_with_the_zaibatsus
+		mutually_exclusive = { focus = JAP_end_the_zaibatsu_system }
+		relative_position_id = JAP_manage_the_zaibatsus
+		prerequisite = { focus = JAP_manage_the_zaibatsus }
+		icon = GFX_focus_JAP_cooperate_with_zaibatsu
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_budget_balances
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_manage_the_economy
+		prerequisite = { focus = JAP_manage_the_economy }
+		icon = GFX_focus_JAP_budget_balances
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_first_industrial_plan
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_manage_the_economy
+		prerequisite = { focus = JAP_manage_the_economy }
+		icon = GFX_focus_JAP_first_industrial_plan
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_godo_plan
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_first_industrial_plan
+		prerequisite = { focus = JAP_first_industrial_plan }
+		prerequisite = { focus = JAP_budget_balances }
+		icon = GFX_focus_JAP_godo_plan
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_develop_showa_steelworks
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_godo_plan
+		prerequisite = { focus = JAP_godo_plan }
+		prerequisite = { focus = JAP_second_industrial_plan }
+		icon = GFX_focus_JAP_showa_steelworks
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_nationalise_the_zaibatsus
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_godo_plan
+		prerequisite = { focus = JAP_godo_plan }
+		prerequisite = { focus = JAP_cooperate_with_the_zaibatsus }
+		icon = GFX_focus_JAP_nationalise_zaibatsu
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_military_industrial_complex
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_godo_plan
+		prerequisite = { focus = JAP_godo_plan }
+		prerequisite = { focus = JAP_cooperate_with_the_zaibatsus }
+		prerequisite = { focus = JAP_expand_the_military }
+		icon = GFX_focus_GER_raise_army_spending
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_second_industrial_plan
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_first_industrial_plan
+		prerequisite = { focus = JAP_first_industrial_plan }
+		prerequisite = { focus = JAP_extort_our_colonies }
+		icon = GFX_focus_GER_economic_reconstruction
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_extort_our_colonies
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_manage_the_economy
+		prerequisite = { focus = JAP_manage_the_economy }
+		icon = GFX_focus_JAP_extort_colonies
+		x = 4
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_foreign_policy_kodoha
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_consolidation_under_araki
+		prerequisite = { focus = JAP_full_powers_for_the_emperor focus = JAP_the_puppet_emperor }
+		icon = GFX_focus_JAP_foreign_policy
+		x = -7
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_affairs_of_china
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_foreign_policy_kodoha
+		prerequisite = { focus = JAP_foreign_policy_kodoha }
+		icon = GFX_focus_JAP_chinese_affairs
+		x = -8
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_vassalise_mengjiang
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_affairs_of_china
+		prerequisite = { focus = JAP_affairs_of_china }
+		icon = GFX_focus_JAP_vassalise_mengjiang
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_expand_mengjiang
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_vassalise_mengjiang
+		prerequisite = { focus = JAP_vassalise_mengjiang }
+		icon = GFX_focus_JAP_expand_mengjiang
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_mongol_and_manchu
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_expand_mengjiang
+		prerequisite = { focus = JAP_expand_mengjiang }
+		icon = GFX_focus_JAP_manchu_mongol
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_impose_will_on_china
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_affairs_of_china
+		prerequisite = { focus = JAP_affairs_of_china }
+		icon = GFX_focus_JAP_impose_will
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_joint_development
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_impose_will_on_china
+		prerequisite = { focus = JAP_impose_will_on_china }
+		icon = GFX_focus_JAP_joint_development
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_two_emperors
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_joint_development
+		prerequisite = { focus = JAP_joint_development }
+		icon = GFX_focus_JAP_two_emperors
+		x = -1
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_treaty_of_beping
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_impose_will_on_china
+		prerequisite = { focus = JAP_impose_will_on_china }
+		icon = GFX_focus_JAP_beiping_treaty
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_reassurance_committee
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_treaty_of_beping
+		prerequisite = { focus = JAP_treaty_of_beping }
+		icon = GFX_focus_JAP_reassurance_committee
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_demand_the_ports
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_treaty_of_beping
+		prerequisite = { focus = JAP_treaty_of_beping }
+		prerequisite = { focus = JAP_burn_the_bridge }
+		icon = GFX_focus_JAP_demand_the_ports
+		x = 3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_treatise_with_west
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_foreign_policy_kodoha
+		prerequisite = { focus = JAP_foreign_policy_kodoha }
+		icon = GFX_focus_JAP_western_affairs
+		x = -3
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_passive_nonaggression
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_treatise_with_west
+		prerequisite = { focus = JAP_treatise_with_west }
+		icon = GFX_focus_JAP_nap
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_london_naval_treaty
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_treatise_with_west
+		prerequisite = { focus = JAP_treatise_with_west }
+		icon = GFX_focus_JAP_london_naval_treaty
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_passive_aggression
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_treatise_with_west
+		prerequisite = { focus = JAP_treatise_with_west }
+		icon = GFX_focus_JAP_aggressive_peace
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_burn_the_bridge
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_london_naval_treaty
+		prerequisite = { focus = JAP_london_naval_treaty focus = JAP_passive_aggression focus = JAP_passive_nonaggression }
+		icon = GFX_focus_JAP_burn_the_bridge
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_free_south_asia
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_demand_the_ports
+		prerequisite = { focus = JAP_demand_the_ports }
+		icon = GFX_focus_JAP_free_south_asia
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_invade_iran
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_burn_the_bridge
+		prerequisite = { focus = JAP_burn_the_bridge }
+		icon = GFX_focus_JAP_invade_iran
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_free_the_middle_east
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_invade_iran
+		prerequisite = { focus = JAP_invade_iran }
+		icon = GFX_focus_JAP_free_the_middle_east
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_manage_russia
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_foreign_policy_kodoha
+		prerequisite = { focus = JAP_foreign_policy_kodoha }
+		icon = GFX_focus_JAP_manage_russia
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_manage_manchukuo
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_manage_russia
+		prerequisite = { focus = JAP_manage_russia }
+		icon = GFX_focus_JAP_manage_manchukuo
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_manchurian_army
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_manage_manchukuo
+		prerequisite = { focus = JAP_manage_manchukuo }
+		icon = GFX_focus_JAP_manchurian_army
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_manchurian_airforce
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_manage_manchukuo
+		prerequisite = { focus = JAP_manage_manchukuo }
+		icon = GFX_focus_JAP_manchurian_airforce
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_manchurian_modernisation
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_manchurian_airforce
+		prerequisite = { focus = JAP_manchurian_army }
+		prerequisite = { focus = JAP_manchurian_airforce }
+		icon = GFX_focus_JAP_manchurian_economy
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_prepare_the_invasion
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_manage_russia
+		prerequisite = { focus = JAP_manage_russia }
+		icon = GFX_focus_GER_invade_east
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_resource_development
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_prepare_the_invasion
+		prerequisite = { focus = JAP_prepare_the_invasion }
+		icon = GFX_focus_JAP_develop_resources
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_rapid_industrialisation
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_prepare_the_invasion
+		prerequisite = { focus = JAP_prepare_the_invasion }
+		icon = GFX_focus_GER_wirtschaftswunder
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_defence_development
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_prepare_the_invasion
+		prerequisite = { focus = JAP_prepare_the_invasion }
+		icon = GFX_focus_GER_great_war_tactics
+		x = 4
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_utilise_compliant_collaborationists
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_rapid_industrialisation
+		prerequisite = { focus = JAP_rapid_industrialisation }
+		prerequisite = { focus = JAP_defence_development }
+		prerequisite = { focus = JAP_resource_development }
+		icon = GFX_focus_JAP_collaborationists
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_crush_russia
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_utilise_compliant_collaborationists
+		prerequisite = { focus = JAP_utilise_compliant_collaborationists }
+		prerequisite = { focus = JAP_manchurian_modernisation }
+		icon = GFX_focus_JAP_invade_russia
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_establish_client_states
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_crush_russia
+		prerequisite = { focus = JAP_crush_russia }
+		icon = GFX_focus_JAP_client_states
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_anti_bolshevist_morale
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_crush_russia
+		prerequisite = { focus = JAP_crush_russia }
+		icon = GFX_focus_JAP_anti_bolshevism
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_treaty_of_perm
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_anti_bolshevist_morale
+		prerequisite = { focus = JAP_anti_bolshevist_morale }
+		prerequisite = { focus = JAP_establish_client_states }
+		icon = GFX_focus_JAP_treaty_of_perm
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_finish_bolshevism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_treaty_of_perm
+		prerequisite = { focus = JAP_treaty_of_perm }
+		icon = GFX_focus_GER_invade_east
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = JAP_toseiha_victory
+		#mutually_exclusive = { focus =  }
+		relative_position_id = JAP_february_plot
+		prerequisite = { focus = JAP_february_plot }
+		available = { always = no }
+		icon = GFX_focus_JAP_toseiha_victory
+		x = 10
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+}

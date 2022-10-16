@@ -65,20 +65,49 @@ if = {
 }
 
 set_politics = {
-	ruling_party = monarchism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	conservative_democrat = 8
-	liberal_democrat = 4
-	social_democrat = 8
-	fascism = 11
-	radical_socialist = 1
-	authoritarian_socialist = 23
-	anarchist = 3
-	authoritarian = 5
-	monarchism = 37
+	democratic = 33
+	neutrality = 33
+	communism = 34
 }
+
+create_country_leader = {
+	name = "Sekula Drljević"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "1953.3.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Novica Radović"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "1953.3.1"
+	ideology = oligarchism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Blažo Jovanović"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1953.3.1"
+	ideology = leninism
+	traits = {
+		
+	}
+}
+
+

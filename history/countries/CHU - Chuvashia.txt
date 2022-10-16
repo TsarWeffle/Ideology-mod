@@ -90,5 +90,10 @@ set_popularities = {
 	anarchist = 5
 	authoritarian = 0
 	monarchism = 0
+	theocracy = 0
 }
-recruit_character = CHU_gerasim_ivanov`
+
+
+recruit_character = CHU_gerasim_ivanov
+
+

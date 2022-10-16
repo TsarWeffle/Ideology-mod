@@ -77,21 +77,34 @@ if = {
 		basic_torpedo = 1
 	}
 }
-set_politics = {
-	ruling_party = authoritarian_socialist
-	last_election = "1936.1.1"
-	election_frequency = 72
-	elections_allowed = no
-}
 
 set_popularities = {
-	conservative_democrat = 5
-	liberal_democrat = 5
-	social_democrat = 15
-	fascism = 5
-	radical_socialist = 5
-	authoritarian_socialist = 50
-	anarchist = 0
-	authoritarian = 10
-	monarchism = 5
+	democratic = 40
+	communism = 40
+	fascism = 10
+	neutrality = 10
 }
+
+create_country_leader = {
+	name = "Noe Zhordania"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1953.3.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Kandid Charkviani"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1953.3.1"
+	ideology = stalinism
+	traits = {
+		
+	}
+}
+
+#couldnt find anything else, the commies simply forced everyone else into exile

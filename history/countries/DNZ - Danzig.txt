@@ -94,7 +94,8 @@ set_popularities = {
 	fascism = 60
 	radical_socialist = 1
 	authoritarian_socialist = 5
-	anarchist = 0
+	anarchist = 
 	authoritarian = 4
-	monarchism = 0
+	monarchism = 
+	theocracy = 
 }

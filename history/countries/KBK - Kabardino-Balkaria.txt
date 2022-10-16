@@ -74,22 +74,20 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = authoritarian_socialist
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	conservative_democrat = 5
-	liberal_democrat = 5
-	social_democrat = 5
-	fascism = 5
-	radical_socialist = 
-	authoritarian_socialist = 65
-	anarchist = 5
-	authoritarian = 5
-	monarchism = 5
+	democratic = 70
+	fascism = 30
+	communism = 0
+	neutrality = 0
 }
 
+
 recruit_character = KBK_betal_kalmyk
+
+

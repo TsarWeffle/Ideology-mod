@@ -1,0 +1,5222 @@
+focus_tree = {
+	id = ger_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+		
+		modifier = {
+			add = 10
+			original_tag = GER
+		}
+	}
+	
+	continuous_focus_position = { x = 500	y = 1000 }
+	
+	default = no
+	
+	focus = {
+		id = contact_der_widerstand
+		#mutually_exclusive = { focus =  }
+		#relative_position_id = 
+		#prerequisite = { focus =  }
+		icon = GFX_focus_GER_contact_der_widerstand
+		x = 35
+		y = 0
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_socialist_revolutionaries
+		#mutually_exclusive = { focus =  }
+		relative_position_id = contact_der_widerstand
+		prerequisite = { focus = contact_der_widerstand }
+		icon = GFX_focus_GER_socialist_revolutionaries
+		x = -2
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_free_thalmann
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_socialist_revolutionaries
+		prerequisite = { focus = widerstand_socialist_revolutionaries }
+		available = { not = { has_completed_focus = widerstand_convince_mackensen } }
+		icon = GFX_focus_GER_free_thalmann
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_red_tide
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_socialist_revolutionaries
+		prerequisite = { focus = widerstand_socialist_revolutionaries }
+		icon = GFX_focus_GER_red_tide
+		x = 0
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_democrat_antifascists
+		#mutually_exclusive = { focus =  }
+		relative_position_id = contact_der_widerstand
+		prerequisite = { focus = contact_der_widerstand }
+		icon = GFX_focus_GER_democratic_antifash
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_prepare_the_plot
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_democrat_antifascists
+		prerequisite = { focus = widerstand_democrat_antifascists }
+		icon = GFX_focus_GER_the_plot
+		x = 0
+		y = 2
+		cost = 7.2
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_right_monarchists
+		#mutually_exclusive = { focus =  }
+		relative_position_id = contact_der_widerstand
+		prerequisite = { focus = contact_der_widerstand }
+		icon = GFX_focus_GER_right_monarchists
+		x = 2
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_convince_mackensen
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_right_monarchists
+		prerequisite = { focus = widerstand_right_monarchists }
+		icon = GFX_focus_GER_convince_mackensen
+		available = { not = { has_completed_focus = widerstand_free_thalmann } }
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_monarchist_propaganda
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_right_monarchists
+		prerequisite = { focus = widerstand_right_monarchists }
+		icon = GFX_focus_GER_monarchist_propaganda	
+		#available = { not = { has_completed_focus = widerstand_free_thalmann } }
+		x = 0
+		y = 2
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_assassinate_hitler
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_prepare_the_plot
+		prerequisite = { focus = widerstand_prepare_the_plot }
+		icon = GFX_focus_GER_assassinate_hitler
+		x = 0
+		y = 2
+		cost = 7.2
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_the_german_civil_war
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_assassinate_hitler
+		#prerequisite = { focus = widerstand_prepare_the_plot }
+		available = { always = no }
+		icon = GFX_focus_GER_the_civil_war
+		x = 0
+		y = 1
+		cost = 0
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_economic_repairs
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_the_german_civil_war
+		prerequisite = { focus = widerstand_the_german_civil_war }
+		icon = GFX_focus_GER_quick_repair
+		x = -5
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_quick_military_industry
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_economic_repairs
+		prerequisite = { focus = widerstand_economic_repairs }
+		icon = GFX_focus_GER_repair_military_industry
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_fix_the_railroads
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_economic_repairs
+		prerequisite = { focus = widerstand_economic_repairs }
+		icon = GFX_focus_GER_repair_railroads
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_convince_local_militias
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_the_german_civil_war
+		prerequisite = { focus = widerstand_the_german_civil_war }
+		icon = GFX_focus_GER_local_militias
+		x = 5
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_purchase_foreign_weapons
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_convince_local_militias
+		prerequisite = { focus = widerstand_convince_local_militias }
+		icon = GFX_focus_GER_purchase_foreign_weapons
+		x = -1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_foreign_volunteers
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_convince_local_militias
+		prerequisite = { focus = widerstand_convince_local_militias }
+		icon = GFX_focus_GER_foreign_volunteers
+		x = 1
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_for_a_new_germany
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_the_german_civil_war
+		prerequisite = { focus = widerstand_the_german_civil_war }
+		icon = GFX_focus_GER_for_new_germany
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_tod_dem_faschismus
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_for_a_new_germany
+		prerequisite = { focus = widerstand_for_a_new_germany }
+		icon = GFX_focus_GER_death_to_nazism
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_legitimise_the_regime
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_for_a_new_germany
+		prerequisite = { focus = widerstand_for_a_new_germany }
+		icon = GFX_focus_GER_legitimise_widerstand
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_legacy_of_1848
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_for_a_new_germany
+		prerequisite = { focus = widerstand_for_a_new_germany }
+		icon = GFX_focus_GER_our_legacy
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_for_liberty
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_legacy_of_1848
+		prerequisite = { focus = widerstand_legitimise_the_regime }
+		prerequisite = { focus = widerstand_legacy_of_1848 }
+		prerequisite = { focus = widerstand_tod_dem_faschismus }
+		icon = GFX_focus_GER_for_liberty
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_victory
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_for_liberty
+		#prerequisite = { focus = widerstand_for_liberty }
+		available = { always = no }
+		icon = GFX_focus_GER_widerstand_victory
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_flash_elections
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_victory
+		prerequisite = { focus = widerstand_victory }
+		icon = GFX_focus_GER_flash_elections
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_wels_chancellor
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_flash_elections
+		prerequisite = { focus = widerstand_flash_elections }
+		icon = GFX_focus_GER_chancellor_wels
+		x = -14
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_dingeldey_chancellor
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_flash_elections
+		prerequisite = { focus = widerstand_flash_elections }
+		icon = GFX_focus_GER_chancellor_dingeldey
+		x = -12
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_adenauer_chancellor
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_flash_elections
+		prerequisite = { focus = widerstand_flash_elections }
+		icon = GFX_focus_GER_chancellor_adenauer
+		x = -10
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_the_grundgesetz
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_dingeldey_chancellor
+		prerequisite = { focus = dvp_dingeldey_chancellor focus = spd_wels_chancellor focus = cdu_adenauer_chancellor }
+		icon = GFX_focus_GER_goerdeler_constitution
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_set_the_electoral_law
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_grundgesetz
+		prerequisite = { focus = brd_the_grundgesetz }
+		icon = GFX_focus_GER_set_the_electoral_law
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_establish_the_bundestag
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_grundgesetz
+		prerequisite = { focus = brd_the_grundgesetz }
+		icon = GFX_focus_GER_the_new_reichstag
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_our_capital
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_grundgesetz
+		prerequisite = { focus = brd_the_grundgesetz }
+		icon = GFX_focus_GER_our_capital
+		x = 1
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_seperate_from_weimar
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_grundgesetz
+		prerequisite = { focus = brd_the_grundgesetz }
+		icon = GFX_focus_GER_seperate_from_weimar
+		x = -1
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_federalise_germany
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_grundgesetz
+		prerequisite = { focus = brd_the_grundgesetz }
+		icon = GFX_focus_GER_federalise_germany
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_stabilise_our_new_regime
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_dingeldey_chancellor
+		prerequisite = { focus = dvp_dingeldey_chancellor focus = spd_wels_chancellor focus = cdu_adenauer_chancellor }
+		icon = GFX_focus_GER_stabilise_the_regime
+		x = 5
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_purge_remaining_nazis
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_stabilise_our_new_regime
+		prerequisite = { focus = brd_stabilise_our_new_regime }
+		icon = GFX_focus_GER_purge_the_nazis
+		x = 3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_cleanse_the_communists
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_stabilise_our_new_regime
+		prerequisite = { focus = brd_stabilise_our_new_regime }
+		icon = GFX_focus_GER_cleanse_the_communists
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_correct_the_heer
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_stabilise_our_new_regime
+		prerequisite = { focus = brd_stabilise_our_new_regime }
+		icon = GFX_focus_GER_correct_the_heer
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_renew_the_schachtplan
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_cleanse_the_communists
+		prerequisite = { focus = brd_purge_remaining_nazis }
+		prerequisite = { focus = brd_cleanse_the_communists }
+		prerequisite = { focus = brd_correct_the_heer }
+		prerequisite = { focus = brd_establish_the_bundestag }
+		prerequisite = { focus = brd_our_capital }
+		prerequisite = { focus = brd_federalise_germany }
+		prerequisite = { focus = brd_set_the_electoral_law }
+		prerequisite = { focus = brd_seperate_from_weimar }
+		icon = GFX_focus_GER_schachtplan
+		x = 10
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_devalue_the_reichsmark
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_renew_the_schachtplan
+		prerequisite = { focus = brd_renew_the_schachtplan }
+		icon = GFX_focus_GER_devalue_the_reichsmark
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_free_markets
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_renew_the_schachtplan
+		prerequisite = { focus = brd_renew_the_schachtplan }
+		icon = GFX_focus_GER_free_markets
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_reduce_military_spending
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_renew_the_schachtplan
+		prerequisite = { focus = brd_renew_the_schachtplan }
+		icon = GFX_focus_GER_reduce_military_spending
+		x = 3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_renew_mefo
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_reduce_military_spending
+		prerequisite = { focus = brd_reduce_military_spending }
+		icon = GFX_focus_GER_mefo
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_foreign_aid
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_renew_the_schachtplan
+		prerequisite = { focus = brd_renew_the_schachtplan }
+		prerequisite = { focus = brd_foreign_policy }
+		icon = GFX_focus_GER_foreign_aid
+		x = -3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_empower_industralists
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_free_markets
+		prerequisite = { focus = brd_foreign_aid }
+		prerequisite = { focus = brd_free_markets }
+		icon = GFX_focus_GER_empower_industrialists
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_economic_reconstruction
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_devalue_the_reichsmark
+		prerequisite = { focus = brd_devalue_the_reichsmark }
+		prerequisite = { focus = brd_reduce_military_spending }
+		icon = GFX_focus_GER_economic_reconstruction
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_wirtschaftswunder
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_empower_industralists
+		prerequisite = { focus = brd_economic_reconstruction }
+		prerequisite = { focus = brd_empower_industralists }
+		icon = GFX_focus_GER_wirtschaftswunder
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_foreign_policy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_our_capital
+		prerequisite = { focus = brd_purge_remaining_nazis }
+		prerequisite = { focus = brd_cleanse_the_communists }
+		prerequisite = { focus = brd_correct_the_heer }
+		prerequisite = { focus = brd_establish_the_bundestag }
+		prerequisite = { focus = brd_our_capital }
+		prerequisite = { focus = brd_federalise_germany }
+		prerequisite = { focus = brd_set_the_electoral_law }
+		prerequisite = { focus = brd_seperate_from_weimar }
+		icon = GFX_focus_GER_foreign_policy_dem
+		x = 2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_paneuropeanism
+		mutually_exclusive = { focus = brd_mitteleuropa_plan }
+		relative_position_id = brd_foreign_policy
+		prerequisite = { focus = brd_foreign_policy }
+		icon = GFX_focus_GER_paneuropean_union
+		x = 7
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			create_faction = "Paneuropean Union"
+		}
+	}
+	
+	focus = {
+		id = brd_coal_and_steel
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_paneuropeanism
+		prerequisite = { focus = brd_paneuropeanism }
+		icon = GFX_focus_GER_coal_and_steel
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_european_anti_extremism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_paneuropeanism
+		prerequisite = { focus = brd_paneuropeanism }
+		icon = GFX_focus_GER_restore_czechoslovak_democracy
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_a_european_identity
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_paneuropeanism
+		prerequisite = { focus = brd_paneuropeanism }
+		icon = GFX_focus_GER_paneuropean_culture
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_a_meeting_with_france
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_coal_and_steel
+		prerequisite = { focus = brd_coal_and_steel }
+		icon = GFX_focus_GER_french_meeting
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_a_meeting_with_britain
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_coal_and_steel
+		prerequisite = { focus = brd_coal_and_steel }
+		icon = GFX_focus_GER_reconcile_britain
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_the_benelux_congress
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_coal_and_steel
+		prerequisite = { focus = brd_coal_and_steel }
+		icon = GFX_focus_GER_benelux_congress
+		x = 3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_status_of_the_austria
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_coal_and_steel
+		prerequisite = { focus = brd_coal_and_steel }
+		icon = GFX_focus_GER_austrian_status
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_the_czech_olive_branch
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_coal_and_steel
+		prerequisite = { focus = brd_coal_and_steel }
+		icon = GFX_focus_GER_czechoslovak_olive_branch
+		x = 2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_the_first_foundation
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_a_meeting_with_britain
+		prerequisite = { focus = brd_a_meeting_with_britain }
+		prerequisite = { focus = brd_a_meeting_with_france }
+		prerequisite = { focus = brd_the_benelux_congress }
+		prerequisite = { focus = brd_the_czech_olive_branch }
+		prerequisite = { focus = brd_status_of_the_austria }
+		icon = GFX_focus_GER_first_foundation
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = { 
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_invite_the_italy
+		mutually_exclusive = { focus = brd_cull_the_blackshirts }
+		relative_position_id = brd_the_first_foundation
+		prerequisite = { focus = brd_the_first_foundation }
+		icon = GFX_focus_GER_peace_with_italy
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_cull_the_blackshirts
+		mutually_exclusive = { focus = brd_invite_the_italy }
+		relative_position_id = brd_the_first_foundation
+		prerequisite = { focus = brd_the_first_foundation }
+		icon = GFX_focus_GER_recover_sudtirol
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_invite_the_poland
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_first_foundation
+		prerequisite = { focus = brd_the_first_foundation }
+		icon = GFX_focus_GER_polish_entry
+		x = 3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_scandinavian_membership
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_first_foundation
+		prerequisite = { focus = brd_the_first_foundation }
+		icon = GFX_focus_GER_nordpolitik
+		x = -3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_iberian_membership
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_first_foundation
+		prerequisite = { focus = brd_the_first_foundation }
+		icon = GFX_focus_GER_sudwestpolitik
+		x = -2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_irish_membership
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_first_foundation
+		prerequisite = { focus = brd_the_first_foundation }
+		icon = GFX_focus_GER_irish_membership
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_hungarian_membership
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_first_foundation
+		prerequisite = { focus = brd_the_first_foundation }
+		icon = GFX_focus_GER_danubian_friend
+		x = 2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_the_last_expansion
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_first_foundation
+		prerequisite = { focus = brd_scandinavian_membership }
+		prerequisite = { focus = brd_cull_the_blackshirts focus = brd_invite_the_italy }
+		prerequisite = { focus = brd_invite_the_poland }
+		prerequisite = { focus = brd_iberian_membership }
+		prerequisite = { focus = brd_irish_membership }
+		prerequisite = { focus = brd_hungarian_membership }
+		icon = GFX_focus_GER_last_expansion
+		x = 0
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_invite_the_west_balkaners
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_last_expansion
+		prerequisite = { focus = brd_the_last_expansion }
+		icon = GFX_focus_GER_western_balkans
+		x = -3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_invite_the_east_balkaners
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_last_expansion
+		prerequisite = { focus = brd_the_last_expansion }
+		icon = GFX_focus_GER_eastern_balkans
+		x = 3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_invite_the_aegeans
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_last_expansion
+		prerequisite = { focus = brd_the_last_expansion }
+		icon = GFX_focus_GER_aegeans
+		x = -2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_baltic_membership
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_last_expansion
+		prerequisite = { focus = brd_the_last_expansion }
+		icon = GFX_focus_GER_invite_the_balts
+		x = 2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_crush_the_heart_of_bolshevism
+		mutually_exclusive = { focus = brd_russian_membership }
+		relative_position_id = brd_the_last_expansion
+		prerequisite = { focus = brd_the_last_expansion }
+		icon = GFX_focus_GER_invade_east
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_russian_membership
+		mutually_exclusive = { focus = brd_crush_the_heart_of_bolshevism }
+		relative_position_id = brd_the_last_expansion
+		prerequisite = { focus = brd_the_last_expansion }
+		icon = GFX_focus_GER_russian_membership
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_the_united_states_of_europe
+		mutually_exclusive = { focus = brd_a_decentralised_union }
+		relative_position_id = brd_the_last_expansion
+		prerequisite = { focus = brd_invite_the_west_balkaners }
+		prerequisite = { focus = brd_invite_the_east_balkaners }
+		prerequisite = { focus = brd_invite_the_aegeans }
+		prerequisite = { focus = brd_crush_the_heart_of_bolshevism focus = brd_russian_membership }
+		prerequisite = { focus = brd_baltic_membership }
+		icon = GFX_focus_GER_united_states_of_europe
+		x = -1
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_a_decentralised_union
+		mutually_exclusive = { focus = brd_the_united_states_of_europe }
+		relative_position_id = brd_the_last_expansion
+		prerequisite = { focus = brd_invite_the_west_balkaners }
+		prerequisite = { focus = brd_invite_the_east_balkaners }
+		prerequisite = { focus = brd_invite_the_aegeans }
+		prerequisite = { focus = brd_crush_the_heart_of_bolshevism focus = brd_russian_membership }
+		prerequisite = { focus = brd_baltic_membership }
+		icon = GFX_focus_GER_decentralisation
+		x = 1
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_mitteleuropa_plan
+		mutually_exclusive = { focus = brd_paneuropeanism }
+		relative_position_id = brd_foreign_policy
+		prerequisite = { focus = brd_foreign_policy }
+		icon = GFX_focus_GER_mitteleuropa
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			create_faction = "Mitteleuropa"
+		}
+	}
+	
+	focus = {
+		id = brd_the_germanic_policy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_mitteleuropa_plan
+		prerequisite = { focus = brd_mitteleuropa_plan }
+		icon = GFX_focus_GER_our_germanic_policy
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_extend_the_branch_to_the_austria
+		mutually_exclusive = { focus = brd_end_austrian_fascism }
+		relative_position_id = brd_the_germanic_policy
+		prerequisite = { focus = brd_the_germanic_policy }
+		icon = GFX_focus_GER_austrian_olive_branch
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_end_austrian_fascism
+		mutually_exclusive = { focus = brd_extend_the_branch_to_the_austria }
+		relative_position_id = brd_the_germanic_policy
+		prerequisite = { focus = brd_the_germanic_policy }
+		icon = GFX_focus_GER_end_austrofascism
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_correct_swiss_neutrality
+		#mutually_exclusive = { focus = }
+		relative_position_id = brd_the_germanic_policy
+		prerequisite = { focus = brd_the_germanic_policy }
+		icon = GFX_focus_GER_zurich_conference
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_slavic_policy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_mitteleuropa_plan
+		prerequisite = { focus = brd_mitteleuropa_plan }
+		icon = GFX_focus_GER_our_slavic_policy
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_protect_czechoslovakia
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_slavic_policy
+		prerequisite = { focus = brd_slavic_policy }
+		icon = GFX_focus_GER_protect_czechoslovakia
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_restore_czechoslovak_democracy
+		mutually_exclusive = { focus = brd_invite_the_czechoslovaks }
+		relative_position_id = brd_protect_czechoslovakia
+		prerequisite = { focus = brd_protect_czechoslovakia }
+		icon = GFX_focus_GER_restore_czechoslovak_democracy
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_invite_the_czechoslovaks
+		mutually_exclusive = { focus = brd_restore_czechoslovak_democracy }
+		relative_position_id = brd_protect_czechoslovakia
+		prerequisite = { focus = brd_protect_czechoslovakia }
+		icon = GFX_focus_GER_invite_czechoslovakia
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_claim_the_corridor
+		mutually_exclusive = { focus = brd_into_the_polish_economy }
+		relative_position_id = brd_slavic_policy
+		prerequisite = { focus = brd_slavic_policy }
+		icon = GFX_focus_GER_claim_the_corridor
+		x = -3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_restore_east_germany
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_claim_the_corridor
+		prerequisite = { focus = brd_claim_the_corridor }
+		icon = GFX_focus_GER_restore_the_east
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_bresc_litewski
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_restore_east_germany
+		prerequisite = { focus = brd_restore_east_germany	 }
+		icon = GFX_focus_GER_brest_litovsk
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_into_the_polish_economy
+		mutually_exclusive = { focus = brd_claim_the_corridor }
+		relative_position_id = brd_slavic_policy
+		prerequisite = { focus = brd_slavic_policy }
+		icon = GFX_focus_GER_polish_economy
+		x = -5
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_polish_membership
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_into_the_polish_economy
+		prerequisite = { focus = brd_into_the_polish_economy }
+		icon = GFX_focus_GER_polish_entry
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_prussian_autonomy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_polish_membership
+		prerequisite = { focus = brd_polish_membership }
+		icon = GFX_focus_GER_prussian_condominium
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_the_minor_states
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_mitteleuropa_plan
+		prerequisite = { focus = brd_mitteleuropa_plan }
+		icon = GFX_focus_GER_minor_states
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_protect_the_baltics
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_the_minor_states
+		prerequisite = { focus = brd_the_minor_states }
+		icon = GFX_focus_GER_protect_the_balts
+		x = 2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_free_hungarian_democracy
+		mutually_exclusive = { focus = brd_our_danubian_friends }
+		relative_position_id = brd_the_minor_states
+		prerequisite = { focus = brd_the_minor_states }
+		icon = GFX_focus_GER_free_hungary
+		x = 3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_our_danubian_friends
+		mutually_exclusive = { focus = brd_free_hungarian_democracy }
+		relative_position_id = brd_the_minor_states
+		prerequisite = { focus = brd_the_minor_states }
+		icon = GFX_focus_GER_danubian_friend
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_facilitate_a_united_danubia
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_our_danubian_friends
+		prerequisite = { focus = brd_our_danubian_friends focus = brd_free_hungarian_democracy }
+		prerequisite = { focus = brd_extend_the_branch_to_the_austria focus = brd_end_austrian_fascism }
+		icon = GFX_focus_GER_danubian_union
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_mitteleuropa
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_correct_swiss_neutrality
+		prerequisite = { focus = brd_prussian_autonomy focus = brd_bresc_litewski }
+		prerequisite = { focus = brd_restore_czechoslovak_democracy focus = brd_invite_the_czechoslovaks }
+		prerequisite = { focus = brd_facilitate_a_united_danubia }
+		prerequisite = { focus = brd_protect_the_baltics }
+		prerequisite = { focus = brd_correct_swiss_neutrality }
+		icon = GFX_focus_GER_mitteleuropa
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_german_economic_sphere
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_mitteleuropa
+		prerequisite = { focus = brd_mitteleuropa }
+		icon = GFX_focus_GER_mitteleuropa_economy
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_german_cultural_sphere
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_mitteleuropa
+		prerequisite = { focus = brd_mitteleuropa }
+		icon = GFX_focus_GER_mitteleuropa_culture
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_german_technological_sphere
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_mitteleuropa
+		prerequisite = { focus = brd_mitteleuropa }
+		icon = GFX_focus_GER_mitteleuropa_science
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_crush_the_russians
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_german_cultural_sphere
+		prerequisite = { focus = brd_german_economic_sphere }
+		prerequisite = { focus = brd_german_cultural_sphere }
+		prerequisite = { focus = brd_german_technological_sphere }
+		icon = GFX_focus_GER_invade_east
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_form_new_states
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_crush_the_russians
+		prerequisite = { focus = brd_crush_the_russians }
+		icon = GFX_focus_GER_client_states
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_expand_germany
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_crush_the_russians
+		prerequisite = { focus = brd_crush_the_russians }
+		icon = GFX_focus_GER_expand_germany
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_the_chancellors_decrees
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_dingeldey_chancellor
+		prerequisite = { focus = dvp_dingeldey_chancellor focus = spd_wels_chancellor focus = cdu_adenauer_chancellor }
+		icon = GFX_focus_GER_chancellor_decrees
+		x = -10
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_honor_sopade
+		mutually_exclusive = { focus = dvp_tenets_of_ordoliberalism focus = cdu_the_new_centre }
+		relative_position_id = brd_the_chancellors_decrees
+		prerequisite = { focus = brd_the_chancellors_decrees }
+		icon = GFX_focus_GER_honor_sopade
+		x = -10
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_legalise_the_iron_front
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_honor_sopade
+		prerequisite = { focus = spd_honor_sopade }
+		icon = GFX_focus_GER_iron_front
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_support_trade_unions
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_honor_sopade
+		prerequisite = { focus = spd_honor_sopade }
+		icon = GFX_focus_GER_trade_unions
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_a_united_germany
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_honor_sopade
+		prerequisite = { focus = spd_honor_sopade }
+		icon = GFX_focus_GER_united_germany
+		x = 0
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_socialist_militarism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_honor_sopade
+		prerequisite = { focus = spd_honor_sopade }
+		icon = GFX_focus_GER_socialist_militarism
+		x = 2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_socialist_economics
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_honor_sopade
+		prerequisite = { focus = spd_honor_sopade }
+		icon = GFX_focus_GER_socialist_economics
+		x = -2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_death_of_wels
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_honor_sopade
+		prerequisite = { focus = spd_honor_sopade }
+		available = { always = no }
+		icon = GFX_focus_GER_death_wels
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_tenets_of_ordoliberalism
+		mutually_exclusive = { focus = spd_honor_sopade focus = cdu_the_new_centre }
+		relative_position_id = brd_the_chancellors_decrees
+		prerequisite = { focus = brd_the_chancellors_decrees }
+		icon = GFX_focus_GER_ordoliberalism
+		x = -5
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_secularism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_tenets_of_ordoliberalism
+		prerequisite = { focus = dvp_tenets_of_ordoliberalism }
+		icon = GFX_focus_GER_secularism
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_a_free_market
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_tenets_of_ordoliberalism
+		prerequisite = { focus = dvp_tenets_of_ordoliberalism }
+		icon = GFX_focus_GER_free_markets
+		x = 1
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_third_way
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_tenets_of_ordoliberalism
+		prerequisite = { focus = dvp_tenets_of_ordoliberalism }
+		icon = GFX_focus_GER_third_way
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_state_competition
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_tenets_of_ordoliberalism
+		prerequisite = { focus = dvp_tenets_of_ordoliberalism }
+		icon = GFX_focus_GER_state_business_competition
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_anti_welfare_policy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_tenets_of_ordoliberalism
+		prerequisite = { focus = dvp_tenets_of_ordoliberalism }
+		icon = GFX_focus_GER_anti_welfare
+		x = -1
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_an_independent_germany
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_tenets_of_ordoliberalism
+		prerequisite = { focus = dvp_tenets_of_ordoliberalism }
+		icon = GFX_focus_GER_independent_germany
+		x = 0
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_the_new_centre
+		mutually_exclusive = { focus = spd_honor_sopade focus = dvp_tenets_of_ordoliberalism }
+		relative_position_id = brd_the_chancellors_decrees
+		prerequisite = { focus = brd_the_chancellors_decrees }
+		icon = GFX_focus_GER_zentrum
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_prioritise_bolshevism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_the_new_centre
+		prerequisite = { focus = cdu_the_new_centre }
+		icon = GFX_focus_GER_anti_russian_bulwark
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_christian_unity
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_the_new_centre
+		prerequisite = { focus = cdu_the_new_centre }
+		icon = GFX_focus_GER_christian_unity
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_anti_prussianism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_the_new_centre
+		prerequisite = { focus = cdu_the_new_centre }
+		icon = GFX_focus_GER_anti_prussianism
+		x = -2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_pro_west
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_the_new_centre
+		prerequisite = { focus = cdu_the_new_centre }
+		icon = GFX_focus_GER_westpolitik
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_steady_he_goes
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_the_new_centre
+		prerequisite = { focus = cdu_the_new_centre }
+		icon = GFX_focus_GER_steady_as_he_goes
+		x = 2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_a_western_germany
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_the_new_centre
+		prerequisite = { focus = cdu_the_new_centre }
+		icon = GFX_focus_GER_western_germany
+		x = 0
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_1940_elections
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_an_independent_germany
+		#prerequisite = { focus =  }
+		available = { always = no }
+		icon = GFX_focus_GER_elections_1940
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_chancellor_crispien
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_1940_elections
+		prerequisite = { focus = brd_1940_elections }
+		available = { always = no }
+		icon = GFX_focus_GER_chancellor_crispien
+		x = -5
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_continue_denazification
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_chancellor_crispien
+		prerequisite = { focus = spd_chancellor_crispien }
+		icon = GFX_focus_GER_purge_the_nazis
+		x = -2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_anti_radicalism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_chancellor_crispien
+		prerequisite = { focus = spd_chancellor_crispien }
+		icon = GFX_focus_GER_anti_radicalism
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_big_tent
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_chancellor_crispien
+		prerequisite = { focus = spd_chancellor_crispien }
+		icon = GFX_focus_GER_left_big_tent
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_anti_monarchism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_chancellor_crispien
+		prerequisite = { focus = spd_chancellor_crispien }
+		icon = GFX_focus_GER_anti_monarchism
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_ban_fringe_radicals
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_chancellor_crispien
+		prerequisite = { focus = spd_chancellor_crispien }
+		icon = GFX_focus_GER_ban_radicals
+		x = 2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_chancellor_heuss
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_1940_elections
+		prerequisite = { focus = brd_1940_elections }
+		available = { always = no }
+		icon = GFX_focus_GER_chancellor_heuss
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_guide_german_stability
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_chancellor_heuss
+		prerequisite = { focus = dvp_chancellor_heuss }
+		icon = GFX_focus_GER_german_stability
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_ordoliberal_boom
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_chancellor_heuss
+		prerequisite = { focus = dvp_chancellor_heuss }
+		icon = GFX_focus_GER_economic_reconstruction
+		x = -1
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_empower_the_ruhr
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_chancellor_heuss
+		prerequisite = { focus = dvp_chancellor_heuss }
+		icon = GFX_focus_GER_ruhr
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_big_tent
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_chancellor_heuss
+		prerequisite = { focus = dvp_chancellor_heuss }
+		icon = GFX_focus_GER_big_tent
+		x = 1
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_reduce_denazification
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_chancellor_heuss
+		prerequisite = { focus = dvp_chancellor_heuss }
+		icon = GFX_focus_GER_reduce_denazification
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_chancellor_adenauer
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_1940_elections
+		prerequisite = { focus = brd_1940_elections }
+		available = { always = no }
+		icon = GFX_focus_GER_chancellor_adenauer
+		x = 5
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_end_denazification
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_chancellor_adenauer
+		prerequisite = { focus = cdu_chancellor_adenauer }
+		icon = GFX_focus_GER_end_denazification
+		x = -2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_national_conservatism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_chancellor_adenauer
+		prerequisite = { focus = cdu_chancellor_adenauer }
+		icon = GFX_focus_GER_national_conservatism
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_support_paneuropeanism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_chancellor_adenauer
+		prerequisite = { focus = cdu_chancellor_adenauer }
+		icon = GFX_focus_GER_paneuropean_union
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_western_friends
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_chancellor_adenauer
+		prerequisite = { focus = cdu_chancellor_adenauer }
+		icon = GFX_focus_GER_westpolitik
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_anti_bolshevist_politics
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_chancellor_adenauer
+		prerequisite = { focus = cdu_chancellor_adenauer }
+		icon = GFX_focus_GER_anti_russian_bulwark
+		x = 2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_1944_elections
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_empower_the_ruhr
+		#prerequisite = { focus = cdu_chancellor_adenauer }
+		icon = GFX_focus_GER_elections_1944
+		available = { always = no }
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_chancellor_schumacher
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_1944_elections
+		prerequisite = { focus = brd_1944_elections }
+		icon = GFX_focus_GER_chancellor_schumacher
+		available = { always = no }
+		x = -5
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_anti_reactionaryism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_chancellor_schumacher
+		prerequisite = { focus = spd_chancellor_schumacher }
+		icon = GFX_focus_GER_anti_reactionary
+		available = { always = no }
+		x = -2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_anti_revolutionarism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_chancellor_schumacher
+		prerequisite = { focus = spd_chancellor_schumacher }
+		icon = GFX_focus_GER_anti_revolution
+		available = { always = no }
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_nationalise_heavy_industry
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_chancellor_schumacher
+		prerequisite = { focus = spd_chancellor_schumacher }
+		icon = GFX_focus_GER_nationalise_industry
+		available = { always = no }
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_dissolve_further_powers
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_chancellor_schumacher
+		prerequisite = { focus = spd_chancellor_schumacher }
+		icon = GFX_focus_GER_strengthen_bundeslander
+		available = { always = no }
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_weaken_adenauer_bloc
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_chancellor_schumacher
+		prerequisite = { focus = spd_chancellor_schumacher }
+		icon = GFX_focus_GER_weaken_adenauer
+		available = { always = no }
+		x = 2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_chancellor_heuss_two
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_1944_elections
+		prerequisite = { focus = brd_1944_elections }
+		icon = GFX_focus_GER_chancellor_heuss
+		available = { always = no }
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_collective_shame
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_chancellor_heuss_two
+		prerequisite = { focus = dvp_chancellor_heuss_two  }
+		icon = GFX_focus_GER_collective_shame
+		available = { always = no }
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_focus_on_civilian_industry
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_chancellor_heuss_two
+		prerequisite = { focus = dvp_chancellor_heuss_two }
+		icon = GFX_focus_GER_civilian_focus
+		available = { always = no }
+		x = -1
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_liberal_conservative_coalition
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_chancellor_heuss_two
+		prerequisite = { focus = dvp_chancellor_heuss_two }
+		icon = GFX_focus_GER_libcon_coalition
+		available = { always = no }
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_national_liberalism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_chancellor_heuss_two
+		prerequisite = { focus = dvp_chancellor_heuss_two }
+		icon = GFX_focus_GER_national_liberalism
+		available = { always = no }
+		x = 1
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_end_denazification
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_chancellor_heuss_two
+		prerequisite = { focus = dvp_chancellor_heuss_two }
+		icon = GFX_focus_GER_end_denazification
+		available = { always = no }
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_chancellor_adenauer_two
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_1944_elections
+		prerequisite = { focus = brd_1944_elections }
+		icon = GFX_focus_GER_chancellor_adenauer
+		available = { always = no }
+		x = 5
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_further_armament
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_chancellor_adenauer_two
+		prerequisite = { focus = cdu_chancellor_adenauer_two }
+		icon = GFX_focus_GER_raise_army_spending
+		available = { always = no }
+		x = -2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_conservative_ordoliberalism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_chancellor_adenauer_two
+		prerequisite = { focus = cdu_chancellor_adenauer_two }
+		icon = GFX_focus_GER_conservative_ordoliberalism
+		available = { always = no }
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_christian_german_identity
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_chancellor_adenauer_two
+		prerequisite = { focus = cdu_chancellor_adenauer_two }
+		icon = GFX_focus_GER_christian_germany
+		available = { always = no }
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_steady_democracy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_chancellor_adenauer_two
+		prerequisite = { focus = cdu_chancellor_adenauer_two }
+		icon = GFX_focus_GER_german_stability
+		available = { always = no }
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_expand_cdu_influence
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_chancellor_adenauer_two
+		prerequisite = { focus = cdu_chancellor_adenauer_two }
+		icon = GFX_focus_GER_strengthen_adenauer
+		available = { always = no }
+		x = 2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = brd_1948_elections
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_1944_elections
+		#prerequisite = { focus = cdu_chancellor_adenauer }
+		icon = GFX_focus_GER_elections_1948
+		available = { always = no }
+		x = 0
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_chancellor_schumacher_two
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_1948_elections
+		prerequisite = { focus = brd_1948_elections }
+		icon = GFX_focus_GER_chancellor_schumacher
+		available = { always = no }
+		x = -5
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_socialist_unity
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_chancellor_schumacher_two
+		prerequisite = { focus = spd_chancellor_schumacher_two }
+		icon = GFX_focus_GER_socialist_unity
+		available = { always = no }
+		x = -2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_finish_denazification
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_chancellor_schumacher_two
+		prerequisite = { focus = spd_chancellor_schumacher_two }
+		icon = GFX_focus_GER_end_denazification
+		available = { always = no }
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_paneuropean_socialism
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_chancellor_schumacher_two
+		prerequisite = { focus = spd_chancellor_schumacher_two }
+		icon = GFX_focus_GER_european_socialism
+		available = { always = no }
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_support_social_democracy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_chancellor_schumacher_two
+		prerequisite = { focus = spd_chancellor_schumacher_two }
+		icon = GFX_focus_GER_support_socdem
+		available = { always = no }
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spd_expand_welfare
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spd_chancellor_schumacher_two
+		prerequisite = { focus = spd_chancellor_schumacher_two }
+		icon = GFX_focus_GER_welfare
+		available = { always = no }
+		x = 2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_chancellor_blucher
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_1948_elections
+		prerequisite = { focus = brd_1948_elections }
+		icon = GFX_focus_GER_chancellor_blucher
+		available = { always = no }
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_integrate_old_army_members
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_chancellor_blucher
+		prerequisite = { focus = dvp_chancellor_blucher }
+		icon = GFX_focus_GER_old_and_new_army
+		available = { always = no }
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_moderate_politics
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_chancellor_blucher
+		prerequisite = { focus = dvp_chancellor_blucher }
+		icon = GFX_focus_GER_german_stability
+		available = { always = no }
+		x = -1
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_political_compromise
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_chancellor_blucher
+		prerequisite = { focus = dvp_chancellor_blucher }
+		icon = GFX_focus_GER_compromise
+		available = { always = no }
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_unite_the_liberal_factions
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_chancellor_blucher
+		prerequisite = { focus = dvp_chancellor_blucher }
+		icon = GFX_focus_GER_big_tent
+		available = { always = no }
+		x = 1
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dvp_strengthen_the_coalition
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dvp_chancellor_blucher
+		prerequisite = { focus = dvp_chancellor_blucher }
+		icon = GFX_focus_GER_strengthen_libcon_coalition
+		available = { always = no }
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_chancellor_adenauer_three
+		#mutually_exclusive = { focus =  }
+		relative_position_id = brd_1948_elections
+		prerequisite = { focus = brd_1948_elections }
+		icon = GFX_focus_GER_chancellor_adenauer
+		available = { always = no }
+		x = 5
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_currency_reform
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_chancellor_adenauer_three
+		prerequisite = { focus = cdu_chancellor_adenauer_three }
+		icon = GFX_focus_GER_restore_the_reichsmark2
+		available = { always = no }
+		x = -2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_exploit_the_ruhr
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_chancellor_adenauer_three
+		prerequisite = { focus = cdu_chancellor_adenauer_three }
+		icon = GFX_focus_GER_ruhr
+		available = { always = no }
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_expand_our_industry
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_chancellor_adenauer_three
+		prerequisite = { focus = cdu_chancellor_adenauer_three }
+		icon = GFX_focus_GER_end_the_crisis
+		available = { always = no }
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_csu_dvp_coalition
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_chancellor_adenauer_three
+		prerequisite = { focus = cdu_chancellor_adenauer_three }
+		icon = GFX_focus_GER_cducsudvp
+		available = { always = no }
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = cdu_expand_western_ties
+		#mutually_exclusive = { focus =  }
+		relative_position_id = cdu_chancellor_adenauer_three
+		prerequisite = { focus = cdu_chancellor_adenauer_three }
+		icon = GFX_focus_GER_westpolitik
+		available = { always = no }
+		x = 2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_goerdeler_chancellor
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_flash_elections
+		prerequisite = { focus = widerstand_flash_elections }
+		icon = GFX_focus_GER_chancellor_goerdeler
+		x = 20
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_goerdeler_economics
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_goerdeler_chancellor
+		prerequisite = { focus = dnfp_goerdeler_chancellor }
+		icon = GFX_focus_GER_goerdeler_economics
+		x = -5
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_restore_the_reichsmark
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_goerdeler_economics
+		prerequisite = { focus = dnfp_goerdeler_economics }
+		icon = GFX_focus_GER_restore_the_reichsmark1
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_laissez_faire_economy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_restore_the_reichsmark
+		prerequisite = { focus = dnfp_restore_the_reichsmark }
+		prerequisite = { focus = dnfp_free_markets }
+		icon = GFX_focus_GER_laissez_faire
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_corporate_interests #Bosch, Vereingte, and AEG
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_restore_the_reichsmark
+		prerequisite = { focus = dnfp_restore_the_reichsmark }
+		icon = GFX_focus_GER_corporate_interests
+		x = -3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_devaluate_the_reichsmark
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_restore_the_reichsmark
+		prerequisite = { focus = dnfp_restore_the_reichsmark }
+		icon = GFX_focus_GER_devalue_the_reichsmark
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_free_markets
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_goerdeler_economics
+		prerequisite = { focus = dnfp_goerdeler_economics }
+		icon = GFX_focus_GER_free_markets
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_cut_military_raise_food
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_goerdeler_economics
+		prerequisite = { focus = dnfp_goerdeler_economics }
+		icon = GFX_focus_GER_cut_army_for_food
+		x = 1
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_import_grain_and_fats
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_cut_military_raise_food
+		prerequisite = { focus = dnfp_cut_military_raise_food }
+		icon = GFX_focus_GER_import_food
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_raise_military_funding_slowly
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_cut_military_raise_food
+		prerequisite = { focus = dnfp_cut_military_raise_food }
+		icon = GFX_focus_GER_raise_army_spending
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_foreign_economic_aid
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_devaluate_the_reichsmark
+		prerequisite = { focus = dnfp_devaluate_the_reichsmark }
+		prerequisite = { focus = dnfp_laissez_faire_economy }
+		prerequisite = { focus = dnfp_corporate_interests }
+		icon = GFX_focus_GER_foreign_aid
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_end_the_slump
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_foreign_economic_aid
+		prerequisite = { focus = dnfp_foreign_economic_aid }
+		icon = GFX_focus_GER_end_the_crisis
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_foreign_policy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_goerdeler_economics
+		prerequisite = { focus = dnfp_goerdeler_economics }
+		prerequisite = { focus = dnfp_goerdeler_constitution }
+		icon = GFX_focus_GER_foreign_policy
+		x = 5
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_form_the_deutscher_bund
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_foreign_policy
+		prerequisite = { focus = dnfp_foreign_policy }
+		icon = GFX_focus_GER_a_new_bund
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			create_faction = "Deutscher Bund"
+		}
+	}
+	
+	focus = {
+		id = dnfp_westpolitik
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_form_the_deutscher_bund
+		prerequisite = { focus = dnfp_form_the_deutscher_bund }
+		icon = GFX_focus_GER_westpolitik
+		x = -9
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_strasbourg_conference
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_westpolitik
+		prerequisite = { focus = dnfp_westpolitik }
+		icon = GFX_focus_GER_strasbourg_conference
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_influence_the_benelux
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_westpolitik
+		prerequisite = { focus = dnfp_westpolitik }
+		icon = GFX_focus_GER_influence_the_benelux
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_restore_british_relations
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_westpolitik
+		prerequisite = { focus = dnfp_westpolitik }
+		icon = GFX_focus_GER_reconcile_britain
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_invite_luxembourg_to_the_bund
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_influence_the_benelux
+		prerequisite = { focus = dnfp_influence_the_benelux }
+		icon = GFX_focus_GER_invite_luxembourg
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_nordpolitik
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_form_the_deutscher_bund
+		prerequisite = { focus = dnfp_form_the_deutscher_bund }
+		icon = GFX_focus_GER_nordpolitik
+		x = -3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_recover_norther_schleswig
+		mutually_exclusive = { focus = dnfp_reconcile_with_denmark }
+		relative_position_id = dnfp_nordpolitik
+		prerequisite = { focus = dnfp_nordpolitik }
+		icon = GFX_focus_GER_recover_schleswig
+		x = -3
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_reconcile_with_denmark
+		mutually_exclusive = { focus = dnfp_recover_norther_schleswig }
+		relative_position_id = dnfp_nordpolitik
+		prerequisite = { focus = dnfp_nordpolitik }
+		icon = GFX_focus_GER_reconcile_denmark
+		x = -1
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_oslo_agreement
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_nordpolitik
+		prerequisite = { focus = dnfp_nordpolitik }
+		icon = GFX_focus_GER_oslo_agreement
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_offer_sweden_support
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_nordpolitik
+		prerequisite = { focus = dnfp_nordpolitik }
+		icon = GFX_focus_GER_swedish_support
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_offer_finland_an_alliance
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_offer_sweden_support
+		prerequisite = { focus = dnfp_offer_sweden_support }
+		icon = GFX_focus_GER_finnish_alliance
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_sudpolitik
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_form_the_deutscher_bund
+		prerequisite = { focus = dnfp_form_the_deutscher_bund }
+		icon = GFX_focus_GER_sudpolitik
+		x = 4
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_zurich_conference
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_sudpolitik
+		prerequisite = { focus = dnfp_sudpolitik }
+		icon = GFX_focus_GER_zurich_conference
+		x = -3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_invite_switzerland_to_the_bund
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_zurich_conference
+		prerequisite = { focus = dnfp_zurich_conference }
+		icon = GFX_focus_GER_invite_switzerland
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_salzburg_incident
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_sudpolitik
+		prerequisite = { focus = dnfp_sudpolitik }
+		icon = GFX_focus_GER_salzburg_incident
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_integrate_austria
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_salzburg_incident
+		prerequisite = { focus = dnfp_salzburg_incident }
+		icon = GFX_focus_GER_integrate_austria
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_claim_sud_tirol
+		mutually_exclusive = { focus = dnfp_peace_with_italy }
+		relative_position_id = dnfp_salzburg_incident
+		prerequisite = { focus = dnfp_salzburg_incident }
+		icon = GFX_focus_GER_recover_sudtirol
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_peace_with_italy
+		mutually_exclusive = { focus = dnfp_claim_sud_tirol }
+		relative_position_id = dnfp_salzburg_incident
+		prerequisite = { focus = dnfp_salzburg_incident }
+		icon = GFX_focus_GER_peace_with_italy
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_sudwestpolitik
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_peace_with_italy
+		prerequisite = { focus = dnfp_peace_with_italy focus = dnfp_claim_sud_tirol }
+		prerequisite = { focus = dnfp_integrate_austria }
+		icon = GFX_focus_GER_sudwestpolitik
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_sudostpolitik
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_peace_with_italy
+		prerequisite = { focus = dnfp_peace_with_italy focus = dnfp_claim_sud_tirol }
+		prerequisite = { focus = dnfp_integrate_austria }
+		icon = GFX_focus_GER_sudostpolitik
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_favour_bulgaria_and_hungary
+		mutually_exclusive = { focus = dnfp_favour_yugo_and_romania }
+		relative_position_id = dnfp_sudostpolitik
+		prerequisite = { focus = dnfp_sudostpolitik }
+		icon = GFX_focus_GER_favour_bul_hun
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_wien_treaty
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_favour_bulgaria_and_hungary
+		prerequisite = { focus = dnfp_favour_bulgaria_and_hungary }
+		icon = GFX_focus_GER_wien_treaty
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_second_wien_treaty
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_wien_treaty
+		prerequisite = { focus = dnfp_wien_treaty }
+		icon = GFX_focus_GER_second_wien_treaty
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_favour_yugo_and_romania
+		mutually_exclusive = { focus = dnfp_favour_bulgaria_and_hungary }
+		relative_position_id = dnfp_sudostpolitik
+		prerequisite = { focus = dnfp_sudostpolitik }
+		icon = GFX_focus_GER_favour_yug_rom
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_reinforce_trianon
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_favour_yugo_and_romania
+		prerequisite = { focus = dnfp_favour_yugo_and_romania }
+		icon = GFX_focus_GER_reinforce_trianon
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_reinforce_neuilly
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_favour_yugo_and_romania
+		prerequisite = { focus = dnfp_favour_yugo_and_romania }
+		icon = GFX_focus_GER_reinforce_neuilly
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_ostpolitik
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_form_the_deutscher_bund
+		prerequisite = { focus = dnfp_form_the_deutscher_bund }
+		icon = GFX_focus_GER_ostpolitik
+		x = 10
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_restore_danzig
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_ostpolitik
+		prerequisite = { focus = dnfp_ostpolitik }
+		icon = GFX_focus_GER_restore_danzig
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_posen_offensive
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_restore_danzig
+		prerequisite = { focus = dnfp_restore_danzig }
+		icon = GFX_focus_GER_posen_offensive
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_leipzig_conference
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_ostpolitik
+		prerequisite = { focus = dnfp_ostpolitik }
+		icon = GFX_focus_GER_leipzig_conference
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_protect_slovakia
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_leipzig_conference
+		prerequisite = { focus = dnfp_leipzig_conference }
+		icon = GFX_focus_GER_protect_slovakia
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_ostpolitik_phase_two
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_ostpolitik
+		prerequisite = { focus = dnfp_protect_slovakia }
+		prerequisite = { focus = dnfp_posen_offensive }
+		available = { owns_state = 85 owns_state = 807 owns_state = 86 owns_state = 762 owns_state = 69 owns_state = 74 }
+		icon = GFX_focus_GER_ostpolitik_second_phase
+		x = 0
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_establish_the_ostprotektorate
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_ostpolitik_phase_two
+		prerequisite = { focus = dnfp_ostpolitik_phase_two }
+		icon = GFX_focus_GER_ostprotektorate
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_memel_for_wilna
+		mutually_exclusive = { focus = dnfp_demand_memelland }
+		relative_position_id = dnfp_ostpolitik_phase_two
+		prerequisite = { focus = dnfp_ostpolitik_phase_two }
+		icon = GFX_focus_GER_memel_for_wilna
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_demand_memelland
+		mutually_exclusive = { focus = dnfp_memel_for_wilna }
+		relative_position_id = dnfp_ostpolitik_phase_two
+		prerequisite = { focus = dnfp_ostpolitik_phase_two }
+		icon = GFX_focus_GER_demand_memelland
+		x = 4
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_secure_the_baltics
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_demand_memelland
+		prerequisite = { focus = dnfp_demand_memelland focus = dnfp_memel_for_wilna }
+		icon = GFX_focus_GER_secure_the_baltics
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_anti_russian_bulwark
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_ostpolitik_phase_two
+		prerequisite = { focus = dnfp_ostpolitik_phase_two }
+		icon = GFX_focus_GER_anti_russian_bulwark
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_invade_east
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_anti_russian_bulwark
+		prerequisite = { focus = dnfp_anti_russian_bulwark }
+		icon = GFX_focus_GER_invade_east
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_goerdeler_constitution
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_goerdeler_chancellor
+		prerequisite = { focus = dnfp_goerdeler_chancellor }
+		icon = GFX_focus_GER_goerdeler_constitution
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_reconcile_nazis
+		mutually_exclusive = { focus = dnfp_purge_nazis }
+		relative_position_id = dnfp_goerdeler_constitution
+		prerequisite = { focus = dnfp_goerdeler_constitution }
+		icon = GFX_focus_GER_reconcile_nazis
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_purge_nazis
+		mutually_exclusive = { focus = dnfp_reconcile_nazis }
+		relative_position_id = dnfp_goerdeler_constitution
+		prerequisite = { focus = dnfp_goerdeler_constitution }
+		icon = GFX_focus_GER_purge_nazis
+		x = -3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_reconcile_minorities
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_goerdeler_constitution
+		prerequisite = { focus = dnfp_goerdeler_constitution }
+		icon = GFX_focus_GER_reconcile_minorities
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_suspend_persecution
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_reconcile_minorities
+		prerequisite = { focus = dnfp_reconcile_minorities }
+		icon = GFX_focus_GER_stop_persecution
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_continue_persecution
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_reconcile_minorities
+		prerequisite = { focus = dnfp_reconcile_minorities }
+		prerequisite = { focus = dnfp_reconcile_nazis }
+		icon = GFX_focus_GER_continue_persecution
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_restore_the_monarchy
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_goerdeler_constitution
+		prerequisite = { focus = dnfp_goerdeler_constitution }
+		icon = GFX_focus_GER_monarchist_restoration
+		x = 7
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_national_pride_in_the_monarch
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_restore_the_monarchy
+		prerequisite = { focus = dnfp_restore_the_monarchy }
+		icon = GFX_focus_GER_monarchist_pride
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_crown_oskar_I
+		#mutually_exclusive = { focus =  }
+		relative_position_id = dnfp_restore_the_monarchy
+		prerequisite = { focus = dnfp_restore_the_monarchy }
+		icon = GFX_focus_GER_crown_oskar
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_a_new_reichstag
+		mutually_exclusive = { focus = dnfp_the_british_system }
+		relative_position_id = dnfp_crown_oskar_I
+		prerequisite = { focus = dnfp_crown_oskar_I }
+		icon = GFX_focus_GER_the_new_reichstag
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = dnfp_the_british_system
+		mutually_exclusive = { focus = dnfp_a_new_reichstag }
+		relative_position_id = dnfp_crown_oskar_I
+		prerequisite = { focus = dnfp_crown_oskar_I }
+		icon = GFX_focus_GER_the_british_system
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_formalise_the_heer
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_flash_elections
+		prerequisite = { focus = widerstand_flash_elections }
+		icon = GFX_focus_GER_formalise_the_heer
+		x = 37
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_the_sea
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_formalise_the_heer
+		prerequisite = { focus = widerstand_formalise_the_heer }
+		icon = GFX_focus_GER_new_kriegsmarine
+		x = -4
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_our_place
+		mutually_exclusive = { focus = widerstand_contest_britain }
+		relative_position_id = widerstand_the_sea
+		prerequisite = { focus = widerstand_the_sea }
+		icon = GFX_focus_GER_our_place
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_contest_britain
+		mutually_exclusive = { focus = widerstand_our_place }
+		relative_position_id = widerstand_the_sea
+		prerequisite = { focus = widerstand_the_sea }
+		icon = GFX_focus_GER_contest_britain
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_atlantic_fleet
+		mutually_exclusive = { focus = widerstand_control_the_coast }
+		relative_position_id = widerstand_formalise_the_heer
+		prerequisite = { focus = widerstand_contest_britain focus = widerstand_our_place }
+		icon = GFX_focus_GER_atlantic_fleet
+		x = -5
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_control_the_coast
+		mutually_exclusive = { focus = widerstand_atlantic_fleet }
+		relative_position_id = widerstand_formalise_the_heer
+		prerequisite = { focus = widerstand_contest_britain focus = widerstand_our_place }
+		icon = GFX_focus_GER_control_our_coasts
+		x = -3
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_technological_focus
+		mutually_exclusive = { focus = widerstand_doctrine_focus }
+		relative_position_id = widerstand_formalise_the_heer
+		prerequisite = { focus = widerstand_atlantic_fleet focus = widerstand_control_the_coast }
+		icon = GFX_focus_GER_prioritise_naval_tech
+		x = -5
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_doctrine_focus
+		mutually_exclusive = { focus = widerstand_technological_focus }
+		relative_position_id = widerstand_formalise_the_heer
+		prerequisite = { focus = widerstand_atlantic_fleet focus = widerstand_control_the_coast }
+		icon = GFX_focus_GER_prioritise_naval_doctrine
+		x = -3
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_the_land
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_formalise_the_heer
+		prerequisite = { focus = widerstand_formalise_the_heer }
+		icon = GFX_focus_GER_new_heer
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_professional_army
+		mutually_exclusive = { focus = widerstand_mass_army }
+		relative_position_id = widerstand_the_land
+		prerequisite = { focus = widerstand_the_land }
+		icon = GFX_focus_GER_professional_army
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_mass_army
+		mutually_exclusive = { focus = widerstand_professional_army }
+		relative_position_id = widerstand_the_land
+		prerequisite = { focus = widerstand_the_land }
+		icon = GFX_focus_GER_mass_army
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_blitzkrieg_theory
+		mutually_exclusive = { focus = widerstand_old_war_tactics }
+		relative_position_id = widerstand_formalise_the_heer
+		prerequisite = { focus = widerstand_mass_army focus = widerstand_professional_army }
+		icon = GFX_focus_GER_blitzkrieg_theory
+		x = 1
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_old_war_tactics
+		mutually_exclusive = { focus = widerstand_blitzkrieg_theory }
+		relative_position_id = widerstand_formalise_the_heer
+		prerequisite = { focus = widerstand_mass_army focus = widerstand_professional_army }
+		icon = GFX_focus_GER_great_war_tactics
+		x = -1
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_prioritise_offence
+		mutually_exclusive = { focus = widerstand_prioritise_defense }
+		relative_position_id = widerstand_formalise_the_heer
+		prerequisite = { focus = widerstand_blitzkrieg_theory focus = widerstand_old_war_tactics }
+		icon = GFX_focus_GER_prioritise_offence
+		x = 1
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_prioritise_defense
+		mutually_exclusive = { focus = widerstand_prioritise_offence }
+		relative_position_id = widerstand_formalise_the_heer
+		prerequisite = { focus = widerstand_blitzkrieg_theory focus = widerstand_old_war_tactics }
+		icon = GFX_focus_GER_prioritise_defense
+		x = -1
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_the_air
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_formalise_the_heer
+		prerequisite = { focus = widerstand_formalise_the_heer }
+		icon = GFX_focus_GER_new_luftwaffe
+		x = 4
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_bomber_focus
+		mutually_exclusive = { focus = widerstand_fighter_focus }
+		relative_position_id = widerstand_the_air
+		prerequisite = { focus = widerstand_the_air }
+		icon = GFX_focus_GER_bomber_focus
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_fighter_focus
+		mutually_exclusive = { focus = widerstand_bomber_focus }
+		relative_position_id = widerstand_the_air
+		prerequisite = { focus = widerstand_the_air }
+		icon = GFX_focus_GER_fighter_focus
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_air_doctrines
+		mutually_exclusive = { focus = widerstand_air_technology }
+		relative_position_id = widerstand_formalise_the_heer
+		prerequisite = { focus = widerstand_fighter_focus focus = widerstand_bomber_focus }
+		icon = GFX_focus_GER_prioritise_air_doctrine
+		x = 3
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_air_technology
+		mutually_exclusive = { focus = widerstand_air_doctrines }
+		relative_position_id = widerstand_formalise_the_heer
+		prerequisite = { focus = widerstand_fighter_focus focus = widerstand_bomber_focus }
+		icon = GFX_focus_GER_prioritise_air_tech
+		x = 5
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_expand_airbases
+		mutually_exclusive = { focus = widerstand_bolster_production }
+		relative_position_id = widerstand_formalise_the_heer
+		prerequisite = { focus = widerstand_air_technology focus = widerstand_air_doctrines }
+		icon = GFX_focus_GER_construct_airbases
+		x = 3
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = widerstand_bolster_production
+		mutually_exclusive = { focus = widerstand_expand_airbases }
+		relative_position_id = widerstand_formalise_the_heer
+		prerequisite = { focus = widerstand_air_technology focus = widerstand_air_doctrines }
+		icon = GFX_focus_GER_bolster_air_production
+		x = 5
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = kaiser_for_the_old_regime
+		#mutually_exclusive = { focus =  }
+		relative_position_id = widerstand_convince_local_militias
+		prerequisite = { focus = widerstand_the_german_civil_war }
+		icon = GFX_focus_GER_for_the_old_regime
+		x = 45
+		y = 0
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = kaiser_the_kaiser_birthright
+		#mutually_exclusive = { focus =  }
+		relative_position_id = kaiser_for_the_old_regime
+		prerequisite = { focus = kaiser_for_the_old_regime }
+		icon = GFX_focus_GER_birthright
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = kaiser_legacy_of_1871
+		#mutually_exclusive = { focus =  }
+		relative_position_id = kaiser_for_the_old_regime
+		prerequisite = { focus = kaiser_for_the_old_regime }
+		icon = GFX_focus_GER_legacy_of_the_empire
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = kaiser_glory_to_god
+		#mutually_exclusive = { focus =  }
+		relative_position_id = kaiser_for_the_old_regime
+		prerequisite = { focus = kaiser_for_the_old_regime }
+		icon = GFX_focus_GER_glory_to_god
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = kaiser_for_the_kaiser
+		#mutually_exclusive = { focus =  }
+		relative_position_id = kaiser_legacy_of_1871
+		prerequisite = { focus = kaiser_the_kaiser_birthright }
+		prerequisite = { focus = kaiser_legacy_of_1871 }
+		prerequisite = { focus = kaiser_glory_to_god }
+		icon = GFX_focus_GER_for_the_kaiser
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = reich_preserve_the_reich
+		#mutually_exclusive = { focus =  }
+		relative_position_id = kaiser_for_the_old_regime
+		prerequisite = { focus = widerstand_the_german_civil_war }
+		icon = GFX_focus_GER_preserve_the_reich
+		x = 12
+		y = 0
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = reich_it_will_endure
+		#mutually_exclusive = { focus =  }
+		relative_position_id = reich_preserve_the_reich
+		prerequisite = { focus = reich_preserve_the_reich }
+		icon = GFX_focus_GER_it_will_endure
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = reich_our_aryan_right
+		#mutually_exclusive = { focus =  }
+		relative_position_id = reich_preserve_the_reich
+		prerequisite = { focus = reich_preserve_the_reich }
+		icon = GFX_focus_GER_our_aryan_right
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = reich_the_thousand_year_reich_will_survive
+		#mutually_exclusive = { focus =  }
+		relative_position_id = reich_preserve_the_reich
+		prerequisite = { focus = reich_preserve_the_reich }
+		icon = GFX_focus_GER_it_will_survive
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = reich_for_the_fuhrer
+		#mutually_exclusive = { focus =  }
+		relative_position_id = reich_our_aryan_right
+		prerequisite = { focus = reich_it_will_endure }
+		prerequisite = { focus = reich_our_aryan_right }
+		prerequisite = { focus = reich_the_thousand_year_reich_will_survive }
+		icon = GFX_focus_GER_for_the_fuhrer
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spartakus_for_the_workers_revolution
+		#mutually_exclusive = { focus =  }
+		relative_position_id = reich_preserve_the_reich
+		prerequisite = { focus = widerstand_the_german_civil_war }
+		icon = GFX_focus_GER_spartakus_revolution
+		x = 15
+		y = 0
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spartakus_the_red_banner
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spartakus_for_the_workers_revolution
+		prerequisite = { focus = spartakus_for_the_workers_revolution }
+		icon = GFX_focus_GER_the_red_banner
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spartakus_legacy_of_1918
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spartakus_for_the_workers_revolution
+		prerequisite = { focus = spartakus_for_the_workers_revolution }
+		icon = GFX_focus_GER_legacy_of_luxemburg
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spartakus_unite_the_workers
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spartakus_for_the_workers_revolution
+		prerequisite = { focus = spartakus_for_the_workers_revolution }
+		icon = GFX_focus_GER_unite_the_workers
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = spartakus_for_marx
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spartakus_legacy_of_1918
+		prerequisite = { focus = spartakus_the_red_banner }
+		prerequisite = { focus = spartakus_legacy_of_1918 }
+		prerequisite = { focus = spartakus_unite_the_workers }
+		icon = GFX_focus_GER_for_marx
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = kpd_wer_hat_uns_verraten
+		#mutually_exclusive = { focus =  }
+		relative_position_id = spartakus_for_marx
+		prerequisite = { focus = spartakus_for_marx }
+		icon = GFX_focus_GER_who_betrayed_us
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = kpd_sozialdemokraten
+		#mutually_exclusive = { focus =  }
+		relative_position_id = kpd_wer_hat_uns_verraten
+		prerequisite = { focus = kpd_wer_hat_uns_verraten }
+		icon = GFX_focus_GER_sozialdemokraten
+		x = -2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = kpd_nationalsozialisten
+		#mutually_exclusive = { focus =  }
+		relative_position_id = kpd_wer_hat_uns_verraten
+		prerequisite = { focus = kpd_wer_hat_uns_verraten }
+		icon = GFX_focus_GER_nationalsozialisten
+		x = 0
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = kpd_monarchisten
+		#mutually_exclusive = { focus =  }
+		relative_position_id = kpd_wer_hat_uns_verraten
+		prerequisite = { focus = kpd_wer_hat_uns_verraten }
+		icon = GFX_focus_GER_monarchisten
+		x = 2
+		y = 1
+		cost = 2.9
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+}

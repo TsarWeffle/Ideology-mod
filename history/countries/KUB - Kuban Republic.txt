@@ -60,20 +60,17 @@ if = {
 }
 
 set_politics = {
-	ruling_party = authoritarian
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
-	conservative_democrat = 11
-	liberal_democrat = 3
-	social_democrat = 2
-	fascism = 3
-	radical_socialist = 1
-	authoritarian_socialist = 17
-	anarchist = 3
-	authoritarian = 57
-	monarchism = 3
+	democratic = 30
+	neutrality = 30
+	communism = 20
+	fascism = 20
 }
+
 #TODO, James make Ivan Kononov country leader for the fascists

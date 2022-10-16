@@ -90,5 +90,10 @@ set_popularities = {
 	anarchist = 0
 	authoritarian = 7
 	monarchism = 5
+	theocracy = 0
 }
+
+
 recruit_character = BSK_yakov_bykin
+
+

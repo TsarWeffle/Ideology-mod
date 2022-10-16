@@ -84,4 +84,16 @@ set_popularities = {
 	anarchist = 0
 	authoritarian = 0
 	monarchism = 20
+	theocracy = 0
+}
+
+create_country_leader = {
+	
+	name = "Tshekedi Khama"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
 }

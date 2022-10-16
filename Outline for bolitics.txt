@@ -38,7 +38,7 @@ ABC_authoritarian_socialist_party:0 ""
  ABC_anarchist_party_long:0 ""
  ABC_social_democrat_party:0 ""
  ABC_social_democrat_party_long:0 ""
- ABC_liberal_democrat_party:0 "PRS"
+ ABC_liberal_democrat_party:0 ""
  ABC_liberal_democrat_party_long:0 ""
  ABC_conservative_democrat_party:0 ""
  ABC_conservative_democrat_party_long:0 ""
@@ -50,11 +50,11 @@ ABC_authoritarian_socialist_party:0 ""
  ABC_authoritarian_party_long:0 ""
  
 SpriteType = {
-		name = "GFX_focus_GER__shine"
-		texturefile = "gfx/interface/goals/focus_GER_.dds"
+		name = "GFX__shine"
+		texturefile = "gfx/interface/goals/focus_.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_GER_.dds"
+			animationmaskfile = "gfx/interface/goals/focus_.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -67,7 +67,7 @@ SpriteType = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_GER_.dds"
+			animationmaskfile = "gfx/interface/goals/focus_.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -82,6 +82,6 @@ SpriteType = {
 	}
 	
 SpriteType = { 
-		name = "GFX_focus_GER_"
-		texturefile = "gfx/interface/goals/focus_GER_.dds"
+		name = "GFX_"
+		texturefile = "gfx/interface/goals/focus_.dds"
 	}
